@@ -242,6 +242,9 @@ input.select2-search__field{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
 }
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu .used-cars-dp{
+    line-height: 33.2px;
+}
 .mega-menu-section .navbar .mega-menu {
     padding: 20px;
     width: max-content;

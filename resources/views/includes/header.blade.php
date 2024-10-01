@@ -110,7 +110,7 @@
                                                     <a class="dropdown-item" href="#">Between $4000 - $5000</a>
                                                     <a class="dropdown-item" href="#">Above $5000</a>
                                                 </div>
-                                                <div class="col-md-2 mx-4">
+                                                <div class="col-md-2 mx-4 used-cars-dp">
                                                     <h6>Explore By Make</h6>
                                                     <a class="dropdown-item" href="#">Toyota</a>
                                                     <a class="dropdown-item" href="#">Honda</a>
@@ -124,7 +124,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-3">
+                                                <div class="col-md-2 mx-3 used-cars-dp">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -189,7 +189,7 @@
                                                     <a class="dropdown-item" href="#">Between $4000 - $5000</a>
                                                     <a class="dropdown-item" href="#">Above $5000</a>
                                                 </div>
-                                                <div class="col-md-2 mx-4">
+                                                <div class="col-md-2 mx-4 used-cars-dp">
                                                     <h6>Explore By Make</h6>
                                                     <a class="dropdown-item" href="#">Toyota</a>
                                                     <a class="dropdown-item" href="#">Honda</a>
@@ -203,7 +203,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-3">
+                                                <div class="col-md-2 mx-3 used-cars-dp">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -268,7 +268,7 @@
                                                     <a class="dropdown-item" href="#">Between $4000 - $5000</a>
                                                     <a class="dropdown-item" href="#">Above $5000</a>
                                                 </div>
-                                                <div class="col-md-2 mx-4">
+                                                <div class="col-md-2 mx-4 used-cars-dp">
                                                     <h6>Explore By Make</h6>
                                                     <a class="dropdown-item" href="#">Toyota</a>
                                                     <a class="dropdown-item" href="#">Honda</a>
@@ -282,7 +282,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-3">
+                                                <div class="col-md-2 mx-3 used-cars-dp">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -347,7 +347,7 @@
                                                     <a class="dropdown-item" href="#">Between $4000 - $5000</a>
                                                     <a class="dropdown-item" href="#">Above $5000</a>
                                                 </div>
-                                                <div class="col-md-2 mx-4">
+                                                <div class="col-md-2 mx-4 used-cars-dp">
                                                     <h6>Explore By Make</h6>
                                                     <a class="dropdown-item" href="#">Toyota</a>
                                                     <a class="dropdown-item" href="#">Honda</a>
@@ -361,7 +361,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-3">
+                                                <div class="col-md-2 mx-3 used-cars-dp">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
