@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="footer-logo">
-                        <img src="{{ asset('assets/images/footer-logo.webp') }}" alt="Footer Logo" title="Footer Logo" class="img-fluid" loading="lazy" >
+                        <img src="{{ asset('assets/images/footer-logo.webp') }}" alt="Footer Logo" title="Footer Logo" class="img-fluid" loading="lazy" width="140" height="50" >
                     </div>
                     <div class="heading">
                         <p class="pt-4">Rate Your Experience With Us</p>

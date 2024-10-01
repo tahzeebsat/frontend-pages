@@ -1,0 +1,67 @@
+:root{
+    --primary-color: #014E78;
+    --secondary-color: #DCDAE2;
+    --custome-color:#2A9FE8;
+    --white-color:#fff;
+    --black-color:#0C1529;
+    --para-color:#353C4D;
+    --skin-color:#FFFDF6;
+    --Eigengrau:#0D1017;
+    --placeholder-color:#5D6370;
+    --dark-primary:#01334E;
+    --border-color:#AEB1B8;
+    --light-lavender:#EDEDF1;
+    --muted-grey: #2F2B434D;
+    --deep-slate-gray:#5D6370;
+    --rich-black:#141817;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+@font-face {
+    font-family: 'Lato-Bold';
+    font-style: normal;
+    font-weight: 900; /* Black */
+    src: url('../fonts/Lato-Black.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    font-style: normal;
+    font-weight: 400; /* Regular */
+    src: url('../fonts/Lato-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    font-style: normal;
+    font-weight: 300; /* Light */
+    src: url('../fonts/Lato-Light.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-semibold';
+    font-style: normal;
+    font-weight: 700; /* Semibold */
+    src: url('../fonts/Lato-Semibold.woff2') format('woff2');
+    font-display: swap;
+}
+
+/* ===================================== Start Tablet View Header Css ===================================== */
+.tablet-view .headerSearch{
+    position: relative;
+}
+.tablet-view .headerSearch .btn-offcanvas{
+    width: max-content;
+}
+.tablet-view .headerSearch .search-form .input-group{
+    height: 40px;
+}
+/* ===================================== End Tablet View Header Css ===================================== */

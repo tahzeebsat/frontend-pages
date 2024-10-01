@@ -522,7 +522,7 @@
 			<div class="container">
 				<div class="row align-items-center my-3 pt-2">
 					<button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> 
-                        <img src="{{asset('assets/images/header-images/menu-bars.webp')}}" class="img-fluid" loading="lazy" width="46" height="46">
+                        <img src="{{asset('assets/images/header-images/menu-bars.webp')}}" class="img-fluid" loading="lazy" width="30" height="30">
                      </button>
 					<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 						<div class="offcanvas-header">
@@ -549,9 +549,9 @@
                             </div>
 						</div>
 					</div>
-					<div class="col-auto brand-logo-area">
+					<div class="col-auto brand-logo-area p-0">
 						<a class="brand-logo" href="#" aria-label="Homepage"> 
-                            <img src="/assets/images/header-images/header-logo.webp" alt="Company Logo" class="img-fluid" loading="lazy" width="140" height="46"> </a>
+                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="80" height="30"> </a>
 					</div>
 					<div class="col search-form">
 						<form class="d-flex position-relative" role="search" aria-label="Search form">
@@ -564,7 +564,7 @@
 					</div>
 					<div class="col-auto right-list">
 						<ul class="list-unstyled d-flex mb-0">
-							<li class="signin mx-3"> <a href="#" class="text-decoration-none" aria-label="Sign in">Sign In</a> <img src="/assets/images/header-images/signin-icon.webp" alt="sigin-icon" class="img-fluid" width="20" height="20" loading="lazy"> </li>
+							<li class="signin mx-3"> <a href="#" class="text-decoration-none" aria-label="Sign in">Sign In</a> <img src="/assets/images/header-images/signin-icon.webp" alt="sigin-icon" class="img-fluid" width="30" height="30" loading="lazy"> </li>
 						</ul>
 					</div>
 				</div>
@@ -580,44 +580,56 @@
     <header>
         <div class="headerSearch pb-3">
             <div class="container">
-                <div class="row align-items-center justify-content-between my-3 pt-2">
-                    <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="width: max-content;">
-                        <img src="/assets/images/header-images/menu-bars.webp" class="img-fluid" loading="lazy" width="46" height="46" alt="Menu">
-                    </button>
-
-                    <!-- Offcanvas Component -->
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                        <div class="offcanvas-header">
-                            <h5 id="offcanvasExampleLabel">Menu</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <div class="accordion" id="accordionExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="headingOne">
-                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Item 1
-                                        </button>
-                                    </h2>
-                                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body"> Subitem 1 content goes here. </div>
+                <div class="row align-items-center my-3 pt-2">
+                    <div class="col-auto d-flex align-items-center p-0">
+                        <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation" aria-controls="offcanvasNavigation">
+                            <img src="{{asset('assets/images/header-images/menu-bars.webp')}}" class="img-fluid" loading="lazy" width="24" height="24" alt="Menu">
+                        </button>
+            
+                        <!-- Offcanvas Component -->
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavigation" aria-labelledby="offcanvasNavigationLabel">
+                            <div class="offcanvas-header">
+                                <h5 id="offcanvasNavigationLabel">Menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Item 1
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Subitem 1 content goes here.
+                                            </div>
+                                        </div>
                                     </div>
+                                    <!-- Add more accordion items here if needed -->
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-auto brand-logo-area">
+            
+                    <div class="col-auto brand-logo-area p-0 d-flex align-items-center justify-content-between flex-grow-1">
                         <a class="brand-logo" href="#" aria-label="Homepage">
-                            <img src="/assets/images/header-images/header-logo.webp" alt="Company Logo" class="img-fluid" loading="lazy" width="140" height="46">
+                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="70" height="23.3">
                         </a>
-                    </div>
-
-                    <div class="col-auto right-list">
                         <ul class="list-unstyled d-flex mb-0">
                             <li class="signin mx-2">
                                 <a href="#" class="text-decoration-none" aria-label="Sign in">
-                                    <img src="/assets/images/header-images/signin-icon.webp" alt="Sign In Icon" class="img-fluid" width="20" height="20" loading="lazy">
+                                    <img src="{{asset('assets/images/header-images/mobile-heart.webp')}}" alt="Sign In Icon" class="img-fluid" width="24" height="24" loading="lazy">
+                                </a>
+                            </li>
+                            <li class="signin mx-2">
+                                <a href="#" class="text-decoration-none" aria-label="Sign in">
+                                    <img src="{{asset('assets/images/header-images/mobile-bell-icon.webp')}}" alt="Sign In Icon" class="img-fluid" width="24" height="24" loading="lazy">
+                                </a>
+                            </li>
+                            <li class="signin mx-2">
+                                <a href="#" class="text-decoration-none" aria-label="Sign in">
+                                    <img src="{{asset('assets/images/header-images/mobile-profile.webp')}}" alt="Sign In Icon" class="img-fluid" width="24" height="24" loading="lazy">
                                 </a>
                             </li>
                         </ul>
@@ -630,9 +642,9 @@
                     <div class="col search-form">
                         <form class="d-flex position-relative" role="search" aria-label="Search form">
                             <div class="input-group">
-                                <input type="text" id="searchInput" class="searchBar form-control shadow-none px-4" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">
-                                <button class="input-group-text" type="submit" aria-label="Submit search">
-                                    <img src="/assets/images/header-images/search-icon.webp" alt="Search icon" class="img-fluid" loading="lazy" width="20" height="20">
+                                <input type="text" id="searchInput" class="searchBar form-control shadow-none px-4 border-0" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">
+                                <button class="input-group-text border-0" type="submit" aria-label="Submit search">
+                                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="Search icon" class="img-fluid" loading="lazy" width="20" height="20">
                                 </button>
                             </div>
                             <div id="suggestions" class="dropdown-menu mt-5 border-0 rounded-0 bg-white"></div>
