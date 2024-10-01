@@ -65,3 +65,76 @@
     height: 40px;
 }
 /* ===================================== End Tablet View Header Css ===================================== */
+
+
+/* ===================================== Start Tablet Footer Css ===================================== */
+
+.tablet-view{
+    position: relative;   
+}
+
+.tablet-view .tablet-footer-wrapper{
+    background-color: var(--primary-color);  
+    color: var(--white-color);
+}
+.tablet-view .tablet-footer-wrapper .heading{
+    font-family: 'Lato-semibold';
+    font-size: 16px;
+}
+.tablet-view .tablet-footer-wrapper .send-feedback .btn-tablet-send-feedback {
+    font-family: 'Lato-semibold';
+    font-size: 14px;
+    color: var(--Eigengrau);
+    padding: 6px 20px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-phone img{
+    height: 26px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-phone p{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-email img{
+    height: 26px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-email p{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-address img{
+    height: 26px;
+}
+.tablet-view .tablet-footer-wrapper .contact .contact-by-address p{
+    white-space: nowrap;
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+}
+.tablet-view .tablet-footer-wrapper .join-by-mailing .join-mail-ref .input-group-text{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    background-color: var(--custome-color);
+    color: var(--white-color);
+    line-height: 18.92px;
+    cursor: pointer;
+}
+.tablet-view .tablet-footer-wrapper .footer-list .list-heading{
+    font-family: 'Lato-semibold';
+    font-size:16px;
+}
+.tablet-view .tablet-footer-wrapper .footer-list .list-unstyled .text-decoration-none{
+    font-family: 'Lato-Regular';
+    font-size:14px;
+}
+.tablet-view .tablet-footer-copyright{
+    background: var(--dark-primary);
+    color: var(--white-color);
+    border-top: 1px solid var(--border-color);
+    font-family: 'Lato-semibold';
+    font-size: 1rem;
+    line-height: 24px;
+    padding: 15px 0px;
+}
+
+
+/* ===================================== End Tablet Footer Css ===================================== */
+

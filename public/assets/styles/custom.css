@@ -56,6 +56,9 @@
 .tablet-view{
     display: none;
 }
+.tablet-footer{
+    display: none;
+}
 .mobile-view{
     display: none;
 }
@@ -468,64 +471,4 @@ footer .footer-copyright{
     padding: 15px 0px;
  }
 /* ===================================== End Footer Css ===================================== */
-
-
-
-
-/* ===================================== Media Query ===================================== */
-
-@media (max-width:1180px){
-    footer .footer-wrapper .join-by-mailing .join-mail-ref{
-        display: block;
-    }
-    footer .footer-wrapper .join-by-mailing .join-mail-ref span{
-        display: flex;
-        justify-content: center;
-    }
-    
-}
-@media(max-width:1199px){
-    .navbar .searchBar{
-        width: 190px !important;
-    }
-    .headerSearch .search-form .input-group{
-        width:100%;
-    }
-    .headerSearch .search-form .input-group{
-        margin: 0;
-    }
-    .mega-menu-section .navbar .navbar-nav .nav-item .nav-link{
-        margin: 0;
-    }
-    .tablet-view{
-        display: block;
-    }
-    .desktop-view{
-        display: none;
-    }
-}
-@media (max-width:767px){
-    .top-header{
-        display: none;
-    }
-    .dasktop-footer{
-        display: none;
-    }
-    footer .footer-wrapper .join-by-mailing .join-mail-ref{
-        display: flex;
-    }
-    .mobile-footer{
-        position:relative;
-        display: block; /* show on Mobile version */
-    }
-    .tablet-view{
-        display: none;
-    }
-    .desktop-view{
-        display: none;
-    }
-    .mobile-view{
-        display: block;
-    }
-}
 

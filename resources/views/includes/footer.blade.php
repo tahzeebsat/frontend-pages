@@ -1,4 +1,4 @@
-<footer class="dasktop-footer">
+<footer class="desktop-view">
     <div class="footer-wrapper py-5">
         <div class="container">
             
@@ -310,9 +310,297 @@
 
 
 
+{{-- ======================= Footer For Tablet Version ======================= --}}
+
+<footer class="tablet-view">
+    <div class="tablet-footer-wrapper py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="footer-logo">
+                        <img src="{{asset('assets/images/footer-logo.webp')}}" alt="Footer Logo" title="Footer Logo" class="img-fluid" loading="lazy" width="140" height="50">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="heading">
+                        <p class="m-0">Rate Your Experience With Us</p>
+                    </div>
+                    <div class="send-feedback m-0 pt-1">
+                        <button class="btn btn-tablet-send-feedback rounded-5 bg-white">Send feedback</button>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="app-reference">
+                        <div class="heading">
+                            <p class="m-0">Download the SAT App</p>
+                        </div>
+                        <div class="refer-to-download d-flex pt-2">
+                            <img src="{{asset('assets/images/apple-store.webp')}}" alt="Apple Store logo" class="app-logo img-fluid" loading="lazy" width="100" height="100">
+                            <img src="{{asset('assets/images/google-play.webp')}}" alt="Google Play logo" class="app-logo img-fluid mx-3" loading="lazy" width="100" height="100">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-4">
+                    <div class="contact">
+                        <div class="heading">
+                            <p>Contact Us</p>
+                        </div>
+                        <div class="contact-by-phone">
+                            <a href="tel:+81709-008-7605" class="d-flex text-white text-decoration-none alig-items-center">
+                            <img src="{{asset('assets/images/phone.webp')}}" alt="phone-image" class="img-fluid" loading="lazy" width="26" height="26">
+                           <p class="px-2 my-1">+81 709-008-7605</p>
+                        </a>
+                        </div>
+                        <div class="contact-by-email py-3">
+                            <a href="mailto:info@satjapan.com" class="d-flex text-white text-decoration-none alig-items-center">
+                            <img src="{{asset('assets/images/envelope.webp')}}" alt="envelope-image" class="img-fluid" loading="lazy" width="26" height="26">
+                           <p class="px-2 my-1">info@satjapan.com</p>
+                        </a>
+                        </div>
+                        <div class="contact-by-address d-flex text-white text-decoration-none alig-items-center">
+                            <img src="{{asset('assets/images/address.webp')}}" alt="address-image" class="img-fluid" loading="lazy" width="26" height="26">
+                           <p class="px-2 my-1">156-1 Hatakenaka Aza Izumimachi,
+                            Iwaki, Fukushima 971-8183, Japan</p>
+                        
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="social-links">
+                        <div class="heading">
+                            <p>Social Links</p>
+                        </div>
+                        <div class="social-links-ref d-flex flex-wrap my-4">
+                            <a href="https://www.facebook.com/" class="me-3 mb-3" aria-label="Facebook">
+                                <img src="{{asset('assets/images/facebook.webp')}}" alt="Facebook" class="img-fluid" loading="lazy" width="26" height="26">
+                            </a>
+                            <a href="https://www.instagram.com/" class="me-3 mb-3" aria-label="Instagram">
+                                <img src="{{asset('assets/images/instagram.webp')}}" alt="Instagram" class="img-fluid" loading="lazy" width="26" height="26">
+                            </a>
+                            <a href="https://twitter.com/" class="me-3 mb-3" aria-label="Twitter">
+                                <img src="{{asset('assets/images/twitter.webp')}}" alt="Twitter" class="img-fluid" loading="lazy" width="26" height="26">
+                            </a>
+                            <a href="https://youtube.com/" class="mb-3" aria-label="YouTube">
+                                <img src="{{asset('assets/images/youtube.webp')}}" alt="YouTube" class="img-fluid" loading="lazy" width="26" height="26">
+                            </a>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="join-by-mailing">
+                        <div class="heading">
+                            <p>Join Our Mailing List</p>
+                        </div>
+                        <div class="join-mail-ref d-flex">
+                            <input type="text" class="form-control border-0 shadow-none rounded-0" placeholder="Your Email" aria-label="Your Email">
+                            <span class="input-group-text border-0 rounded-0">Subscribe</span>
+                          </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container">
+            
+            <div class="row">
+                
+                <div class="col-md-4 mb-4">
+                    <div class="footer-list">
+                        <p class="list-heading pt-2">Company Overview</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">About SAT</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Why Choose SAT</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Company Profile</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Terms &amp; Conditions</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Cookie Policy</a></li>
+                       
+                    </ul>
+                </div>
+
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Help &amp; Support</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Inquiry Form</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Vehicle Information Request</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">How to Buy</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">How to Pay</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">How to Pick the Right Used Car</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">FAQ's</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Bank Information</a></li>
+                   
+                </ul>
+            </div>
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Reviews</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Car Reviews</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Car Camparisons</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Car Blogs</a></li>
+                </ul>
+            </div>
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Inventory Location</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Japan</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Tanzania</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Dominican Republic</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Kenya</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Chile</a></li>
+                </ul>
+            </div>
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Explore by Budget</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Less than $1000</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Between $1000 - $2000</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Between $2000 - $3000</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Between $3000 - $4000</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Between $4000 - $5000</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Above $5000</a></li>
+                </ul>
+            </div>
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Explore by Year</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">2000 to 2005</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">2005 to 2010</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">2010 to 2015</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">2015 to 2020</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">2020 to 2024</a></li>
+                </ul>
+            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-list">
+                        <p class="list-heading pt-2">Explore by Make</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Toyota</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Nissan</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">VolksWagen</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Mitsubishi</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Honda</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Subaru</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Mazda</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Suzuki</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Isuzu</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Daihatsu</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Lexus</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Bmw</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Audi</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Peugeot</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Ford</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Volvo</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Land Rover</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Jaguar</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Jeep</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Chevrolet</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Hyundai</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Kia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <p class="list-heading pt-2">Explore by Type</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">SUV</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Sedan</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Hatchback</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Wagon</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Honda</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Coupe</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Pickup</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Convertible</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Bus</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Van</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Mini Van</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Tractor</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Truck</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Crossover</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Porsche</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Porsche</a></li>
+                    <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Porsche</a></li>
+                </ul>
+            </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-list">
+                        <p class="list-heading pt-2">Where we operate</p>
+                    <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Australia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Botswana</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Bahamas</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Burundi</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Cambodia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Cameroon</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Congo (Brazzaville)</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Chile</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Congo (Kinshasa)</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Côte d'Ivoire</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Cyprus</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Dominican Republic</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Fiji</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Georgia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Ghana</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Guatemala</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Guinea</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">GuyanaIrelandKenya</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Honduras</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Malawi</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Jamaica</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Lesotho</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Lesotho</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Mauritius</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Mozambique</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">NamibiaNigeria</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">ParaguaySierra</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">LeoneSri</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Lanka</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Suriname</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Tanzania</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Uganda</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">US</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Zimbabwe</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Côte d'Ivoire</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Georgia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Somalia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Armenia</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Ukraine</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Ukraine</a></li>
+                        <li class="d-flex align-items-center mb-2"><a href="javascript:;" class="text-decoration-none text-white">Ukraine</a></li>
+                       
+                    </ul>
+                </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tablet-footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="copy-right text-center">
+                        <p class="footer-copyright-heading">© Copyrights, Shine Auto Trading . All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</footer>
 {{-- ======================= Footer For Mobile Version ======================= --}}
 
-<footer class="mobile-footer">
+
+<footer class="mobile-view">
     <div class="mobile-footer-wrapper">
         <div class="container">
             <div class="row">

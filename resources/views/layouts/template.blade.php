@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{asset('assets/styles/mobile.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/tablet.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/custom.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/select2.min.css')}}">
 
