@@ -79,7 +79,7 @@
        
         {{--============================= mega menu navigation =============================--}}
 
-        <div class="mega-menu-section m-0 border-top py-2">
+        <div class="mega-menu-section m-0 border-top">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light">
@@ -124,7 +124,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -138,7 +138,7 @@
                                                     <a class="dropdown-item" href="#">Mini Van</a>
                                                     <a class="dropdown-item" href="#">Tractor</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -152,7 +152,7 @@
                                                     <a class="dropdown-item" href="#">30% Off or More</a>
                                                     <a class="dropdown-item" href="#">1% - 30% Off</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -203,7 +203,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -217,7 +217,7 @@
                                                     <a class="dropdown-item" href="#">Mini Van</a>
                                                     <a class="dropdown-item" href="#">Tractor</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -231,7 +231,7 @@
                                                     <a class="dropdown-item" href="#">30% Off or More</a>
                                                     <a class="dropdown-item" href="#">1% - 30% Off</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -282,7 +282,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -296,7 +296,7 @@
                                                     <a class="dropdown-item" href="#">Mini Van</a>
                                                     <a class="dropdown-item" href="#">Tractor</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -310,7 +310,7 @@
                                                     <a class="dropdown-item" href="#">30% Off or More</a>
                                                     <a class="dropdown-item" href="#">1% - 30% Off</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -361,7 +361,7 @@
                                                     <a class="dropdown-item" href="#">BMW</a>
                                                     <a class="dropdown-item" href="#">Mercedes</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explore By Type</h6>
                                                     <a class="dropdown-item" href="#">SUV</a>
                                                     <a class="dropdown-item" href="#">Sedan</a>
@@ -375,7 +375,7 @@
                                                     <a class="dropdown-item" href="#">Mini Van</a>
                                                     <a class="dropdown-item" href="#">Tractor</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -389,7 +389,7 @@
                                                     <a class="dropdown-item" href="#">30% Off or More</a>
                                                     <a class="dropdown-item" href="#">1% - 30% Off</a>
                                                 </div>
-                                                <div class="col-md-2 mx-2">
+                                                <div class="col-md-2 mx-3">
                                                     <h6>Explor By Year</h6>
                                                     <a class="dropdown-item" href="#">2004 and older</a>
                                                     <a class="dropdown-item" href="#">2005 and newer</a>
@@ -516,7 +516,7 @@
 
 
 {{-- ====================== Table view ==================--}}
-<section class="tablet-view" aria-labelledby="desktop-header">
+<section class="tablet-view" aria-labelledby="tablet-header">
 	<header>
 		<div class="headerSearch pb-3">
 			<div class="container">
@@ -576,11 +576,11 @@
 
 {{-- Mobiel View --}}
 
-<section class="mobile-view" aria-labelledby="desktop-header">
+<section class="mobile-view" aria-labelledby="mobile-header">
     <header>
         <div class="headerSearch pb-3">
             <div class="container">
-                <div class="row align-items-center my-3 pt-2">
+                <div class="row align-items-center mb-3 mt-2">
                     <div class="col-auto d-flex align-items-center p-0">
                         <button class="btn btn-offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavigation" aria-controls="offcanvasNavigation">
                             <img src="{{asset('assets/images/header-images/menu-bars.webp')}}" class="img-fluid" loading="lazy" width="24" height="24" alt="Menu">
