@@ -326,7 +326,7 @@
                         <p class="m-0">Rate Your Experience With Us</p>
                     </div>
                     <div class="send-feedback m-0 pt-1">
-                        <button class="btn btn-tablet-send-feedback rounded-5 bg-white">Send feedback</button>
+                        <button class="btn btn-tablet-send-feedback bg-white">Send feedback</button>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -671,7 +671,7 @@
                     </div>
 
                     <div class="send-feedback pb-3">
-                        <button class="btn btn-sendfeedback rounded-5 border-0 shadow-none">Send feedback</button>
+                        <button class="btn btn-sendfeedback border-0 shadow-none">Send feedback</button>
                     </div>
 
                     <div class="heading pb-3">

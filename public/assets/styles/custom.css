@@ -14,6 +14,13 @@
     --muted-grey: #2F2B434D;
     --deep-slate-gray:#5D6370;
     --rich-black:#141817;
+    --light-grey: #f6f6f8;
+
+        /* fonts-variable */
+    --fs-16: 1rem;
+    --fs-14: 14px;
+    --fs-12: 12px;
+    --fs-10: 10px;
 }
 
 *{
@@ -53,6 +60,102 @@
     src: url('../fonts/Lato-Semibold.woff2') format('woff2');
     font-display: swap;
 }
+
+/* start header ship-to and currency select css  */
+
+  .desktop-view .headerSearch .dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  .desktop-view .headerSearch .ship-to-dropdown{
+    position: relative;
+    left: 15px;
+  }
+  .desktop-view .headerSearch .ship-to.show{
+    transform: translate(-40px, 40px) !important;
+    border: 1px solid #aaaaaa66;
+    width: 210px;
+  }
+  .desktop-view .headerSearch .ship-to .dropdown-item{
+    font-family: 'Lato-semibold';
+    font-size: var(--fs-14);
+    line-height: 22.64px;
+    padding: 6px 12px;
+  }
+  .desktop-view .headerSearch .dropdown-menu .dropdown-search{
+    background-color: var(--light-grey);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 0px 4px;
+  }
+  
+  .desktop-view .headerSearch .dropdown-menu .dropdown-search .search-country-ship{
+    border: none;
+    background-color: var(--light-grey);
+    max-height: 34px;
+    padding: 9px 10px;
+    font-size: var(--fs-12);
+    font-family: 'Lato-Regular';
+  }
+
+  .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border-color:transparent  !important;
+  }
+  /* Style for flag images in the dropdown */
+  .dropdown-item img {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+  }
+
+  /* Hide the text when the dropdown option is selected */
+  .selected-flag img {
+    width: 24px;
+    height: 16px;
+  }
+  .selected-flag {
+    font-size: 0; /* Hide text */
+  }
+  .desktop-view .headerSearch .currency-dropdown .dropdown-menu.show {
+    width: 200px;
+  }
+  .desktop-view .headerSearch .currency-dropdown #selectedCurrency {
+    color: var(--deep-slate-gray);
+    font-family: 'Lato-semibold';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+  }
+  .desktop-view .headerSearch .currency-dropdown .dropdown .dropdown-menu .currency-search-field {
+    max-height: 34px;
+    font-family: 'Lato-Regular';
+    background-color: var(--light-grey);
+    border: 1px solid var(--border-color);
+}
+  .desktop-view .headerSearch .currency-dropdown .dropdown .dropdown-menu .currency-search-field input{
+    font-size: var(--fs-12);
+}
+  .desktop-view .headerSearch .currency-dropdown .dropdown .dropdown-menu .dropdown-currency {
+    max-height: 300px;
+    overflow-y: auto;
+}
+.desktop-view .headerSearch .language #selectedLanguage{
+    color: var(--deep-slate-gray);
+    font-family: 'Lato-semibold';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 1px;
+}
+.desktop-view .headerSearch .language .dropdown-toggle::after{
+    position: relative;
+    left: 3px;
+}
+
+
+
+/* end header ship-to and currency select css */
 .tablet-view{
     display: none;
 }
@@ -130,83 +233,15 @@ input:focus {
    font-size: 14px;
    line-height: 20px;
    font-weight: 600;
-}
-
-
-
-/* select2 selected icon */
-.select2-container--default .select2-selection--single .select2-selection__clear{
-    display: none;
-}
-
-.select2-search--dropdown .select2-search__field {
-    padding-left: 30px; /* Space for the icon */
-}
-.select2-container{
-    width:65px !important;
-    
-}
-
-.select2-container--default .select2-selection--single{
-    border:none !important;
-    font-family: 'Lato-semibold';
-    font-size: 1rem;
-    line-height: 20px;
-    font-weight: 600;
-}
-span.select2-dropdown.select2-dropdown--below{
-    width: 200px !important;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    border: 1px solid #aaa;
-    position: relative;
-    left: 10px;
-}
-.select2-container--default .select2-selection--single .select2-selection__placeholder,
-.select2-container--default .select2-selection--single .select2-selection__rendered{
-    color: var(--deep-slate-gray)!important;
-    font-size: 14px;
-}
-
-.select2-search--dropdown {
-    position: relative;
-}
-
-.select2-search__field {
-    padding-right: 35px !important;
-    background: url('../images/header-images/search-icon-header.webp') no-repeat right center; 
-    background-size: 15px; 
-}
-
-
-input.select2-search__field{
-    border: 1px solid #aeb1b8;
-    background-color: #f6f6f8;
-    max-height: 34px;
-    padding: 9px 10px;
-    border-radius: 4px;
-}
-.select2-results__option[aria-selected]{
-    font-family: 'Lato-semibold';
-    font-weight: 600;
-    font-size: 14px;
-}
-.select2-results__option[aria-selected]{
-    font-family: 'Lato-semibold';
-    font-weight: 600;
-    font-size: 14px;
-}
-.select2-container--default .select2-results__option--highlighted[aria-selected] {
-    background-color: #5897fb00 !important;
-    color: var(--custome-color) !important;
-}
-.select2-container--default .select2-results__option[aria-selected=true] {
-    background-color: none !important;
+   position: relative;
+   bottom: 1px;
 }
 
 .headerSearch .dropdown-menu.show{
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border: 1px solid #aaa;
     border-radius: 0px;
+
 }
 .headerSearch .dropdown-item{
     color: var(--Eigengrau) !important;
@@ -242,8 +277,13 @@ input.select2-search__field{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
 }
+
 .mega-menu-section .navbar .dropdown:hover .dropdown-menu .used-cars-dp{
     line-height: 33.2px;
+}
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu .car-services-mm{
+    width: 28px;
+    height: 16px;
 }
 .mega-menu-section .navbar .mega-menu {
     padding: 20px;
@@ -254,9 +294,15 @@ input.select2-search__field{
     font-size: 14px;
     color: var(--para-color);
 }
-.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover{
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover {
     color:var(--custome-color) !important;
     background-color: transparent !important;
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover svg path{
+    fill: var(--custome-color);
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover span {
+    color: var(--custome-color);
 }
 .mega-menu-section .navbar .navbar-nav .nav-item .nav-link{
     font-family: 'Lato-semibold';
@@ -272,6 +318,58 @@ input.select2-search__field{
     color: var(----rich-black);
     white-space: nowrap;
 }
+
+/* ================= Start Hero Slider Css ======== */
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    position: absolute;
+    top: 426px;
+    display: block !important;
+    height: 25px !important;
+    width: 25px !important;
+    border-radius: 50% !important;
+    border: 1px solid #5d6370 !important;
+}
+.carousel-control-next, .carousel-control-prev{
+    width:90% !important;
+}
+
+ /* Style the carousel indicators */
+ .carousel-indicators [data-bs-target]{
+    width: 6px !important;
+    height: 6px !important; 
+ }
+ .carousel-indicators button {
+    background-color: var(--white-color) !important; /* Grey color for inactive indicator */
+    border: 1px solid var(--border-color) !important; /* Remove the border */
+    border-radius: 50%; /* Make it a circle */
+    outline: none; /* Remove the outline */
+    opacity:1.5; /* Add some transparency to inactive buttons */
+    transition: background-color 0.3s ease, opacity 0.3s ease; /* Smooth transition */
+}
+.carousel-indicators{
+    position: relative;
+    top: 435px;
+}
+
+.carousel-indicators .active {
+    background-color: var(--custome-color) !important;
+    width: 15px !important;
+    height: 6px !important; 
+    border-radius: 25% !important;
+    border: 1px solid var(--custome-color) !important;
+}
+.carousel-control-prev-icon{
+    background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 viewBox=%270%200%2016%2016%27 fill=%27%23333%27%3E%3Cpath d=%27M11.354%201.646a.5.5%200%200%201%200%20.708L5.707%208l5.647%205.646a.5.5%200%200%201-.708.708l-6-6a.5.5%200%200%201%200-.708l6-6a.5.5%200%200%201%20.708%200z%27%2F%3E%3C%2Fsvg%3E') !important;
+    background-size: 50% 50% !important;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important; 
+    background-size: 50% 50% !important;
+}
+
+
+
+/* ================= End Hero Slider Css ======== */
 /* ===================================== Start Footer Css ===================================== */
 
 footer{
@@ -291,14 +389,17 @@ footer .footer-wrapper .heading{
     line-height: 24px;
 }
 footer .footer-wrapper .send-feedback button{
-    background-color:var(--skin-color);
-    color:var(--Eigengrau);
+    background-color: var(--skin-color);
+    color: var(--Eigengrau);
     font-size: 1rem;
-    font-family:'Lato-semibold';
+    font-family: 'Lato-semibold';
     line-height: 24px;
-    padding: 8px 24px;
-    border-radius: 75px;
     border: 1px solid var(--skin-color);
+    padding: 10px 20px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-align: center;
+    border-radius: 6px;
 }
 footer .footer-wrapper .app-reference{
    position: relative;

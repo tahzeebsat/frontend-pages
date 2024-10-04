@@ -15,6 +15,17 @@
     --deep-slate-gray:#5D6370;
     --rich-black:#141817;
     --lavender-mist:#EDEDF1;
+    --ghost-white: #F6F6F8;
+    --charcoal-blue:#2F2B4333;
+    --cool-gray: #858A94;
+
+
+
+    /* fonts-variable */
+    --fs-16: 1rem;
+    --fs-14: 14px;
+    --fs-12: 12px;
+    --fs-10: 10px;
 }
 
 *{
@@ -55,10 +66,65 @@
     font-display: swap;
 }
 
-
-.offcanvas.offcanvas-start{
+.fa-chevron-right{
+    font-size: var(--fs-10);
+}
+.mobile-view .headerSearch .offcanvas.offcanvas-start{
     border-right:none !important;
 }
+.mobile-view .headerSearch .offcanvas .offcanvas-header .mobile-offcanvas-heading{
+    left: 40%;
+    color: var(--rich-black);
+    font-size: var(--fs-16);
+    font-family: 'Lato-semibold';
+    line-height: 24px;
+}
+.mobile-view .headerSearch .offcanvas .offcanvas-header .btn-close {
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+}
+.mobile-view .headerSearch .offcanvas .offcanvas-header .mobile-find-car-nested{
+    left: 120px;
+    color: var(--rich-black);
+    font-size: var(--fs-16);
+    font-family: 'Lato-semibold';
+    line-height: 24px;
+}
+.mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas a{
+    text-decoration: none;
+    color: var(--rich-black);
+    font-size: var(--fs-14);
+    font-family: 'Lato-Regular';
+}
+
+.mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency{
+    font-size: var(--fs-12);
+    color: var(--rich-black);
+    font-family: 'Lato-semibold';
+}
+.mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency-select{
+    width: 78px;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background-color: var(--ghost-white);
+    border-radius: 4px;
+    border: 1px solid var(--charcoal-blue);
+    background-position: right 2px center;
+    
+}
+
+.mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency-select option[selected] {
+    color: var(--cool-gray);
+}
+
+.mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency-select option {
+    color: var(--rich-black); 
+}
+
 
 .mobile-view .headerSearch .search-form .input-group .input-group-text{
     background-color: var(--light-lavender);

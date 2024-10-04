@@ -5,7 +5,8 @@
 @endsection
 @section('content')
 
-<h1 class="text-center">Body</h1>
+@component('used_car.partial.hero_slider')
+@endcomponent
 
 
 @endsection

@@ -29,7 +29,7 @@
     .desktop-view{
         display: none;
     }
-    
+  
 }
 @media (max-width:767px){
     .top-header{
@@ -53,6 +53,16 @@
     }
     .mobile-view{
         display: block;
+    }
+
+    .carousel-indicators{
+        display: none !important;
+    }
+    .carousel-inner{
+        border-radius: 4px !important;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        display: none !important;
     }
     
 }

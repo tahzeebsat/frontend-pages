@@ -48,21 +48,80 @@ const searchInput = document.getElementById('searchInput');
             }
         });
 
-// Select2 Script
 
-$(document).ready(function() {
-    $("#single").select2({
-        placeholder: "USD",
-        allowClear: true,
-        minimumResultsForSearch: 0, // Show search box
-        templateResult: function (data) {
-            return $('<span>' + data.text + '</span>'); // Display options
-        },
-        templateSelection: function (data) {
-            return $('<span>' + data.text + '</span>'); // Display selected option
-        }
+// JavaScript to Select Ship To Flags dropdown options 
+
+document.getElementById('dropdownSearch').addEventListener('input', function() {
+    const searchValue = this.value.toLowerCase();
+    const dropdownItems = document.querySelectorAll('.dropdown-menu .dropdown-item');
+
+    dropdownItems.forEach(function(item) {
+      const itemText = item.textContent.toLowerCase();
+      if (itemText.includes(searchValue)) {
+        item.style.display = 'block'; // Show matching item
+      } else {
+        item.style.display = 'none'; // Hide non-matching item
+      }
+    });
+  });
+
+  // Update button with selected flag
+  const items = document.querySelectorAll('.ship-to .flag-select');
+  items.forEach(item => {
+    item.addEventListener('click', function() {
+      const flag = this.getAttribute('data-flag');
+      const imgSrc = this.getAttribute('data-img');
+      const button = document.getElementById('dropdownMenuButton');
+      const selectedFlagSpan = document.getElementById('selectedFlag');
+
+      // Update button with only the flag image
+      selectedFlagSpan.innerHTML = `<img src="${imgSrc}" alt="${flag}" style="width:24px; height:16px;">`;
+
+      // Close dropdown after selection
+      const dropdown = bootstrap.Dropdown.getInstance(button);
+      dropdown.hide();
+    });
+  });
+
+
+
+  // JavaScript to Select Currency dropdown options 
+  const searchInputCurrency = document.getElementById('currencySearch');
+  const dropdownItems = document.querySelectorAll('.dropdown-currency');
+
+  searchInputCurrency.addEventListener('input', function () {
+      const query = searchInputCurrency.value.toLowerCase();
+
+      dropdownItems.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          if (text.includes(query)) {
+              item.style.display = 'block';  // Show matching items
+          } else {
+              item.style.display = 'none';   // Hide non-matching items
+          }
+      });
+  });
+
+  // Handle selection of currency
+  dropdownItems.forEach(function (item) {
+      item.addEventListener('click', function () {
+          const selectedCurrency = item.getAttribute('data-value');
+          const selectedText = item.textContent.trim();
+
+          document.getElementById('selectedCurrency').textContent = selectedText;  // Update button text
+          searchInputCurrency.value = '';  // Clear the search input
+          document.getElementById('currencyDropdown').classList.remove('show');  // Close the dropdown
+      });
+  });
+
+
+
+
+// JS Language Select
+
+  document.querySelectorAll('.dropdown-item').forEach(item => {
+    item.addEventListener('click', function() {
+        const language = this.getAttribute('data-lang');
+        document.getElementById('selectedLanguage').textContent = language; // Update the button text
     });
 });
-
-
-
