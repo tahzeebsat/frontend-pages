@@ -8,6 +8,28 @@
 @component('used_car.partial.hero_slider')
 @endcomponent
 
+@component('used_car.partial.web_promotion')
+@endcomponent
+
+@component('used_car.partial.how_to_buy')
+@endcomponent
+
+
+@component('used_car.partial.operates')
+@endcomponent
+
+@component('used_car.partial.best-seller_by_type')
+@endcomponent
+
+@component('used_car.partial.buy_decision')
+@endcomponent
+
+@component('used_car.partial.web_promotion2')
+@endcomponent
+
+@component('used_car.partial.faqs')
+@endcomponent
+
 
 @endsection
 @section('js_plugin')

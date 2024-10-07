@@ -282,17 +282,18 @@
     position: relative;
     bottom: 2px;
 } 
-.accordion-button::after {
+.mobile-view .accordion-button::after {
     background-image: url('../images/down-chevron.webp') !important; 
     background-size: 11px 8px !important;
     position: relative;
     top: 5px;
 }
-.accordion-button:not(.collapsed)::after {
+.mobile-view .accordion-button:not(.collapsed)::after {
     position: relative;
     top: -5px;
     left: -10px;
 }
+
 .mobile-view .mobile-footer-wrapper .footer-mobile-rates .accordion-item .accordion-body ul li{
     font-size: 14px;
 }

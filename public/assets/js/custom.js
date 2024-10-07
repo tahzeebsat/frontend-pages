@@ -125,3 +125,269 @@ document.getElementById('dropdownSearch').addEventListener('input', function() {
         document.getElementById('selectedLanguage').textContent = language; // Update the button text
     });
 });
+
+
+// ========================= Start Hero Form Searches ======================
+
+// ========================= Start Make Dropdown Search =========================
+const searchInputMakeMenu = document.getElementById('makeForm');
+const dropdownItemsMenu = document.querySelectorAll('.dropdown-make');
+
+searchInputMakeMenu.addEventListener('input', function () {
+    const query = searchInputMakeMenu.value.toLowerCase();
+
+    dropdownItemsMenu.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMenu.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedMake').textContent = selectedText;  // Update button text
+        searchInputMakeMenu.value = '';  // Clear the search input
+        document.getElementById('makeDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Make Dropdown Search =========================
+
+
+// ========================= Start Model Dropdown Search =========================
+const searchInputModelMenu = document.getElementById('modelForm');
+const dropdownItemsMenuModel = document.querySelectorAll('.dropdown-model');
+
+searchInputModelMenu.addEventListener('input', function () {
+    const query = searchInputModelMenu.value.toLowerCase();
+
+    dropdownItemsMenuModel.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMenuModel.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedModel').textContent = selectedText;  // Update button text
+        searchInputModelMenu.value = '';  // Clear the search input
+        document.getElementById('modelDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Model Dropdown Search =========================
+
+
+// ========================= Start Type Dropdown Search =========================
+const searchInputTypeMenu = document.getElementById('typeForm');
+const dropdownItemsMenuType = document.querySelectorAll('.dropdown-type');
+
+searchInputTypeMenu.addEventListener('input', function () {
+    const query = searchInputTypeMenu.value.toLowerCase();
+
+    dropdownItemsMenuType.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMenuType.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedType').textContent = selectedText;  // Update button text
+        searchInputTypeMenu.value = '';  // Clear the search input
+        document.getElementById('typeDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Type Dropdown Search =========================
+
+
+// ========================= Start Steering Dropdown Search =========================
+const searchInputSteeringMenu = document.getElementById('steeringForm');
+const dropdownItemsMenuSteering = document.querySelectorAll('.dropdown-steering');
+
+searchInputSteeringMenu.addEventListener('input', function () {
+    const query = searchInputSteeringMenu.value.toLowerCase();
+
+    dropdownItemsMenuSteering.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMenuSteering.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedSteering').textContent = selectedText;  // Update button text
+        searchInputSteeringMenu.value = '';  // Clear the search input
+        document.getElementById('steeringDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Steering Dropdown Search =========================
+
+// ========================= Start Steering Dropdown Search =========================
+const searchInputMinYear = document.getElementById('minyearForm');
+const dropdownItemsMinYear = document.querySelectorAll('.dropdown-minyear');
+
+searchInputMinYear.addEventListener('input', function () {
+    const query = searchInputMinYear.value.toLowerCase();
+
+    dropdownItemsMinYear.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMinYear.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedMinYear').textContent = selectedText;  // Update button text
+        searchInputMinYear.value = '';  // Clear the search input
+        document.getElementById('minyearDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Steering Dropdown Search =========================
+
+
+// ========================= Start Steering Dropdown Search =========================
+const searchInputMaxYear = document.getElementById('maxyearForm');
+const dropdownItemsMaxYear = document.querySelectorAll('.dropdown-maxyear');
+
+searchInputMaxYear.addEventListener('input', function () {
+    const query = searchInputMaxYear.value.toLowerCase();
+
+    dropdownItemsMaxYear.forEach(function (item) {
+        const text = item.textContent.toLowerCase();
+        if (text.includes(query)) {
+            item.style.display = 'block';  // Show matching items
+        } else {
+            item.style.display = 'none';   // Hide non-matching items
+        }
+    });
+});
+
+// Handle selection of currency
+dropdownItemsMaxYear.forEach(function (item) {
+    item.addEventListener('click', function () {
+        const selected = item.getAttribute('data-value');
+        const selectedText = item.textContent.trim();
+
+        document.getElementById('selectedMaxYear').textContent = selectedText;  // Update button text
+        searchInputMaxYear.value = '';  // Clear the search input
+        document.getElementById('maxyearDropdown').classList.remove('show');  // Close the dropdown
+    });
+});
+
+// ========================= End Steering Dropdown Search =========================
+// ========================= End Hero Form Searches ======================
+
+
+
+
+// ========================= Start Expand Country Home Section ======================
+
+ document.addEventListener("DOMContentLoaded", function () {
+    // Wait until the DOM is fully loaded before attaching the click handler
+    const buyMoreBtn = document.getElementById('buyMoreBtn');
+    const toggleFlags = document.getElementById('toggleFlags');
+    const addIcon = document.getElementById('addIcon');
+    const removeIcon = document.getElementById('removeIcon');
+    const btnText = document.getElementById('btnText');
+
+    // Debugging: Log the elements to see if they are found
+    console.log("buyMoreBtn:", buyMoreBtn);
+    console.log("toggleFlags:", toggleFlags);
+    console.log("addIcon:", addIcon);
+    console.log("removeIcon:", removeIcon);
+    console.log("btnText:", btnText);
+
+    // Check if any of the elements are not found
+    if (!buyMoreBtn || !toggleFlags || !addIcon || !removeIcon || !btnText) {
+        console.error("One or more elements are not found!");
+        return;  // Exit early if any element is missing
+    }
+
+    // Attach the onclick handler
+    buyMoreBtn.onclick = function () {
+        // Check if the flags are visible or not
+        if (toggleFlags.style.display === "none" || toggleFlags.style.display === "") {
+            // Show flags and switch to "Show Less Countries"
+            toggleFlags.style.display = "block";  // Show the flags
+            removeIcon.style.display = "inline";  // Show the remove icon
+            addIcon.style.display = "none";       // Hide the add icon
+            btnText.innerHTML = '<span style="color: #2b9fe8;">Show Less Countries <img src="' + removeIcon.getAttribute('src') + '" alt="Remove Icon" class="img-fluid" loading="lazy">';
+        } else {
+            // Hide flags and switch back to "Show More Countries"
+            toggleFlags.style.display = "none";   // Hide the flags
+            addIcon.style.display = "inline";     // Show the add icon
+            removeIcon.style.display = "none";    // Hide the remove icon
+            btnText.innerHTML = 'Show More Countries <img src="' + addIcon.getAttribute('src') + '" alt="Add Circle Icon" class="img-fluid" loading="lazy">';
+        }
+       
+    };
+});
+
+
+
+
+
+document.getElementById('showMoreCountries').addEventListener('click', function() {
+    // Get the button and the container that shows the countries
+    const button = document.getElementById('showMoreCountries');
+    const countryList = document.querySelector('.toggle-2');
+
+    // Toggle the visibility of the countries
+    if (countryList.style.display === 'none' || countryList.style.display === '') {
+        countryList.style.display = 'block';  // Show the list
+        button.innerText = 'Hide Countries';  // Change button text to 'Hide'
+    } else {
+        countryList.style.display = 'none';  // Hide the list
+        button.innerText = 'Show More Countries';  // Reset button text to 'Show More'
+    }
+
+    // After showing, remove the button
+    button.style.display = 'none';
+});
+// ========================= End Expand Country Home Section ======================
+
+
+
