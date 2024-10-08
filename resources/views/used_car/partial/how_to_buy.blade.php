@@ -1,4 +1,4 @@
-<section class="how-to-buy-desktop">
+<section class="how-to-buy-desktop desktop-view">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
@@ -51,3 +51,25 @@
     </div>
     
 </section>
+
+
+
+{{-- ================= Mobile View ============= --}}
+<section class="how-to-buy-mobile mobile-view">
+    <div class="container">
+        <div class="row d-flex flex-nowrap justify-content-between align-items-center">
+            <div class="col-6">
+              <div class="left">
+                <p class="title m-0">How to Buy</p>
+              </div>
+            </div>
+            <div class="col-6">
+                <div class="right text-end">
+                    <p class="title m-0">View Details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

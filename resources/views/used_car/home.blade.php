@@ -27,8 +27,13 @@
 @component('used_car.partial.web_promotion2')
 @endcomponent
 
-@component('used_car.partial.faqs')
+@component('used_car.partial.web_promotion3')
 @endcomponent
+
+@component('used_car.partial.need_help')
+@endcomponent
+
+
 
 
 @endsection

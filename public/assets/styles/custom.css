@@ -64,6 +64,21 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Sofia-Pro';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sofia-pro.woff2') format('woff2');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sofia-Pro-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/sofia-pro-bold.woff2') format('woff2');
+    font-display: swap;
+}
+
 /* start header ship-to and currency select css  */
 
   .desktop-view .headerSearch .dropdown-menu {
@@ -802,11 +817,85 @@ input:focus {
     cursor: pointer;
     padding: 40px 0px;
 }
-
-
-
   
 /* ================= End Where We Operat Css ======== */
+
+/* ================= Start Web Promotion Css ======== */
+.web-promotion3-desktop{
+    position:relative;
+}
+.web-promotion3-desktop .wrapper{
+    background-color: #f4f5ee;
+    padding-inline: 65px;
+    padding-top: 60px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .title{
+        font-family: "Lato-semibold";
+        font-size: 23.12px;
+        font-weight: 600;
+        line-height: 36.9px;
+        letter-spacing: -0.02em;
+        color: #0c1529; 
+        margin:0;
+}
+.web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .para{
+        font-family: "Lato-Regular";
+}
+.web-promotion3-desktop .wrapper .web_promotion3_banner .center-side .scan-tag{
+        font-family: 'Lato-semibold';
+}
+
+/* ================= End Web Promotion Css ======== */
+
+/* ================= Start Need Help Css ======== */
+.need_help-desktop{
+    position:relative;
+}
+.need_help-desktop .wrapper{
+    position:relative;
+}
+.need_help-desktop .wrapper .heading{
+    font-family: 'Sofia-Pro-Bold';
+    font-size: 24px;
+    font-weight: 500;
+}
+.need_help-desktop .wrapper .help-service{
+    padding: 14px 18px 14px 14px;
+    background-color: #2f2b430d;
+    border-radius: 8px;
+    width: 303px;
+    height: 70px;
+}
+.need_help-desktop .wrapper .help-service .left .info{
+    padding-left: 12px;
+}
+.need_help-desktop .wrapper .help-service .left .info .title-help{
+    color: #020408;
+    font-family: 'Lato-Regular';
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.need_help-desktop .wrapper .help-service .left .info .para-help{
+    color: #5D6370;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px; 
+    letter-spacing: -0.12px;
+}
+.need_help-desktop .wrapper .help-service .right .fa-chevron-right:before{
+    content: "\f054";
+    color: #353C4D;
+    font-size: 14px;
+}
+
+
+/* ================= End Need Help Css ======== */
+
 /* ================= Start Best Seller By Type Css ======== */
 .best-seller-by-type-desktop{
     position: relative;
