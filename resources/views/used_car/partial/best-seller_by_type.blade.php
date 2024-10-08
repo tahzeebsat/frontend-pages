@@ -1,4 +1,4 @@
-<section class="best-seller-by-type-desktop">
+<section class="best-seller-by-type-desktop desktop-view">
     <div class="container">
       <div class="row align-items-stretch">
         <div class="col-12">
@@ -78,6 +78,26 @@
   
         <div class="col-12 buy-more text-center">
             <a href="javascript:;" class="details"><span>View More</span><i class="fas fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  {{-- =============== Mobile view ===================--}}
+
+
+  <section class="best-seller-by-type-mobile mobile-view">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="mobile-best-seller-area">
+            <div class="heading d-flex justify-content-between align-items-center">
+              <p class="title">Best Seller by Type</p>
+              <p class="view-all">View All</p>
+            </div>
+            <img src="{{asset('assets/images/mobile-bestseller-type.webp')}}" alt="Best Seller" class="img-fluid" loading="lazy" width="226" height="162">
+          </div>
         </div>
       </div>
     </div>

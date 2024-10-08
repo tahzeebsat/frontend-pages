@@ -129,6 +129,223 @@
 .mobile-view .headerSearch .search-form .input-group .input-group-text{
     background-color: var(--light-lavender);
 }
+
+
+/* ===================================== Start How to Buy Css ===================================== */
+.how-to-buy-mobile{
+    position:relative;
+}
+.how-to-buy-mobile .left .title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.how-to-buy-mobile .left ul li span{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.how-to-buy-mobile .right .title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.how-to-buy-mobile .right img{
+    height: 190px;
+}
+/* ===================================== End How to Buy Css ===================================== */
+
+
+/* ===================================== Start Where We Operat Css ===================================== */
+.mobile-operate{
+    position: relative;
+}
+.mobile-operate .heading .title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.mobile-operate .mobile-operate-flags .mobile-operate-countries{
+    border: none;
+    border-radius: 10px;
+    background-color: #f7fbfb;
+    padding: 10px 0px;
+}
+.mobile-operate .mobile-operate-flags .mobile-operate-countries img{
+    height: 32px;
+}
+.mobile-operate .mobile-operate-flags .mobile-operate-countries span{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.mobile-operate .btn-mobile-show-flags{
+    font-family: 'Lato-Regular';
+    border: 1px solid #1c6a9b;
+    font-size: var(--fs-12);
+    color: #1c6a9b;
+    letter-spacing: -0.01em;
+    border-radius: 4px;
+    line-height: 16px;
+    font-weight: 700;
+    height: 40px;
+    width: max-content;
+    margin: 2% 32%;
+}
+
+.mobile-operate .offcanvas-body .mobile-show-wrapper{
+    border: 1px solid #dcdae2;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.mobile-operate .offcanvas-body .mobile-show-wrapper img{
+    height: 18px;
+}
+.mobile-operate .offcanvas-body .mobile-show-wrapper span{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.mobile-operate .offcanvas{
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    height: 84vh !important;
+}
+.mobile-operate .offcanvas .offcanvas-header{
+    margin: 0;
+    padding: 15px 15px 0px 15px;
+}
+.mobile-operate .offcanvas .offcanvas-title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+}
+/* ===================================== End Where We Operat Css ===================================== */
+
+/* ===================================== Start Best Seller By Type Css ===================================== */
+.best-seller-by-type-mobile{
+    position: relative;
+}
+.best-seller-by-type-mobile .mobile-best-seller-area .heading .title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.best-seller-by-type-mobile .mobile-best-seller-area .heading .view-all{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.best-seller-by-type-mobile .mobile-best-seller-area img{
+    margin: 0% 18%;
+    height: 162px;
+}
+/* ===================================== End Best Seller By Type Css ===================================== */
+
+/* ===================================== Start By Decision Css ===================================== */
+.by-decision-mobile{
+    position: relative;
+}
+.by-decision-mobile .mobile-by-decision-area .heading .title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.by-decision-mobile .mobile-by-decision-area .heading .view-all{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.by-decision-mobile .mobile-by-decision-area .right-side .title{
+    margin-bottom: 0px;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.by-decision-mobile .mobile-by-decision-area .right-side .posted_by{
+    margin-bottom: 4px;
+    margin-top: 8px;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-10);
+    font-weight: 400;
+    line-height: 8px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+/* ===================================== End By Decision Css ===================================== */
+
+/* ===================================== Start Web promotion Css ===================================== */
+.web-promotion3-mobile{
+    position:relative;
+}
+.web-promotion3-mobile .wrapper{
+    background: #f4f5ee;
+    padding: 30px 30px;
+}
+.web-promotion3-mobile .wrapper .heading .title{
+    font-family: 'Lato-Regular';
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #0c1529;
+}
+
+.web-promotion3-mobile .wrapper .mobile-app-ref .app-logo{
+    height: 31px;
+}
+.web-promotion3-mobile .wrapper .mobile-app-ref .google-logo{
+    height: 31px;
+}
+.web-promotion3-mobile .wrapper .mobile-app-ref .qr-scan{
+    height: 51px;
+}
+/* ===================================== End Web promotion Css ===================================== */
+
+
 /* ===================================== Start Mobile View Footer Css ===================================== */
 .mobile-view{
     position:relative;

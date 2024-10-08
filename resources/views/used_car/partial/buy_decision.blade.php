@@ -1,4 +1,4 @@
-<section class="by-decision-desktop">
+<section class="by-decision-desktop desktop-view">
     <div class="container">
       <div class="row align-items-stretch">
         <div class="col-12">
@@ -43,3 +43,97 @@
     </div>
   </section>
   
+
+  {{-- =============Mobile View ============--}}
+  <section class="by-decision-mobile mobile-view py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="mobile-by-decision-area">
+            <div class="heading d-flex justify-content-between align-items-center">
+              <p class="title">Car Talks for Buying Decisions</p>
+              <p class="view-all">View All</p>
+            </div>
+            
+            <div class="row mt-1">
+              <div class="col-4">
+                <div class="left-side">
+                  <img src="{{asset('assets/images/blogs/mobile-blog-1.webp')}}" alt="Blog" class="img-fluid" loading="lazy" >
+                </div>
+              </div>
+              <div class="col-8 px-0">
+                <div class="right-side d-grid justify-content-between">
+                  <div class="title">
+                    <p>NHTSA Investigates Chevrolet Volt Over Sudden Power Loss </p>
+                  </div>
+                  <div class="posted_by">
+                    <p class="name_by m-0">Adie Tinkle</p>
+                    <p class="date_by m-0 pt-2">Jan 10, 2024</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-1">
+              <div class="col-4">
+                <div class="left-side">
+                  <img src="{{asset('assets/images/blogs/mobile-blog-2.webp')}}" alt="Blog" class="img-fluid" loading="lazy" >
+                </div>
+              </div>
+              <div class="col-8 px-0">
+                <div class="right-side d-grid justify-content-between">
+                  <div class="title">
+                    <p>How to Inspect a Nissan Used Car Before Buying </p>
+                  </div>
+                  <div class="posted_by">
+                    <p class="name_by m-0">Mary John</p>
+                    <p class="date_by m-0 pt-2">Aug 15, 2024</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-1">
+              <div class="col-4">
+                <div class="left-side">
+                  <img src="{{asset('assets/images/blogs/mobile-blog-3.webp')}}" alt="Blog" class="img-fluid" loading="lazy" >
+                </div>
+              </div>
+              <div class="col-8 px-0">
+                <div class="right-side d-grid justify-content-between">
+                  <div class="title">
+                    <p>How to Maintain Your Toyota Used Car for Long-Term Use  </p>
+                  </div>
+                  <div class="posted_by">
+                    <p class="name_by m-0">Oliver John</p>
+                    <p class="date_by m-0 pt-2">Aug 13, 2024</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row mt-1">
+              <div class="col-4">
+                <div class="left-side">
+                  <img src="{{asset('assets/images/blogs/mobile-blog-4.webp')}}" alt="Blog" class="img-fluid" loading="lazy" >
+                </div>
+              </div>
+              <div class="col-8 px-0">
+                <div class="right-side d-grid justify-content-between">
+                  <div class="title">
+                    <p>The Best Financing Options for Purchasing Toyota Used Cars  </p>
+                  </div>
+                  <div class="posted_by">
+                    <p class="name_by m-0">Oliver John</p>
+                    <p class="date_by m-0 pt-2">Aug 12, 2024</p>
+                </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

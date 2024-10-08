@@ -55,17 +55,33 @@
 
 
 {{-- ================= Mobile View ============= --}}
-<section class="how-to-buy-mobile mobile-view">
+<section class="how-to-buy-mobile mobile-view py-5">
     <div class="container">
-        <div class="row d-flex flex-nowrap justify-content-between align-items-center">
+        <div class="row d-flex flex-nowrap justify-content-between align-items-start">
             <div class="col-6">
               <div class="left">
-                <p class="title m-0">How to Buy</p>
+                <p class="title m-0 pb-3">How to Buy</p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-start mb-3">
+                        <img src="{{asset('assets/images/mobile-search-eye.webp')}}" alt="Mobile Search" class="img-fluid" loading="lazy" width="20" height="20">
+                        <span class="ms-2">Browse and select your desired car.</span>
+                    </li>
+                    <li class="d-flex align-items-start mb-3">
+                        <img src="{{asset('assets/images/mobile-secure-payment.webp')}}" alt="Secure Payment" class="img-fluid" loading="lazy" width="20" height="20">
+                        <span class="ms-2">Pay with one of our secure payment methods.</span>
+                    </li>
+                    <li class="d-flex align-items-start mb-3">
+                        <img src="{{asset('assets/images/mobile-ship.webp')}}" alt="Vehicle Shipping" class="img-fluid" loading="lazy" width="20" height="20">
+                        <span class="ms-2">Get your Vehicle Shipped to your Nearest Port.</span>
+                    </li>
+                </ul>
+                
               </div>
             </div>
             <div class="col-6">
                 <div class="right text-end">
-                    <p class="title m-0">View Details</p>
+                    <p class="title m-0 pb-3">View Details</p>
+                    <img src="{{asset('assets/images/mobile-how-o-buy.webp')}}" alt="Mobile Buy" class="img-fluid" loading="lazy">
                 </div>
             </div>
         </div>
