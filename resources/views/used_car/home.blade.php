@@ -33,6 +33,17 @@
 @component('used_car.partial.need_help')
 @endcomponent
 
+@component('used_car.partial.compare_car')
+@endcomponent
+
+@component('used_car.partial.customer_review')
+@endcomponent
+
+@component('used_car.partial.top_selling')
+@endcomponent
+
+
+
 
 
 

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="{{asset('assets/styles/custom.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/bootstrap.min.css')}}">
+    {{-- Swiperjs --}}
+    <link rel="stylesheet" href="{{asset('assets/styles/swiper-bundle.min.css')}}">
 
     @yield('style')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -39,9 +41,13 @@
 @yield('js_plugin')
 
 
+{{-- Swpierjs  --}}
+<script src="{{asset('assets/js/swiper-bundle.min.js')}}"></script>
+
 <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
 <script src="{{asset('assets/js/custom.js')}}"></script>
+
 
 
 

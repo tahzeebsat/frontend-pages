@@ -391,3 +391,160 @@ document.getElementById('showMoreCountries').addEventListener('click', function(
 
 
 
+// ========================= Start Swiper Js Section ======================
+
+// ===================== Start Compare Price Cars Swipper =====================
+var swiper = new Swiper('.compareSwiper', {
+    slidesPerView: 1, // Default for mobile
+    spaceBetween: 1, // Space between slides for mobile
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 1, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 3, // Show 3 slides per view on desktop
+        spaceBetween: 30, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+
+
+// ================== End Compare Price Cars Swipper ==================
+  
+// ================== Start Customer Review Swipper ==================
+var swiper = new Swiper('.customerReviewSwiper', {
+    slidesPerView: 1, // Default for mobile
+    spaceBetween: 1, // Space between slides for mobile
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 1, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 3, // Show 3 slides per view on desktop
+        spaceBetween: 30, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+// ================== End Customer Review Swipper ==================
+
+
+
+// ================== Start Popular Car Swipper ==================
+var swiper = new Swiper('.popularCarSwiper', {
+    slidesPerView: 1, // Default for mobile
+    grid: {
+        rows:2,
+    },
+    spaceBetween: 10, // Space between slides for mobile
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 1, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 5, // Show 3 slides per view on desktop
+        spaceBetween: 30, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+
+
+
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    grid: {
+      rows: 2,
+    },
+    spaceBetween: 10,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+// ================== End Popular Car Swipper ==================
+
+
+
+// ================== Start Selling Car Swipper ==================
+var swiper = new Swiper('.sellingCarSwiper', {
+    slidesPerView: 1, // Default for mobile
+    spaceBetween: 1, // Space between slides for mobile
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 1, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 4, // Show 3 slides per view on desktop
+        spaceBetween: 30, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+// ================== End Selling Car Swipper ==================
+
+// ========================= End Swiper Js Section ======================
+
+
+

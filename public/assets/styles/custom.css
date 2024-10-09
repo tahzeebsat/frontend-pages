@@ -341,9 +341,7 @@ input:focus {
 .carousel-start{
     margin: 0px 8px !important;
 }
-.carousel .carousel-inner .carousel-item img{
-    height: 432px;
-}
+
 .carousel-control-next-icon, .carousel-control-prev-icon{
     position: absolute;
     top: 440px;
@@ -1272,3 +1270,451 @@ footer .footer-copyright{
  }
 /* ===================================== End Footer Css ===================================== */
 
+
+
+/* ===================================== Start Car Comparison Css ===================================== */
+.compare-car-desktop .heading .title{
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+
+.compare-car-desktop .swiper {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .compare-car-desktop .swiper-slide {
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #FFF 0%, #E6F4FF 100%);
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    max-width: 600px; /* Limit image size for larger screens */
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .compare-car-desktop .swiper-button-next, .compare-car-desktop .swiper-button-prev {
+    color: #333;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+
+    opacity: 0; /* Make buttons fully transparent */
+  visibility: hidden; /* Hide buttons completely */
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Smooth transition for visibility */
+  }
+
+  .compare-car-desktop .compareSwiper:hover .swiper-button-next,
+  .compare-car-desktop .compareSwiper:hover .swiper-button-prev {
+  opacity: 1; /* Make buttons fully visible */
+  visibility: visible; /* Make buttons fully visible */
+  transition: opacity 0.3s ease, visibility 0s linear 0s; /* Remove delay on visibility transition */
+}
+.compare-car-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.compare-car-desktop .swiper-button-prev:after{
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+/* Hover state */
+.compare-car-desktop .swiper-button-next:hover, .compare-car-desktop .swiper-button-prev:hover {
+    background-color: var(--custome-color); /* Change background to blue on hover */
+    color: white; /* Change icon color to white on hover */
+  }
+  .compare-car-desktop .swiper-button-next {
+    right: 10px;
+  }
+  
+  .compare-car-desktop .swiper-button-prev {
+    left: 10px;
+  }
+  
+.swiper-pagination {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+.swiper-pagination-bullet {
+    /* background: #000;
+    opacity: 0.7; */
+    border: 0.5px solid #858c9b;
+    background: transparent !important;
+  }
+  
+ .swiper-pagination-bullet-active {
+    background: #ff4500;
+  }
+  
+  .compare-car-desktop .swiper-horizontal>.swiper-pagination-bullets, 
+  .compare-car-desktop .swiper-pagination-bullets.swiper-pagination-horizontal, 
+  .compare-car-desktop .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: -4px !important;
+    position: relative;
+  }
+
+  .swiper-pagination-bullet-active{
+    width: 16px !important;
+    height: 8px !important;
+    border-radius: 100px !important;
+    border: none !important;
+    background-color: var(--custome-color) !important;
+  }
+
+
+
+  .compare-car-desktop .compare-car {
+    height: 177px;
+    width: 100%; /* Adjust to your container's size */
+    border-radius: 20px; /* Adds rounded corners to the container */
+    background: linear-gradient(135deg, #E0E4E3 50%, #F0F2F1 50%);
+    position: relative; /* Ensures positioning for skew */
+    overflow: hidden; /* Ensures content does not spill outside the rounded corners */
+    border-radius: 12px;  
+}
+  
+.compare-car-desktop .compare-car .car-comprison-img1 {
+    width: 144px; /* Makes the images take up 50% of the container */
+    height: 95px;
+    left: 10px;
+    position: relative;
+  }
+  .compare-car-desktop .compare-car .car-comprison-img2 {
+    width: 144px; /* Makes the images take up 50% of the container */
+    height: 95px;
+    right: 10px;
+    position: relative;
+  }
+
+  .compare-car-desktop .car-compare-icon img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 32%;
+    left: 43%;
+  }
+  .compare-car-desktop .car-1 .brand-name{
+    font-family: 'Lato-Regular';
+    font-weight: 500;
+    color: #353C4D;
+    font-size: var(--fs-16);
+    line-height: 24.3px;
+  }
+  .compare-car-desktop .car-1 .brand-price{
+    font-family: 'Lato-Regular';
+    font-weight: 600;
+    color: #080E1B;
+    font-size: var(--fs-16);
+    line-height: 24px;
+  }
+  .compare-car-desktop .car-2 .brand-name{
+    font-family: 'Lato-Regular';
+    font-weight: 500;
+    color: #353C4D;
+    font-size: var(--fs-16);
+    line-height: 24.3px;
+  }
+  .compare-car-desktop .car-2 .brand-price{
+    font-family: 'Lato-Regular';
+    font-weight: 600;
+    color: #080E1B;
+    font-size: var(--fs-16);
+    line-height: 24px;
+  }
+  .compare-car-desktop .view-all-comparison .view-all{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 32px;
+    margin-bottom: 10px;
+  }
+  .compare-car-desktop .view-all-comparison .view-all:hover{
+    color: var(--custome-color);
+  }
+/* ===================================== End Car Comparison Css ===================================== */
+
+/* ===================================== Start Customer Review Css ===================================== */
+.customer-review-desktop .customerReviewSwiper{
+    height: 257px;
+}
+.customer-review-desktop .swiper-horizontal>.swiper-pagination-bullets, 
+.customer-review-desktop .swiper-pagination-bullets.swiper-pagination-horizontal, 
+.customer-review-desktop .swiper-pagination-custom, .customer-review-desktop .swiper-pagination-fraction{
+    bottom: -4px;
+}
+.customer-review-desktop .heading .title{
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+
+.customer-review-desktop .review-box{
+    max-width: 408px;
+    width: 100%;
+    border: 1px solid #aeb1b8;
+    border-radius: 10px;
+    padding: 18px;
+}
+.customer-review-desktop .review-box .top-left .review-image img{
+    width: 144px;
+    height: 86px;
+}
+.customer-review-desktop .review-box .top-left .review-image .review-starts i{
+    color: #ffbd12;
+    font-size: 10px;
+    padding: 2px;
+}
+.customer-review-desktop .review-box .top-left .review-image .review-starts .list-title{
+    color: #0c1529;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.customer-review-desktop .review-box .top-left .review-image .review-starts .list-des{
+    color: #5d6370;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.customer-review-desktop .review-box .top-right img{
+    width: 21px;
+    height: 15px;
+}
+.customer-review-desktop .review-box .posted_by p{
+    padding: 0;
+    margin: 0;
+    color: #5d6370;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-14);
+    line-height: 20px;
+}
+
+.customer-review-desktop .review-box .posted_details .left .user-pic img{
+    height: 24px;
+    width: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.customer-review-desktop .review-box .posted_details .left .user-detail .user-des{
+    color: #5d6370;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-12);
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+}
+.customer-review-desktop .review-box .posted_details .left .user-detail .user-posted{
+    color: #5d6370;
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-10);
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    padding-top: 4px;
+}
+.customer-review-desktop .review-box .posted_details .right .full-view .full-review{
+    padding: 8px;
+    border: 1px solid #1c6a9b;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    max-height: 32px;
+    color: #1c6a9b;
+    font-size: var(--fs-12);
+    font-weight: 400;
+    font-family: 'Lato-Regular';
+}
+
+
+.customer-review-desktop .swiper-button-next, .customer-review-desktop .swiper-button-prev {
+    color: #333;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    border: 1px solid grey;
+    left: 97%;
+    opacity: 0; /* Make buttons fully transparent */
+  visibility: hidden; /* Hide buttons completely */
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Smooth transition for visibility */
+  }
+
+  .customer-review-desktop .customerReviewSwiper:hover .swiper-button-next,
+  .customer-review-desktop .customerReviewSwiper:hover .swiper-button-prev {
+  opacity: 1; /* Make buttons fully visible */
+  visibility: visible; /* Make buttons fully visible */
+  transition: opacity 0.3s ease, visibility 0s linear 0s; /* Remove delay on visibility transition */
+}
+.customer-review-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.customer-review-desktop .swiper-button-prev:after{
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+/* Hover state */
+.customer-review-desktop .swiper-button-next:hover, .customer-review-desktop .swiper-button-prev:hover {
+    background-color: var(--custome-color); /* Change background to blue on hover */
+    color: white; /* Change icon color to white on hover */
+  }
+  .customer-review-desktop .swiper-button-next {
+    right: 10px;
+  }
+  
+  .customer-review-desktop .swiper-button-prev {
+    left: 10px;
+  }
+
+  .customer-review-desktop .view-all-reviews .view-all{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .customer-review-desktop .view-all-reviews .view-all:hover{
+    color: var(--custome-color);
+  }
+/* ===================================== End Customer Review Css ===================================== */
+
+
+/* ===================================== Start Popular Car Css ===================================== */
+.popular_used_car-desktop .heading .title{
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.popular_used_car-desktop  .popularCarSwiper{
+    padding: 0px 130px;
+}
+.popular_used_car-desktop .swiper-slide{
+    border: 1px solid #dcdae2;
+    width: 267px !important;
+    height: calc(35% - 22px) !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+} 
+.popular_used_car-desktop .swiper-slide .brand-recog:hover{
+    border: 1px solid var(--custome-color);
+} 
+.popular_used_car-desktop .swiper-slide .brand-recog .brand-name{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-20);
+    font-weight: 600;
+} 
+.popular_used_car-desktop .brand-recog .brands{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    max-width: 100%;
+}
+
+/* ===================================== End Popular Car Css ===================================== */
+
+/* ===================================== Start Top Selling Car Css ===================================== */
+.top-selling-car-desktop .heading .title{
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.top-selling-car-desktop .price-area .top .left .price .amount{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-24);
+    font-weight: 700;
+    color: #0c1529;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+.top-selling-car-desktop .price-area .top .left .price .discount .off{
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+.top-selling-car-desktop .price-area .top .left .price .discount .value{
+    font-family: 'Lato-Regular';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.top-selling-car-desktop .price-area .top .right .heart-icon{
+    font-size: 26px;
+    height: 25px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+}
+.top-selling-car-desktop .price-area .bottom .sale-car-name{
+    font-family: 'Lato-Regular';
+    font-size: 20px;
+    font-weight: 700;
+    color: #353c4d;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
+.top-selling-car-desktop .price-area .bottom .sale-car-average{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 400;
+    color: #353c4d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 220px;
+}
+/* ===================================== End Top Selling Car Css ===================================== */
