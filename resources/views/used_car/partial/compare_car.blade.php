@@ -1,7 +1,7 @@
-<section class="compare-car-desktop position-relative">
-    <div class="container my-5">
+<section class="compare-car-desktop position-relative my-5 py-4">
+    <div class="container">
       <div class="heading">
-        <p class="title m-0 py-4">Compare to Make Best Choice</p>
+        <p class="title m-0 py-4 mb-4">Compare to Make Best Choice</p>
       </div>
       <!-- Swiper Slider -->
       <div class="row">

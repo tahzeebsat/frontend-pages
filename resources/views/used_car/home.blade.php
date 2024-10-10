@@ -27,6 +27,9 @@
 @component('used_car.partial.operates')
 @endcomponent
 
+@component('used_car.partial.popular_used_cars')
+@endcomponent
+
 @component('used_car.partial.best-seller_by_type')
 @endcomponent
 
@@ -47,6 +50,7 @@
 
 @component('used_car.partial.need_help')
 @endcomponent
+
 
 
 

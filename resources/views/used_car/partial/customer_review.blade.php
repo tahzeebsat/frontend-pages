@@ -1,7 +1,7 @@
 <section class="customer-review-desktop position-relative">
     <div class="container my-5">
       <div class="heading">
-        <p class="title m-0 py-4">Customer Reviews</p>
+        <p class="title m-0 py-4 mb-3">Customer Reviews</p>
       </div>
       <!-- Swiper Slider -->
       <div class="row">

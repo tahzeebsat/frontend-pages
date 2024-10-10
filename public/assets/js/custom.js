@@ -431,6 +431,7 @@ var swiper = new Swiper('.compareSwiper', {
 var swiper = new Swiper('.customerReviewSwiper', {
     slidesPerView: 1, // Default for mobile
     spaceBetween: 1, // Space between slides for mobile
+    
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -449,7 +450,7 @@ var swiper = new Swiper('.customerReviewSwiper', {
       // For tablets (above 640px, up to 1024px)
       1024: {
         slidesPerView: 3, // Show 3 slides per view on desktop
-        spaceBetween: 30, // Larger space between slides
+        spaceBetween: 5, // Larger space between slides
         freeMode: false, // Disable free mode on larger screens
       },
     },
@@ -461,54 +462,7 @@ var swiper = new Swiper('.customerReviewSwiper', {
 
 
 
-// ================== Start Popular Car Swipper ==================
-var swiper = new Swiper('.popularCarSwiper', {
-    slidesPerView: 1, // Default for mobile
-    grid: {
-        rows:2,
-    },
-    spaceBetween: 10, // Space between slides for mobile
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    breakpoints: {
-      // For mobile (below 640px)
-      640: {
-        slidesPerView: 1, // Single slide per view on mobile
-        spaceBetween: 5, // Small space between slides
-        freeMode: true, // Enable free mode for mobile
-      },
-      // For tablets (above 640px, up to 1024px)
-      1024: {
-        slidesPerView: 5, // Show 3 slides per view on desktop
-        spaceBetween: 30, // Larger space between slides
-        freeMode: false, // Disable free mode on larger screens
-      },
-    },
-    loop: true, // Enable looping
-    autoplay: false,
-    touchEventsTarget: "container", // Ensure touch events are properly handled
-  });
 
-
-
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 5,
-    grid: {
-      rows: 2,
-    },
-    spaceBetween: 10,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-// ================== End Popular Car Swipper ==================
 
 
 
@@ -672,6 +626,77 @@ var swiper = new Swiper('.earlyBudget3Swiper', {
   touchEventsTarget: "container", // Ensure touch events are properly handled
 });
 // ================== End Early Budgeted Swipper ==================
+
+
+
+// ================== Start Popular Car Swipper ==================
+// var swiper = new Swiper('.popularView', {
+//   slidesPerView: 5,           // Show 5 items in each row
+//   spaceBetween: 0,           // Adjust space between items
+//   slidesPerGroup: 5,          // Slide 5 items at a time
+//   grid:{
+//     rows:2,
+//   },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//   loop: true,                 // Enable looping
+//   speed: 600,                 // Adjust slide transition speed
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+//   breakpoints: {
+//     1200: {
+//       slidesPerView: 5,        // On large screens, show 5 items
+//     },
+//     992: {
+//       slidesPerView: 5,        // On medium screens, show 4 items
+//     },
+//     768: {
+//       slidesPerView: 3,        // On tablets, show 3 items
+//     },
+//     576: {
+//       slidesPerView: 2,        // On small screens, show 2 items
+//     },
+//     0: {
+//       slidesPerView: 1,        // On extra-small screens, show 1 item
+//     },
+//   },
+// });
+
+var swiper = new Swiper('.popularBrandSwiper', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 30, // Space between slides for mobile
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 1, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView:1, // Show 3 slides per view on desktop
+      spaceBetween: 0, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+// ================== End Popular Car Swipper ==================
 
 // ========================= End Swiper Js Section ======================
 

@@ -1,8 +1,8 @@
-<section class="by-decision-desktop desktop-view">
+<section class="by-decision-desktop desktop-view my-5 py-4">
     <div class="container">
       <div class="row align-items-stretch">
         <div class="col-12">
-          <h2 class="title mb-4" id="best-seller-type-title">
+          <h2 class="title pb-4 mb-4" id="best-seller-type-title">
             Car Talks for Buying Decisions
           </h2>
         </div>
@@ -36,7 +36,7 @@
             </div>
         </div>
   
-        <div class="col-12 buy-more text-center">
+        <div class="col-12 buy-more text-center mt-3">
             <a href="javascript:;" class="details"><span>View More</span><i class="fas fa-arrow-right ms-2"></i></a>
         </div>
       </div>

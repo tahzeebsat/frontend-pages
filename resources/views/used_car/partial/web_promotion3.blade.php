@@ -1,5 +1,5 @@
 
-  <section class="web-promotion3-desktop desktop-view my-5">
+  <section class="web-promotion3-desktop desktop-view my-5 py-5">
     <div class="container">
       <div class="row align-items-center wrapper">
         <div class="col-12">

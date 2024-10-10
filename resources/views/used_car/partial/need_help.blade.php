@@ -2,7 +2,7 @@
     <div class="container">
       <div class="wrapper">
         <div class="heading">
-            <p class="m-0 my-4">Need Help?</p>
+            <p class="m-0 my-4 pb-3">Need Help?</p>
         </div>
         <div class="row mb-5">
             <div class="col-12 col-sm-12 col-md-6 col-lg-3 mb-4">

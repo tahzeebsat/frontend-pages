@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container my-5">
     <div class="row">
     <img src="{{asset('assets/images/promotion-banner.webp')}}" 
         alt="Promotion Banner" 

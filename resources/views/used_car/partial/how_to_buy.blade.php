@@ -1,8 +1,8 @@
-<section class="how-to-buy-desktop desktop-view">
+<section class="how-to-buy-desktop desktop-view pt-5">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
-                <div class="title mb-4">
+                <div class="title mb-4 pb-1">
                     <p>How to Buy</p>
                 </div>
             </div>
@@ -44,7 +44,7 @@
             </div>
     
             <!-- View Details Button -->
-            <div class="col-12 buy-more text-center">
+            <div class="col-12 buy-more text-center mt-4">
                 <a href="javascript:;" class="details"><span>View Details</span><i class="fas fa-arrow-right ms-2"></i></a>
             </div>
         </div>

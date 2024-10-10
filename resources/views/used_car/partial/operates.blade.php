@@ -1,8 +1,8 @@
-<section class="where-we-operates-desktop desktop-view">
+<section class="where-we-operates-desktop desktop-view my-5">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
-                <div class="title mb-4">
+                <div class="title mb-4 pb-1">
                     <p>Where We Operate</p>
                 </div>
             </div>
@@ -42,7 +42,7 @@
     
             <!-- View Details Button -->
 
-            <div class="row align-items-center py-5">
+            <div class="row align-items-center pt-5">
                 <div class="col-12 col-md-5 text-center">
                     <div class="line"></div>
                 </div>

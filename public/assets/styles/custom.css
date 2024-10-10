@@ -328,6 +328,7 @@ input:focus {
     font-weight: 600;
     font-size: var(--fs-14);
     color: var(----rich-black);
+    padding-left: 0;
 }
 .mega-menu-section .navbar .navbar-nav .nav-item .dropdown-menu h6{
     font-family: 'Lato-semibold';
@@ -627,77 +628,111 @@ input:focus {
     position: relative;
 }
 .how-to-buy-desktop .title p{
-    font-family: 'Lato-semibold';
+    font-family: 'Sofia-Pro';
     font-size: var(--fs-24);
+    font-weight: 600;
     color: #020408;
-    line-height: 28px;
 }
 .how-to-buy-desktop .browseInventory{
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .browseInventory .heading{
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
     font-size: var(--fs-20);
-    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
 }
 .how-to-buy-desktop .browseInventory .text{
     font-family: 'Lato-Regular';
-    font-size: var(--fs-20);
-    color: var(--para-color);
+    font-size: 20px;
+    font-weight: 500;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
 }
 .how-to-buy-desktop .makePayment{
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .makePayment .heading{
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
     font-size: var(--fs-20);
-    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
 }
 .how-to-buy-desktop .makePayment .text{
     font-family: 'Lato-Regular';
-    font-size: var(--fs-20);
-    color: var(--para-color);
+    font-size: 20px;
+    font-weight: 500;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
+
 }
 .how-to-buy-desktop .trackShipment{
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .trackShipment .heading{
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
     font-size: var(--fs-20);
-    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
 }
 .how-to-buy-desktop .trackShipment .text{
     font-family: 'Lato-Regular';
-    font-size: var(--fs-20);
-    color: var(--para-color);
+    font-size: 20px;
+    font-weight: 500;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
 }
 .how-to-buy-desktop .receiveDelivery{
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .receiveDelivery .heading{
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
     font-size: var(--fs-20);
-    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
 }
 .how-to-buy-desktop .receiveDelivery .text{
     font-family: 'Lato-Regular';
-    font-size: var(--fs-20);
-    color: var(--para-color);
+    font-size: 20px;
+    font-weight: 500;
     line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
 }
 .how-to-buy-desktop .buy-more{
-   padding: 50px 0px;
+   font-family: 'Lato-Regular';
+   font-size: 16px;
+   font-weight: 600;
+   color: #5d6370;
+   cursor: pointer;
+   text-decoration: none;
 }
 .how-to-buy-desktop .buy-more .details{
    text-decoration: none;
-   font-family: 'Lato-semibold';
+   font-family: 'Lato-Regular';
     color: #5d6370;
     text-decoration: none;
     cursor: pointer;
@@ -713,78 +748,83 @@ input:focus {
     position: relative;
 }
 .where-we-operates-desktop .title{
-    font-family: 'Lato-semibold';
+    font-family: 'Sofia-Pro';
     font-size: var(--fs-24);
+    font-weight: 600;
     color: #020408;
-    line-height: 28px;
 }
 .where-we-operates-desktop .operateInPakistan{
     border: 1px solid var(--border-color);
     width: 100%;
 }
 .where-we-operates-desktop .operateInPakistan:hover{
-    border: 1px solid var(--custome-color);
+    border: 1px solid #1c6a9bc7;
     cursor: pointer;
 }
 .where-we-operates-desktop .operateInPakistan .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
+    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.016em;
-    color: var(--para-color);
 }
 .where-we-operates-desktop .operateInKenya{
     border: 1px solid var(--border-color);
     width: 100%;
 } 
 .where-we-operates-desktop .operateInKenya:hover{
-    border: 1px solid var(--custome-color);
+    border: 1px solid #1c6a9bc7;
     cursor: pointer;
 } 
 .where-we-operates-desktop .operateInKenya .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
+    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.016em;
-    color: var(--para-color);
 }
 .where-we-operates-desktop .operateInTanzania{
     border: 1px solid var(--border-color);
     width: 100%;
 }
 .where-we-operates-desktop .operateInTanzania:hover{
-    border: 1px solid var(--custome-color);
+    border: 1px solid #1c6a9bc7;
     cursor: pointer;
 }
 .where-we-operates-desktop .operateInTanzania .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
+    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.016em;
-    color: var(--para-color);
 }
 .where-we-operates-desktop .operateInGB{
     border: 1px solid var(--border-color);
     width: 100%;
 }
 .where-we-operates-desktop .operateInGB:hover{
-    border: 1px solid var(--custome-color);
+    border: 1px solid #1c6a9bc7;
     cursor: pointer;
 }
 .where-we-operates-desktop .operateInGB .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-semibold';
+    font-family: 'Lato-Regular';
+    color: var(--para-color);
+    font-weight: 600;
     line-height: 28px;
     letter-spacing: -0.016em;
-    color: var(--para-color);
 }
 
 .where-we-operates-desktop .buy-more .details{
+    font-family: 'Lato-Regular';
+    color: #5d6370;
     text-decoration: none;
-    font-family: 'Lato-semibold';
-     color: #5d6370;
-     text-decoration: none;
-     cursor: pointer;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
  }
 .where-we-operates-desktop .buy-more .details span:hover{
     color: var(--custome-color);
@@ -801,6 +841,7 @@ input:focus {
     padding: 15px;
     border: 1px solid var(--secondary-color);
     text-align: left;
+    color: #5d6370;
 }
 .where-we-operates-desktop .toggle-flags .flag-show:hover{
     border: 1px solid var(--rich-black);
@@ -828,6 +869,7 @@ input:focus {
     padding-top: 60px;
     border-radius: 20px;
     padding-bottom: 10px;
+    margin: 0px;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .title{
         font-family: "Lato-semibold";
@@ -855,9 +897,10 @@ input:focus {
     position:relative;
 }
 .need_help-desktop .wrapper .heading{
-    font-family: 'Sofia-Pro-Bold';
-    font-size: 24px;
-    font-weight: 500;
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
 }
 .need_help-desktop .wrapper .help-service{
     padding: 14px 18px 14px 14px;
@@ -907,14 +950,17 @@ input:focus {
     position: relative;
 }
 .best-seller-by-type-desktop .title{
-    font-family: 'Lato-semibold';
+    font-family: 'Sofia-Pro-Bold';
     font-size: var(--fs-24);
-    color: #020408;
-    line-height: 28px;
+    font-weight: 500;
 }
 .best-seller-by-type-desktop .product-card .heading{
-    color: var(----rich-black);
-    font-family: 'Lato-semibold';
+    color: #000000;
+    font-family: 'Lato-Regular';
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
 }
 .best-seller-by-type-desktop .product-card ul{
     padding: 0;
@@ -932,15 +978,14 @@ input:focus {
     color: #1c6a9b;
 }
 
-.best-seller-by-type-desktop .buy-more{
-    padding: 50px 0px;
- }
+
  .best-seller-by-type-desktop .buy-more .details{
-    text-decoration: none;
-    font-family: 'Lato-semibold';
-     color: #5d6370;
-     text-decoration: none;
-     cursor: pointer;
+    font-family: 'Lato-Regular';
+   font-size: 16px;
+   font-weight: 600;
+   color: #5d6370;
+   cursor: pointer;
+   text-decoration: none;
  }
  .best-seller-by-type-desktop .buy-more .details span:hover{
     color: var(--custome-color);
@@ -953,10 +998,10 @@ input:focus {
     position: relative;
 }
 .by-decision-desktop .title{
-    font-family: 'Lato-semibold';
+    font-family: 'Sofia-Pro';
     font-size: var(--fs-24);
+    font-weight: 600;
     color: #020408;
-    line-height: 28px;
 }
 
 .by-decision-desktop .best-seller-card{
@@ -971,7 +1016,7 @@ input:focus {
     font-size: 15px;
     font-weight: 600;
     color: rgb(53, 60, 77);
-    margin: 0;
+    margin: 6px 0px;
 }
 .by-decision-desktop .best-seller-card .blog-post-date{
     font-size: 14px;
@@ -979,15 +1024,14 @@ input:focus {
     margin: 0;
 }
 
-.by-decision-desktop  .buy-more{
-    padding: 50px 0px;
- }
+
  .by-decision-desktop  .buy-more .details{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
     text-decoration: none;
-    font-family: 'Lato-semibold';
-     color: #5d6370;
-     text-decoration: none;
-     cursor: pointer;
  }
  .by-decision-desktop  .buy-more .details span:hover{
     color: var(--custome-color);
@@ -1281,7 +1325,7 @@ footer .footer-copyright{
 }
 
 .compare-car-desktop .swiper {
-    width: 100%;
+    width: 98%;
     height: 100%;
     cursor: pointer;
   }
@@ -1461,6 +1505,7 @@ footer .footer-copyright{
 /* ===================================== Start Customer Review Css ===================================== */
 .customer-review-desktop .customerReviewSwiper{
     height: 257px;
+    width: 98%;
 }
 .customer-review-desktop .swiper-horizontal>.swiper-pagination-bullets, 
 .customer-review-desktop .swiper-pagination-bullets.swiper-pagination-horizontal, 
@@ -1569,9 +1614,9 @@ footer .footer-copyright{
     position: absolute;
     top: 50%;
     z-index: 10;
-    transform: translateY(-50%);
+    transform: translateY(5%);
     border: 1px solid grey;
-    left: 97%;
+    right: 40px;
     opacity: 0; /* Make buttons fully transparent */
   visibility: hidden; /* Hide buttons completely */
   transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Smooth transition for visibility */
@@ -1601,10 +1646,9 @@ footer .footer-copyright{
 .customer-review-desktop .swiper-button-next:hover, .customer-review-desktop .swiper-button-prev:hover {
     background-color: var(--custome-color); /* Change background to blue on hover */
     color: white; /* Change icon color to white on hover */
+    border: none;
   }
-  .customer-review-desktop .swiper-button-next {
-    right: 10px;
-  }
+ 
   
   .customer-review-desktop .swiper-button-prev {
     left: 10px;
@@ -1625,38 +1669,112 @@ footer .footer-copyright{
 
 
 /* ===================================== Start Popular Car Css ===================================== */
+
+.popular_used_car-desktop .popularBrandSwiper{
+    height: 428px;
+    cursor: pointer;
+}
+
 .popular_used_car-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: 'Sofia-Pro-Bold';
     font-size: var(--fs-24);
-    font-weight: 600;
-    color: #020408;
+    font-weight: 500;
 }
-.popular_used_car-desktop  .popularCarSwiper{
-    padding: 0px 130px;
-}
-.popular_used_car-desktop .swiper-slide{
+
+.popular_used_car-desktop .box .top-brand{
     border: 1px solid #dcdae2;
-    width: 267px !important;
-    height: calc(35% - 22px) !important;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    width: 178px;
+    height: 176px;
     align-items: center;
-    cursor: pointer;
-} 
-.popular_used_car-desktop .swiper-slide .brand-recog:hover{
+    margin: 0% 16%;
+}
+.popular_used_car-desktop .box .top-brand:hover{
     border: 1px solid var(--custome-color);
-} 
-.popular_used_car-desktop .swiper-slide .brand-recog .brand-name{
+}
+.popular_used_car-desktop .box .bottom-brand{
+    border: 1px solid #dcdae2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 178px;
+    height: 176px;
+    align-items: center;
+    margin: 10% 16%;
+}
+.popular_used_car-desktop .box .bottom-brand:hover{
+    border: 1px solid var(--custome-color);
+}
+.popular_used_car-desktop .box .top-brand .items img{
+    width: 60px;
+    height: 60px;
+}
+.popular_used_car-desktop .box .top-brand .items .brand-title{
     font-family: 'Lato-Regular';
     font-size: var(--fs-20);
     font-weight: 600;
-} 
-.popular_used_car-desktop .brand-recog .brands{
+}
+.popular_used_car-desktop .box .bottom-brand .items img{
     width: 60px;
     height: 60px;
-    object-fit: contain;
-    max-width: 100%;
+}
+.popular_used_car-desktop .box .bottom-brand .items .brand-title{
+    font-family: 'Lato-Regular';
+    font-size: var(--fs-20);
+    font-weight: 600;
+}
+
+.popular_used_car-desktop .swiper-button-next, 
+.popular_used_car-desktop .swiper-button-prev {
+    color: #333;
+    background-color: #ffffffa9;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    border: 1px solid #aeb1b8;
+    box-shadow: 0px 0px 6.08px 0px #2f2b434d;
+}
+.popular_used_car-desktop .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 70px);
+    right: auto;
+}
+.popular_used_car-desktop .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.popular_used_car-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.popular_used_car-desktop .swiper-button-next:hover, 
+.popular_used_car-desktop .swiper-button-prev:hover {
+    background-color: var(--custome-color);
+    color: white;
+}
+
+.popular_used_car-desktop .view-all-popular-cars .view-all{
+    font-family: 'Lato-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.popular_used_car-desktop .view-all-popular-cars .view-all:hover{
+    color: var(--custome-color);
 }
 
 /* ===================================== End Popular Car Css ===================================== */
@@ -1664,6 +1782,12 @@ footer .footer-copyright{
 /* ===================================== Start Top Selling Car Css ===================================== */
 .top-selling-car-desktop .swiper{
     cursor: pointer;
+}
+.top-selling-car-desktop .sellingCarSwiper{
+    height: 390px;
+}
+.top-selling-car-desktop .swiper-slide{
+    height: 350px;
 }
 .top-selling-car-desktop .heading .title{
     font-family: 'Sofia-Pro';
@@ -1793,6 +1917,10 @@ footer .footer-copyright{
 /* ===================================== Start Recomended Car Css ===================================== */
 .recomended-car-desktop .swiper{
     cursor: pointer;
+    height: 390px;
+}
+.recomended-car-desktop .swiper-slide{
+    height: 350px;
 }
 .recomended-car-desktop .heading .title{
     font-family: 'Sofia-Pro';
@@ -1963,6 +2091,10 @@ footer .footer-copyright{
 
 .early-budget-desktop .swiper{
     cursor: pointer;
+    height: 390px;
+}
+.early-budget-desktop .swiper-slide{
+    height: 340px;
 }
 .early-budget-desktop .heading .title{
     font-family: 'Sofia-Pro';

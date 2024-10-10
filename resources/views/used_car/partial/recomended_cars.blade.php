@@ -9,7 +9,7 @@
           <div class="swiper-wrapper">
             <!-- Slides with proper image alt attributes -->
             <div class="swiper-slide">
-                  <div class="recomended-car">
+                  <div class="recomended-car pt-2">
                     <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
                   </div>
                   <div class="price-area py-3">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="swiper-slide">
-                <div class="recomended-car">
+                <div class="recomended-car pt-2">
                   <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
                 </div>
                 <div class="price-area py-3">
@@ -63,7 +63,7 @@
           </div>
 
           <div class="swiper-slide">
-            <div class="recomended-car">
+            <div class="recomended-car pt-2">
               <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
             </div>
             <div class="price-area py-3">
@@ -90,7 +90,7 @@
       </div>
 
       <div class="swiper-slide">
-        <div class="recomended-car">
+        <div class="recomended-car pt-2">
           <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
         </div>
         <div class="price-area py-3">
@@ -117,7 +117,7 @@
   </div>
 
   <div class="swiper-slide">
-    <div class="recomended-car">
+    <div class="recomended-car pt-2">
       <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
     </div>
     <div class="price-area py-3">
@@ -153,11 +153,11 @@
           <div class="swiper-pagination"></div>
         </div>
 
-        <div class="view-all-recomended text-center pt-4 mt-2">
+        <div class="view-all-recomended text-center mt-3">
             <a href="javascript:;" class="view-all m-0">View More <i class="fas fa-arrow-right ms-2"></i> </a>
         </div>
       </div>
-      
+
     </div>
   </section>
   

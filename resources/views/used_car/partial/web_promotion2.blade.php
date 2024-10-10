@@ -1,4 +1,4 @@
-<section class="web-promotion2-desktop desktop-view">
+<section class="web-promotion2-desktop desktop-view my-5 py-5">
     <div class="container">
       <div class="row align-items-stretch">
         
