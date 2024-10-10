@@ -544,6 +544,135 @@ var swiper = new Swiper('.sellingCarSwiper', {
   });
 // ================== End Selling Car Swipper ==================
 
+
+
+// ================== Start Recomended Car Swipper ==================
+var swiper = new Swiper('.recomendedCarSwiper', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 1, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 4, // Show 3 slides per view on desktop
+      spaceBetween: 30, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ================== End Start Recomended Swipper ==================
+
+
+// ================== Start Early Budget Swipper ==================
+var swiper = new Swiper('.earlyBudget1Swiper', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 1, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 4, // Show 3 slides per view on desktop
+      spaceBetween: 30, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+
+var swiper = new Swiper('.earlyBudget2Swiper', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 1, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 4, // Show 3 slides per view on desktop
+      spaceBetween: 30, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+
+var swiper = new Swiper('.earlyBudget3Swiper', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 1, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 4, // Show 3 slides per view on desktop
+      spaceBetween: 30, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ================== End Early Budgeted Swipper ==================
+
 // ========================= End Swiper Js Section ======================
 
 
