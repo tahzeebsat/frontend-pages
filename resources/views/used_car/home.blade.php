@@ -42,6 +42,9 @@
 @component('used_car.partial.web_promotion2')
 @endcomponent
 
+@component('used_car.partial.find_my_car')
+@endcomponent
+
 @component('used_car.partial.customer_review')
 @endcomponent
 
@@ -50,6 +53,7 @@
 
 @component('used_car.partial.need_help')
 @endcomponent
+
 
 
 

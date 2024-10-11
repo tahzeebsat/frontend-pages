@@ -702,3 +702,79 @@ var swiper = new Swiper('.popularBrandSwiper', {
 
 
 
+//================== Find My Car Model Js ============
+
+// Multiselect Form JS
+
+var currentStep = 1;
+var updateProgressBar;
+
+function displayStep(stepNumber) {
+  if (stepNumber >= 1 && stepNumber <= 3) {
+    $(".step-" + currentStep).hide();
+    $(".step-" + stepNumber).show();
+    currentStep = stepNumber;
+    updateProgressBar();
+  }
+}
+
+$(document).ready(function() {
+  // Hide steps other than the first one
+  $('#multi-step-form').find('.step').slice(1).hide();
+
+  $(".next-step").click(function() {
+    if (currentStep < 3) {
+      $(".step-" + currentStep).hide();
+      currentStep++;
+      $(".step-" + currentStep).show();
+      updateProgressBar();
+    }
+  });
+
+  $(".prev-step").click(function() {
+    if (currentStep > 1) {
+      $(".step-" + currentStep).hide();
+      currentStep--;
+      $(".step-" + currentStep).show();
+      updateProgressBar();
+    }
+  });
+
+  updateProgressBar = function() {
+    var progressPercentage = ((currentStep - 1) / 2) * 100;
+    $(".progress-bar").css("width", progressPercentage + "%");
+  };
+});
+
+
+
+
+// Multiselect Form Select Budeget JS
+
+document.querySelectorAll('.budget-buttons button').forEach(button => {
+  button.addEventListener('click', function() {
+    // Check if the button is pressed or not
+    if (this.getAttribute('aria-pressed') === 'true') {
+      // Apply the pink background when active (checked)
+      this.classList.add('btn-checked-change');
+    } else {
+      // Remove the pink background when inactive (unchecked)
+      this.classList.remove('btn-checked-change');
+    }
+  });
+});
+
+
+// Multiselect Form Select Cars JS
+
+document.querySelectorAll('.country').forEach(function(countryDiv) {
+  countryDiv.addEventListener('click', function() {
+      // Remove the class from all country divs first
+      document.querySelectorAll('.country').forEach(function(div) {
+          div.classList.remove('selected-country');
+      });
+      
+      // Add the class to the clicked div
+      this.classList.add('selected-country');
+  });
+});
