@@ -7,17 +7,17 @@
             <nav>
                 <ul class="nav nav-tabs pb-2" id="myTabs" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
+                    <a class="nav-link border-0 active" id="tab1-tab" data-bs-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
                         Under $1500
                     </a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
+                    <a class="nav-link border-0" id="tab2-tab" data-bs-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
                         $1500 to $3000
                     </a>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
+                    <a class="nav-link border-0" id="tab3-tab" data-bs-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
                         $3000 to $5000
                     </a>
                   </li>

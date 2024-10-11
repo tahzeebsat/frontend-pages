@@ -1,4 +1,12 @@
 /* ===================================== Media Query ===================================== */
+@media(max-width:1399px){
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        top: 400px;
+    }
+    .carousel-indicators{
+        top: 410px;
+    }
+}
 
 @media (max-width:1180px){
     footer .footer-wrapper .join-by-mailing .join-mail-ref{
@@ -80,3 +88,4 @@
     }
     
 }
+
