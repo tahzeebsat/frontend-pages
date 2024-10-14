@@ -21,6 +21,10 @@
         width: 245px;
         height: 213px;
     }
+    .customer-review-desktop .review-box{
+        width: 95%;
+    }
+  
 }
 
 @media (max-width:1180px){

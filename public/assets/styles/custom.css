@@ -642,6 +642,7 @@ input:focus {
 }
 .how-to-buy-desktop .browseInventory{
     border: 1px solid var(--border-color);
+    height: 181px;
 }
 .how-to-buy-desktop .browseInventory .heading{
     font-family: "Lato", sans-serif;
@@ -779,6 +780,7 @@ input:focus {
 .where-we-operates-desktop .operateInKenya{
     border: 1px solid var(--border-color);
     width: 100%;
+    height: 225px;
 } 
 .where-we-operates-desktop .operateInKenya:hover{
     border: 1px solid #1c6a9bc7;
@@ -924,7 +926,7 @@ input:focus {
     line-height: 24px;
     letter-spacing: -0.16px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 700;
 }
 .need_help-desktop .wrapper .help-service .left .info .para-help{
     color: #5D6370;
@@ -1272,9 +1274,10 @@ footer .footer-wrapper .footer-list{
  }
 footer .footer-wrapper .footer-list .list-heading{
     font-family: "Lato", sans-serif;
-    font-size: var(--fs-16);
+    font-size: var(--fs-18);
     line-height: 26px;
     color: var(--white-color);
+    font-weight: 700;
  }
 footer .footer-wrapper .footer-list .list-unstyled li a{
     text-decoration: none;
@@ -1300,16 +1303,21 @@ footer .footer-support-wrapper .footer-support .footer-support-heading{
     font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0px 15px;
-    font-size: var(--fs-16);
+    font-size: var(--fs-18);
+    font-weight: 600;
     line-height: 26px;
+    white-space: nowrap;
  }
 footer .footer-support-wrapper .footer-support .footer-small{
-    color: var(--white-color);
+    color: #dcdae2;
     font-family: "Lato", sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 24px;
-
+    font-weight: 500;
  }
+ footer .footer-support-wrapper .footer-globe{
+    padding-left: 40px;
+}
 footer .footer-copyright{
     background: var(--dark-primary);
     color: var(--white-color);
@@ -1623,7 +1631,7 @@ footer .footer-copyright{
     z-index: 10;
     transform: translateY(5%);
     border: 1px solid grey;
-    right: 40px;
+    right: 35px;
     opacity: 0; /* Make buttons fully transparent */
   visibility: hidden; /* Hide buttons completely */
   transition: opacity 0.3s ease, visibility 0s linear 0.3s; /* Smooth transition for visibility */
@@ -1690,11 +1698,11 @@ footer .footer-copyright{
 
 .popular_used_car-desktop .box .top-brand{
     border: 1px solid #dcdae2;
-    border-radius: 20px;
+    border-radius: 24px;
     display: flex;
     justify-content: center;
-    width: 178px;
-    height: 176px;
+    width: 163px;
+    height: 163px;
     align-items: center;
     margin: 0% 16%;
 }
@@ -1706,10 +1714,10 @@ footer .footer-copyright{
     border-radius: 20px;
     display: flex;
     justify-content: center;
-    width: 178px;
-    height: 176px;
+    width: 163px;
+    height: 163px;
     align-items: center;
-    margin: 10% 16%;
+    margin: 16% 16%;
 }
 .popular_used_car-desktop .box .bottom-brand:hover{
     border: 1px solid var(--custome-color);
@@ -2327,9 +2335,10 @@ footer .footer-copyright{
     line-height: 24.82px;
 } 
 .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
-    width: 800px;
+    width: 672px;
     position: relative;
     right: 30%;
+    height: 648px;
 }
 .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content .modal-header .modal-title{
     position: relative;
@@ -2340,9 +2349,13 @@ footer .footer-copyright{
     font-size: 16px;
     line-height: 24px;
 }
-.find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container {
+/* .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container {
     max-width: 550px;  
+  } */
+.find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container .progress{
+    margin: 0px 150px;  
   }
+
   
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container .progress-bar{
     --bs-progress-bar-bg: #0368A0;
@@ -2351,6 +2364,7 @@ footer .footer-copyright{
     position: relative;
     text-align: center;
     transform: translateY(-43%);
+    margin: 0px 150px; 
   }
   
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container .step-container .step-circle {
@@ -2398,7 +2412,7 @@ footer .footer-copyright{
     background-color: transparent;
     border: 1px solid black;
     border-radius: 20px;
-    padding: 8px 25px;
+    padding: 8px 40px;
     font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
@@ -2413,17 +2427,23 @@ footer .footer-copyright{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    margin: 55% 0% 2% 0%;
+    /* margin: 55% 0% 2% 0%; */
     padding: 20px 20px 15px 20px;
     align-items: center;
+    position: absolute;
+    width: 93%;
+    bottom: 15px;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form2{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    margin: 5% 0% 2% 0%;
+    /* margin: 5% 0% 2% 0%; */
     padding: 20px 20px 15px 20px;
     align-items: center;
+    position: absolute;
+    width: 93%;
+    bottom: 15px;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form2 .catch-value p{
     color: #5D6370;
@@ -2458,9 +2478,12 @@ footer .footer-copyright{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    margin: 5% 0% 2% 0%;
+    /* margin: 5% 0% 2% 0%; */
     padding: 20px 20px 15px 20px;
     align-items: center;
+    position: absolute;
+    width: 93%;
+    bottom: 15px;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form3 .catch-value p{
     color: #5D6370;
@@ -2516,8 +2539,9 @@ footer .footer-copyright{
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .select-car-find-wrapper .select-car-find{
     border: 1px solid #CAC8D4;
     border-radius: 10px;
-    width: 90px;
-    padding: 10px 10px 0px 10px;
+    width: 101px;
+    height: 78px;
+    /* padding: 10px 10px 0px 10px; */
     cursor: pointer;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .select-car-find-wrapper .select-car-find img{
@@ -2549,7 +2573,7 @@ footer .footer-copyright{
     display: flex;
     background: #F6F6F8;
     width: 100%;
-    padding: 10px 5px;
+    padding: 0px 0px 0px 2px;
     margin: 7px 4px;
     border: 1px solid #CAC8D4;
     border-radius: 3px;
@@ -2596,4 +2620,138 @@ footer .footer-copyright{
     color: #2384C1 !important;
 }
 
+
 /* ===================================== End Find My Car Css ===================================== */
+
+.radio-buttons{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    margin: 0px 25px;
+}
+/* Hide the radio buttons */
+.radio-btn input[type="radio"] {
+    display: none; /* Hide the radio button */
+}
+
+/* Style the label to act like a button */
+.radio-btn {
+    display: inline-block;
+    position: relative;
+    border: 1px solid #353C4D;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+
+/* When the radio button is checked, apply the background change to the label */
+.radio-btn input[type="radio"]:checked ~ .radio-btn {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* When the radio button is checked, apply the background color to the whole label */
+.radio-btn input[type="radio"]:checked + .btn-text {
+    background-color: #0368a0;
+    color: white;
+    border-color: #0368a0;
+    line-height: 37px;
+    border-radius: 50px;
+}
+
+/* Hover effect */
+.radio-btn:hover {
+    background-color: #e9ecef;
+    border-color: #ddd;
+}
+
+/* Style for the label text when hovered */
+.radio-btn:hover .btn-text {
+    background-color: #0368a0;
+    color: #fff;
+    border-radius: 50px;
+}
+
+/* Make the label text fill the full button */
+.radio-btn .btn-text {
+    display: block; /* Make it a block element to take up full width/height */
+    width: 100%;
+    height: 100%; /* Make the text span take up the full height */
+    line-height: 1.5; /* Center the text vertically */
+    padding: 0; /* Remove any padding, handled by label */
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+    text-align: center;
+    cursor: pointer; /* Make sure the cursor stays a pointer */
+    line-height: 37px;
+    color:#353C4D;
+}
+
+/* Hide the checkboxes */
+.car-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none; /* Prevent interaction with the hidden checkbox */
+}
+
+/* Styling for the checkbox label when it's selected */
+.car-checkbox:checked + label{
+    background-color: rgb(204 238 255);
+    width: 97px;
+    height: 76px;
+    border-radius: 10px;
+    border: 1px solid rgb(204 238 255);
+}
+
+/* Add any other label styling as needed */
+.select-car-find label {
+    display: inline-block;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+    padding: 10px 0px;
+}
+
+.select-car-find label:hover {
+    /* background-color: rgb(204 238 255); */
+    width: 97px;
+    height: 76px;
+}
+
+
+
+
+
+/* Hide the checkboxes */
+.flag-checkbox {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none; /* Prevent interaction with the hidden checkbox */
+}
+
+/* Styling for the checkbox label when it's selected */
+.flag-checkbox:checked + label {
+    background-color: rgb(204 238 255);
+    width: 100%;
+    /* border: 1px solid rgb(204 238 255); */
+}
+
+/* Add any other label styling as needed */
+.country-list label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 7px 0px;
+    display: flex;
+}
+
+.country-list label:hover {
+    background-color: rgb(204 238 255); 
+    width: 100%;
+}

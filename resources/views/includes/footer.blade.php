@@ -266,7 +266,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="footer-support">
+                    <div class="footer-support footer-globe">
                         <img src="{{asset('assets/images/footer-globe.webp')}}" alt="footer-car" class="img-fluid" loading="lazy">
                         <p class="footer-support-heading">Global Reach <br/>
                         <span class="footer-small">Serving 200+ countries</span>
@@ -282,7 +282,7 @@
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="footer-support">
+                    <div class="footer-support footer-globe">
                         <img src="{{asset('assets/images/footer-offer.webp')}}" alt="footer-car" class="img-fluid" loading="lazy">
                         <p class="footer-support-heading">Unparalleled Offers <br/>  
                         <span class="footer-small text-nowrap">Pay less and get more.</span>

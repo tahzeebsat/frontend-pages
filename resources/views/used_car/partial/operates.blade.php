@@ -8,7 +8,7 @@
             </div>
     
             <!-- Browse Inventory Column -->
-            <div class="col-12 col-sm-6 col-md-3 d-flex">
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
                 <div class="operateInPakistan text-center py-5 rounded-1" role="article" aria-labelledby="operateInPakistan">
                     <img src="{{asset('assets/images/country-flags/PK.webp')}}" alt="Pakistan" class="img-fluid pb-3" loading="lazy" width="50" height="50">
                     <h4 id="operateInPakistan" class="heading pt-4">Pakistan</h4>
@@ -16,7 +16,7 @@
             </div>
     
             <!-- Make Payment Column -->
-            <div class="col-12 col-sm-6 col-md-3 d-flex">
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
                 <div class="operateInKenya text-center py-5 rounded-1" role="article" aria-labelledby="operateInKenya">
                     <img src="{{asset('assets/images/country-flags/KE.webp')}}" alt="Kenya" class="img-fluid pb-3" loading="lazy" width="50" height="50">
                     <h4 id="operateInKenya" class="heading pt-4">Kenya</h4>
@@ -24,7 +24,7 @@
             </div>
     
             <!-- Track Shipment Column -->
-            <div class="col-12 col-sm-6 col-md-3 d-flex">
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
                 <div class="operateInTanzania text-center py-5 rounded-1" role="article" aria-labelledby="operateInTanzania">
                     <img src="{{asset('assets/images/country-flags/TZ.webp')}}" alt="Track Shipment" class="img-fluid pb-3" loading="lazy" width="50" height="50">
                     <h4 id="operateInTanzania" class="heading pt-4">Tanzania</h4>
@@ -32,7 +32,7 @@
             </div>
     
             <!-- Receive Delivery Column -->
-            <div class="col-12 col-sm-6 col-md-3 d-flex">
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
                 <div class="operateInGB text-center py-5 rounded-1" role="article" aria-labelledby="operateInGB">
                     <img src="{{asset('assets/images/country-flags/GB.webp')}}" alt="Receive Delivery" class="img-fluid pb-3" loading="lazy" width="50" height="50">
                     <h4 id="operateInGB" class="heading pt-4">United Kingdom</h4>
@@ -47,7 +47,7 @@
                     <div class="line"></div>
                 </div>
             
-                <div class="col-12 col-md-2 text-center">
+                <div class="col-12 col-md-2 text-center p-0">
                     <div class="buy-more" id="buyMoreBtn">
                         <p class="details" id="btnText">
                             Show More Countries 
