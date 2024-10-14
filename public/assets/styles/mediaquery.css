@@ -6,12 +6,15 @@
     .carousel-indicators{
         top: 410px;
     }
+    .top-selling-car-desktop .swiper-slide{
+        width: 262px;
+    }
     .top-selling-car-desktop .top-selling img {
-        width: 246px;
-        height: 213px;
+        /* width: 239px; */
+        height: 179.25px;
     }
     .recomended-car-desktop .recomended-car img {
-        width: 245px;
+        width: 255px;
         height: 213px;
     }
     .early-budget-desktop .recomended-car img {

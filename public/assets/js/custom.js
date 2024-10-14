@@ -488,7 +488,7 @@ var swiper = new Swiper('.sellingCarSwiper', {
       // For tablets (above 640px, up to 1024px)
       1024: {
         slidesPerView: 4, // Show 3 slides per view on desktop
-        spaceBetween: 30, // Larger space between slides
+        spaceBetween: 15, // Larger space between slides
         freeMode: false, // Disable free mode on larger screens
       },
     },
@@ -522,7 +522,7 @@ var swiper = new Swiper('.recomendedCarSwiper', {
     // For tablets (above 640px, up to 1024px)
     1024: {
       slidesPerView: 4, // Show 3 slides per view on desktop
-      spaceBetween: 30, // Larger space between slides
+      spaceBetween: 15, // Larger space between slides
       freeMode: false, // Disable free mode on larger screens
     },
   },
@@ -555,7 +555,7 @@ var swiper = new Swiper('.earlyBudget1Swiper', {
     // For tablets (above 640px, up to 1024px)
     1024: {
       slidesPerView: 4, // Show 3 slides per view on desktop
-      spaceBetween: 30, // Larger space between slides
+      spaceBetween: 15, // Larger space between slides
       freeMode: false, // Disable free mode on larger screens
     },
   },
@@ -586,7 +586,7 @@ var swiper = new Swiper('.earlyBudget2Swiper', {
     // For tablets (above 640px, up to 1024px)
     1024: {
       slidesPerView: 4, // Show 3 slides per view on desktop
-      spaceBetween: 30, // Larger space between slides
+      spaceBetween: 15, // Larger space between slides
       freeMode: false, // Disable free mode on larger screens
     },
   },
@@ -617,7 +617,7 @@ var swiper = new Swiper('.earlyBudget3Swiper', {
     // For tablets (above 640px, up to 1024px)
     1024: {
       slidesPerView: 4, // Show 3 slides per view on desktop
-      spaceBetween: 30, // Larger space between slides
+      spaceBetween: 15, // Larger space between slides
       freeMode: false, // Disable free mode on larger screens
     },
   },
@@ -630,41 +630,7 @@ var swiper = new Swiper('.earlyBudget3Swiper', {
 
 
 // ================== Start Popular Car Swipper ==================
-// var swiper = new Swiper('.popularView', {
-//   slidesPerView: 5,           // Show 5 items in each row
-//   spaceBetween: 0,           // Adjust space between items
-//   slidesPerGroup: 5,          // Slide 5 items at a time
-//   grid:{
-//     rows:2,
-//   },
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-//   loop: true,                 // Enable looping
-//   speed: 600,                 // Adjust slide transition speed
-//   pagination: {
-//     el: '.swiper-pagination',
-//     clickable: true,
-//   },
-//   breakpoints: {
-//     1200: {
-//       slidesPerView: 5,        // On large screens, show 5 items
-//     },
-//     992: {
-//       slidesPerView: 5,        // On medium screens, show 4 items
-//     },
-//     768: {
-//       slidesPerView: 3,        // On tablets, show 3 items
-//     },
-//     576: {
-//       slidesPerView: 2,        // On small screens, show 2 items
-//     },
-//     0: {
-//       slidesPerView: 1,        // On extra-small screens, show 1 item
-//     },
-//   },
-// });
+
 
 var swiper = new Swiper('.popularBrandSwiper', {
   slidesPerView: 1, // Default for mobile
