@@ -6,6 +6,18 @@
     .carousel-indicators{
         top: 410px;
     }
+    .top-selling-car-desktop .top-selling img {
+        width: 246px;
+        height: 213px;
+    }
+    .recomended-car-desktop .recomended-car img {
+        width: 245px;
+        height: 213px;
+    }
+    .early-budget-desktop .recomended-car img {
+        width: 245px;
+        height: 213px;
+    }
 }
 
 @media (max-width:1180px){

@@ -32,37 +32,37 @@
     box-sizing: 0;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Lato-Bold';
     font-style: normal;
-    font-weight: 900; /* Black */
+    font-weight: 900;
     src: url('../fonts/Lato-Black.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 400; /* Regular */
-    src: url('../fonts/Lato-Regular.woff2') format('woff2');
+    font-weight: 400;
+    src: url('../fonts/"Lato", sans-serif.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Lato-Light';
     font-style: normal;
-    font-weight: 300; /* Light */
+    font-weight: 300; 
     src: url('../fonts/Lato-Light.woff2') format('woff2');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-style: normal;
-    font-weight: 700; /* Semibold */
-    src: url('../fonts/Lato-Semibold.woff2') format('woff2');
+    font-weight: 700; 
+    src: url('../fonts/"Lato", sans-serif.woff2') format('woff2');
     font-display: swap;
-}
+}*/
 
 @font-face {
     font-family: 'Sofia-Pro';
@@ -77,7 +77,7 @@
     font-weight: normal;
     src: url('../fonts/sofia-pro-bold.woff2') format('woff2');
     font-display: swap;
-}
+} 
 
 /* start header ship-to and currency select css  */
 
@@ -95,7 +95,7 @@
     width: 210px;
   }
   .desktop-view .headerSearch .ship-to .dropdown-item{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     line-height: 22.64px;
     padding: 6px 12px;
@@ -113,7 +113,7 @@
     max-height: 34px;
     padding: 9px 10px;
     font-size: var(--fs-12);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
   }
 
   .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
@@ -139,14 +139,14 @@
   }
   .desktop-view .headerSearch .currency-dropdown #selectedCurrency {
     color: var(--deep-slate-gray);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     line-height: 20px;
     font-weight: 600;
   }
   .desktop-view .headerSearch .currency-dropdown .dropdown .dropdown-menu .currency-search-field {
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -159,7 +159,7 @@
 }
 .desktop-view .headerSearch .language #selectedLanguage{
     color: var(--deep-slate-gray);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     line-height: 20px;
     font-weight: 600;
@@ -217,7 +217,7 @@ input:focus {
     background-color: var(--primary-color);
 }
 .top-header .top-header-text{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: 0.8rem;
     line-height: 16px;
 }
@@ -239,7 +239,7 @@ input:focus {
     background-color: var(--light-lavender);
     color:var(--muted-grey);
     font-size: var(--fs-14);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
 }
 .headerSearch .search-form .input-group .input-group-text{
    background-color: var(--black-color);
@@ -247,7 +247,7 @@ input:focus {
 }
 .headerSearch .text-decoration-none{
    color: var(--deep-slate-gray);
-   font-family: 'Lato-semibold';
+   font-family: "Lato", sans-serif;
    font-size: var(--fs-14);
    line-height: 20px;
    font-weight: 600;
@@ -263,7 +263,7 @@ input:focus {
 }
 .headerSearch .dropdown-item{
     color: var(--Eigengrau) !important;
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: var(--fs-14);
 }
@@ -289,7 +289,7 @@ input:focus {
 .mega-menu-section .navbar .dropdown:hover .dropdown-menu {
     display: block;
     left: 16px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     line-height: 32px;
     font-size: var(--fs-16);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -323,7 +323,7 @@ input:focus {
     color: var(--custome-color);
 }
 .mega-menu-section .navbar .navbar-nav .nav-item .nav-link{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     margin: 0px 10px;
     font-weight: 600;
     font-size: var(--fs-14);
@@ -331,7 +331,7 @@ input:focus {
     padding-left: 0;
 }
 .mega-menu-section .navbar .navbar-nav .nav-item .dropdown-menu h6{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: 18px;
     color: var(----rich-black);
@@ -402,12 +402,12 @@ input:focus {
 .hero-slider-form-area .form-slider .from-wrapper .heading{
     color: var(--para-color);
     font-size: var(--fs-16);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 700;
 }
 .hero-slider-form-area .form-slider .from-wrapper .form-select{
     font-size: var(--fs-12);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     border-radius: 4px;
     border: 1px solid #858a944f;
     color: #858a94;
@@ -417,14 +417,14 @@ input:focus {
     background-color: var(--custome-color);
     width: 100%;
     color: var(--white-color);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-18);
 }
 .hero-slider-form-area .form-slider .from-wrapper .advance-search p{
     font-size: var(--fs-12);
     text-align: end;
     color: var(--custome-color);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown {
     border: 1px solid #858a944f;
@@ -437,7 +437,7 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .stock-inhand{
@@ -447,7 +447,7 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .advance-search{
@@ -455,7 +455,7 @@ input:focus {
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .make-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -463,7 +463,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-make{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -480,12 +480,12 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .model-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -493,7 +493,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-model{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -510,12 +510,12 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .type-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -523,7 +523,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-type{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -540,12 +540,12 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .steering-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -553,7 +553,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-steering{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -570,12 +570,12 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .min-year-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -583,7 +583,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-minyear{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -600,12 +600,12 @@ input:focus {
     width: 100%;
     line-height: 16px;
     font-size: 12px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #858a94;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .max-year-search-field{
     max-height: 34px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     background-color: var(--light-grey);
     border: 1px solid var(--border-color);
 }
@@ -613,7 +613,7 @@ input:focus {
    font-size: var(--fs-12);
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .dropdown-maxyear{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 25px;
     margin: 10px 0px;
@@ -637,7 +637,7 @@ input:focus {
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .browseInventory .heading{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
     line-height: 28px;
@@ -646,7 +646,7 @@ input:focus {
     padding-bottom: 6px;
 }
 .how-to-buy-desktop .browseInventory .text{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -659,7 +659,7 @@ input:focus {
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .makePayment .heading{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
     line-height: 28px;
@@ -668,7 +668,7 @@ input:focus {
     padding-bottom: 6px;
 }
 .how-to-buy-desktop .makePayment .text{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -682,7 +682,7 @@ input:focus {
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .trackShipment .heading{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
     line-height: 28px;
@@ -691,7 +691,7 @@ input:focus {
     padding-bottom: 6px;
 }
 .how-to-buy-desktop .trackShipment .text{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -704,7 +704,7 @@ input:focus {
     border: 1px solid var(--border-color);
 }
 .how-to-buy-desktop .receiveDelivery .heading{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
     line-height: 28px;
@@ -713,7 +713,7 @@ input:focus {
     padding-bottom: 6px;
 }
 .how-to-buy-desktop .receiveDelivery .text{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 28px;
@@ -723,7 +723,7 @@ input:focus {
     padding: 0px 16px;
 }
 .how-to-buy-desktop .buy-more{
-   font-family: 'Lato-Regular';
+   font-family: "Lato", sans-serif;
    font-size: 16px;
    font-weight: 600;
    color: #5d6370;
@@ -732,7 +732,7 @@ input:focus {
 }
 .how-to-buy-desktop .buy-more .details{
    text-decoration: none;
-   font-family: 'Lato-Regular';
+   font-family: "Lato", sans-serif;
     color: #5d6370;
     text-decoration: none;
     cursor: pointer;
@@ -763,7 +763,7 @@ input:focus {
 }
 .where-we-operates-desktop .operateInPakistan .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: var(--para-color);
     font-weight: 600;
     line-height: 28px;
@@ -779,7 +779,7 @@ input:focus {
 } 
 .where-we-operates-desktop .operateInKenya .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: var(--para-color);
     font-weight: 600;
     line-height: 28px;
@@ -795,7 +795,7 @@ input:focus {
 }
 .where-we-operates-desktop .operateInTanzania .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: var(--para-color);
     font-weight: 600;
     line-height: 28px;
@@ -811,7 +811,7 @@ input:focus {
 }
 .where-we-operates-desktop .operateInGB .heading{
     font-size: var(--fs-20);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: var(--para-color);
     font-weight: 600;
     line-height: 28px;
@@ -819,7 +819,7 @@ input:focus {
 }
 
 .where-we-operates-desktop .buy-more .details{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #5d6370;
     text-decoration: none;
     cursor: pointer;
@@ -850,7 +850,7 @@ input:focus {
 .where-we-operates-desktop .toggle-flags .toggle2 .show-more-countries{
     border: none;
     background: none;
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     color: #5d6370;
     text-decoration: none;
     cursor: pointer;
@@ -872,7 +872,7 @@ input:focus {
     margin: 0px;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .title{
-        font-family: "Lato-semibold";
+        font-family: ""Lato", sans-serif";
         font-size: 23.12px;
         font-weight: 600;
         line-height: 36.9px;
@@ -881,10 +881,10 @@ input:focus {
         margin:0;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .para{
-        font-family: "Lato-Regular";
+        font-family: ""Lato", sans-serif";
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .center-side .scan-tag{
-        font-family: 'Lato-semibold';
+        font-family: "Lato", sans-serif;
 }
 
 /* ================= End Web Promotion Css ======== */
@@ -913,7 +913,7 @@ input:focus {
 }
 .need_help-desktop .wrapper .help-service .left .info .title-help{
     color: #020408;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     line-height: 24px;
     letter-spacing: -0.16px;
     font-size: 16px;
@@ -921,7 +921,7 @@ input:focus {
 }
 .need_help-desktop .wrapper .help-service .left .info .para-help{
     color: #5D6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 16px; 
@@ -956,7 +956,7 @@ input:focus {
 }
 .best-seller-by-type-desktop .product-card .heading{
     color: #000000;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--font-size-16);
     font-weight: 600;
     line-height: 20px;
@@ -968,7 +968,7 @@ input:focus {
 }
 .best-seller-by-type-desktop .product-card ul li{
     list-style-type: none;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
 }
 .best-seller-by-type-desktop .product-card ul li:hover{
     text-decoration: underline;
@@ -980,7 +980,7 @@ input:focus {
 
 
  .best-seller-by-type-desktop .buy-more .details{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
    font-size: 16px;
    font-weight: 600;
    color: #5d6370;
@@ -1012,7 +1012,7 @@ input:focus {
     height: 187px;
 }
 .by-decision-desktop .best-seller-card .blog-para{
-    font-family: "Lato-Regular";
+    font-family: ""Lato", sans-serif";
     font-size: 15px;
     font-weight: 600;
     color: rgb(53, 60, 77);
@@ -1026,7 +1026,7 @@ input:focus {
 
 
  .by-decision-desktop  .buy-more .details{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -1043,7 +1043,7 @@ input:focus {
     position:relative;
 }
 .faqs-desktop .accordian-title .heading{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-24);
     color: #020408;
     line-height: 28px;
@@ -1067,7 +1067,7 @@ input:focus {
     align-items: center;
     padding-top: 24px;
     padding-bottom: 24px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 500;
     line-height: 28px;
@@ -1077,7 +1077,7 @@ input:focus {
     box-shadow: none !important;
 }
 .faqs-desktop .accordion-body {
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     line-height: 28px;
     letter-spacing: -0.014em;
@@ -1097,7 +1097,7 @@ input:focus {
  }
  .faqs-desktop .buy-more .details{
     text-decoration: none;
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
      color: #5d6370;
      text-decoration: none;
      cursor: pointer;
@@ -1123,14 +1123,14 @@ footer .footer-wrapper{
 footer .footer-wrapper .heading{
     color:var(--white-color);
     font-size: var(--fs-16);
-    font-family:'Lato-semibold';
+    font-family:"Lato", sans-serif;
     line-height: 24px;
 }
 footer .footer-wrapper .send-feedback button{
     background-color: var(--skin-color);
     color: var(--Eigengrau);
     font-size: var(--fs-16);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     line-height: 24px;
     border: 1px solid var(--skin-color);
     padding: 10px 20px;
@@ -1155,7 +1155,7 @@ footer .footer-wrapper .contact{
     position:relative;
 }
 footer .footer-wrapper .contact .heading{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-16);
     line-height: 26px;
 }
@@ -1171,7 +1171,7 @@ footer .footer-wrapper .contact .contact-by-phone a img{
     height: 24px;
 }
 footer .footer-wrapper .contact .contact-by-phone a p{
-   font-family: 'Lato-Regular';
+   font-family: "Lato", sans-serif;
    font-weight: 500;
    font-size: var(--fs-14);
    line-height: 24px;
@@ -1189,7 +1189,7 @@ footer .footer-wrapper .contact .contact-by-email a img{
     height: 24px;
 }
 footer .footer-wrapper .contact .contact-by-email a p{
-   font-family: 'Lato-Regular';
+   font-family: "Lato", sans-serif;
    font-weight: 500;
    font-size: var(--fs-14);
    line-height: 24px;
@@ -1207,7 +1207,7 @@ footer .footer-wrapper .contact .contact-by-address img{
 }
 
 footer .footer-wrapper .contact .contact-by-address p{
-   font-family: 'Lato-Regular';
+   font-family: "Lato", sans-serif;
    font-weight: 500;
    font-size: var(--fs-14);
    line-height: 24px;
@@ -1219,7 +1219,7 @@ footer .footer-wrapper .social-links{
    position: relative;
 }
 footer .footer-wrapper .social-links .heading{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-16);
     line-height: 26px;
 }
@@ -1237,7 +1237,7 @@ footer .footer-wrapper .join-by-mailing{
     position: relative;
  }
 footer .footer-wrapper .join-by-mailing .heading{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-16);
     line-height: 26px;
  }
@@ -1247,13 +1247,13 @@ footer .footer-wrapper .join-by-mailing .join-mail-ref{
     height: 45px;
  }
 footer .footer-wrapper .join-by-mailing .join-mail-ref input{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     color: var(--placeholder-color);
     line-height: 18.92px;
  }
 footer .footer-wrapper .join-by-mailing .join-mail-ref span{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     background-color: var(--custome-color);
     color: var(--white-color);
@@ -1264,7 +1264,7 @@ footer .footer-wrapper .footer-list{
     position:relative;
  }
 footer .footer-wrapper .footer-list .list-heading{
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-16);
     line-height: 26px;
     color: var(--white-color);
@@ -1273,7 +1273,7 @@ footer .footer-wrapper .footer-list .list-unstyled li a{
     text-decoration: none;
     color: var(--white-color);
     font-size:var(--fs-14);
-    font-family:'Lato-Regular';
+    font-family:"Lato", sans-serif;
     font-weight: 500;
     line-height: 20px;
  }
@@ -1290,7 +1290,7 @@ footer .footer-support-wrapper .footer-support img{
  }
 footer .footer-support-wrapper .footer-support .footer-support-heading{
     color: var(--white-color);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     margin: 0;
     padding: 0px 15px;
     font-size: var(--fs-16);
@@ -1298,7 +1298,7 @@ footer .footer-support-wrapper .footer-support .footer-support-heading{
  }
 footer .footer-support-wrapper .footer-support .footer-small{
     color: var(--white-color);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 13px;
     line-height: 24px;
 
@@ -1307,7 +1307,7 @@ footer .footer-copyright{
     background: var(--dark-primary);
     color: var(--white-color);
     border-top: 1px solid var(--border-color);
-    font-family: 'Lato-semibold';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-16);
     line-height: 24px;
     padding: 15px 0px;
@@ -1460,35 +1460,35 @@ footer .footer-copyright{
     left: 43%;
   }
   .compare-car-desktop .car-1 .brand-name{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     color: #353C4D;
     font-size: var(--fs-16);
     line-height: 24.3px;
   }
   .compare-car-desktop .car-1 .brand-price{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     color: #080E1B;
     font-size: var(--fs-16);
     line-height: 24px;
   }
   .compare-car-desktop .car-2 .brand-name{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     color: #353C4D;
     font-size: var(--fs-16);
     line-height: 24.3px;
   }
   .compare-car-desktop .car-2 .brand-price{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 600;
     color: #080E1B;
     font-size: var(--fs-16);
     line-height: 24px;
   }
   .compare-car-desktop .view-all-comparison .view-all{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -1538,7 +1538,7 @@ footer .footer-copyright{
 }
 .customer-review-desktop .review-box .top-left .review-image .review-starts .list-title{
     color: #0c1529;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -1546,7 +1546,7 @@ footer .footer-copyright{
 }
 .customer-review-desktop .review-box .top-left .review-image .review-starts .list-des{
     color: #5d6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -1560,7 +1560,7 @@ footer .footer-copyright{
     padding: 0;
     margin: 0;
     color: #5d6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-14);
     line-height: 20px;
 }
@@ -1573,7 +1573,7 @@ footer .footer-copyright{
 }
 .customer-review-desktop .review-box .posted_details .left .user-detail .user-des{
     color: #5d6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-12);
     line-height: 16px;
     letter-spacing: -0.01em;
@@ -1581,7 +1581,7 @@ footer .footer-copyright{
 }
 .customer-review-desktop .review-box .posted_details .left .user-detail .user-posted{
     color: #5d6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-10);
     line-height: 16px;
     letter-spacing: -0.01em;
@@ -1600,7 +1600,7 @@ footer .footer-copyright{
     color: #1c6a9b;
     font-size: var(--fs-12);
     font-weight: 400;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
 }
 
 
@@ -1655,7 +1655,7 @@ footer .footer-copyright{
   }
 
   .customer-review-desktop .view-all-reviews .view-all{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -1712,7 +1712,7 @@ footer .footer-copyright{
     height: 60px;
 }
 .popular_used_car-desktop .box .top-brand .items .brand-title{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
 }
@@ -1721,7 +1721,7 @@ footer .footer-copyright{
     height: 60px;
 }
 .popular_used_car-desktop .box .bottom-brand .items .brand-title{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-20);
     font-weight: 600;
 }
@@ -1766,7 +1766,7 @@ footer .footer-copyright{
 }
 
 .popular_used_car-desktop .view-all-popular-cars .view-all{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -1807,7 +1807,7 @@ footer .footer-copyright{
     padding: 10px 10px 0px 10px;
 }
 .top-selling-car-desktop .price-area .top .left .price .amount{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-24);
     font-weight: 700;
     color: #0c1529;
@@ -1815,7 +1815,7 @@ footer .footer-copyright{
     margin-top: 13px;
 }
 .top-selling-car-desktop .price-area .top .left .price .discount .off{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: normal;
@@ -1823,7 +1823,7 @@ footer .footer-copyright{
     color: #2384c1;
 }
 .top-selling-car-desktop .price-area .top .left .price .discount .value{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -1839,7 +1839,7 @@ footer .footer-copyright{
     color: #ced0d4;
 }
 .top-selling-car-desktop .price-area .bottom .sale-car-name{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #353c4d;
@@ -1847,7 +1847,7 @@ footer .footer-copyright{
     margin-bottom: 2px;
 }
 .top-selling-car-desktop .price-area .bottom .sale-car-average{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #353c4d;
@@ -1890,7 +1890,7 @@ footer .footer-copyright{
 }
 
 .top-selling-car-desktop .view-all-selling .view-all {
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -1940,7 +1940,7 @@ footer .footer-copyright{
     padding: 10px 10px 0px 10px;
 }
 .recomended-car-desktop .price-area .top .left .price .amount{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-24);
     font-weight: 700;
     color: #0c1529;
@@ -1948,7 +1948,7 @@ footer .footer-copyright{
     margin-top: 13px;
 }
 .recomended-car-desktop .price-area .top .left .price .discount .off{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: normal;
@@ -1956,7 +1956,7 @@ footer .footer-copyright{
     color: #2384c1;
 }
 .recomended-car-desktop .price-area .top .left .price .discount .value{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -1972,7 +1972,7 @@ footer .footer-copyright{
     color: #ced0d4;
 }
 .recomended-car-desktop .price-area .bottom .sale-car-name{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #353c4d;
@@ -1980,7 +1980,7 @@ footer .footer-copyright{
     margin-bottom: 2px;
 }
 .recomended-car-desktop .price-area .bottom .sale-car-average{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #353c4d;
@@ -2025,7 +2025,7 @@ footer .footer-copyright{
 }
 
 .recomended-car-desktop .view-all-recomended .view-all {
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -2056,7 +2056,7 @@ footer .footer-copyright{
 }
 .early-budget-desktop .nav-tabs .nav-item a{
     color: #0c1529;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     padding: 10px 0px;
     margin-right: 32px !important;
     text-decoration: none;
@@ -2116,7 +2116,7 @@ footer .footer-copyright{
     padding: 10px 10px 0px 10px;
 }
 .early-budget-desktop .price-area .top .left .price .amount{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-24);
     font-weight: 700;
     color: #0c1529;
@@ -2124,7 +2124,7 @@ footer .footer-copyright{
     margin-top: 13px;
 }
 .early-budget-desktop .price-area .top .left .price .discount .off{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 600;
     line-height: normal;
@@ -2132,7 +2132,7 @@ footer .footer-copyright{
     color: #2384c1;
 }
 .early-budget-desktop .price-area .top .left .price .discount .value{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -2148,7 +2148,7 @@ footer .footer-copyright{
     color: #ced0d4;
 }
 .early-budget-desktop .price-area .bottom .sale-car-name{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 20px;
     font-weight: 700;
     color: #353c4d;
@@ -2156,7 +2156,7 @@ footer .footer-copyright{
     margin-bottom: 2px;
 }
 .early-budget-desktop .price-area .bottom .sale-car-average{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #353c4d;
@@ -2201,7 +2201,7 @@ footer .footer-copyright{
 }
 
 .early-budget-desktop .view-all-earlyBudget .view-all {
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
     color: #5d6370;
@@ -2239,7 +2239,7 @@ footer .footer-copyright{
 }
 .find-my-car-desktop .wrapper .find-car-left .heading .title{
     color: #000000;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 25.23px;
     line-height: 30.28px;
@@ -2247,7 +2247,7 @@ footer .footer-copyright{
 }
 .find-my-car-desktop .wrapper .find-car-left .desc .para{
     color: #353C4D;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 13.46px;
     line-height: 20.18px;
@@ -2260,7 +2260,7 @@ footer .footer-copyright{
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     padding: 10px 20px;
 } 
 .find-my-car-desktop .wrapper .find-car-right .detail-buttons{
@@ -2275,7 +2275,7 @@ footer .footer-copyright{
     border: 1px solid #858A94;
     border-radius: 50px;
     padding: 4px 24px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.82px;
@@ -2288,7 +2288,7 @@ footer .footer-copyright{
     border: 1px solid #858A94;
     border-radius: 50px;
     padding: 4px 27px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.82px;
@@ -2301,7 +2301,7 @@ footer .footer-copyright{
     border: 1px solid #858A94;
     border-radius: 50px;
     padding: 4px 20px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.82px;
@@ -2314,7 +2314,7 @@ footer .footer-copyright{
     border: 1px solid #858A94;
     border-radius: 50px;
     padding: 4px 22px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.82px;
@@ -2328,7 +2328,7 @@ footer .footer-copyright{
     position: relative;
     left: 40%;
     color: #0C1529;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
@@ -2379,7 +2379,7 @@ footer .footer-copyright{
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .title{
     color: #0C1529;
     font-size: var(--fs-18);
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-weight: 700;
     line-height: 26px;
   }
@@ -2392,7 +2392,7 @@ footer .footer-copyright{
     border: 1px solid black;
     border-radius: 20px;
     padding: 8px 25px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 700;
     line-height: 24.82px;
@@ -2423,7 +2423,7 @@ footer .footer-copyright{
     font-size: 12px;
     font-weight: 400;
     line-height: 25px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form2 .next-step-3-move .btn-next-step {
     background: #0368A0 ;
@@ -2431,7 +2431,7 @@ footer .footer-copyright{
     border: none;
     border-radius: 4px;
     padding: 10px 40px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -2442,7 +2442,7 @@ footer .footer-copyright{
     border: 1px solid #5D6370;
     border-radius: 4px;
     padding: 10px 38px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -2460,7 +2460,7 @@ footer .footer-copyright{
     font-size: 12px;
     font-weight: 400;
     line-height: 25px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form3 .next-step-3-move .btn-success {
     background: #0368A0 ;
@@ -2468,7 +2468,7 @@ footer .footer-copyright{
     border: none;
     border-radius: 4px;
     padding: 10px 40px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -2479,7 +2479,7 @@ footer .footer-copyright{
     border: 1px solid #5D6370;
     border-radius: 4px;
     padding: 10px 38px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -2489,7 +2489,7 @@ footer .footer-copyright{
     font-size: 12px;
     font-weight: 400;
     line-height: 25px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form1 .btn-next-step {
     background: #0368A0 ;
@@ -2497,7 +2497,7 @@ footer .footer-copyright{
     border: none;
     border-radius: 4px;
     padding: 10px 40px;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -2530,7 +2530,7 @@ footer .footer-copyright{
     background: #F6F6F8;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .find-car-search-country .searchbar-find-car input{
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     color: #2F2B43B2;
     font-size: 12px;
     font-weight: 500;
@@ -2554,7 +2554,7 @@ footer .footer-copyright{
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .find-car-search-country .country-list .country p{
     color: #5D6370;
-    font-family: 'Lato-Regular';
+    font-family: "Lato", sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 11.37px;
@@ -2579,6 +2579,13 @@ footer .footer-copyright{
 }
  
 .selected-country p {
+    color: #2384C1 !important;
+}
+.selected-car {
+    background-color: #E7F6FF !important;
+    border: 1px solid #2384C1 !important;
+}
+.selected-car p{
     color: #2384C1 !important;
 }
 

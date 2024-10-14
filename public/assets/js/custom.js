@@ -778,3 +778,15 @@ document.querySelectorAll('.country').forEach(function(countryDiv) {
       this.classList.add('selected-country');
   });
 });
+
+document.querySelectorAll('.select-car-find').forEach(function(countryDiv) {
+  countryDiv.addEventListener('click', function() {
+      // Remove the class from all country divs first
+      document.querySelectorAll('.select-car-find').forEach(function(div) {
+          div.classList.remove('selected-car');
+      });
+      
+      // Add the class to the clicked div
+      this.classList.add('selected-car');
+  });
+});
