@@ -65,19 +65,19 @@
 }*/
 
 @font-face {
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/sofia-pro.woff2') format('woff2');
+    src: url('../fonts/SofiaProRegularAz.otf') format('otf');
     font-display: swap;
 }
-@font-face {
-    font-family: 'Sofia-Pro-Bold';
+/* @font-face {
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
-    src: url('../fonts/sofia-pro-bold.woff2') format('woff2');
+    src: url('../fonts/"Sofia-Pro", Arial, sans-serif.woff2') format('woff2');
     font-display: swap;
-} 
+}  */
 
 /* start header ship-to and currency select css  */
 
@@ -628,7 +628,7 @@ input:focus {
     position: relative;
 }
 .how-to-buy-desktop .title p{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -748,7 +748,7 @@ input:focus {
     position: relative;
 }
 .where-we-operates-desktop .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -872,7 +872,7 @@ input:focus {
     margin: 0px;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .title{
-        font-family: ""Lato", sans-serif";
+        font-family: "Lato", sans-serif;
         font-size: 23.12px;
         font-weight: 600;
         line-height: 36.9px;
@@ -881,7 +881,7 @@ input:focus {
         margin:0;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .left-side .para{
-        font-family: ""Lato", sans-serif";
+        font-family: "Lato", sans-serif;
 }
 .web-promotion3-desktop .wrapper .web_promotion3_banner .center-side .scan-tag{
         font-family: "Lato", sans-serif;
@@ -897,7 +897,7 @@ input:focus {
     position:relative;
 }
 .need_help-desktop .wrapper .heading{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -950,9 +950,9 @@ input:focus {
     position: relative;
 }
 .best-seller-by-type-desktop .title{
-    font-family: 'Sofia-Pro-Bold';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
-    font-weight: 500;
+    font-weight: 600;
 }
 .best-seller-by-type-desktop .product-card .heading{
     color: #000000;
@@ -998,7 +998,7 @@ input:focus {
     position: relative;
 }
 .by-decision-desktop .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -1012,7 +1012,7 @@ input:focus {
     height: 187px;
 }
 .by-decision-desktop .best-seller-card .blog-para{
-    font-family: ""Lato", sans-serif";
+    font-family: "Lato", sans-serif;
     font-size: 15px;
     font-weight: 600;
     color: rgb(53, 60, 77);
@@ -1318,7 +1318,7 @@ footer .footer-copyright{
 
 /* ===================================== Start Car Comparison Css ===================================== */
 .compare-car-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -1513,7 +1513,7 @@ footer .footer-copyright{
     bottom: -4px;
 }
 .customer-review-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -1676,9 +1676,9 @@ footer .footer-copyright{
 }
 
 .popular_used_car-desktop .heading .title{
-    font-family: 'Sofia-Pro-Bold';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .popular_used_car-desktop .box .top-brand{
@@ -1790,7 +1790,7 @@ footer .footer-copyright{
     height: 350px;
 }
 .top-selling-car-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -1923,7 +1923,7 @@ footer .footer-copyright{
     height: 350px;
 }
 .recomended-car-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
@@ -2099,7 +2099,7 @@ footer .footer-copyright{
     height: 340px;
 }
 .early-budget-desktop .heading .title{
-    font-family: 'Sofia-Pro';
+    font-family: "Sofia-Pro", Arial, sans-serif;
     font-size: var(--fs-24);
     font-weight: 600;
     color: #020408;
