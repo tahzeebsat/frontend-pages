@@ -134,9 +134,9 @@
         margin-bottom: 0px !important;
         padding-bottom: 0px !important;
     }
-    .top-selling-car-desktop .container {
+    /* .top-selling-car-desktop .container {
         margin: 0px 0px !important;
-    }
+    } */
     .top-selling-car-desktop .top-selling img {
         width: 134px;
         height: 92px;
@@ -203,9 +203,9 @@
     .top-selling-car-desktop .view-all-selling{
         display: none;
     }
-    .recomended-car-desktop .container{
+    /* .recomended-car-desktop .container{
         margin: 0px !important;
-    }
+    } */
     .recomended-car-desktop .heading .title{
         font-size: 14px;
         padding: 0px 0px 15px 0px !important;
@@ -390,9 +390,9 @@
     .compare-car-desktop .swiper-button-next, .compare-car-desktop .swiper-button-prev{
         display: none;
     }
-    .promotion-web-1 .container{
+    /* .promotion-web-1 .container{
         margin: 0px !important;
-    }
+    } */
     .need_help-desktop .wrapper .heading {
         font-family: "Lato";
         font-size: var(--fs-14);

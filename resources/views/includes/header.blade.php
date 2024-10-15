@@ -1476,7 +1476,7 @@
 <section class="mobile-view" aria-labelledby="mobile-header">
     <header>
         <div class="headerSearch pb-3">
-            <div class="container">
+            <div class="container px-2">
                 <div class="row align-items-center mb-3 mt-2">
                     <div class="col-auto d-flex align-items-center p-0">
                           <!-- Main Offcanvas -->
@@ -2473,7 +2473,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col search-form">
+                    <div class="col search-form px-2">
                         <form class="d-flex position-relative" role="search" aria-label="Search form">
                             <div class="input-group">
                                 <input type="text" id="searchInput" class="searchBar form-control shadow-none px-4 border-0" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">

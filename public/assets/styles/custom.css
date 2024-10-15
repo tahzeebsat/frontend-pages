@@ -834,6 +834,7 @@ input:focus {
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
+    padding: 10px 0px 0px 0px;
  }
 .where-we-operates-desktop .buy-more .details span:hover{
     color: var(--custome-color);
