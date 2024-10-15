@@ -276,7 +276,7 @@
 
 
 {{-- ================================== Mobile View ==================================--}}
-<section class="mobile-view pb-5">
+<section class="mobile-view ">
     <div class="container">
       <div class="mobile-operate">
         <div class="heading">

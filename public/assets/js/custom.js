@@ -429,9 +429,9 @@ var swiper = new Swiper('.compareSwiper', {
   
 // ================== Start Customer Review Swipper ==================
 var swiper = new Swiper('.customerReviewSwiper', {
-    slidesPerView: 1, // Default for mobile
+    slidesPerView: 2, // Default for mobile
     spaceBetween: 1, // Space between slides for mobile
-    
+    freeMode: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -458,7 +458,39 @@ var swiper = new Swiper('.customerReviewSwiper', {
     autoplay: false,
     touchEventsTarget: "container", // Ensure touch events are properly handled
   });
+
+
+var swiper = new Swiper('.customerReviewSwiperMobile', {
+    slidesPerView: 2, // Default for mobile
+    spaceBetween: 1, // Space between slides for mobile
+    freeMode: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+
+
 // ================== End Customer Review Swipper ==================
+
+// ================== Start Sell By Type Swipper ==================
+var swiper = new Swiper('.sellByTypeSwiperMobile', {
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ================== End Sell By Type Swipper ==================
 
 
 
@@ -468,8 +500,9 @@ var swiper = new Swiper('.customerReviewSwiper', {
 
 // ================== Start Selling Car Swipper ==================
 var swiper = new Swiper('.sellingCarSwiper', {
-    slidesPerView: 1, // Default for mobile
-    spaceBetween: 1, // Space between slides for mobile
+    slidesPerView: 3, // Default for mobile
+    spaceBetween: 10, // Space between slides for mobile
+    freeMode: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -502,8 +535,9 @@ var swiper = new Swiper('.sellingCarSwiper', {
 
 // ================== Start Recomended Car Swipper ==================
 var swiper = new Swiper('.recomendedCarSwiper', {
-  slidesPerView: 1, // Default for mobile
-  spaceBetween: 1, // Space between slides for mobile
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  freeMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -535,8 +569,9 @@ var swiper = new Swiper('.recomendedCarSwiper', {
 
 // ================== Start Early Budget Swipper ==================
 var swiper = new Swiper('.earlyBudget1Swiper', {
-  slidesPerView: 1, // Default for mobile
-  spaceBetween: 1, // Space between slides for mobile
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  freeMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -566,8 +601,9 @@ var swiper = new Swiper('.earlyBudget1Swiper', {
 
 
 var swiper = new Swiper('.earlyBudget2Swiper', {
-  slidesPerView: 1, // Default for mobile
-  spaceBetween: 1, // Space between slides for mobile
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  freeMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -597,8 +633,9 @@ var swiper = new Swiper('.earlyBudget2Swiper', {
 
 
 var swiper = new Swiper('.earlyBudget3Swiper', {
-  slidesPerView: 1, // Default for mobile
-  spaceBetween: 1, // Space between slides for mobile
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  freeMode: true,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -661,6 +698,31 @@ var swiper = new Swiper('.popularBrandSwiper', {
   autoplay: false,
   touchEventsTarget: "container", // Ensure touch events are properly handled
 });
+
+
+// ================= Mobile View Slider ====================
+
+
+var swiper = new Swiper('.popularBrandSwiperMobile', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  autoplay: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+
+
 
 // ================== End Popular Car Swipper ==================
 

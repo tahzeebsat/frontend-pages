@@ -1,7 +1,8 @@
-<section class="compare-car-desktop position-relative my-5 py-4">
-    <div class="container">
-      <div class="heading">
+<section class="compare-car-desktop position-relative">
+    <div class="container my-5 py-4">
+      <div class="heading d-flex align-items-center justify-content-between">
         <p class="title m-0 py-4 mb-4">Compare to Make Best Choice</p>
+        <p class="d-md-none view-all">View All</p>
       </div>
       <!-- Swiper Slider -->
       <div class="row">

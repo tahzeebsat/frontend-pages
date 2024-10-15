@@ -1,8 +1,8 @@
 <section class="top-selling-car-desktop position-relative">
     <div class="container my-5">
-      <div class="heading">
+      <div class="heading d-flex justify-content-between align-items-center">
         <p class="title m-0 py-4"> Top Selling in Pakistan </p>
-      </div>
+      <p class="d-md-none view-detail">View All</p></div>
       <!-- Swiper Slider -->
       <div class="row">
         <div class="swiper sellingCarSwiper">

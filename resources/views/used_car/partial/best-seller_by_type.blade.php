@@ -98,6 +98,80 @@
             </div>
             <img src="{{asset('assets/images/mobile-bestseller-type.webp')}}" alt="Best Seller" class="img-fluid" loading="lazy" width="226" height="162">
           </div>
+
+          <div class="row p-3">
+            <div class="container swiper sellByTypeSwiperMobile">
+              <div class="swiper-wrapper">
+                <!-- Slides with proper image alt attributes -->
+               
+            <div class="swiper-slide d-flex justify-content-center">
+              <div class="col-12 col-md-3 mb-4">
+                <div class="product-card">
+                  <img src="{{asset('assets/images/mobile-car-type/suv.webp')}}" alt="SUV" class="img-fluid" loading="lazy" width="226" height="162">
+                  <p class="heading">SUV</p>
+                  <ul class="list-unstyled">
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Toyota Land Cruiser Prado</a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Toyota Harrier</a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Toyota Rav4</a></li>
+                  </ul>
+                </div>
+              </div>
+      
+        
+            </div>
+    
+            <div class="swiper-slide d-flex justify-content-center">
+              <div class="col-12 col-md-3 mb-4">
+                <div class="product-card">
+                  <img src="{{asset('assets/images/mobile-car-type/hatchback.webp')}}" alt="Hatchback" class="img-fluid" loading="lazy" width="226" height="162">
+                  <p class="heading">Hatchback</p>
+                  <ul class="list-unstyled">
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Toyota Vitz</a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Toyota Aqua</a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none">Honda Fit</a></li>
+                  </ul>
+                </div>
+              </div>
+      
+        
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <div class="col-12 col-md-3 mb-4">
+                <div class="product-card">
+                  <img src="{{asset('assets/images/mobile-car-type/van.webp')}}" alt="Van" class="img-fluid" loading="lazy" width="226" height="162">
+                  <p class="heading">Van</p>
+                  <ul class="list-unstyled">
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Hiace Van </a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Probox </a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Prius Alpha </a></li>
+                  </ul>
+                </div>
+              </div>
+      
+        
+            </div>
+
+            <div class="swiper-slide d-flex justify-content-center">
+              <div class="col-12 col-md-3 mb-4">
+                <div class="product-card">
+                  <img src="{{asset('assets/images/mobile-car-type/sedan.webp')}}" alt="Sedan" class="img-fluid" loading="lazy" width="226" height="162">
+                  <p class="heading">Sedan</p>
+                  <ul class="list-unstyled">
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Prius </a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Premio </a></li>
+                      <li><a href="javascript:;" class="product-card-list text-decoration-none"> Toyota Corolla Axio </a></li>
+                  </ul>
+                </div>
+              </div>
+      
+        
+            </div>
+    
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

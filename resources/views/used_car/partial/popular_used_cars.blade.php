@@ -1,4 +1,4 @@
-<section class="popular_used_car-desktop position-relative">
+<section class="popular_used_car-desktop position-relative desktop-view">
     <div class="container my-5">
       <div class="heading pt-5 mb-5">
         <p class="title m-0"> Popular Used Car Makes</p>
@@ -178,3 +178,129 @@
       
     </div>
   </section>
+
+
+
+  {{-- ================== Start Mobile View ======================= --}}
+
+  <section class="popular_used_car-mobile position-relative mobile-view">
+    <div class="container my-5">
+      <div class="heading d-flex justify-content-between px-2 pb-3">
+        <p class="title m-0"> Popular Used Car Makes</p>
+        <p class="view-detail m-0"> View All </p>
+      </div>
+  
+      <div class="row">
+        <div class="container swiper popularBrandSwiperMobile">
+          <div class="swiper-wrapper">
+            <!-- Slides with proper image alt attributes -->
+           
+        <div class="swiper-slide d-flex justify-content-center">
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/toyota.webp')}}" alt="Toyota" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Toyota</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/honda.webp')}}" alt="Honda" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Honda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/nissan.webp')}}" alt="Nissan" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Nissan</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/mazda.webp')}}" alt="Mazda" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Mazda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/suzuki.webp')}}" alt="Suzuki" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Suzuki</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/mitsubishi.webp')}}" alt="Mitsubishi" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Mitsubishi</p>
+                    </div>
+                </div>
+            </div>
+
+    
+        </div>
+
+        <div class="swiper-slide d-flex justify-content-center">
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/toyota.webp')}}" alt="Toyota" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Toyota</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/honda.webp')}}" alt="Honda" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Honda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/nissan.webp')}}" alt="Nissan" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Nissan</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/mazda.webp')}}" alt="Mazda" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Mazda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="top-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/suzuki.webp')}}" alt="Suzuki" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Suzuki</p>
+                    </div>
+                </div>
+                <div class="bottom-brand">
+                    <div class="items">
+                        <img src="{{asset('assets/images/brands/mitsubishi.webp')}}" alt="Mitsubishi" class="img-fluid mb-2" loading="lazy" width="32" height="32">
+                    <p class="brand-title">Mitsubishi</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+
+    {{-- ================== End Mobile View ======================= --}}

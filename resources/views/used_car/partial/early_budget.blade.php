@@ -1,7 +1,8 @@
 <section class="early-budget-desktop py-4">
     <div class="container">
-        <div class="heading pb-3">
+        <div class="heading d-flex align-items-center justify-content-between pb-3">
             <p class="title">Explore by Budget</p>
+            <p class="d-md-none view-detail m-0"> View All </p>
         </div>
         <div class="row">
             <nav>

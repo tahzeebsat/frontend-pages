@@ -45,7 +45,7 @@
   
 
   {{-- =============Mobile View ============--}}
-  <section class="by-decision-mobile mobile-view py-5">
+  <section class="by-decision-mobile mobile-view py-3">
     <div class="container">
       <div class="row">
         <div class="col-12">

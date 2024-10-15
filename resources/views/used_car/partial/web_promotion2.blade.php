@@ -15,7 +15,7 @@
 
   {{-- =================== Mobile View =================== --}}
 
-  <section class="web-promotion2-mobile mobile-view">
+  <section class="web-promotion2-mobile mobile-view pt-3">
     <div class="container">
       <div class="row align-items-stretch">
         

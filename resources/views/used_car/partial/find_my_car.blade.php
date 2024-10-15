@@ -1,4 +1,4 @@
-<section class="find-my-car-desktop my-5 py-4">
+<section class="find-my-car-desktop desktop-view my-5 py-4">
     <div class="container">
         <div class="wrapper">
         <div class="row align-items-center">

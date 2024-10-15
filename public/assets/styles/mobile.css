@@ -34,37 +34,6 @@
     box-sizing: 0;
 }
 
-@font-face {
-    font-family: 'Lato-Bold';
-    font-style: normal;
-    font-weight: 900; /* Black */
-    src: url('../fonts/Lato-Black.woff2') format('woff2');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-Regular';
-    font-style: normal;
-    font-weight: 400; /* Regular */
-    src: url('../fonts/Lato-Regular.woff2') format('woff2');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-Light';
-    font-style: normal;
-    font-weight: 300; /* Light */
-    src: url('../fonts/Lato-Light.woff2') format('woff2');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Lato-semibold';
-    font-style: normal;
-    font-weight: 700; /* Semibold */
-    src: url('../fonts/Lato-Semibold.woff2') format('woff2');
-    font-display: swap;
-}
 
 .fa-chevron-right{
     font-size: var(--fs-10);
@@ -95,7 +64,7 @@
     text-decoration: none;
     color: var(--rich-black);
     font-size: var(--fs-14);
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
 }
 
 .mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency{
@@ -105,7 +74,7 @@
 }
 .mobile-view .headerSearch .offcanvas .offcanvas-body .mobile-main-offcanvas .mobile-offcanvas-settings .setting-currency-select{
     width: 78px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 500;
     line-height: 16px;
@@ -136,7 +105,7 @@
     position:relative;
 }
 .how-to-buy-mobile .left .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -144,7 +113,7 @@
     color: #353c4d;
 }
 .how-to-buy-mobile .left ul li span{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 500;
     line-height: 20px;
@@ -152,7 +121,7 @@
     color: #5d6370;
 }
 .how-to-buy-mobile .right .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 700;
     line-height: 20px;
@@ -170,7 +139,7 @@
     position: relative;
 }
 .mobile-operate .heading .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -187,7 +156,7 @@
     height: 32px;
 }
 .mobile-operate .mobile-operate-flags .mobile-operate-countries span{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 600;
     line-height: 16px;
@@ -196,7 +165,7 @@
 }
 
 .mobile-operate .btn-mobile-show-flags{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     border: 1px solid #1c6a9b;
     font-size: var(--fs-12);
     color: #1c6a9b;
@@ -220,7 +189,7 @@
     height: 18px;
 }
 .mobile-operate .offcanvas-body .mobile-show-wrapper span{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 500;
     line-height: 16px;
@@ -237,7 +206,7 @@
     padding: 15px 15px 0px 15px;
 }
 .mobile-operate .offcanvas .offcanvas-title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -252,7 +221,7 @@
     position: relative;
 }
 .best-seller-by-type-mobile .mobile-best-seller-area .heading .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -260,7 +229,7 @@
     color: #353c4d;
 }
 .best-seller-by-type-mobile .mobile-best-seller-area .heading .view-all{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     align-self: center;
     font-weight: 700;
@@ -272,6 +241,29 @@
     margin: 0% 18%;
     height: 162px;
 }
+
+.best-seller-by-type-mobile .product-card img{
+    width: 42px;
+    height: 32px;
+}
+.best-seller-by-type-mobile .product-card .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    margin: 6px 2px;
+}
+.best-seller-by-type-mobile .product-card ul li a{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #1c6a9b;
+    white-space: nowrap;
+    width: 90px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /* ===================================== End Best Seller By Type Css ===================================== */
 
 /* ===================================== Start By Decision Css ===================================== */
@@ -279,7 +271,7 @@
     position: relative;
 }
 .by-decision-mobile .mobile-by-decision-area .heading .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
@@ -287,7 +279,7 @@
     color: #353c4d;
 }
 .by-decision-mobile .mobile-by-decision-area .heading .view-all{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     align-self: center;
     font-weight: 700;
@@ -297,7 +289,7 @@
 }
 .by-decision-mobile .mobile-by-decision-area .right-side .title{
     margin-bottom: 0px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 500;
     line-height: 16px;
@@ -307,7 +299,7 @@
 .by-decision-mobile .mobile-by-decision-area .right-side .posted_by{
     margin-bottom: 4px;
     margin-top: 8px;
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: var(--fs-10);
     font-weight: 400;
     line-height: 8px;
@@ -326,7 +318,7 @@
     padding: 30px 30px;
 }
 .web-promotion3-mobile .wrapper .heading .title{
-    font-family: 'Lato-Regular';
+    font-family: 'Lato';
     font-size: 19px;
     font-weight: 600;
     line-height: 14px;
@@ -526,3 +518,169 @@
 }
 
 /* ===================================== End  Mobile View Footer Css ===================================== */
+
+/* ===================================== Start Mobile Popular Car Section Css ===================================== */
+.popular_used_car-mobile .popularBrandSwiperMobile .swiper-button-next, 
+.popular_used_car-mobile .popularBrandSwiperMobile .swiper-button-prev{
+    display: none;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand{
+    padding: 10px 25px 1px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7fbfb;
+    border-right: 6px solid white;
+    margin-bottom: 14px;
+}
+.popular_used_car-mobile .heading .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.popular_used_car-mobile .heading .view-detail{
+    font-family: 'Lato';
+    font-size: 12px;
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1c6a9b;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .swiper-slide{
+    height: 215px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box {
+    width: 100%;
+    margin: 0px 0px 0px 10px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items img{
+    width: 32px;
+    height: 32px;
+    margin: 0px 8px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items .brand-title{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand{
+    padding: 10px 25px 1px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7fbfb;
+    border-right: 6px solid white;
+    margin-bottom: 14px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items img{
+    width: 32px;
+    height: 32px;
+    margin: 0px 8px;
+}
+.popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items .brand-title{
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+/* ===================================== End Mobile Popular Car Section Css ===================================== */
+
+/* ===================================== Start Customer Review Section Css ===================================== */
+.customer-review-mobile .heading .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.customer-review-mobile .heading .view-all{
+    font-family: 'Lato';
+    font-size: 12px;
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1c6a9b;
+}
+
+
+.customer-review-mobile .customerReviewSwiperMobile{
+    margin: 0px 15px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide{
+    width: 292.5px !important;
+    height: 210px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box{
+    border-radius: 6px;
+    border: 1px solid #2f2b4333;
+    width: 283.15px;
+    height: 154.25px;
+    margin: 16px 0 16px 0;
+    padding: 6px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image img{
+    width: 91px;
+    height: 53px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .customer-review-mobile img{
+    width: 24px;
+    height: 24px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .customer-review-mobile .list-des{
+    align-self: center;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .review-starts .stars-mobile .fa-star{
+    font-size: 8px;
+    color: #ffbd12;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .review-starts .stars-mobile .start-person{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-right img{
+    width: 21px;
+    height: 15px;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .posted_by .title{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #353c4d;
+}
+.customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .posted_by .para{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: justify;
+    color: #353c4d;
+}
+/* ===================================== End Customer Review Section Css ===================================== */
+
