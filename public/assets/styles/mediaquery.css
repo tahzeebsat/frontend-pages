@@ -380,10 +380,10 @@
         color: #1c6a9b;
         padding: 10px 0px 0px 0px;
     }
-    .compare-car-desktop .container{
+    /* .compare-car-desktop .container{
         padding: 0px 20px !important;
         margin: 0px !important;
-    }
+    } */
     .compare-car-desktop .view-all-comparison .view-all{
         display: none;
     }

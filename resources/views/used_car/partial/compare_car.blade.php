@@ -1,5 +1,5 @@
-<section class="compare-car-desktop position-relative">
-    <div class="container my-5 py-4">
+<section class="compare-car-desktop position-relative my-0 my-md-5 py-0 py-md-4">
+    <div class="container">
       <div class="heading d-flex align-items-center justify-content-between">
         <p class="title m-0 py-4 mb-4">Compare to Make Best Choice</p>
         <p class="d-md-none view-all">View All</p>
