@@ -294,7 +294,7 @@ input:focus {
     width: 100%;
 }
 .mega-menu-section .navbar .dropdown:hover .dropdown-menu {
-    display: block;
+    display: inline-block;
     left: 16px;
     font-family: "Lato", sans-serif;
     line-height: 32px;
@@ -344,6 +344,8 @@ input:focus {
     color: var(----rich-black);
     white-space: nowrap;
 }
+
+
 
 /* ================= Start Hero Slider Css ======== */
 .carousel-start{
@@ -2351,9 +2353,7 @@ footer .footer-copyright{
     font-size: 16px;
     line-height: 24px;
 }
-/* .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container {
-    max-width: 550px;  
-  } */
+
 .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container .progress{
     margin: 0px 150px;  
   }
@@ -2429,7 +2429,6 @@ footer .footer-copyright{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    /* margin: 55% 0% 2% 0%; */
     padding: 20px 20px 15px 20px;
     align-items: center;
     position: absolute;
@@ -2440,7 +2439,6 @@ footer .footer-copyright{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    /* margin: 5% 0% 2% 0%; */
     padding: 20px 20px 15px 20px;
     align-items: center;
     position: absolute;
@@ -2480,7 +2478,7 @@ footer .footer-copyright{
     display: flex;
     justify-content: space-between;
     background: #F6F6F8;
-    /* margin: 5% 0% 2% 0%; */
+
     padding: 20px 20px 15px 20px;
     align-items: center;
     position: absolute;
@@ -2543,7 +2541,6 @@ footer .footer-copyright{
     border-radius: 10px;
     width: 101px;
     height: 78px;
-    /* padding: 10px 10px 0px 10px; */
     cursor: pointer;
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .select-car-find-wrapper .select-car-find img{
@@ -2571,40 +2568,68 @@ footer .footer-copyright{
     background: #F6F6F8;
   }
 
-  .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .find-car-search-country .country-list .country{
+
+   
+  /* Hide the radio buttons */
+.find-car-search-country .flag-radio {
+    display: none;
+}
+
+/* Change background color of the parent div when the radio button is checked */
+.find-car-search-country .flag-radio:checked + label {
+    background-color: pink;
+}
+
+/* Optional: Style the label to show a background color when selected */
+.find-car-search-country .country {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.find-car-search-country .flag-radio:checked + label {
+    background-color: rgb(204 238 255);
+}
+.find-car-search-country .flag-radio:checked + label p{
+    color: #2384C1;
+}
+
+/* Add styling for the label to ensure it looks nice */
+.find-car-search-country .country label {
     display: flex;
-    background: #F6F6F8;
-    width: 100%;
-    padding: 0px 0px 0px 2px;
-    margin: 7px 4px;
-    border: 1px solid #CAC8D4;
-    border-radius: 3px;
+    padding: 16px 10px;
+    border-radius: 2.84px;
     cursor: pointer;
-  }
-  .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .find-car-search-country .country-list .country img{
-    width: 27px;
-    height: 18px;
-  }
-  .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .find-car-search-country .country-list .country p{
-    color: #5D6370;
-    font-family: "Lato", sans-serif;
+    transition: background-color 0.3s ease;
+    width: 135px;
+    border: 1px solid #CAC8D4;
+    align-items: center;
+    height: 25px;
+    background: #F6F6F8;
+}
+
+.find-car-search-country .country label:hover {
+    background-color: rgb(204 238 255); 
+    width: 135px;
+}
+
+/* Optionally style the country text and image */
+.find-car-search-country .country label img {
+    max-width: 50px;
+    display: block;
+    margin-bottom: 5px;
+    width: 26.75px;
+    height: 17.83px;
+}
+
+.find-car-search-country .country label p {
+    margin: 0;
     font-size: 12px;
-    font-weight: 500;
-    line-height: 11.37px;
-    padding: 3px 7px;
-  }
-
-  
-  .btn-checked-change {
-    background-color: #0368A0;
-    color: white;
-  }
-
-  .btn-checked-change.active {
-    background-color: #0368A0 !important;
-    color: var(--white-color) !important;
-    border: none !important;
-  }
+    font-family: 'Lato';
+    padding: 0px 3px;
+    color: #5D6370;
+}
  
   .selected-country {
     background-color: #E7F6FF !important;
@@ -2621,6 +2646,8 @@ footer .footer-copyright{
 .selected-car p{
     color: #2384C1 !important;
 }
+
+
 
 
 /* ===================================== End Find My Car Css ===================================== */
@@ -2707,11 +2734,19 @@ footer .footer-copyright{
 /* Styling for the checkbox label when it's selected */
 .car-checkbox:checked + label{
     background-color: rgb(204 238 255);
-    width: 97px;
+    width: 100px;
     height: 76px;
     border-radius: 10px;
-    border: 1px solid rgb(204 238 255);
+    border: 1px solid rgb(3 104 160 / 32%);
+    position: relative;
+    left: -1px;
 }
+/* Change color of the p tag when checkbox is checked */
+.car-checkbox:checked + label p {
+    color: rgb(3, 104, 160) !important; /* This changes the text color of p tag when checked */
+}
+
+
 
 /* Add any other label styling as needed */
 .select-car-find label {
@@ -2723,7 +2758,7 @@ footer .footer-copyright{
 
 .select-car-find label:hover {
     /* background-color: rgb(204 238 255); */
-    width: 97px;
+    width: 100px;
     height: 76px;
 }
 
