@@ -395,8 +395,9 @@ document.getElementById('showMoreCountries').addEventListener('click', function(
 
 // ===================== Start Compare Price Cars Swipper =====================
 var swiper = new Swiper('.compareSwiper', {
-    slidesPerView: 1, // Default for mobile
-    spaceBetween: 1, // Space between slides for mobile
+    slidesPerView: 2, // Default for mobile
+    spaceBetween: 15, // Space between slides for mobile
+    freeMode: true,
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

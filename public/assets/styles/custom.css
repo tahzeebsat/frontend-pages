@@ -464,6 +464,8 @@ input:focus {
     font-size: 12px;
     font-family: "Lato", sans-serif;
     color: #858a94;
+    
+
 }
 .hero-slider-form-area .form-slider .from-wrapper .advance-search{
     cursor: pointer;
@@ -1708,7 +1710,7 @@ footer .footer-copyright{
     width: 163px;
     height: 163px;
     align-items: center;
-    margin: 0% 16%;
+    margin: 0% 15%;
 }
 .popular_used_car-desktop .box .top-brand:hover{
     border: 1px solid var(--custome-color);
@@ -1721,7 +1723,7 @@ footer .footer-copyright{
     width: 163px;
     height: 163px;
     align-items: center;
-    margin: 16% 16%;
+    margin: 16% 15%;
 }
 .popular_used_car-desktop .box .bottom-brand:hover{
     border: 1px solid var(--custome-color);
