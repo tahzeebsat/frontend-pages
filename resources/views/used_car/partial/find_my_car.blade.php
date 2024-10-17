@@ -1269,8 +1269,8 @@
           <div class="row align-items-center">
 
               <div class="col-md-12 find-car-area d-flex align-items-center">
-                 <div class="left-side col-6">
-                  <div class="find-car-left">
+                 <div class="left-side col-12">
+                  <div class="find-car-left p-3">
                     <div class="heading">
                         <p class="title m-0">Confused,  Which Car to Buy?</p>
                     </div>
@@ -1686,25 +1686,7 @@
 
                 </div>
                  </div>
-                 <div class="right-side col-6">
-                  <div class="find-car-right px-2">
-                    <div class="detail-buttons">
-                        <div class="budget-action">
-                            <button class="btn btn-budget">Budget?</button>
-                        </div>
-                        <div class="brand-action">
-                            <button class="btn btn-brand">Brand?</button>
-                        </div>
-                        <div class="feature-action">
-                            <button class="btn btn-feature">Features?</button>
-                        </div>
-                        <div class="mileage-action">
-                            <button class="btn btn-mileage">Mileage?</button>
-                        </div>
-                    </div>
-
-                </div>
-                 </div>
+                
 
                   
 

@@ -184,6 +184,12 @@
 .tablet-view{
     display: none;
 }
+.tablet2-view{
+    display: none;
+}
+.mobile2-view{
+    display: none;
+}
 .tablet-footer{
     display: none;
 }
@@ -862,11 +868,13 @@ input:focus {
 .where-we-operates-desktop .toggle-flags .toggle2 .show-more-countries{
     border: none;
     background: none;
-    font-family: "Lato", sans-serif;
+    font-family: "Lato";
     color: #5d6370;
     text-decoration: none;
     cursor: pointer;
-    padding: 40px 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
 }
   
 /* ================= End Where We Operat Css ======== */

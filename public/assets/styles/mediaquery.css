@@ -27,34 +27,6 @@
   
 }
 
-@media (max-width:1180px){
-    footer .footer-wrapper .join-by-mailing .join-mail-ref{
-        display: block;
-    }
-    footer .footer-wrapper .join-by-mailing .join-mail-ref span{
-        display: flex;
-        justify-content: center;
-    }
-    .carousel-indicators{
-        display: none !important;
-    }
-    .carousel-inner{
-        border-radius: 4px !important;
-    }
-    .carousel-control-next-icon, .carousel-control-prev-icon{
-        display: none !important;
-    }
-    .hero-slider-form-area .form-slider{
-        position: relative;
-        width: 100%;
-        top: 0px;
-        left: 0px;
-    }
-    .carousel .carousel-inner .carousel-item img {
-        height: unset;
-    }
-    
-}
 @media(max-width:1199px){
     .navbar .searchBar{
         width: 190px !important;
@@ -74,17 +46,123 @@
     .desktop-view{
         display: none;
     }
-  
-}
-@media(max-width:991px){
+
     .popular_used_car-tablet .swiper-button-next, .popular_used_car-tablet .swiper-button-prev{
         display: none;
     }
     .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
         right: 15%;
     }
+    .carousel .carousel-inner .carousel-item img {
+        height: 390px;
+    }
+    .hero-slider-form-area .form-slider{
+        top: 15px;
+        left: 10px;
+        width: 26%;
+    }
+    .where-we-operates-desktop .buy-more .details{
+        font-size: 13px;
+    }
+    .popular_used_car-desktop .swiper-button-next, .popular_used_car-desktop .swiper-button-prev{
+        display: none;
+    }
 }
+
+@media (max-width:991px){
+    .desktop2-view{
+        display: none !important;
+    }
+    .tablet2-view{
+        display: block ;
+    }
+    .mobile2-view{
+        display: block;
+    }
+    footer .footer-wrapper .join-by-mailing .join-mail-ref{
+        display: block;
+    }
+    footer .footer-wrapper .join-by-mailing .join-mail-ref span{
+        display: flex;
+        justify-content: center;
+    }
+    .carousel-indicators{
+        /* display: none !important; */
+        top: 250px;
+    }
+    .carousel-inner{
+        border-radius: 4px !important;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        display: none !important;
+    }
+    .hero-slider-form-area .form-slider{
+        position: relative;
+        width: 100%;
+        top: 0px;
+        left: 0px;
+    }
+    .carousel .carousel-inner .carousel-item img {
+        height: unset;
+    }
+    .popular_used_car-tablet .swiper-button-next, .popular_used_car-tablet .swiper-button-prev{
+        display: none;
+    }
+    .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
+        right: 15%;
+    }
+    .hero-slider-form-area .form-slider{
+        top: 30px;
+    }
+    .hero-slider-form-area .form-slider .from-wrapper .container{
+        padding:0px;
+    }
+    .hero-slider-form-area .form-slider .from-wrapper .row{
+        padding:0px !important;
+    }
+    .hero-slider-form-area{
+        padding: 0px !important;
+    }
+    .popular_used_car-mobile .heading .title{
+        font-size: 24px;
+    }
+    .popular_used_car-mobile .heading .view-detail{
+        font-size: 16px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items img{
+        width: 60px;
+        height: 60px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items .brand-title{
+        font-size: 16px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items img{
+        width: 60px;
+        height: 60px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items .brand-title{
+        font-size: 16px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .swiper-slide {
+        height: 300px;
+    }
+}
+
+/* @media(max-width:991px){
+    .popular_used_car-tablet .swiper-button-next, .popular_used_car-tablet .swiper-button-prev{
+        display: none;
+    }
+    .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
+        right: 15%;
+    }
+} */
 @media (max-width:767px){
+    .desktop2-view{
+        display: none ;
+    }
+    .tablet2-view{
+        display: none ;
+    }
     .top-header{
         display: none;
     }
@@ -113,6 +191,7 @@
     .hero-form-section .form-right-side{
         width: 100%;
     }
+    
     .hero-slider-form-area{
         padding: 0 !important;
     }
@@ -406,6 +485,30 @@
         font-size: var(--fs-14);
         font-weight: 700;
         color: #353c4d;
+    }
+
+    .popular_used_car-mobile .heading .title{
+        font-size: 14px;
+    }
+    .popular_used_car-mobile .heading .view-detail{
+        font-size: 12px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items img{
+        width: 32px;
+        height: 32px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items .brand-title{
+        font-size: 12px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items img{
+        width: 32px;
+        height: 32px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items .brand-title{
+        font-size: 12px;
+    }
+    .popular_used_car-mobile .popularBrandSwiperMobile .swiper-slide {
+        height: 254px;
     }
 }
 

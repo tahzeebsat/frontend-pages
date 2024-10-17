@@ -1,4 +1,4 @@
-<section class="popular_used_car-desktop position-relative desktop-view">
+<section class="popular_used_car-desktop position-relative desktop2-view">
     <div class="container my-5">
       <div class="heading pt-5 mb-5">
         <p class="title m-0"> Popular Used Car Makes</p>
@@ -181,7 +181,7 @@
 
 
   {{-- ================== Start Tablet View =======================--}}
-  <section class="popular_used_car-tablet position-relative tablet-view">
+  {{-- <section class="popular_used_car-tablet position-relative tablet2-view">
     <div class="container my-5">
       <div class="heading pt-5 mb-5">
         <p class="title m-0"> Popular Used Car Makes</p>
@@ -333,13 +333,13 @@
       </div>
       
     </div>
-  </section>
+  </section> --}}
 
 
 
   {{-- ================== Start Mobile View ======================= --}}
 
-  <section class="popular_used_car-mobile position-relative mobile-view">
+  <section class="popular_used_car-mobile position-relative mobile2-view">
     <div class="container my-5">
       <div class="heading d-flex justify-content-between px-2 pb-3">
         <p class="title m-0"> Popular Used Car Makes</p>

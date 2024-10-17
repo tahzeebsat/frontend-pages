@@ -1,4 +1,4 @@
-<section class="where-we-operates-desktop desktop-view my-5">
+<section class="where-we-operates-desktop desktop2-view my-5">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
@@ -278,7 +278,7 @@
 
 {{-- ================================== Tablet View ================================--}}
 
-<section class="where-we-operates-tablet tablet-view my-5">
+<section class="where-we-operates-tablet tablet2-view my-5">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
@@ -322,7 +322,266 @@
     
             <!-- View Details Button -->
 
-            
+            <button class="btn btn-tablet-show-countries" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottomTablet" aria-controls="offcanvasBottomTablet">Show More Countries</button>
+
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottomTablet" aria-labelledby="offcanvasBottomTabletLabel">
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Where We Operate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                  <div class="offcanvas-body small">
+                    <div class="offcanvas-flags-areas">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                                <div class="mobile-show-wrapper">
+                                    <img src="/assets/images/country-flags/MW.webp" alt="Malawi Flag" class="img-fluid mb-2" loading="lazy" width="26" height="18">
+                                    <span class="mx-2">Malawi</span>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                  </div>
+                </div>
 
 
         </div>

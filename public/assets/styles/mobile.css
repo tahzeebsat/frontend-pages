@@ -175,7 +175,7 @@
     font-weight: 700;
     height: 40px;
     width: max-content;
-    margin: 2% 32%;
+    margin: 2% 37%;
 }
 
 .mobile-operate .offcanvas-body .mobile-show-wrapper{
@@ -711,6 +711,7 @@
     font-weight: 400;
     color: #353C4D;
     line-height: 14px;
+    width: 75%;
 }
 .find-my-car-mobile .wrapper .find-car-left .find-car-action .btn-find-car{
     background: #2384C1;

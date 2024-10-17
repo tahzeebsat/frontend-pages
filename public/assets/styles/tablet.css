@@ -407,6 +407,33 @@
     border: 1px solid #1c6a9bc7;
     cursor: pointer;
 }
+.where-we-operates-tablet .offcanvas-body .mobile-show-wrapper {
+    border: 1px solid #dcdae2;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.where-we-operates-tablet .offcanvas.hiding, 
+.where-we-operates-tablet .offcanvas.show, 
+.where-we-operates-tablet .offcanvas.showing {
+    visibility: visible;
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+} 
+.where-we-operates-tablet .btn-tablet-show-countries {
+    font-family: 'Lato';
+    border: 1px solid #1c6a9b;
+    font-size: var(--fs-16);
+    color: #1c6a9b;
+    letter-spacing: -0.01em;
+    border-radius: 4px;
+    line-height: 16px;
+    font-weight: 700;
+    height: 40px;
+    width: max-content;
+    margin: 5% 37% 0% 37%;
+} 
 /* ===================================== End Tablet Operate Css ===================================== */
 
 /* ===================================== Start Popular Car Css ===================================== */
