@@ -148,7 +148,7 @@
         font-size: 24px;
     }
     .popular_used_car-mobile .heading .view-detail{
-        font-size: 16px;
+        font-size: 14px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items img{
         width: 60px;
@@ -167,16 +167,15 @@
     .popular_used_car-mobile .popularBrandSwiperMobile .swiper-slide {
         height: 300px;
     }
+    .mobile-operate .btn-mobile-show-flags{
+        margin: 4% 38% 0% 38%;
+    }
+    .mobile-operate .mobile-operate-flags .mobile-operate-countries{
+        height: 111px;
+    }
+ 
 }
 
-/* @media(max-width:991px){
-    .popular_used_car-tablet .swiper-button-next, .popular_used_car-tablet .swiper-button-prev{
-        display: none;
-    }
-    .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
-        right: 15%;
-    }
-} */
 @media (max-width:767px){
     .desktop2-view{
         display: none ;
@@ -242,6 +241,12 @@
         margin-bottom: 0px !important;
         padding-bottom: 0px !important;
     }
+    .hero-slider-form-area .form-slider .from-wrapper .advance-search p{
+        font-size: 16px;
+    }
+    .top-selling-car-desktop{
+        padding-top: 50px;
+    }
     /* .top-selling-car-desktop .container {
         margin: 0px 0px !important;
     } */
@@ -256,7 +261,7 @@
         display: none;
     }
     .top-selling-car-desktop .price-area .top .left .price .amount {
-        font-size: var(--fs-14);
+        font-size: var(--fs-16);
     }
     .top-selling-car-desktop .price-area .top .right .heart-icon {
         font-size: 16px;
@@ -268,7 +273,8 @@
         width: 150px;
     }
     .top-selling-car-desktop .price-area .bottom .sale-car-name {
-        font-size: 14px;
+        font-family: 'Lato';
+        font-size: 16px;
         line-height: 16px;
         margin-bottom: 0px;
         max-width: 134px;
@@ -291,13 +297,13 @@
         background-color: transparent;
     }
     .top-selling-car-desktop .heading .title{
-        font-size: 14px;
+        font-size: 16px;
         padding: 0px 0px 15px 0px !important;
         color: #353c4d;
     }
     .top-selling-car-desktop .heading .view-detail{
         font-family: 'Lato';
-        font-size: 12px;
+        font-size: 14px;
         align-self: center;
         font-weight: 700;
         line-height: 16px;
@@ -315,13 +321,13 @@
         margin: 0px !important;
     } */
     .recomended-car-desktop .heading .title{
-        font-size: 14px;
+        font-size: 16px;
         padding: 0px 0px 15px 0px !important;
         color: #353c4d;
     }
     .recomended-car-desktop .heading .view-detail {
         font-family: 'Lato';
-        font-size: 12px;
+        font-size: 14px;
         align-self: center;
         font-weight: 700;
         line-height: 16px;
@@ -344,7 +350,7 @@
         display: none;
     }
     .recomended-car-desktop .price-area .top .left .price .amount {
-        font-size: var(--fs-14);
+        font-size: var(--fs-16);
     }
     .recomended-car-desktop .price-area .top .right .heart-icon {
         font-size: 16px;
@@ -356,7 +362,8 @@
         width: 150px;
     }
     .recomended-car-desktop .price-area .bottom .sale-car-name {
-        font-size: 14px;
+        font-family: 'Lato';
+        font-size: 16px;
         line-height: 16px;
         margin-bottom: 0px;
         max-width: 134px;
@@ -379,7 +386,7 @@
         background-color: transparent;
     }
     .recomended-car-desktop .heading .title{
-        font-size: 14px;
+        font-size: 16px;
     }
     .recomended-car-desktop .swiper-pagination{
         display: none;
@@ -398,13 +405,13 @@
         padding-bottom: 0px !important;
     }
     .early-budget-desktop .heading .title{
-        font-size: 14px;
+        font-size: 16px;
         padding-top: 20px;
         color: #353c4d;
     }
     .early-budget-desktop .heading .view-detail {
         font-family: 'Lato';
-        font-size: 12px;
+        font-size: 14px;
         align-self: center;
         font-weight: 700;
         line-height: 16px;
@@ -430,7 +437,7 @@
         width: 150px;
     }
     .early-budget-desktop .price-area .top .left .price .amount{
-        font-size: 14px;
+        font-size: 16px;
     }
     .early-budget-desktop .price-area .top .right .heart-icon{
         font-size: 16px;
@@ -438,7 +445,8 @@
         width: 26px;
     }
     .early-budget-desktop .price-area .bottom .sale-car-name{
-        font-size: 14px;
+        font-family: 'Lato';
+        font-size: 16px;
         line-height: 16px;
         margin-bottom: 0px;
         max-width: 134px;
@@ -493,13 +501,13 @@
         top: 28%;
     }
     .compare-car-desktop .heading .title{
-        font-size: 14px;
+        font-size: 16px;
         padding: 0 !important;
         margin: 15px 0px 20px 0px !important;
     }
     .compare-car-desktop .heading .view-all{
         font-family: 'Lato';
-        font-size: 12px;
+        font-size: 14px;
         align-self: center;
         font-weight: 700;
         line-height: 16px;
@@ -521,34 +529,45 @@
         margin: 0px !important;
     } */
     .need_help-desktop .wrapper .heading {
-        font-family: "Lato";
-        font-size: var(--fs-14);
+        font-family: "Sofia-Pro";
+        font-size: var(--fs-16);
         font-weight: 700;
         color: #353c4d;
     }
 
     .popular_used_car-mobile .heading .title{
-        font-size: 14px;
+        font-size: 16px;
+        font-family: 'Sofia-Pro';
+        padding-bottom: 10px;
     }
     .popular_used_car-mobile .heading .view-detail{
-        font-size: 12px;
+        font-size: 14px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items img{
         width: 32px;
         height: 32px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .box .top-brand .items .brand-title{
-        font-size: 12px;
+        font-size: 14px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items img{
         width: 32px;
         height: 32px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .box .bottom-brand .items .brand-title{
-        font-size: 12px;
+        font-size: 14px;
     }
     .popular_used_car-mobile .popularBrandSwiperMobile .swiper-slide {
         height: 254px;
+    }
+    .mobile-operate .btn-mobile-show-flags {
+        margin: 2% 30%;
+    }
+    .mobile-operate .heading .title{
+        font-size: var(--fs-16);
+    }
+    .mobile-operate .mobile-operate-flags .mobile-operate-countries{
+        height: 76px;
     }
 }
 

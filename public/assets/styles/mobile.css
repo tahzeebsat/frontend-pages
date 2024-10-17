@@ -28,6 +28,15 @@
     --fs-10: 10px;
 }
 
+@font-face {
+    font-family: "Sofia-Pro";
+    src: url('../fonts/SofiaProSemiBoldAz.otf') format('opentype');
+    font-weight: 600; /* Semi-bold weight, adjust if needed */
+    font-style: normal;
+    font-display: swap; /* Ensures text is visible during font load */
+    unicode-range: U+0000-00FF; /* Define supported character ranges to limit font loading */
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -105,8 +114,8 @@
     position:relative;
 }
 .how-to-buy-mobile .left .title{
-    font-family: 'Lato';
-    font-size: var(--fs-14);
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-16);
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -114,7 +123,7 @@
 }
 .how-to-buy-mobile .left ul li span{
     font-family: 'Lato';
-    font-size: var(--fs-14);
+    font-size: var(--fs-16);
     font-weight: 500;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -122,7 +131,7 @@
 }
 .how-to-buy-mobile .right .title{
     font-family: 'Lato';
-    font-size: var(--fs-12);
+    font-size: var(--fs-14);
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -139,8 +148,8 @@
     position: relative;
 }
 .mobile-operate .heading .title{
-    font-family: 'Lato';
-    font-size: var(--fs-14);
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-24);
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -157,7 +166,7 @@
 }
 .mobile-operate .mobile-operate-flags .mobile-operate-countries span{
     font-family: 'Lato';
-    font-size: var(--fs-12);
+    font-size: var(--fs-14);
     font-weight: 600;
     line-height: 16px;
     letter-spacing: -0.01em;
@@ -167,7 +176,7 @@
 .mobile-operate .btn-mobile-show-flags{
     font-family: 'Lato';
     border: 1px solid #1c6a9b;
-    font-size: var(--fs-12);
+    font-size: var(--fs-16);
     color: #1c6a9b;
     letter-spacing: -0.01em;
     border-radius: 4px;
@@ -175,7 +184,7 @@
     font-weight: 700;
     height: 40px;
     width: max-content;
-    margin: 2% 37%;
+    margin: 2% 30%;
 }
 
 .mobile-operate .offcanvas-body .mobile-show-wrapper{
@@ -221,8 +230,8 @@
     position: relative;
 }
 .best-seller-by-type-mobile .mobile-best-seller-area .heading .title{
-    font-family: 'Lato';
-    font-size: var(--fs-14);
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-16);
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -230,7 +239,7 @@
 }
 .best-seller-by-type-mobile .mobile-best-seller-area .heading .view-all{
     font-family: 'Lato';
-    font-size: var(--fs-12);
+    font-size: var(--fs-14);
     align-self: center;
     font-weight: 700;
     line-height: 16px;
@@ -271,8 +280,8 @@
     position: relative;
 }
 .by-decision-mobile .mobile-by-decision-area .heading .title{
-    font-family: 'Lato';
-    font-size: var(--fs-14);
+    font-family: 'Sofia-Pro';
+    font-size: var(--fs-16);
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
@@ -280,7 +289,7 @@
 }
 .by-decision-mobile .mobile-by-decision-area .heading .view-all{
     font-family: 'Lato';
-    font-size: var(--fs-12);
+    font-size: var(--fs-14);
     align-self: center;
     font-weight: 700;
     line-height: 16px;
@@ -290,7 +299,7 @@
 .by-decision-mobile .mobile-by-decision-area .right-side .title{
     margin-bottom: 0px;
     font-family: 'Lato';
-    font-size: var(--fs-12);
+    font-size: var(--fs-14);
     font-weight: 500;
     line-height: 16px;
     letter-spacing: -0.01em;
@@ -300,7 +309,7 @@
     margin-bottom: 4px;
     margin-top: 8px;
     font-family: 'Lato';
-    font-size: var(--fs-10);
+    font-size: var(--fs-12);
     font-weight: 400;
     line-height: 8px;
     letter-spacing: -0.01em;
@@ -602,15 +611,15 @@
 
 /* ===================================== Start Customer Review Section Css ===================================== */
 .customer-review-mobile .heading .title{
-    font-family: 'Lato';
-    font-size: 14px;
+    font-family: 'Sofia-Pro';
+    font-size: 16px;
     font-weight: 700;
     line-height: 20px;
     color: #353c4d;
 }
 .customer-review-mobile .heading .view-all{
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     align-self: center;
     font-weight: 700;
     line-height: 16px;
@@ -644,7 +653,7 @@
 .customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .customer-review-mobile .list-des{
     align-self: center;
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 16px;
     letter-spacing: -0.01em;
@@ -656,7 +665,7 @@
 }
 .customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .top-left .review-image .review-starts .stars-mobile .start-person{
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     line-height: 12px;
     letter-spacing: -0.01em;
@@ -669,16 +678,15 @@
 }
 .customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .posted_by .title{
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     line-height: 14px;
     color: #353c4d;
 }
 .customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box .posted_by .para{
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 14px;
     text-align: justify;
     color: #353c4d;
 }
@@ -707,11 +715,10 @@
 }
 .find-my-car-mobile .wrapper .find-car-left .desc .para{
     font-family: 'Lato';
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #353C4D;
     line-height: 14px;
-    width: 75%;
 }
 .find-my-car-mobile .wrapper .find-car-left .find-car-action .btn-find-car{
     background: #2384C1;

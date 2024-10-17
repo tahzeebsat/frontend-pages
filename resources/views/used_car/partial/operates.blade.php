@@ -278,7 +278,7 @@
 
 {{-- ================================== Tablet View ================================--}}
 
-<section class="where-we-operates-tablet tablet2-view my-5">
+{{-- <section class="where-we-operates-tablet tablet2-view my-5">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">
@@ -587,15 +587,15 @@
         </div>
     </div>
     
-</section>
+</section> --}}
 
 
 
 {{-- ================================== Mobile View ==================================--}}
-<section class="mobile-view ">
+<section class="mobile2-view  my-0 my-md-5">
     <div class="container">
       <div class="mobile-operate">
-        <div class="heading">
+        <div class="heading pb-1 pb-md-5">
           <p class="title">Where We Operate</p>
         </div>
   
@@ -617,7 +617,7 @@
                     </div>
             </div>
 
-            <div class="mobile-operate-flags d-flex justify-content-between gap-3">
+            <div class="mobile-operate-flags d-flex justify-content-between gap-3 my-0 my-md-3">
                 <div class="mobile-operate-countries d-flex flex-column align-items-center justify-content-center mb-3 mb-md-0 w-100">
                   <img src="{{asset('assets/images/country-flags/MW.webp')}}" alt="Malawi Flag" class="img-fluid rounded-circle mb-2" loading="lazy" width="32" height="32">
                   <span>Malawi</span>

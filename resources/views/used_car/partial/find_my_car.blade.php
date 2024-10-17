@@ -1275,7 +1275,7 @@
                         <p class="title m-0">Confused,  Which Car to Buy?</p>
                     </div>
                     <div class="desc">
-                        <p class="para">Use our car recommender to help you find your dream ride</p>
+                        <p class="para">Use our car recommender to <br/> help you find your dream ride</p>
                     </div>
                     <div class="find-car-action">
                         <a href="javacript:;" type="button" class="btn btn-find-car" data-bs-toggle="modal"

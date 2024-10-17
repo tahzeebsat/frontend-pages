@@ -341,7 +341,7 @@
 
   <section class="popular_used_car-mobile position-relative mobile2-view">
     <div class="container my-5">
-      <div class="heading d-flex justify-content-between px-2 pb-3">
+      <div class="heading d-flex justify-content-between px-2 pb-3 pb-md-5">
         <p class="title m-0"> Popular Used Car Makes</p>
         <p class="view-detail m-0"> View All </p>
       </div>
