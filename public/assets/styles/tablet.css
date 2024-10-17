@@ -26,6 +26,13 @@
     --fs-14: 14px;
     --fs-12: 12px;
     --fs-10: 10px;
+    --fs-12: 12px;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-20: 20px;
+    --fs-22: 22px;
+    --fs-24: 24px;
 }
 
 *{
@@ -199,4 +206,409 @@
 
 
 /* ===================================== End Tablet Footer Css ===================================== */
+
+
+/* ===================================== Start Tablet How to Buy Css ===================================== */
+.how-to-buy-tablet .title p {
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.how-to-buy-tablet .browseInventory {
+    border: 1px solid var(--border-color);
+    height: 181px;
+    width: 100%;
+}
+.how-to-buy-tablet .browseInventory .heading {
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
+}
+.how-to-buy-tablet .browseInventory .text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
+}
+.how-to-buy-tablet .makePayment {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+.how-to-buy-tablet .makePayment .heading {
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
+}
+.how-to-buy-tablet .makePayment .text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
+}
+.how-to-buy-tablet .trackShipment {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+.how-to-buy-tablet .trackShipment .heading {
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
+}
+.how-to-buy-tablet .trackShipment .text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
+}
+.how-to-buy-tablet .receiveDelivery {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+.how-to-buy-tablet .receiveDelivery .heading {
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 6px;
+}
+.how-to-buy-tablet .receiveDelivery .text {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #353c4d;
+    padding: 0px 16px;
+}
+.how-to-buy-tablet .buy-more {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.how-to-buy-tablet .buy-more .details {
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    color: #5d6370;
+    text-decoration: none;
+    cursor: pointer;
+}
+.how-to-buy-tablet .buy-more .details span:hover {
+    color: var(--custome-color);
+}
+/* ===================================== End Tablet How to Buy Css ===================================== */
+
+/* ===================================== Start Tablet Operate Css ===================================== */
+.where-we-operates-tablet .title {
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.where-we-operates-tablet .operateInPakistan {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+    cursor: pointer;
+}
+.where-we-operates-tablet .operateInPakistan:hover {
+    border: 1px solid #1c6a9bc7;
+}
+.where-we-operates-tablet .operateInPakistan .heading {
+    font-size: var(--fs-20);
+    font-family: "Lato", sans-serif;
+    color: var(--para-color);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.016em;
+}
+.where-we-operates-tablet .operateInKenya {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+.where-we-operates-tablet .operateInKenya:hover {
+    border: 1px solid #1c6a9bc7;
+    cursor: pointer;
+}
+.where-we-operates-tablet .operateInKenya .heading {
+    font-size: var(--fs-20);
+    font-family: "Lato", sans-serif;
+    color: var(--para-color);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.016em;
+}
+.where-we-operates-tablet .operateInTanzania {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+.where-we-operates-tablet .operateInTanzania:hover {
+    border: 1px solid #1c6a9bc7;
+    cursor: pointer;
+}
+.where-we-operates-tablet .operateInTanzania .heading {
+    font-size: var(--fs-20);
+    font-family: "Lato", sans-serif;
+    color: var(--para-color);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.016em;
+}
+.where-we-operates-tablet .operateInGB {
+    border: 1px solid var(--border-color);
+    width: 100%;
+    height: 181px;
+}
+
+.where-we-operates-tablet .operateInGB .heading {
+    font-size: var(--fs-20);
+    font-family: "Lato", sans-serif;
+    color: var(--para-color);
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.016em;
+}
+.where-we-operates-tablet .operateInGB:hover {
+    border: 1px solid #1c6a9bc7;
+    cursor: pointer;
+}
+/* ===================================== End Tablet Operate Css ===================================== */
+
+/* ===================================== Start Popular Car Css ===================================== */
+.popular_used_car-tablet .popularBrandSwiper{
+    height: 428px;
+    cursor: pointer;
+}
+
+.popular_used_car-tablet .heading .title{
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+}
+
+.popular_used_car-tablet .box .top-brand{
+    border: 1px solid #dcdae2;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    width: 163px;
+    height: 163px;
+    align-items: center;
+    margin: 0% 16%;
+}
+.popular_used_car-tablet .box .top-brand:hover{
+    border: 1px solid var(--custome-color);
+}
+.popular_used_car-tablet .box .bottom-brand{
+    border: 1px solid #dcdae2;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    width: 163px;
+    height: 163px;
+    align-items: center;
+    margin: 16% 16%;
+}
+.popular_used_car-tablet .box .bottom-brand:hover{
+    border: 1px solid var(--custome-color);
+}
+.popular_used_car-tablet .box .top-brand .items img{
+    width: 60px;
+    height: 60px;
+}
+.popular_used_car-tablet .box .top-brand .items .brand-title{
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+}
+.popular_used_car-tablet .box .bottom-brand .items img{
+    width: 60px;
+    height: 60px;
+}
+.popular_used_car-tablet .box .bottom-brand .items .brand-title{
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-20);
+    font-weight: 600;
+}
+
+.popular_used_car-tablet .swiper-button-next, 
+.popular_used_car-tablet .swiper-button-prev {
+    color: #333;
+    background-color: #ffffffa9;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    border: 1px solid #aeb1b8;
+    box-shadow: 0px 0px 6.08px 0px #2f2b434d;
+}
+.popular_used_car-tablet .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 70px);
+    right: auto;
+}
+.popular_used_car-tablet .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.popular_used_car-tablet .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.popular_used_car-tablet .swiper-button-next:hover, 
+.popular_used_car-tablet .swiper-button-prev:hover {
+    background-color: var(--custome-color);
+    color: white;
+}
+
+.popular_used_car-tablet .view-all-popular-cars .view-all{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.popular_used_car-tablet .view-all-popular-cars .view-all:hover{
+    color: var(--custome-color);
+}
+/* ===================================== End Popular Car Css ===================================== */
+
+
+
+/* ===================================== Start Best Seller By Type Css ===================================== */
+.best-seller-by-type-tablet{
+    position: relative;
+}
+.best-seller-by-type-tablet .title{
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+}
+.best-seller-by-type-tablet .product-card .heading{
+    color: #000000;
+    font-family: "Lato";
+    font-size: var(--font-size-16);
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.best-seller-by-type-tablet .product-card ul{
+    padding: 0;
+    line-height: 30px;
+}
+.best-seller-by-type-tablet .product-card ul li{
+    list-style-type: none;
+    font-family: "Lato";
+}
+.best-seller-by-type-tablet .product-card ul li:hover{
+    text-decoration: underline;
+    text-decoration-color: #1c6a9b;
+}
+.best-seller-by-type-tablet .product-card ul li .product-card-list{
+    color: #1c6a9b;
+}
+
+
+ .best-seller-by-type-tablet .buy-more .details{
+    font-family: "Lato";
+   font-size: 16px;
+   font-weight: 600;
+   color: #5d6370;
+   cursor: pointer;
+   text-decoration: none;
+ }
+ .best-seller-by-type-tablet .buy-more .details span:hover{
+    color: var(--custome-color);
+  }
+/* ===================================== End Best Seller By Type Css ===================================== */
+
+
+/* ===================================== Start By Decision Css ===================================== */
+.by-decision-tablet{
+    position: relative;
+}
+.by-decision-tablet .title{
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+
+.by-decision-tablet .best-seller-card{
+    cursor: pointer;
+}
+.by-decision-tablet .best-seller-card img{
+    width: 100%;
+}
+.by-decision-tablet .best-seller-card .blog-para{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(53, 60, 77);
+    margin: 6px 0px;
+}
+.by-decision-tablet .best-seller-card .blog-post-date{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+ .by-decision-tablet  .buy-more .details{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+ }
+ .by-decision-tablet  .buy-more .details span:hover{
+    color: var(--custome-color);
+  }
+/* ===================================== End By Decision Css ===================================== */
 

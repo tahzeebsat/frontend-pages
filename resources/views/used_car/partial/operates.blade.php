@@ -275,6 +275,63 @@
 
 
 
+
+{{-- ================================== Tablet View ================================--}}
+
+<section class="where-we-operates-tablet tablet-view my-5">
+    <div class="container">
+        <div class="row align-items-stretch">
+            <div class="col-12">
+                <div class="title mb-4 pb-1">
+                    <p>Where We Operate</p>
+                </div>
+            </div>
+    
+            <!-- Browse Inventory Column -->
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
+                <div class="operateInPakistan text-center py-5 rounded-1" role="article" aria-labelledby="operateInPakistan">
+                    <img src="{{asset('assets/images/country-flags/PK.webp')}}" alt="Pakistan" class="img-fluid pb-3" loading="lazy" width="50" height="50">
+                    <h4 id="operateInPakistan" class="heading pt-3">Pakistan</h4>
+                </div>
+            </div>
+    
+            <!-- Make Payment Column -->
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
+                <div class="operateInKenya text-center py-5 rounded-1" role="article" aria-labelledby="operateInKenya">
+                    <img src="{{asset('assets/images/country-flags/KE.webp')}}" alt="Kenya" class="img-fluid pb-3" loading="lazy" width="50" height="50">
+                    <h4 id="operateInKenya" class="heading pt-3">Kenya</h4>
+                </div>
+            </div>
+    
+            <!-- Track Shipment Column -->
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
+                <div class="operateInTanzania text-center py-5 rounded-1" role="article" aria-labelledby="operateInTanzania">
+                    <img src="{{asset('assets/images/country-flags/TZ.webp')}}" alt="Track Shipment" class="img-fluid pb-3" loading="lazy" width="50" height="50">
+                    <h4 id="operateInTanzania" class="heading pt-3">Tanzania</h4>
+                </div>
+            </div>
+    
+            <!-- Receive Delivery Column -->
+            <div class="col-12 col-sm-6 col-md-3 d-flex px-2">
+                <div class="operateInGB text-center py-5 rounded-1" role="article" aria-labelledby="operateInGB">
+                    <img src="{{asset('assets/images/country-flags/GB.webp')}}" alt="Receive Delivery" class="img-fluid pb-3" loading="lazy" width="50" height="50">
+                    <h4 id="operateInGB" class="heading pt-3">United Kingdom</h4>
+                    
+                </div>
+            </div>
+    
+            <!-- View Details Button -->
+
+            
+
+
+        </div>
+    </div>
+    
+</section>
+
+
+
 {{-- ================================== Mobile View ==================================--}}
 <section class="mobile-view ">
     <div class="container">

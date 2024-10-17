@@ -14,11 +14,11 @@
         height: 179.25px;
     }
     .recomended-car-desktop .recomended-car img {
-        width: 255px;
+        /* width: 255px; */
         height: 213px;
     }
     .early-budget-desktop .recomended-car img {
-        width: 245px;
+        /* width: 245px; */
         height: 213px;
     }
     .customer-review-desktop .review-box{
@@ -75,6 +75,14 @@
         display: none;
     }
   
+}
+@media(max-width:991px){
+    .popular_used_car-tablet .swiper-button-next, .popular_used_car-tablet .swiper-button-prev{
+        display: none;
+    }
+    .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
+        right: 15%;
+    }
 }
 @media (max-width:767px){
     .top-header{

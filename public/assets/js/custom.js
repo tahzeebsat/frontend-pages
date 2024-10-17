@@ -408,7 +408,7 @@ var swiper = new Swiper('.compareSwiper', {
     breakpoints: {
       // For mobile (below 640px)
       640: {
-        slidesPerView: 1, // Single slide per view on mobile
+        slidesPerView: 2, // Single slide per view on mobile
         spaceBetween: 5, // Small space between slides
         freeMode: true, // Enable free mode for mobile
       },
@@ -443,7 +443,7 @@ var swiper = new Swiper('.customerReviewSwiper', {
     breakpoints: {
       // For mobile (below 640px)
       640: {
-        slidesPerView: 1, // Single slide per view on mobile
+        slidesPerView: 2, // Single slide per view on mobile
         spaceBetween: 5, // Small space between slides
         freeMode: true, // Enable free mode for mobile
       },
@@ -514,7 +514,7 @@ var swiper = new Swiper('.sellingCarSwiper', {
     breakpoints: {
       // For mobile (below 640px)
       640: {
-        slidesPerView: 1, // Single slide per view on mobile
+        slidesPerView: 3, // Single slide per view on mobile
         spaceBetween: 5, // Small space between slides
         freeMode: true, // Enable free mode for mobile
       },
@@ -549,7 +549,7 @@ var swiper = new Swiper('.recomendedCarSwiper', {
   breakpoints: {
     // For mobile (below 640px)
     640: {
-      slidesPerView: 1, // Single slide per view on mobile
+      slidesPerView: 3, // Single slide per view on mobile
       spaceBetween: 5, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },
@@ -583,7 +583,7 @@ var swiper = new Swiper('.earlyBudget1Swiper', {
   breakpoints: {
     // For mobile (below 640px)
     640: {
-      slidesPerView: 1, // Single slide per view on mobile
+      slidesPerView: 3, // Single slide per view on mobile
       spaceBetween: 5, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },
@@ -615,7 +615,7 @@ var swiper = new Swiper('.earlyBudget2Swiper', {
   breakpoints: {
     // For mobile (below 640px)
     640: {
-      slidesPerView: 1, // Single slide per view on mobile
+      slidesPerView: 3, // Single slide per view on mobile
       spaceBetween: 5, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },
@@ -647,7 +647,7 @@ var swiper = new Swiper('.earlyBudget3Swiper', {
   breakpoints: {
     // For mobile (below 640px)
     640: {
-      slidesPerView: 1, // Single slide per view on mobile
+      slidesPerView: 3, // Single slide per view on mobile
       spaceBetween: 5, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },
@@ -684,7 +684,7 @@ var swiper = new Swiper('.popularBrandSwiper', {
     // For mobile (below 640px)
     640: {
       slidesPerView: 1, // Single slide per view on mobile
-      spaceBetween: 5, // Small space between slides
+      spaceBetween: 30, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },
     // For tablets (above 640px, up to 1024px)

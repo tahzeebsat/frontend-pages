@@ -793,13 +793,13 @@
     color: white;
 }
 .find-my-car-mobile .wrapper .find-car-left .modal-dialog .modal-content .modal-title{
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     font-family: 'Lato';
     line-height: 20px;
 } 
 .find-my-car-mobile .wrapper .find-car-left .modal-dialog .modal-content #multi-step-form .step-1 .title{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: #0C1529;
     font-family: 'Lato';
@@ -916,13 +916,13 @@
 }
 
 .find-my-car-mobile .wrapper .find-car-left .modal-dialog .modal-content #multi-step-form .step-2 .title{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: #0C1529;
     font-family: 'Lato';
 } 
 .find-my-car-mobile .wrapper .find-car-left .modal-dialog .modal-content #multi-step-form .step-3 .title{
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 600;
     color: #0C1529;
     font-family: 'Lato';
