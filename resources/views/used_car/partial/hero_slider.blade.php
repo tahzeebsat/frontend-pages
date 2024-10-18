@@ -2,37 +2,42 @@
    <div class="container p-0">
    
     <div class="row mb-5 pb-3 position-relative carousel-start">
-        <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true">
+        <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true" aria-labelledby="carouselTitle" aria-live="polite">
+            <!-- Carousel Indicators with ARIA labels for accessibility -->
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" role="tab"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" role="tab"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" role="tab"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" role="tab"></button>
             </div>
+          
+            <!-- Carousel Inner (Slides) -->
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('assets/images/slider/slider1.webp') }}" class="d-block w-100" alt="slider1" loading="lazy">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/slider/slider2.webp') }}" class="d-block w-100" alt="slider2" loading="lazy">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/slider/slider3.webp') }}" class="d-block w-100" alt="slider3" loading="lazy">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('assets/images/slider/slider4.webp') }}" class="d-block w-100" alt="slider4" loading="lazy">
-                </div>
+              <div class="carousel-item active">
+                <!-- Use WebP images for improved performance and lazy load -->
+                <img src="{{ asset('assets/images/slider/slider1.webp') }}" class="d-block w-100 img-fluid" alt="A beautiful scenic view - slider 1" loading="lazy" width="1920" height="424" />
+              </div>
+              <div class="carousel-item">
+                <img src="{{ asset('assets/images/slider/slider2.webp') }}" class="d-block w-100 img-fluid" alt="Sunset over the mountains - slider 2" loading="lazy" width="1920" height="424" />
+              </div>
+              <div class="carousel-item">
+                <img src="{{ asset('assets/images/slider/slider3.webp') }}" class="d-block w-100 img-fluid" alt="Cityscape view from the top - slider 3" loading="lazy" width="1920" height="424" />
+              </div>
+              <div class="carousel-item">
+                <img src="{{ asset('assets/images/slider/slider4.webp') }}" class="d-block w-100 img-fluid" alt="Beach view with clear skies - slider 4" loading="lazy" width="1920" height="424" />
+              </div>
             </div>
-            <!-- Carousel Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+          
+            <!-- Carousel Controls with improved accessibility and visibility -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev" aria-controls="carouselExampleIndicators" aria-label="Previous slide">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next" aria-controls="carouselExampleIndicators" aria-label="Next slide">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </button>
-        </div>
+          </div>
 
        <div class="hero-slider-form-area">
         <form action="javascript:;" class="form-slider">

@@ -10,7 +10,8 @@
             <!-- Slides with proper image alt attributes -->
             <div class="swiper-slide">
                   <div class="top-selling pt-2">
-                    <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+                    <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="300" height="200">
+                    {{-- <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy"> --}}
                   </div>
                   <div class="price-area py-3">
                     <div class="top d-flex justify-content-between">
@@ -38,7 +39,7 @@
 
             <div class="swiper-slide">
                 <div class="top-selling pt-2">
-                  <img src="{{asset('assets/images/selling/car-2.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+                  <img src="{{asset('assets/images/selling/car-2.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="300" height="200">
                 </div>
                 <div class="price-area py-3">
                   <div class="top d-flex justify-content-between">
@@ -65,7 +66,7 @@
 
           <div class="swiper-slide">
             <div class="top-selling pt-2">
-              <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+              <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="300" height="200">
             </div>
             <div class="price-area py-3">
               <div class="top d-flex justify-content-between">
@@ -92,7 +93,7 @@
 
       <div class="swiper-slide">
         <div class="top-selling pt-2">
-          <img src="{{asset('assets/images/selling/car-4.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+          <img src="{{asset('assets/images/selling/car-4.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="300" height="200">
         </div>
         <div class="price-area py-3">
           <div class="top d-flex justify-content-between">
@@ -119,7 +120,7 @@
 
   <div class="swiper-slide">
     <div class="top-selling pt-2">
-      <img src="{{asset('assets/images/selling/car-2.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+      <img src="{{asset('assets/images/selling/car-2.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="300" height="200">
     </div>
     <div class="price-area py-3">
       <div class="top d-flex justify-content-between">

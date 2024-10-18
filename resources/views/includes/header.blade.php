@@ -23,91 +23,88 @@
                     <div class="col-auto right-list">
                         <ul class="list-unstyled d-flex mb-0 align-items-center">
                             <li class="ship-to-dropdown dropdown mx-3 d-flex align-items-center">
-                                
-                                <a class="text-decoration-none pt-1" href="#">
-                                    Ship to
-                                </a>
+                                <a class="text-decoration-none pt-1" href="#">Ship to</a>
                                 <div class="dropdown">
                                     <button class="btn btn-outline-none dropdown-toggle selected-flag" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                      <!-- Placeholder for flag -->
-                                      <span id="selectedFlag"><img src="https://flagcdn.com/pk.svg" alt="🇵🇰" style="width:24px; height:16px;"></span>
+                                        <!-- Placeholder for flag -->
+                                        <span id="selectedFlag">
+                                            <img src="https://flagcdn.com/pk.svg" alt="🇵🇰" style="width:24px; height:16px;" width="24" height="16" loading="lazy">
+                                        </span>
                                     </button>
                                     <ul class="ship-to dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                      <li class="dropdown-search mx-2 d-flex align-items-center">
-                                        <!-- Search input field with icon -->
-                                        <input type="text" class="search-country-ship form-control px-1 rounded-1 shadow-none" id="dropdownSearch" placeholder="Search Country" aria-label="Search...">
-                                    
-                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"/>
+                                        <li class="dropdown-search mx-2 d-flex align-items-center">
+                                            <!-- Search input field with icon -->
+                                            <input type="text" class="search-country-ship form-control px-1 rounded-1 shadow-none" id="dropdownSearch" placeholder="Search Country" aria-label="Search...">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"/>
                                             </svg>
-                                            
-                                      </li>
-                                
-                                      <!-- Dropdown items with flag images and text -->
-                                      <li><a class="dropdown-item flag-select flag-select" href="#" data-flag="🇺🇸" data-img="https://flagcdn.com/us.svg"><img src="https://flagcdn.com/us.svg" alt="🇺🇸"> United States</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇨🇦" data-img="https://flagcdn.com/ca.svg"><img src="https://flagcdn.com/ca.svg" alt="🇨🇦"> Canada</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇬🇧" data-img="https://flagcdn.com/gb.svg"><img src="https://flagcdn.com/gb.svg" alt="🇬🇧"> United Kingdom</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇩🇪" data-img="https://flagcdn.com/de.svg"><img src="https://flagcdn.com/de.svg" alt="🇩🇪"> Germany</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇫🇷" data-img="https://flagcdn.com/fr.svg"><img src="https://flagcdn.com/fr.svg" alt="🇫🇷"> France</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇯🇵" data-img="https://flagcdn.com/jp.svg"><img src="https://flagcdn.com/jp.svg" alt="🇯🇵"> Japan</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇮🇳" data-img="https://flagcdn.com/in.svg"><img src="https://flagcdn.com/in.svg" alt="🇮🇳"> India</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇦🇺" data-img="https://flagcdn.com/au.svg"><img src="https://flagcdn.com/au.svg" alt="🇦🇺"> Australia</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇧🇷" data-img="https://flagcdn.com/br.svg"><img src="https://flagcdn.com/br.svg" alt="🇧🇷"> Brazil</a></li>
-                                      <li><a class="dropdown-item flag-select" href="#" data-flag="🇮🇹" data-img="https://flagcdn.com/it.svg"><img src="https://flagcdn.com/it.svg" alt="🇮🇹"> Italy</a></li>
-                                    </ul>
-                                  </div>
-                            </li>
-                           
-                            <li class="currency-dropdown dropdown mx-3">
-                                
-                                <div class="dropdown">
-                            <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span id="selectedCurrency">USD</span>
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="currencyDropdown">
-                                <div class="currency-search-field m-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
-                                    <input type="text" class="form-control border-0 shadow-none bg-transparent" id="currencySearch" placeholder="Search currency">
-                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"/>
-                                        </svg>
-                                </div>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="GBP">GBP</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="AUD">AUD</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="CAD">CAD</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="EUR">EUR</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="NZD">NZD</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="ZAR">ZAR</a></li>
-                                <li><a class="dropdown-item dropdown-currency" href="#" data-value="USD">USD</a></li>
-                                <!-- Add more currencies here -->
-                            </ul>
-                        </div>
-
+                                        </li>
                         
-                    
+                                        <!-- Dropdown items with flag images and text -->
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇺🇸" data-img="https://flagcdn.com/us.svg"><img src="https://flagcdn.com/us.svg" alt="🇺🇸" width="24" height="16" loading="lazy"> United States</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇨🇦" data-img="https://flagcdn.com/ca.svg"><img src="https://flagcdn.com/ca.svg" alt="🇨🇦" width="24" height="16" loading="lazy"> Canada</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇬🇧" data-img="https://flagcdn.com/gb.svg"><img src="https://flagcdn.com/gb.svg" alt="🇬🇧" width="24" height="16" loading="lazy"> United Kingdom</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇩🇪" data-img="https://flagcdn.com/de.svg"><img src="https://flagcdn.com/de.svg" alt="🇩🇪" width="24" height="16" loading="lazy"> Germany</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇫🇷" data-img="https://flagcdn.com/fr.svg"><img src="https://flagcdn.com/fr.svg" alt="🇫🇷" width="24" height="16" loading="lazy"> France</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇯🇵" data-img="https://flagcdn.com/jp.svg"><img src="https://flagcdn.com/jp.svg" alt="🇯🇵" width="24" height="16" loading="lazy"> Japan</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇮🇳" data-img="https://flagcdn.com/in.svg"><img src="https://flagcdn.com/in.svg" alt="🇮🇳" width="24" height="16" loading="lazy"> India</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇦🇺" data-img="https://flagcdn.com/au.svg"><img src="https://flagcdn.com/au.svg" alt="🇦🇺" width="24" height="16" loading="lazy"> Australia</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇧🇷" data-img="https://flagcdn.com/br.svg"><img src="https://flagcdn.com/br.svg" alt="🇧🇷" width="24" height="16" loading="lazy"> Brazil</a></li>
+                                        <li><a class="dropdown-item flag-select" href="#" data-flag="🇮🇹" data-img="https://flagcdn.com/it.svg"><img src="https://flagcdn.com/it.svg" alt="🇮🇹" width="24" height="16" loading="lazy"> Italy</a></li>
+                                    </ul>
+                                </div>
                             </li>
+                        
+                            <!-- Currency Dropdown -->
+                            <li class="currency-dropdown dropdown mx-3">
+                                <div class="dropdown">
+                                    <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span id="selectedCurrency">USD</span>
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="currencyDropdown">
+                                        <div class="currency-search-field m-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                            <input type="text" class="form-control border-0 shadow-none bg-transparent" id="currencySearch" placeholder="Search currency" aria-label="Search currency">
+                                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"/>
+                                            </svg>
+                                        </div>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="GBP">GBP</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="AUD">AUD</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="CAD">CAD</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="EUR">EUR</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="NZD">NZD</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="ZAR">ZAR</a></li>
+                                        <li><a class="dropdown-item dropdown-currency" href="#" data-value="USD">USD</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        
+                            <!-- Language Dropdown -->
                             <li class="language dropdown d-flex align-items-center mx-3">
                                 <button class="btn btn-outline-none border-0 shadow-none d-flex align-items-center dropdown-toggle p-0" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span id="selectedLanguage">English</span>
                                 </button>
-                                
                                 <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-                                    <li><a class="dropdown-item" href="#" data-lang="English">English</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Arabic">Arabic</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Spanish">Spanish</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="French">French</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Georgian">Georgian</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Mongolian">Mongolian</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Portuguese">Portuguese</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Russian">Russian</a></li>
-                                    <li><a class="dropdown-item" href="#" data-lang="Swahili">Swahili</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="English">English</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Arabic">Arabic</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Spanish">Spanish</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="French">French</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Georgian">Georgian</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Mongolian">Mongolian</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Portuguese">Portuguese</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Russian">Russian</a></li>
+                                    <li><a class="dropdown-item lang" href="#" data-lang="Swahili">Swahili</a></li>
                                 </ul>
-                                
                             </li>
+                        
+                            <!-- Sign In Icon -->
                             <li class="signin mx-3">
                                 <a href="#" class="text-decoration-none" aria-label="Sign in">Sign In</a>
-                                <img src="{{asset('assets/images/header-images/signin-icon.webp')}}" alt="sigin-icon" class="img-fluid" width="20" height="20" loading="lazy">
+                                <img src="{{asset('assets/images/header-images/signin-icon.webp')}}" alt="Sign-in icon" class="img-fluid" width="20" height="20" loading="lazy">
                             </li>
                         </ul>
+                        
+                        
                     </div>
                 </div>
             </div>
@@ -133,7 +130,7 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Find Your Car
                                         </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <h6>Explore Stock</h6>
@@ -208,90 +205,12 @@
                                             </div>
                                         </div>
                                     </li>
-                                    {{-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            New Cars
-                                        </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
-                                            <div class="row">
-                                                <div class="col-md-2 mx-2">
-                                                    <h6>Explore Stock</h6>
-                                                    <a class="dropdown-item" href="#">Find Used Cars for Sale</a>
-                                                    <a class="dropdown-item" href="#">Top Selling Cars</a>
-                                                    <a class="dropdown-item" href="#">Recommended For You</a>
-                                                    <a class="dropdown-item" href="#">Price Generator</a>
-                                                    <h6 class="mt-3">Explore By Price</h6>
-                                                    <a class="dropdown-item" href="#">Less than $1000</a>
-                                                    <a class="dropdown-item" href="#">Between $1000 - $2000</a>
-                                                    <a class="dropdown-item" href="#">Between $2000 - $3000</a>
-                                                    <a class="dropdown-item" href="#">Between $3000 - $4000</a>
-                                                    <a class="dropdown-item" href="#">Between $4000 - $5000</a>
-                                                    <a class="dropdown-item" href="#">Above $5000</a>
-                                                </div>
-                                                <div class="col-md-2 mx-4 used-cars-dp">
-                                                    <h6>Explore By Make</h6>
-                                                    <a class="dropdown-item" href="#">Toyota</a>
-                                                    <a class="dropdown-item" href="#">Honda</a>
-                                                    <a class="dropdown-item" href="#">Nissan</a>
-                                                    <a class="dropdown-item" href="#">Daihatsu</a>
-                                                    <a class="dropdown-item" href="#">Madza</a>
-                                                    <a class="dropdown-item" href="#">Mitsubishi</a>
-                                                    <a class="dropdown-item" href="#">Suzuki</a>
-                                                    <a class="dropdown-item" href="#">Subaru</a>
-                                                    <a class="dropdown-item" href="#">Luxus</a>
-                                                    <a class="dropdown-item" href="#">BMW</a>
-                                                    <a class="dropdown-item" href="#">Mercedes</a>
-                                                </div>
-                                                <div class="col-md-2 mx-3 used-cars-dp">
-                                                    <h6>Explore By Type</h6>
-                                                    <a class="dropdown-item" href="#">SUV</a>
-                                                    <a class="dropdown-item" href="#">Sedan</a>
-                                                    <a class="dropdown-item" href="#">Hatchback</a>
-                                                    <a class="dropdown-item" href="#">Wagon</a>
-                                                    <a class="dropdown-item" href="#">Coupe</a>
-                                                    <a class="dropdown-item" href="#">Pickup</a>
-                                                    <a class="dropdown-item" href="#">Convirtable</a>
-                                                    <a class="dropdown-item" href="#">Bus</a>
-                                                    <a class="dropdown-item" href="#">Van</a>
-                                                    <a class="dropdown-item" href="#">Mini Van</a>
-                                                    <a class="dropdown-item" href="#">Tractor</a>
-                                                </div>
-                                                <div class="col-md-2 mx-3">
-                                                    <h6>Explor By Year</h6>
-                                                    <a class="dropdown-item" href="#">2004 and older</a>
-                                                    <a class="dropdown-item" href="#">2005 and newer</a>
-                                                    <a class="dropdown-item" href="#">2010 and newer</a>
-                                                    <a class="dropdown-item" href="#">2015 and newer</a>
-                                                    <a class="dropdown-item" href="#">2020 and newer</a>
-                                                    <h6 class="mt-3">Explore By Discount</h6>
-                                                    <a class="dropdown-item" href="#">60% Off or More</a>
-                                                    <a class="dropdown-item" href="#">50% Off or More</a>
-                                                    <a class="dropdown-item" href="#">40% Off or More</a>
-                                                    <a class="dropdown-item" href="#">30% Off or More</a>
-                                                    <a class="dropdown-item" href="#">1% - 30% Off</a>
-                                                </div>
-                                                <div class="col-md-2 mx-3">
-                                                    <h6>Explor By Year</h6>
-                                                    <a class="dropdown-item" href="#">2004 and older</a>
-                                                    <a class="dropdown-item" href="#">2005 and newer</a>
-                                                    <a class="dropdown-item" href="#">2010 and newer</a>
-                                                    <a class="dropdown-item" href="#">2015 and newer</a>
-                                                    <a class="dropdown-item" href="#">2020 and newer</a>
-                                                    <h6 class="mt-3">Explore By Discount</h6>
-                                                    <a class="dropdown-item" href="#">60% Off or More</a>
-                                                    <a class="dropdown-item" href="#">50% Off or More</a>
-                                                    <a class="dropdown-item" href="#">40% Off or More</a>
-                                                    <a class="dropdown-item" href="#">30% Off or More</a>
-                                                    <a class="dropdown-item" href="#">1% - 30% Off</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li> --}}
+                                    
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Local Pages
                                         </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     
@@ -511,7 +430,7 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Car Services
                                         </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <a class="dropdown-item" href="#" aria-label="Shipping Schedule">
@@ -585,7 +504,7 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Reviews
                                         </a>
-                                        <div class="dropdown-menu mega-menu car-reviews p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu car-reviews p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <a class="dropdown-item" href="#" aria-label="Car Reviews">
@@ -631,7 +550,7 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Company Overview
                                         </a>
-                                        <div class="dropdown-menu mega-menu car-reviews p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu car-reviews p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <a class="dropdown-item" href="#" aria-label="About SAT">
@@ -679,7 +598,7 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Help
                                         </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 my-3 border-0" aria-labelledby="navbarDropdown">
+                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <a class="dropdown-item" href="#" aria-label="How to Buy">
@@ -743,6 +662,8 @@
                                         </div>
                                     </li>
                                 </ul>
+
+
                             </div>
                         </div>
                     </nav>
@@ -1448,7 +1369,8 @@
 						</div>
 					</div>
 					<div class="col-auto brand-logo-area p-0">
-						<a class="brand-logo" href="#" aria-label="Homepage"> <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="80" height="30"> </a>
+						<a class="brand-logo" href="#" aria-label="Homepage"> 
+                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="80" height="30"> </a>
 					</div>
 					<div class="col search-form">
 						<form class="d-flex position-relative" role="search" aria-label="Search form">

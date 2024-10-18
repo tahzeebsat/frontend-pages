@@ -76,7 +76,7 @@ document.getElementById('dropdownSearch').addEventListener('input', function() {
 
       // Update button with only the flag image
       selectedFlagSpan.innerHTML = `<img src="${imgSrc}" alt="${flag}" style="width:24px; height:16px;">`;
-
+debugger
       // Close dropdown after selection
       const dropdown = bootstrap.Dropdown.getInstance(button);
       dropdown.hide();
@@ -119,9 +119,10 @@ document.getElementById('dropdownSearch').addEventListener('input', function() {
 
 // JS Language Select
 
-  document.querySelectorAll('.dropdown-item').forEach(item => {
+  document.querySelectorAll('.dropdown-item.lang').forEach(item => {
     item.addEventListener('click', function() {
         const language = this.getAttribute('data-lang');
+        debugger
         document.getElementById('selectedLanguage').textContent = language; // Update the button text
     });
 });

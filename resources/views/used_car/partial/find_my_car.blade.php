@@ -1279,7 +1279,7 @@
                     </div>
                     <div class="find-car-action">
                         <a href="javacript:;" type="button" class="btn btn-find-car" data-bs-toggle="modal"
-                            data-bs-target="#findMyCarModal2">Find My Car
+                            data-bs-target="#">Find My Car
                             <i class="fa fa-chevron-right px-2"></i>
                         </a>
                     </div>

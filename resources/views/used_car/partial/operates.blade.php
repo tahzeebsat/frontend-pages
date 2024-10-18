@@ -51,8 +51,9 @@
                     <div class="buy-more" id="buyMoreBtn">
                         <p class="details" id="btnText">
                             Show More Countries 
-                            <img id="addIcon" src="{{ asset('assets/images/add-circle.webp') }}" alt="Add Circle Icon" class="img-fluid" loading="lazy">
-                            <img id="removeIcon" src="{{ asset('assets/images/remove-icon.webp') }}" alt="Remove Icon" class="img-fluid" loading="lazy" style="display: none;">
+                            <!-- Set width and height for both icons to prevent layout shifts -->
+                            <img id="addIcon" src="{{ asset('assets/images/add-circle.webp') }}" alt="Add Circle Icon" class="img-fluid" width="24" height="24" loading="lazy">
+                            <img id="removeIcon" src="{{ asset('assets/images/remove-icon.webp') }}" alt="Remove Icon" class="img-fluid" width="24" height="24" loading="lazy" style="display: none;">
                         </p>
                     </div>
                 </div>

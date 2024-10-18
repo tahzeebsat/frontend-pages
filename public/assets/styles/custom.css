@@ -289,7 +289,7 @@ input:focus {
 }
 
 /* mega menu style */
-.mega-menu-section {
+/* .mega-menu-section {
     position: relative;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -349,7 +349,88 @@ input:focus {
     font-size: 18px;
     color: var(----rich-black);
     white-space: nowrap;
+} */
+
+.mega-menu-section {
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+.mega-menu-section .navbar .dropdown-menu {
+    visibility: hidden;          
+    opacity: 0;                  
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+}
+
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu {
+    visibility: visible;        
+    opacity: 1;                  
+    left: 16px;
+    font-family: "Lato", sans-serif;
+    line-height: 32px;
+    font-size: var(--fs-16);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    top: 48px;
+}
+
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu .used-cars-dp {
+    line-height: 33.2px;
+}
+
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu .car-services-mm {
+    width: 28px;
+    height: 16px;
+}
+
+.mega-menu-section .navbar .mega-menu {
+    padding: 20px;
+    width: max-content;
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item {
+    padding: 0;
+    font-size: var(--fs-14);
+    color: var(--para-color);
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover {
+    color: var(--custome-color) !important;
+    background-color: transparent !important;
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover svg path {
+    fill: var(--custome-color);
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover span {
+    color: var(--custome-color);
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .nav-link {
+    font-family: "Lato", sans-serif;
+    margin: 0px 10px;
+    font-weight: 600;
+    font-size: var(--fs-14);
+    color: var(--rich-black);
+    padding-left: 0;
+}
+
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-menu h6 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--rich-black);
+    white-space: nowrap;
+}
+
+
+
+
+
 
 
 
