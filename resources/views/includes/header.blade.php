@@ -25,13 +25,14 @@
                             <li class="ship-to-dropdown dropdown mx-3 d-flex align-items-center">
                                 <a class="text-decoration-none pt-1" href="#">Ship to</a>
                                 <div class="dropdown">
-                                    <button class="btn btn-outline-none dropdown-toggle selected-flag" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-outline-none dropdown-toggle selected-flag" type="button" id="dropdownMenuButtonFlag" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{-- <button class="btn btn-outline-none dropdown-toggle selected-flag" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
                                         <!-- Placeholder for flag -->
                                         <span id="selectedFlag">
                                             <img src="https://flagcdn.com/pk.svg" alt="🇵🇰" style="width:24px; height:16px;" width="24" height="16" loading="lazy">
                                         </span>
                                     </button>
-                                    <ul class="ship-to dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <ul class="ship-to dropdown-menu" aria-labelledby="dropdownMenuButtonFlag">
                                         <li class="dropdown-search mx-2 d-flex align-items-center">
                                             <!-- Search input field with icon -->
                                             <input type="text" class="search-country-ship form-control px-1 rounded-1 shadow-none" id="dropdownSearch" placeholder="Search Country" aria-label="Search...">
@@ -58,10 +59,11 @@
                             <!-- Currency Dropdown -->
                             <li class="currency-dropdown dropdown mx-3">
                                 <div class="dropdown">
-                                    <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButtonCurrency" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{-- <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
                                         <span id="selectedCurrency">USD</span>
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="currencyDropdown">
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonCurrency" id="currencyDropdown">
                                         <div class="currency-search-field m-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
                                             <input type="text" class="form-control border-0 shadow-none bg-transparent" id="currencySearch" placeholder="Search currency" aria-label="Search currency">
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

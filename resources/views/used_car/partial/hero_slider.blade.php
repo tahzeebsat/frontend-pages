@@ -4,11 +4,11 @@
     <div class="row mb-5 pb-3 position-relative carousel-start">
         <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true" aria-labelledby="carouselTitle" aria-live="polite">
             <!-- Carousel Indicators with ARIA labels for accessibility -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" role="tab"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" role="tab"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" role="tab"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" role="tab"></button>
+            <div class="carousel-indicators" role="tablist" aria-label="Carousel indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" role="tab" aria-selected="true"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2" role="tab" aria-selected="false"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3" role="tab" aria-selected="false"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4" role="tab" aria-selected="false"></button>
             </div>
           
             <!-- Carousel Inner (Slides) -->
@@ -50,10 +50,11 @@
                          
                                 <div class="mb-3">
                                       <div class="dropdown">
-                                        <button class="btn btn-select-make dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button class="btn btn-select-make dropdown-toggle" type="button" id="dropdownMenuButtonMake" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {{-- <button class="btn btn-select-make dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
                                             <span id="selectedMake">Make</span>
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="makeDropdown">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonMake" id="makeDropdown">
                                             <div class="make-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
                                                 <input type="text" class="form-control border-0 shadow-none bg-transparent" id="makeForm" placeholder="Search Make">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -73,10 +74,11 @@
                                 </div>
                                 <div class="mb-3">
                                     <div class="dropdown">
-                                        <button class="btn btn-select-type dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <button class="btn btn-select-type dropdown-toggle" type="button" id="dropdownMenuButtonType" data-bs-toggle="dropdown" aria-expanded="false">
+                                        {{-- <button class="btn btn-select-type dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
                                             <span id="selectedType">Type</span>
                                         </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="typeDropdown">
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonType" id="typeDropdown">
                                             <div class="type-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
                                                 <input type="text" class="form-control border-0 shadow-none bg-transparent" id="typeForm" placeholder="Search Type">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

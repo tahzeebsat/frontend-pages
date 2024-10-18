@@ -12,10 +12,10 @@
     {{-- include global style files --}}
     @yield('css_plugin')
 
-    <link rel="stylesheet" href="{{asset('assets/styles/mobile.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/styles/tablet.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/styles/custom.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/mobile.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/tablet.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/custom.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/bootstrap.min.css')}}">
     {{-- Swiperjs --}}
     <link rel="stylesheet" href="{{asset('assets/styles/swiper-bundle.min.css')}}">
@@ -55,7 +55,7 @@
 
 <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
-<script src="{{asset('assets/js/custom.js')}}"></script>
+<script src="{{asset('assets/js/custom.min.js')}}"></script>
 
 
 

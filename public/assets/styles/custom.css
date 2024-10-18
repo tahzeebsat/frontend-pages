@@ -11,7 +11,7 @@
     --dark-primary:#01334E;
     --border-color:#AEB1B8;
     --light-lavender:#EDEDF1;
-    --muted-grey: #2F2B434D;
+    --muted-grey: #2f2b43;
     --deep-slate-gray:#5D6370;
     --rich-black:#141817;
     --light-grey: #f6f6f8;
@@ -534,7 +534,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .stock-inhand{
     display: flex;
@@ -544,7 +544,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
     
 
 }
@@ -579,7 +579,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .model-search-field{
     max-height: 34px;
@@ -609,7 +609,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .type-search-field{
     max-height: 34px;
@@ -639,7 +639,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .steering-search-field{
     max-height: 34px;
@@ -669,7 +669,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .min-year-search-field{
     max-height: 34px;
@@ -699,7 +699,7 @@ input:focus {
     line-height: 16px;
     font-size: 12px;
     font-family: "Lato", sans-serif;
-    color: #858a94;
+    color: #333333;
 }
 .hero-slider-form-area .form-slider .from-wrapper .dropdown .dropdown-menu .max-year-search-field{
     max-height: 34px;
