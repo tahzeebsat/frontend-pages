@@ -100,6 +100,7 @@
         display: block;
         padding-top: 1px;
     }
+    
     footer .footer-wrapper .join-by-mailing .join-mail-ref{
         display: block;
     }
@@ -189,6 +190,7 @@
     .dasktop-footer{
         display: none;
     }
+   
     footer .footer-wrapper .join-by-mailing .join-mail-ref{
         display: flex;
     }
@@ -576,6 +578,9 @@
     .carousel-indicators .active {
         width: 10px !important;
         height: 5px !important;
+    }
+    .headerSearch .search-form{
+        margin: 0%;
     }
 }
 
