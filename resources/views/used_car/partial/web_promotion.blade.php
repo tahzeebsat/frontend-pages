@@ -19,8 +19,6 @@
                 loading="lazy" 
                 width="1200" 
                 height="400"
-                srcset="{{ asset('assets/images/promotion-banner.webp') }} 1200w, {{ asset('assets/images/promotion-banner-small.webp') }} 600w" 
-                sizes="(max-width: 768px) 600px, 1200px"
                 >
         </div>
     </div>

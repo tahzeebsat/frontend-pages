@@ -15,16 +15,16 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <!-- Use WebP images for improved performance and lazy load -->
-                <img src="{{ asset('assets/images/slider/slider1.webp') }}" class="d-block w-100 img-fluid" alt="A beautiful scenic view - slider 1" loading="lazy" width="1920" height="424" />
+                <img src="{{ asset('assets/images/slider/slider1.webp') }}" class="d-block w-100 img-fluid" alt="A beautiful scenic view - slider 1" loading="eager" width="1920" height="424" />
               </div>
               <div class="carousel-item">
-                <img src="{{ asset('assets/images/slider/slider2.webp') }}" class="d-block w-100 img-fluid" alt="Sunset over the mountains - slider 2" loading="lazy" width="1920" height="424" />
+                <img src="{{ asset('assets/images/slider/slider2.webp') }}" class="d-block w-100 img-fluid" alt="Sunset over the mountains - slider 2" loading="eager" width="1920" height="424" />
               </div>
               <div class="carousel-item">
-                <img src="{{ asset('assets/images/slider/slider3.webp') }}" class="d-block w-100 img-fluid" alt="Cityscape view from the top - slider 3" loading="lazy" width="1920" height="424" />
+                <img src="{{ asset('assets/images/slider/slider3.webp') }}" class="d-block w-100 img-fluid" alt="Cityscape view from the top - slider 3" loading="eager" width="1920" height="424" />
               </div>
               <div class="carousel-item">
-                <img src="{{ asset('assets/images/slider/slider4.webp') }}" class="d-block w-100 img-fluid" alt="Beach view with clear skies - slider 4" loading="lazy" width="1920" height="424" />
+                <img src="{{ asset('assets/images/slider/slider4.webp') }}" class="d-block w-100 img-fluid" alt="Beach view with clear skies - slider 4" loading="eager" width="1920" height="424" />
               </div>
             </div>
           
