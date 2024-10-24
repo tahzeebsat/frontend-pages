@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="{{asset('assets/styles/mobile.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/tablet.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/styles/custom.min.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/custom.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/bootstrap.min.css')}}">
     {{-- Swiperjs --}}
@@ -24,6 +24,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    {{-- select2 css --}}
+    <link rel="stylesheet" href="{{asset('assets/styles/select2.min.css')}}">
 
     @yield('style')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -55,7 +58,8 @@
 
 <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
-<script src="{{asset('assets/js/custom.min.js')}}"></script>
+<script src="{{asset('assets/js/select2.min.js')}}"></script>
+<script src="{{asset('assets/js/custom.js')}}"></script>
 
 
 

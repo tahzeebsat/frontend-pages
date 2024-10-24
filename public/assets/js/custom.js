@@ -131,32 +131,34 @@ debugger
 // ========================= Start Hero Form Searches ======================
 
 // ========================= Start Make Dropdown Search =========================
-const searchInputMakeMenu = document.getElementById('makeForm');
-const dropdownItemsMenu = document.querySelectorAll('.dropdown-make');
+document.addEventListener('DOMContentLoaded', function () {
+  const searchInputMakeMenu = document.getElementById('makeForm');
+  const dropdownItemsMenu = document.querySelectorAll('.dropdown-make');
 
-searchInputMakeMenu.addEventListener('input', function () {
-    const query = searchInputMakeMenu.value.toLowerCase();
+  searchInputMakeMenu&&searchInputMakeMenu.addEventListener('input', function () {
+      const query = searchInputMakeMenu.value.toLowerCase();
 
-    dropdownItemsMenu.forEach(function (item) {
-        const text = item.textContent.toLowerCase();
-        if (text.includes(query)) {
-            item.style.display = 'block';  // Show matching items
-        } else {
-            item.style.display = 'none';   // Hide non-matching items
-        }
-    });
-});
+      dropdownItemsMenu.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          if (text.includes(query)) {
+              item.style.display = 'block';  // Show matching items
+          } else {
+              item.style.display = 'none';   // Hide non-matching items
+          }
+      });
+  });
 
-// Handle selection of currency
-dropdownItemsMenu.forEach(function (item) {
-    item.addEventListener('click', function () {
-        const selected = item.getAttribute('data-value');
-        const selectedText = item.textContent.trim();
+  // Handle selection of make
+  dropdownItemsMenu.forEach(function (item) {
+      item.addEventListener('click', function () {
+          const selected = item.getAttribute('data-value');
+          const selectedText = item.textContent.trim();
 
-        document.getElementById('selectedMake').textContent = selectedText;  // Update button text
-        searchInputMakeMenu.value = '';  // Clear the search input
-        document.getElementById('makeDropdown').classList.remove('show');  // Close the dropdown
-    });
+          document.getElementById('selectedMake').textContent = selectedText;  // Update button text
+          searchInputMakeMenu.value = '';  // Clear the search input
+          document.getElementById('makeDropdown').classList.remove('show');  // Close the dropdown
+      });
+  });
 });
 
 // ========================= End Make Dropdown Search =========================
@@ -166,18 +168,19 @@ dropdownItemsMenu.forEach(function (item) {
 const searchInputModelMenu = document.getElementById('modelForm');
 const dropdownItemsMenuModel = document.querySelectorAll('.dropdown-model');
 
-searchInputModelMenu.addEventListener('input', function () {
-    const query = searchInputModelMenu.value.toLowerCase();
+searchInputModelMenu&&searchInputModelMenu.addEventListener('input', function () {
+  const query = searchInputModelMenu.value.toLowerCase();
 
-    dropdownItemsMenuModel.forEach(function (item) {
-        const text = item.textContent.toLowerCase();
-        if (text.includes(query)) {
-            item.style.display = 'block';  // Show matching items
-        } else {
-            item.style.display = 'none';   // Hide non-matching items
-        }
-    });
+  dropdownItemsMenuModel.forEach(function (item) {
+      const text = item.textContent.toLowerCase();
+      if (text.includes(query)) {
+          item.style.display = 'block';  // Show matching items
+      } else {
+          item.style.display = 'none';   // Hide non-matching items
+      }
+  });
 });
+
 
 // Handle selection of currency
 dropdownItemsMenuModel.forEach(function (item) {
@@ -198,7 +201,7 @@ dropdownItemsMenuModel.forEach(function (item) {
 const searchInputTypeMenu = document.getElementById('typeForm');
 const dropdownItemsMenuType = document.querySelectorAll('.dropdown-type');
 
-searchInputTypeMenu.addEventListener('input', function () {
+searchInputTypeMenu&&searchInputTypeMenu.addEventListener('input', function () {
     const query = searchInputTypeMenu.value.toLowerCase();
 
     dropdownItemsMenuType.forEach(function (item) {
@@ -230,7 +233,7 @@ dropdownItemsMenuType.forEach(function (item) {
 const searchInputSteeringMenu = document.getElementById('steeringForm');
 const dropdownItemsMenuSteering = document.querySelectorAll('.dropdown-steering');
 
-searchInputSteeringMenu.addEventListener('input', function () {
+searchInputSteeringMenu&&searchInputSteeringMenu.addEventListener('input', function () {
     const query = searchInputSteeringMenu.value.toLowerCase();
 
     dropdownItemsMenuSteering.forEach(function (item) {
@@ -261,7 +264,7 @@ dropdownItemsMenuSteering.forEach(function (item) {
 const searchInputMinYear = document.getElementById('minyearForm');
 const dropdownItemsMinYear = document.querySelectorAll('.dropdown-minyear');
 
-searchInputMinYear.addEventListener('input', function () {
+searchInputMinYear&&searchInputMinYear.addEventListener('input', function () {
     const query = searchInputMinYear.value.toLowerCase();
 
     dropdownItemsMinYear.forEach(function (item) {
@@ -293,7 +296,7 @@ dropdownItemsMinYear.forEach(function (item) {
 const searchInputMaxYear = document.getElementById('maxyearForm');
 const dropdownItemsMaxYear = document.querySelectorAll('.dropdown-maxyear');
 
-searchInputMaxYear.addEventListener('input', function () {
+searchInputMaxYear&&searchInputMaxYear.addEventListener('input', function () {
     const query = searchInputMaxYear.value.toLowerCase();
 
     dropdownItemsMaxYear.forEach(function (item) {
@@ -326,7 +329,8 @@ dropdownItemsMaxYear.forEach(function (item) {
 
 // ========================= Start Expand Country Home Section ======================
 
- document.addEventListener("DOMContentLoaded", function () {
+try{
+  document.addEventListener("DOMContentLoaded", function () {
     // Wait until the DOM is fully loaded before attaching the click handler
     const buyMoreBtn = document.getElementById('buyMoreBtn');
     const toggleFlags = document.getElementById('toggleFlags');
@@ -366,33 +370,74 @@ dropdownItemsMaxYear.forEach(function (item) {
        
     };
 });
+}catch(error){}
 
 
 
 
-
+try{
+  
 document.getElementById('showMoreCountries').addEventListener('click', function() {
-    // Get the button and the container that shows the countries
-    const button = document.getElementById('showMoreCountries');
-    const countryList = document.querySelector('.toggle-2');
+  // Get the button and the container that shows the countries
+  const button = document.getElementById('showMoreCountries');
+  const countryList = document.querySelector('.toggle-2');
 
-    // Toggle the visibility of the countries
-    if (countryList.style.display === 'none' || countryList.style.display === '') {
-        countryList.style.display = 'block';  // Show the list
-        button.innerText = 'Hide Countries';  // Change button text to 'Hide'
-    } else {
-        countryList.style.display = 'none';  // Hide the list
-        button.innerText = 'Show More Countries';  // Reset button text to 'Show More'
-    }
+  // Toggle the visibility of the countries
+  if (countryList.style.display === 'none' || countryList.style.display === '') {
+      countryList.style.display = 'block';  // Show the list
+      button.innerText = 'Hide Countries';  // Change button text to 'Hide'
+  } else {
+      countryList.style.display = 'none';  // Hide the list
+      button.innerText = 'Show More Countries';  // Reset button text to 'Show More'
+  }
 
-    // After showing, remove the button
-    button.style.display = 'none';
+  // After showing, remove the button
+  button.style.display = 'none';
 });
+}catch(error){}
 // ========================= End Expand Country Home Section ======================
 
 
 
 // ========================= Start Swiper Js Section ======================
+
+
+
+// ===================== Start Similar Cars Swipper =====================
+var swiper = new Swiper('.similarCarSwiper', {
+  slidesPerView: 2, // Default for mobile
+  spaceBetween: 15, // Space between slides for mobile
+  freeMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 2, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 5, // Show 3 slides per view on desktop
+      spaceBetween: 10, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+
+// ================== End Similar Car Swipper ==================
+
 
 // ===================== Start Compare Price Cars Swipper =====================
 var swiper = new Swiper('.compareSwiper', {
@@ -724,11 +769,10 @@ var swiper = new Swiper('.popularBrandSwiperMobile', {
 });
 
 
-
-
 // ================== End Popular Car Swipper ==================
 
 // ========================= End Swiper Js Section ======================
+
 
 
 
@@ -822,5 +866,78 @@ document.querySelectorAll('.budget-buttons button').forEach(button => {
 // });
 
 
+// ===================== Search Show More Advance
 
+const toggleButton = document.getElementById('toggleButton');
+const myForm = document.getElementById('myForm');
+
+toggleButton&&toggleButton.addEventListener('click', function() {
+    if (myForm.style.display === 'none' || myForm.style.display === '') {
+        myForm.style.display = 'block'; // Show the form
+        toggleButton.innerHTML = `View Additional Filters <i class="fas fa-chevron-up"></i>`; // Change button text
+       
+    } else {
+        myForm.style.display = 'none'; // Hide the form
+        toggleButton.innerHTML = `View Additional Filters <i class="fas fa-chevron-down"></i>`; // Change button text
+    }
+});
+
+
+// ====================== list view and grid view for search page
+const listViewButton = document.getElementById('listView');
+const gridViewButton = document.getElementById('gridView');
+const itemsContainer = document.getElementById('itemsContainer');
+
+listViewButton.addEventListener('click', () => {
+    itemsContainer.classList.remove('grid-view');
+    itemsContainer.classList.add('list-view');
+    listViewButton.classList.add('active');
+    gridViewButton.classList.remove('active');
+});
+
+gridViewButton.addEventListener('click', () => {
+    itemsContainer.classList.remove('list-view');
+    itemsContainer.classList.add('grid-view');
+    gridViewButton.classList.add('active');
+    listViewButton.classList.remove('active');
+});
+
+
+
+// select removeable
+
+$(document).ready(function() {
+  const selectElement = $('#mySelect');
+  const closeIcon = $('#closeIcon');
+
+  // Initialize Select2
+  selectElement.select2({
+      placeholder: "Honda",
+      allowClear: true
+  });
+
+  // Show/hide the close icon based on the selected value
+  selectElement.on('change', function() {
+      if (selectElement.val()) {
+          closeIcon.show(); // Show the close icon
+      } else {
+          closeIcon.hide(); // Hide the close icon
+      }
+  });
+
+  // Close icon functionality
+  closeIcon.on('click', function() {
+      selectElement.val(null).trigger('change'); // Clear selection and trigger change
+      closeIcon.hide(); // Hide the close icon
+  });
+
+  // Trigger change on initialization to set the icon visibility correctly
+  selectElement.trigger('change');
+});
+
+
+// select2
+$(document).ready(function () {
+  $(".selection-search").select2();
+});
 
