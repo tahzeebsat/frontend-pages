@@ -462,7 +462,6 @@ input:focus {
  .carousel-indicators [data-bs-target]{
     width: 10px !important;
     height: 10px !important; 
-    margin-right: 8px !important;
  }
  .carousel-indicators button {
     background-color: var(--white-color) !important; /* Grey color for inactive indicator */
@@ -475,6 +474,7 @@ input:focus {
 .carousel-indicators{
     position: relative;
     top: 450px;
+    display: none !important;
 }
 
 .carousel-indicators .active {
