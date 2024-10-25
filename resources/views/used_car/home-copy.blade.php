@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 
-@component('used_car.partial.hero_slider')
+@component('used_car.partial.hero-slider-copy')
 @endcomponent
 
 @component('used_car.partial.top_selling')
@@ -17,7 +17,7 @@
 @component('used_car.partial.early_budget')
 @endcomponent
 
-@component('used_car.partial.web_promotion')
+@component('used_car.partial.promotion-banner-copy')
 @endcomponent
 
 @component('used_car.partial.how_to_buy')

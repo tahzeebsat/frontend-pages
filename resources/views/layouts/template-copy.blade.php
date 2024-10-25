@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Japanese Used Cars for Sale | SAT Japan</title>
-    <meta name="title" content="Japanese Used Cars for Sale | SAT Japan">
-    <link rel="canonical" href="https://front-pages.satjapan.info/home-copy" />
-    <meta name="keywords" content="Japanese Used Cars,Used Cars For Sale,Japanese Vehicles,Japanese Used Car Exporter,Japanese Car Auction,Toyota,Nissan,Honda,Car Dealers Near Me,used car deals,Japanese cars for sale">
+    <meta name="title" content="Japanese Used Cars for Sale | SAT Japan"> 
+    <meta name="keywords" content="Japanese Used Cars,Used Cars For Sale,Japanese Vehicles,Japanese Used Car Exporter,Japanese Car Auction,Toyota,Nissan,Honda,Car Dealers Near Me,used car deals,Japanese cars for sale"> 
     <meta name="description" content="Japanese used car exporters SAT offers a wide collection of new and used top quality Japanese vehicles. Explore the finest Japanese used cars on our website.">
-
+    <link rel="canonical" href="https://front-pages.satjapan.info/home-copy" />
+   
     {{-- include global style files --}}
     @yield('css_plugin')
 

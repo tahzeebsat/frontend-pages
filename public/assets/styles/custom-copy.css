@@ -457,7 +457,9 @@ input:focus {
 .carousel-control-next, .carousel-control-prev{
     width:90% !important;
 }
-
+.carousel-inner .carousel-item img{
+    height: 424px;
+}
  /* Style the carousel indicators */
  .carousel-indicators [data-bs-target]{
     width: 10px !important;
