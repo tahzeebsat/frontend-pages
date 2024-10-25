@@ -1037,3 +1037,535 @@
 }
 /* ===================================== End Find My Car Section Css ===================================== */
 
+
+/* ===================================== Start Mobile Advance Search Page Css ===================================== */
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-button{
+    font-family: 'Lato';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    color: #353c4d;
+    height: 40px;
+    background-color: #ecf5ff;
+    border-radius: 4px;
+    padding: 10px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-button::after{
+    filter: invert(1);
+    font-size: var(--fs-12);
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .price-text{
+    font-family: 'Lato';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country label{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    padding: 0px;
+    padding-bottom: 6px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country select{
+    background-color: #f6f6f8;
+    height: 31px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    color: #5d6370;
+    border: 1px solid #858a9478;
+    background-size: 16px 9px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port label{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    padding: 0px;
+    padding-bottom: 6px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port select{
+    background-color: #f6f6f8;
+    height: 31px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    color: #5d6370;
+    border: 1px solid #858a9478;
+    background-size: 16px 9px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top{
+    font-size: 12px;
+    font-family: 'Lato';
+    color: #000000;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .fa-info-circle{
+    color: #dcdae2;
+    font-size:14px;
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button {
+    margin: 0 5px 0 0;
+    width: 100%;
+    position: relative;
+    background-color: #f6f6f8;
+    color: #aeb1b8;
+    border: 1px solid #ededf1;
+    height: 31px;
+    border-radius: 6px;
+  }
+
+  
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label,
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"]:checked + label {
+    background: #2a9fe8;
+    border-radius: 4px;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Lato';
+  }
+  
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1.8em;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lato';
+    background-color: #f6f6f8;
+    color: #aeb1b8;
+    border: 1px solid #ededf1;
+  }
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck {
+    display: flex;
+    justify-content: space-between;
+    gap: 45px; 
+}
+  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck  .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom, 
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+    position: relative;
+    color: #858a94;
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+    border-radius: 50%;
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:checked + 
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #bbb;
+}
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:focus + 
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+  outline: 1px solid #ddd; /* focus style */
+}
+
+
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-calculator{
+    background-color: #2a9fe8;
+    width: 100%;
+    color: white;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding: 0;
+    height: 31px;
+}
+.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-reset{
+    border: 1px solid #858a94;
+    color: #353c4d;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 500;
+    padding: 0;
+    height: 31px;
+}
+  
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders{
+    font-size: 12px;
+    font-family: 'Lato';
+    margin-block: 4px;
+    display: inline-block;
+    color: #353c4d;
+    border: 1px solid #353c4d;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    margin-right: 2px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .filters-count{
+    position: relative;
+    bottom: 4px;
+    padding: 2px 5px;
+    color: white;
+    background-color: #6ad09d;
+    border-radius: 50%;
+    font-family: 'Sofia-Pro';
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16.68px;
+    letter-spacing: -0.01em;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .fa-chevron-down{
+    font-size: 8px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 1px;
+}
+
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list{
+    padding: 0px 0px;
+    list-style-type: none;
+    display: inline-block;
+    scrollbar-width: none;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross{
+    font-size: 12px;
+    font-family: 'Lato';
+    margin-block: 4px;
+    display: inline-block;
+    background-color: #ecf5ff;
+    color: #154f74;
+    border: 1px solid #154f74;
+    border-radius: 30px;
+    padding: 8px 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    margin-right: 2px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross .fa-close{
+    color: #154F74;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.mobile-view .advance-search-calculator-mobile .mobile-anim-details .heading{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato';
+    color: #0c1529;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-anim-details .details{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Lato';
+    color: #5d6370;
+    margin-bottom: 12px;
+    line-height: 21px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-anim-details .details ol{
+    color: #353c4d;
+}
+
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sav-sear{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sort .btn-sort-search-mobile{
+    font-family: 'Lato';
+    font-size: var(--fs-12);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #3f395a;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left {
+    width: 33%;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right {
+    width: 67%;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #5d6370;
+} 
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text-id{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+} 
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys{
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 8.99px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    background-color: #ff4b44;
+} 
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys2{
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 8.99px;
+    letter-spacing: -0.01em;
+    color: #c8811a;
+    background-color: #fbf2cb;
+} 
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .country .mobile-nys2{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    display: flex;
+    align-items: center;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .heading{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    padding: 0px 5px;
+} 
+
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .year{
+    font-family: 'Lato';
+    font-size: var(--fs-10);
+    font-weight: 700;
+    line-height: 12px;
+    margin-bottom: 0px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .dot{
+    background-color: #aeb1b8;
+    width: 4px;
+    height: 4px;
+    border-radius: 50px;
+    margin: 0px 2px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    justify-content: space-between;
+    padding: 0px 5px;
+    font-family: 'Lato';
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount{
+    font-weight: 700;
+    color: #1c6a9b;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount-drop{
+    color: #aeb1b8;
+    text-decoration: line-through;
+    font-weight: 700;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .discount{
+    color: #2f9461;
+    font-weight: 700;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner .amount{
+    font-weight: 700;
+    color: #1c6a9b;
+}
+
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-inquire{
+    background-color: #154f74;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Lato';
+    border-radius: 4px;
+    line-height: 16px;
+    height: 30px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-buyNow{
+    background-color: #2a9fe8;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Lato';
+    border-radius: 4px;
+    line-height: 16px;
+    height: 30px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner{
+    font-size: 10px;
+    font-family: 'Lato';
+
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.active{
+    color: #1c6a9b;
+    font-weight: 700;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.hover{
+    background-color: #ededf1;
+    color: #353c4d;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 1px 6px;
+    height: 17px;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    color: #353c4d;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .details .para{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+    color: #5d6370;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .mobile-search-view-text .view-all{
+    color: #2384c1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+
+#toggleViewLess {
+    display: none;
+  }
+  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin: 4px 0px;
+  }
+  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button{
+    padding: 10px;
+    height: 36px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #333;
+    border: 1px solid #aeb1b8;
+    background-color: transparent;
+  }
+  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button:not(.collapsed) {
+    border: 1px solid #1c6a9b;
+    color: #1c6a9b;
+}
+.mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-body{
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Lato';
+    width: 90%;
+    justify-content: space-between;
+    line-height: 22px;
+    color: #2a9fe8;
+}
+/* ===================================== End Mobile Advance Search Page Css ===================================== */
+

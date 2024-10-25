@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('used_car/home');
 });
+Route::get('/home-copy', function () {
+    return view('used_car/home-copy');
+});
 Route::get('/search', function () {
     return view('used_car/advance_search');
 });

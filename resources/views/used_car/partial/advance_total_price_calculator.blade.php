@@ -1,4 +1,4 @@
-<section>
+<section class="desktop-view">
     <div class="advance-search-calculator pt-2" role="region" aria-labelledby="search-calculator-heading">
         <div class="container">
             <div class="row">
@@ -125,9 +125,72 @@
                           </ul>
                         </div>
                         <div class="login-buttons text-center">
-                            <button class="login">
+                            <button type="button" class="login" data-bs-toggle="modal" data-bs-target="#search-alert">
                               <img src="{{asset('assets/images/icons/mail-add-line.png')}}" alt="search" class="img-fluid px-1" loading="lazy">Set Search Alert</button>
                             <p class="account-status">Dont have an account?<span class="login-redirect">Login</span></p>
+                        </div>
+                        {{-- Search-Alert Model --}}
+                        <div class="modal fade" id="search-alert" tabindex="-1" aria-labelledby="search-alertLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content px-5 py-4 rounded-0">
+                              <div class="modal-header border-0">
+                                <div class="modal-top d-flex justify-content-between w-100 align-items-center">
+                                  <div class="left d-flex align-items-center">
+                                    <div class="icon">
+                                      <img src="{{asset('assets/images/icons/sav-sarch-icon.webp')}}" alt="save search" class="img-fluid" loading="lazy" width="69" height="62">
+                                    </div>
+                                  <div class="details px-2">
+                                    <h3 class="heading m-0">Save Search</h3>
+                                    <p class="para m-0">Get notified about the latest updates regarding this vehicle.</p>
+                                  </div>
+                                
+                                  </div>
+                                  <div class="right">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  </div>
+                                </div>
+                                
+                              </div>
+                              <div class="modal-body">
+                                <div class="model-filter">
+                                  <p class="m-0 mb-3 title">Filter</p>
+                                  <div class="tag-button-list">
+                                    <ul class="list-unstyled">
+                                      <li>Honda</li>
+                                      <li>Civic</li>
+                                      <li>514264</li>
+                                      <li>Automatic</li>
+                                      <li>Sedan</li>
+                                      <li>Honda</li>
+                                      <li>Civic</li>
+                                      <li>514264</li>
+                                      <li>Automatic</li>
+                                      <li>Hybrid</li>
+                                      <li>Hybrid</li>
+                                      <li>Hybrid</li>
+                                      <li>Hybrid</li>
+                                    </ul>
+                                  </div>
+                                </div>
+
+                                <div class="col-12">
+                                  <label class="mb-1">Email <span class="text-danger fs-12">*</span></label>
+                                  <input type="email" class="form-control" placeholder="example@gmail.com">
+                                </div>
+                                <div class="col-12">
+                                  <label class="mt-4 mb-1">Phone <span class="text-danger fs-12">*</span></label>
+                                  <input type="number" placeholder="Phone#" class="phone-car-detail form-control  bg-white w-100" id="phone" />
+                                </div>
+
+                                
+                              </div>
+                              <div class="modal-footer border-0">
+                                <div class="col-12">
+                                  <button class="alert-btn">Save Search</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -1601,6 +1664,680 @@
           
         </div>
     </div>
+</section>
+
+
+{{-- Mobile View --}}
+
+<section class="mobile-view">
+  <div class="advance-search-calculator-mobile">
+    <div class="container">
+      <div class="row">
+        <div class="accordion accordion-flush px-2" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Total Price Calculator
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body px-0 py-3">
+                <p class="price-text m-0">
+                  This calculator estimates the cost of getting your
+                  desired vehicle delivered to you based on your shipping
+                  destination.
+              </p>
+
+              <div class="areaSelection d-flex justify-content-between gap-3 mt-2">
+                <div class="dest-country w-100">
+                  <label>Destination Country</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Bahamas</option>
+                    <option value="3">Botswana</option>
+                  </select>
+                </div>
+                <div class="dest-port w-100">
+                  <label>Destination port</label>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Select</option>
+                    <option value="1">Australia</option>
+                    <option value="2">Bahamas</option>
+                    <option value="3">Botswana</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="shipping-method">
+                <div class="inner">
+                  <div class="wrap">
+                    <div class="top">
+                      <p class="m-0"><i class="fa fa-info-circle me-2 py-3"></i>Shipping Method</p>
+
+                      <div class="selectionButton d-flex gap-2">
+                        <div class="button">
+                          <input type="radio" id="ror" name="check-substitution-2" checked/>
+                          <label class="btn btn-default p-0" for="ror">ROR</label>
+                        </div>
+                        <div class="button">
+                          <input type="radio" id="contain" name="check-substitution-2" />
+                          <label class="btn btn-default p-0" for="contain">Container</label>
+                        </div>
+                      </div>
+
+                      <div class="shipping-bottom">
+                        <div class="indicators">
+                            <p class="m-0"><i class="fa fa-info-circle me-2 py-3"></i>Insurance</p>
+                        </div>
+                        <div class="selectionCheck">
+                            <div>
+                                <input id="radio-insurance-yes" class="radio-custom" name="insurance" type="radio">
+                                <label for="radio-insurance-yes" class="radio-custom-label">Yes</label>
+                            </div>
+                            <div>
+                                <input id="radio-insurance-no" class="radio-custom" name="insurance" type="radio">
+                                <label for="radio-insurance-no" class="radio-custom-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="shipping-bottom">
+                        <div class="indicators">
+                            <p class="m-0"><i class="fa fa-info-circle me-2 py-3"></i>Inspection</p>
+                        </div>
+                        <div class="selectionCheck">
+                            <div>
+                                <input id="radio-inspection-yes" class="radio-custom" name="inspection" type="radio">
+                                <label for="radio-inspection-yes" class="radio-custom-label">Yes</label>
+                            </div>
+                            <div>
+                                <input id="radio-inspection-no" class="radio-custom" name="inspection" type="radio">
+                                <label for="radio-inspection-no" class="radio-custom-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="shipping-bottom">
+                        <div class="indicators">
+                            <p class="m-0"><i class="fa fa-info-circle me-2 py-3"></i>Warranty</p>
+                        </div>
+                        <div class="selectionCheck">
+                            <div>
+                                <input id="radio-warranty-yes" class="radio-custom" name="warranty" type="radio">
+                                <label for="radio-warranty-yes" class="radio-custom-label">Yes</label>
+                            </div>
+                            <div>
+                                <input id="radio-warranty-no" class="radio-custom" name="warranty" type="radio">
+                                <label for="radio-warranty-no" class="radio-custom-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="shipping-bottom">
+                        <div class="indicators">
+                            <p class="m-0"><i class="fa fa-info-circle me-2 py-3"></i>Certification</p>
+                        </div>
+                        <div class="selectionCheck">
+                            <div>
+                                <input id="radio-certification-yes" class="radio-custom" name="certification" type="radio">
+                                <label for="radio-certification-yes" class="radio-custom-label">Yes</label>
+                            </div>
+                            <div>
+                                <input id="radio-certification-no" class="radio-custom" name="certification" type="radio">
+                                <label for="radio-certification-no" class="radio-custom-label">No</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="shipping-calculate d-flex justify-content-between gap-3">
+                                <button class="btn btn-calculator">
+                                  <img src="{{asset('assets/images/icons/calculator-line.webp')}}" alt="Reset" class="img-fluid mx-2" loading="lazy" width="18" height="18">
+                                  Calculate</button>
+                                <button class="btn btn-reset">
+                                  <img src="{{asset('assets/images/icons/repeat.webp')}}" alt="Reset" class="img-fluid mx-2" loading="lazy" width="18" height="18">
+                                  Reset</button>
+                            </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+        <div class="mobile-filters-search">
+          <ul class="list-unstyled filter-list my-3">
+            <li class="icon-sliders">
+              <img src="{{asset('assets/images/icons/filters-stick.webp')}}" alt="Filter" loading="lazy" width="14" height="14"> Filters
+              <span class="filters-count">2</span>
+          </li>
+            <li class="icon-sliders-cross">
+               Toyota <span><i class="fa fa-close"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Make <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Model <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Year <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Price (USD) <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Milage <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Steering <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Transmission <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Engine Size <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders">
+               Fuel <span><i class="fa fa-chevron-down"></i></span>
+          </li>
+            <li class="icon-sliders border-0" style="font-size:14px; color:#5d6370;">
+               Show All Filters</span>
+          </li>
+            
+          </ul>
+        </div>
+
+        <div class="loti-anim text-center">
+          <img src="{{asset('assets/images/lottie.webp')}}" alt="Lottie" class="img-fluid" width="300" loading="lazy">
+      </div>
+
+      <div class="mobile-anim-details">
+        <div class="heading">
+            <p class="m-0 pb-2">Sorry, We Could Not Find Your Car</p>
+        </div>
+        <div class="details">
+            <p class="m-0 mb-3 para">
+                It seems that we could not find any results that match your search criteria. Try out the following recommendations to help you find what you are looking for
+            </p>
+            <ol class="px-2">
+                <li>Try reducing the number of filters you're using to broaden your search and reveal more options.</li>
+                <li>Try searching with different keywords like make, model, year, color, or body type in your search</li>
+                <li>Double-check your spelling to make sure there is no typing error in your search.</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="mobile-used-cars-search">
+      <div class="top">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between align-items-center">
+              <p class="heading">Used Toyota Cars for Sale</p>
+              <div class="d-flex align-items-center">
+                <p class="m-0 sav-sear">Save Search <img src="{{asset('assets/images/save.gif')}}" height="16" width="16" alt=""></p>
+                <div class="sort">
+                  <button class="btn btn-sort-search-mobile px-1">
+                  <img src="{{asset('assets/images/icons/sort-up.webp')}}" class="img-fluid mx-1" alt="sort up" loading="lazy" width="14" height="14">Sort
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="mobile-car-details-search">
+            <div class="inner d-flex pt-2">
+              <div class="left">
+                <img src="{{asset('assets/images/searchCar.webp')}}" alt="Car" class="img-fluid" loading="lazy">
+                <div class="mobile-stock-search">
+                  <span class="stock-text">Stock ID:</span>
+                  <span class="stock-text-id">SAT-88675153</span>
+                </div>
+              </div>
+              <div class="right px-2">
+                <div class="top d-flex align-items-center gap-2 mx-2">
+                  <p class="mobile-nys m-0">New Year Sales</p>
+                  <p class="mobile-nys2 m-0">New Year Sales</p>
+                </div>
+                <div class="country d-flex align-items-center mt-2 mx-2">
+                  <img src="{{asset('assets/images/country-flags/TZ.webp')}}" alt="Flag" class="img-fluid"  width="18" height="13">
+                  <p class="mobile-nys2 m-0 px-2">Tanzania</p>
+                </div>
+                <div class="heading">
+                  <p class="m-0">2018 TOYOTA LITEACE VAN DX</p>
+                </div>
+
+                <div class="mobile-spec-info d-flex px-1 gap-1">
+                  <div class="inner d-flex align-items-center">
+                    <p class="m-0 year">2010/6</p>
+                    <span class="dot"></span>
+                  </div>
+
+                  <div class="inner d-flex align-items-center">
+                    <p class="m-0 year">660cc</p>
+                    <span class="dot"></span>
+                  </div>
+
+                  <div class="inner d-flex align-items-center">
+                    <p class="m-0 year">12,380 km</p>
+                    <span class="dot"></span>
+                  </div>
+
+                  <div class="inner d-flex align-items-center">
+                    <p class="m-0 year">MT</p>
+                  </div>
+
+                </div>
+
+                <div class="mobile-car-search-prices">
+                  <div class="inner">
+                    <div class="prices">
+                      <p class="m-0 title">Car Price:</p>
+                      <p class="m-0 amount">$20,2154 </p>
+                      <p class="m-0 amount-drop">22,154870</p>
+                      <p class="m-0 discount">30% off</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="mobile-total-price-car">
+                  <div class="inner d-flex justify-content-between pt-2 px-1">
+                    <p class="m-0 title">Total Price (CIF to Mombasa):</p>
+                    <p class="m-0 amount">$28,2154</p>
+                  </div>
+                </div>
+
+                <div class="mobile-car-buttons-buy">
+                  <div class="inner d-flex align-items-center gap-2 mt-2">
+                    <button class="btn btn-inquire w-50">
+                      <img src="{{asset('assets/images/icons/mail-send.webp')}}" alt="Mail" class="img-fluid" loading="lazy" width="12" height="12">
+                      Inquire
+                    </button>
+
+                    <button class="btn btn-buyNow w-50">
+                      <img src="{{asset('assets/images/icons/shopping-cart.webp')}}" alt="Mail" class="img-fluid" loading="lazy" width="12" height="12">
+                      Buy Now
+                    </button>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <hr>
+          </div>
+
+
+          <div class="mobile-searh-pagination">
+            <div class="inner d-flex align-items-center gap-3 pb-3">
+              <div class="prev d-flex align-items-center">
+                <i class="fa fa-chevron-left px-2"></i>
+                <p class="m-0">Prev</p>
+              </div>
+              <div class="page-list">
+               <ul class="list-unstyled d-flex m-0 gap-4">
+                <li class="list-page active">1</li>
+                <li class="list-page hover">2</li>
+                <li class="list-page">3</li>
+                <li class="list-page">4</li>
+                <li class="list-page">5</li>
+                <li class="list-page">6</li>
+                <li class="list-page">7</li>
+               </ul>
+              </div>
+              <div class="next">
+                <p class="m-0">Next</p> 
+              </div>
+            </div>
+          </div>
+      </div>
+
+      </div>
+    </div>
+
+   
+    @component('used_car.partial.similar-car')
+    @endcomponent
+
+    <div class="mobile-used-car-sale">
+      <div class="inner">
+        <div class="heading py-3">
+          <p class="m-0"> Toyota Used Cars for Sale</p>
+        </div>
+        <div class="details">
+          <p class="m-0 para">Are you looking for a reliable used Toyota   cars from Japan? Explore our selection of premium used vehicles imported directly from Japan. Each car is meticulously inspected and certified to ensure optimal performance and reliability on the road.</p>
+        </div>
+
+        <div class="mobile-search-view-text text-center py-3">
+          <p class="m-0 view-all" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View All</p>
+          
+          <div class="collapse" id="collapseExample">
+            <div class="heading pb-3">
+              <p class="m-0 text-start"> Performance and Safety:</p>
+            </div>
+            <div class="details">
+              <p class="m-0 para">Toyota   is equipped with advanced safety features and cutting-edge technology to ensure a smooth and secure driving experience. From robust engines to fuel-efficient systems, these   deliver exceptional performance on every journey. With   efficiency and a powerful   engine, you can trust the Toyota   for any driving conditions. The   steering and   transmission further enhance your driving comfort and control. Available in   color with a   drive train, these cars offer a versatile and stylish option for any driver.</p>
+            </div>
+
+            <div class="heading py-3">
+              <p class="m-0 text-start">Interior and Comfort:</p>
+            </div>
+            <div class="details">
+              <p class="m-0 para">
+                Our inventory includes numerous models, ranging from luxurious sports cars to classic favorites. Step into the world of 
+                <a href="https://satjapan.com/" class="text-decoration-none" style="color:#2384c1;"><b>Used Cars for Sale</b></a>
+                and experience comfort like never before. With spacious seating, premium upholstery options, and infotainment systems, Toyota   combines luxury with practicality.
+
+              </p>
+            </div>
+
+            <div class="heading py-3">
+              <p class="m-0 text-start">Why Choose SAT Japan?</p>
+            </div>
+            <div class="details">
+              <p class="m-0 para">
+                At SAT Japan, we prioritize quality and customer satisfaction above all else. Our team of experts meticulously selects each Toyota   to meet our high standards of excellence. Whether you're purchasing your first car or upgrading to a newer model, we're committed to helping you find the perfect car to suit your lifestyle and budget.
+                <br/><br/>
+                Browse our inventory of <a href="https://satjapan.com/used-cars" class="text-decoration-none" style="color:#2384c1;"><b>Best Japanese Cars</b></a>
+                and discover why discerning drivers choose <b>SAT Japan</b>
+                for their used car needs. Contact us today to reserve a car for just $99 or learn more about our flexible financing options.
+              </p>
+            </div>
+            <p class="m-0 view-all pt-3" id="toggleViewLess" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">View Less</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <div class="mobile-frc-section">
+      <div class="inner">
+        <div class="heading">
+          <p class="m-0">Further Car Resources</p>
+        </div>
+        <div class="accordion accordion-flush" id="accordionFurtherCarResources">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#FRC1" aria-expanded="false" aria-controls="FRC1">
+                Most Popular Toyota 4Runner By Year
+              </button>
+            </h2>
+            <div id="FRC1" class="accordion-collapse collapse" data-bs-parent="#accordionFurtherCarResources">
+             
+                <div class="accordion-body py-3 px-2">
+                  <ul class="list-unstyled">
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2021 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2020 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2019 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2018 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2017 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2016 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2015 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2014 TOYOTA 4Runner
+                      </a>
+                  </ul>
+                  <ul class="list-unstyled">
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2021 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2020 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2019 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2018 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2017 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2016 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2015 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2014 TOYOTA 4Runner
+                      </a>
+                  </ul>
+              
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#FRC2" aria-expanded="false" aria-controls="FRC2">
+                Most Popular Toyota Models
+              </button>
+            </h2>
+            <div id="FRC2" class="accordion-collapse collapse" data-bs-parent="#accordionFurtherCarResources">
+             
+                <div class="accordion-body py-3 px-2">
+                  <ul class="list-unstyled">
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2021 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2020 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2019 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2018 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2017 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2016 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2015 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2014 TOYOTA 4Runner
+                      </a>
+                  </ul>
+                  <ul class="list-unstyled">
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2021 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2020 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2019 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2018 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2017 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2016 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2015 TOYOTA 4Runner
+                      </a>
+                      <a href="javascript:;" class="list-group-item border-0 p-0">
+                          2014 TOYOTA 4Runner
+                      </a>
+                  </ul>
+              
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#FRC3" aria-expanded="false" aria-controls="FRC3">
+                Most Popular Toyota Types
+              </button>
+            </h2>
+            <div id="FRC3" class="accordion-collapse collapse" data-bs-parent="#accordionFurtherCarResources">
+             
+                <div class="accordion-body py-3 px-2">
+                  <ul class="list-unstyled">
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA SUV
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2020 TOYOTA Hatchback
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA Crossover
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2020 TOYOTA Convertible
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA Wagon
+                    </a>
+                </ul>
+
+                <ul class="list-unstyled">
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2021 TOYOTA Mini Van
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Sedan
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2021 TOYOTA Coupe
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Bus
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Bus
+                  </a>
+              </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#FRC4" aria-expanded="false" aria-controls="FRC4">
+                Most Popular Toyota 4Runner Model Codes
+              </button>
+            </h2>
+            <div id="FRC4" class="accordion-collapse collapse" data-bs-parent="#accordionFurtherCarResources">
+             
+                <div class="accordion-body py-3 px-2">
+                  <ul class="list-unstyled">
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA SUV
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2020 TOYOTA Hatchback
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA Crossover
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2020 TOYOTA Convertible
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        2021 TOYOTA Wagon
+                    </a>
+                </ul>
+
+                <ul class="list-unstyled">
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2021 TOYOTA Mini Van
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Sedan
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2021 TOYOTA Coupe
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Bus
+                  </a>
+                  <a href="javascript:;" class="list-group-item border-0 p-0">
+                      2020 TOYOTA Bus
+                  </a>
+              </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion-item mt-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#FRC5" aria-expanded="false" aria-controls="FRC5">
+                Most Popular by Inventory Location
+              </button>
+            </h2>
+            <div id="FRC5" class="accordion-collapse collapse" data-bs-parent="#accordionFurtherCarResources">
+             
+                <div class="accordion-body py-3 px-2">
+                  <ul class="list-unstyled">
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        Japan
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        Tanzania
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        Dominican Republic
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        Chile
+                    </a>
+                    <a href="javascript:;" class="list-group-item border-0 p-0">
+                        Kenya
+                    </a>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        
+      </div>
+    </div>
+   
+  
+    @component('used_car.partial.customer_review')
+    @endcomponent
+
+
+  
+
+      </div>
+    </div>
+  </div>
 </section>
 
 

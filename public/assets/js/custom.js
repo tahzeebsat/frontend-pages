@@ -941,3 +941,43 @@ $(document).ready(function () {
   $(".selection-search").select2();
 });
 
+
+// Intel Js
+const itlinput = document.querySelector("#phone");
+
+window.intlTelInput(itlinput);
+if (itlinput) {
+const iti = window.intlTelInput(itlinput);
+
+$(itlinput).on("blur", function () {
+console.log($(this).val());
+const instance = window.intlTelInputGlobals.getInstance(itlinput);
+const countryData = instance.getSelectedCountryData();
+// country data like code and number
+console.log(countryData);
+// validation checker
+const isValid = iti.isValidNumber();
+if (isValid) {
+console.log("Phone number is valid");
+} else {
+const error = iti.getValidationError();
+console.log("Validation error:", error);
+}
+});
+}
+
+
+// view all and view less 
+
+const toggleView = document.getElementById('toggleView');
+  const toggleViewLess = document.getElementById('toggleViewLess');
+
+  toggleView.addEventListener('click', () => {
+    toggleView.style.display = 'none';
+    toggleViewLess.style.display = 'block';
+  });
+
+  toggleViewLess.addEventListener('click', () => {
+    toggleView.style.display = 'block';
+    toggleViewLess.style.display = 'none';
+  });
