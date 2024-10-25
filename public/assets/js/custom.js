@@ -888,14 +888,14 @@ const listViewButton = document.getElementById('listView');
 const gridViewButton = document.getElementById('gridView');
 const itemsContainer = document.getElementById('itemsContainer');
 
-listViewButton.addEventListener('click', () => {
+listViewButton&&listViewButton.addEventListener('click', () => {
     itemsContainer.classList.remove('grid-view');
     itemsContainer.classList.add('list-view');
     listViewButton.classList.add('active');
     gridViewButton.classList.remove('active');
 });
 
-gridViewButton.addEventListener('click', () => {
+gridViewButton&&gridViewButton.addEventListener('click', () => {
     itemsContainer.classList.remove('list-view');
     itemsContainer.classList.add('grid-view');
     gridViewButton.classList.add('active');

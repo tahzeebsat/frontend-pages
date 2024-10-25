@@ -477,11 +477,14 @@ input:focus {
 }
 
 .carousel-indicators .active {
-    background-color: var(--custome-color) !important;
-    width: 15px !important;
+    background-color: #157ABC !important;
+    border: transparent !important;
+    width: 8px !important;
+    height: 8px !important;
+    /* width: 15px !important;
     height: 6px !important; 
     border-radius: 25% !important;
-    border: 1px solid var(--custome-color) !important;
+    border: 1px solid var(--custome-color) !important; */
 }
 .carousel-control-prev-icon{
     background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 viewBox=%270%200%2016%2016%27 fill=%27%23333%27%3E%3Cpath d=%27M11.354%201.646a.5.5%200%200%201%200%20.708L5.707%208l5.647%205.646a.5.5%200%200%201-.708.708l-6-6a.5.5%200%200%201%200-.708l6-6a.5.5%200%200%201%20.708%200z%27%2F%3E%3C%2Fsvg%3E') !important;
@@ -1355,9 +1358,9 @@ footer .footer-wrapper .join-by-mailing .join-mail-ref input{
  }
 footer .footer-wrapper .join-by-mailing .join-mail-ref span{
     font-family: "Lato", sans-serif;
-    font-size: var(--fs-14);
-    background-color: var(--custome-color);
-    color: var(--white-color);
+    font-size: var(--fs-16);
+    background-color: #157ABC;
+    color: #fff;
     line-height: 18.92px;
     cursor: pointer;
  }
@@ -2184,9 +2187,9 @@ footer .footer-copyright{
     isolation: unset;
 }
 .early-budget-desktop .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    color: var(--custome-color) !important;
+    color: #157ABC !important;
     border: none;
-    border-bottom: 2px solid var(--custome-color) !important;
+    border-bottom: 2px solid #157ABC !important;
 }
 
 .early-budget-desktop .nav-link:focus-visible {
@@ -2362,11 +2365,11 @@ footer .footer-copyright{
 
 }
 .find-my-car-desktop .wrapper .find-car-left .find-car-action .btn-find-car{
-    background: #2384C1;
+    background: #157ABC;
     color: white;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     font-family: "Lato", sans-serif;
     padding: 10px 20px;
