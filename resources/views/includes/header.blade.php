@@ -1372,7 +1372,7 @@
 					</div>
 					<div class="col-auto brand-logo-area p-0">
 						<a class="brand-logo" href="#" aria-label="Homepage"> 
-                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="80" height="30"> </a>
+                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" > </a>
 					</div>
 					<div class="col search-form">
 						<form class="d-flex position-relative" role="search" aria-label="Search form">
