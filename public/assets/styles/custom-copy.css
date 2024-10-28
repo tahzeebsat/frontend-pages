@@ -441,8 +441,16 @@ input:focus {
 
 
 /* ================= Start Hero Slider Css ======== */
+
 .carousel-start{
     margin: 0px 8px !important;
+}
+.carousel-start .homeSliderSwiper{
+    position: relative;
+    bottom: 6px;
+}
+.carousel-start .homeSliderSwiper .swiper-slide img{
+    height: 424px !important;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
