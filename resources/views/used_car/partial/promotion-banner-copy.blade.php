@@ -7,7 +7,7 @@
                 class="img-fluid" 
                 loading="lazy" 
                 width="1920" 
-                height="400"
+                height="903"
                 >
         </div>
     </div>

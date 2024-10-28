@@ -8,13 +8,13 @@
 @component('used_car.partial.hero-slider-copy')
 @endcomponent
 
-@component('used_car.partial.top_selling')
+@component('used_car.copier.top-selling-car')
 @endcomponent
 
-@component('used_car.partial.recomended_cars')
+@component('used_car.copier.recomended-cars')
 @endcomponent
 
-@component('used_car.partial.early_budget')
+@component('used_car.copier.early_budget')
 @endcomponent
 
 @component('used_car.partial.promotion-banner-copy')
