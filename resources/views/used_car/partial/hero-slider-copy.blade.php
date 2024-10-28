@@ -1,7 +1,7 @@
    {{-- Desktop, mobile and tablet Hero Slider area --}}
-   <div class="container p-0 d-none">
+   <div class="container p-0 ">
    
-    <div class="row mb-5 pb-3 position-relative carousel-start">
+    {{-- <div class="row mb-5 pb-3 position-relative carousel-start">
         <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true" aria-labelledby="carouselTitle" aria-live="polite">
             <!-- Carousel Indicators with ARIA labels for accessibility -->
             <div class="carousel-indicators" role="tablist" aria-label="Carousel indicators">
@@ -207,6 +207,107 @@
 
 
        
-    </div>
+    </div> --}}
+
+    <div class="row">
+        <div class="swiper homeSliderSwiper">
+          <div class="swiper-wrapper">
+            <!-- Slides with proper image alt attributes -->
+            <div class="swiper-slide">
+                  <div class="top-selling pt-2">
+                    <img src="{{asset('assets/images/test-background.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy">
+                    {{-- <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy"> --}}
+                  </div>
+                  
+            </div>
+           
+
+            <div class="swiper-slide">
+                <div class="top-selling pt-2">
+                    <img 
+                        src="{{ asset('assets/images/test-background.webp') }}" 
+                        alt="Car Comparison" 
+                        class="img-fluid car-comparison-img1" 
+                        width="295" 
+                        height="213" 
+                        loading="eager" 
+                        srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                {{ asset('assets/images/test-background.webp') }} 1200w" 
+                        sizes="(max-width: 576px) 480px,
+                               (max-width: 768px) 800px,
+                               1200px"
+                    >
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="top-selling pt-2">
+                    <img 
+                        src="{{ asset('assets/images/test-background.webp') }}" 
+                        alt="Car Comparison" 
+                        class="img-fluid car-comparison-img1" 
+                        width="295" 
+                        height="213" 
+                        loading="eager" 
+                        srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                {{ asset('assets/images/test-background.webp') }} 1200w" 
+                        sizes="(max-width: 576px) 480px,
+                               (max-width: 768px) 800px,
+                               1200px"
+                    >
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="top-selling pt-2">
+                    <img 
+                        src="{{ asset('assets/images/test-background.webp') }}" 
+                        alt="Car Comparison" 
+                        class="img-fluid car-comparison-img1" 
+                        width="295" 
+                        height="213" 
+                        loading="eager" 
+                        srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                {{ asset('assets/images/test-background.webp') }} 1200w" 
+                        sizes="(max-width: 576px) 480px,
+                               (max-width: 768px) 800px,
+                               1200px"
+                    >
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="top-selling pt-2">
+                    <img 
+                        src="{{ asset('assets/images/test-background.webp') }}" 
+                        alt="Car Comparison" 
+                        class="img-fluid car-comparison-img1" 
+                        width="295" 
+                        height="213" 
+                        loading="eager" 
+                        srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                {{ asset('assets/images/test-background.webp') }} 1200w" 
+                        sizes="(max-width: 576px) 480px,
+                               (max-width: 768px) 800px,
+                               1200px"
+                    >
+                </div>
+            </div>
+           
+      
+           
+            
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+       
+      </div>
     
 </div>

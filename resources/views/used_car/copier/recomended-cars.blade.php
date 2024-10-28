@@ -11,8 +11,23 @@
             <!-- Slides with proper image alt attributes -->
             <div class="swiper-slide">
                   <div class="recomended-car pt-2">
-                    <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213">
-                  </div>
+                    {{-- <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213"> --}}
+                    <img 
+                    src="{{ asset('assets/images/selling/dummy-car.webp') }}" 
+                    alt="Car Comparison" 
+                    class="img-fluid car-comparison-img1" 
+                    width="295" 
+                    height="213" 
+                    loading="eager" 
+                    srcset="{{ asset('assets/images/selling/dummy-car-small.webp') }} 480w,
+                            {{ asset('assets/images/selling/dummy-car-medium.webp') }} 800w,
+                            {{ asset('assets/images/selling/dummy-car.webp') }} 1200w" 
+                    sizes="(max-width: 576px) 480px,
+                           (max-width: 768px) 800px,
+                           1200px"
+                    style="object-fit: cover;"
+                >  
+                </div>
                   <div class="price-area py-3">
                     <div class="top d-flex justify-content-between">
                         <div class="left">
@@ -38,7 +53,22 @@
 
             <div class="swiper-slide">
                 <div class="recomended-car pt-2">
-                    <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213">
+                    {{-- <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213"> --}}
+                    <img 
+                    src="{{ asset('assets/images/selling/dummy-car.webp') }}" 
+                    alt="Car Comparison" 
+                    class="img-fluid car-comparison-img1" 
+                    width="295" 
+                    height="213" 
+                    loading="eager" 
+                    srcset="{{ asset('assets/images/selling/dummy-car-small.webp') }} 480w,
+                            {{ asset('assets/images/selling/dummy-car-medium.webp') }} 800w,
+                            {{ asset('assets/images/selling/dummy-car.webp') }} 1200w" 
+                    sizes="(max-width: 576px) 480px,
+                           (max-width: 768px) 800px,
+                           1200px"
+                    style="object-fit: cover;"
+                >
                 </div>
                 <div class="price-area py-3">
                   <div class="top d-flex justify-content-between">
@@ -65,7 +95,22 @@
 
           <div class="swiper-slide">
             <div class="recomended-car pt-2">
-                <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213">
+                {{-- <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213"> --}}
+                <img 
+                src="{{ asset('assets/images/selling/dummy-car.webp') }}" 
+                alt="Car Comparison" 
+                class="img-fluid car-comparison-img1" 
+                width="295" 
+                height="213" 
+                loading="eager" 
+                srcset="{{ asset('assets/images/selling/dummy-car-small.webp') }} 480w,
+                        {{ asset('assets/images/selling/dummy-car-medium.webp') }} 800w,
+                        {{ asset('assets/images/selling/dummy-car.webp') }} 1200w" 
+                sizes="(max-width: 576px) 480px,
+                       (max-width: 768px) 800px,
+                       1200px"
+                style="object-fit: cover;"
+            >
             </div>
             <div class="price-area py-3">
               <div class="top d-flex justify-content-between">
@@ -92,7 +137,22 @@
 
       <div class="swiper-slide">
         <div class="recomended-car pt-2">
-            <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213">
+            {{-- <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213"> --}}
+            <img 
+            src="{{ asset('assets/images/selling/dummy-car.webp') }}" 
+            alt="Car Comparison" 
+            class="img-fluid car-comparison-img1" 
+            width="295" 
+            height="213" 
+            loading="eager" 
+            srcset="{{ asset('assets/images/selling/dummy-car-small.webp') }} 480w,
+                    {{ asset('assets/images/selling/dummy-car-medium.webp') }} 800w,
+                    {{ asset('assets/images/selling/dummy-car.webp') }} 1200w" 
+            sizes="(max-width: 576px) 480px,
+                   (max-width: 768px) 800px,
+                   1200px"
+            style="object-fit: cover;"
+        >
         </div>
         <div class="price-area py-3">
           <div class="top d-flex justify-content-between">
@@ -119,7 +179,22 @@
 
   <div class="swiper-slide">
     <div class="recomended-car pt-2">
-        <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213">
+        {{-- <img src="{{asset('assets/images/selling/dummy-car.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy" width="295" height="213"> --}}
+        <img 
+        src="{{ asset('assets/images/selling/dummy-car.webp') }}" 
+        alt="Car Comparison" 
+        class="img-fluid car-comparison-img1" 
+        width="295" 
+        height="213" 
+        loading="eager" 
+        srcset="{{ asset('assets/images/selling/dummy-car-small.webp') }} 480w,
+                {{ asset('assets/images/selling/dummy-car-medium.webp') }} 800w,
+                {{ asset('assets/images/selling/dummy-car.webp') }} 1200w" 
+        sizes="(max-width: 576px) 480px,
+               (max-width: 768px) 800px,
+               1200px"
+        style="object-fit: cover;"
+    >
     </div>
     <div class="price-area py-3">
       <div class="top d-flex justify-content-between">

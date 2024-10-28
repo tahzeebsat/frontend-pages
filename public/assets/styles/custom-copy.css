@@ -1453,7 +1453,7 @@ footer .footer-copyright{
   .swiper-slide img {
     display: block;
     width: 100%;
-    max-width: 600px; /* Limit image size for larger screens */
+    /* max-width: 600px; Limit image size for larger screens */
     height: auto;
     object-fit: cover;
   }

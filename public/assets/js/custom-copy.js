@@ -964,3 +964,10 @@ const toggleView = document.getElementById('toggleView');
 
 
   
+  // home slider swiper
+  var swiper = new Swiper('.homeSliderSwiper', {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
