@@ -24,7 +24,7 @@
 @endcomponent
 
 
-@component('used_car.partial.operates')
+@component('used_car.copier.operates')
 @endcomponent
 
 @component('used_car.partial.popular_used_cars')
