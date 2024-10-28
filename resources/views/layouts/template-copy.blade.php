@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{asset('assets/styles/select2.min.css')}}">
 
     {{-- Intel-css --}}
-    <link rel="stylesheet" href="{{asset('assets/styles/intlTelInput.css')}}">
+    {{-- <link rel="stylesheet" href="{{asset('assets/styles/intlTelInput.css')}}"> --}}
 
     @yield('style')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -62,9 +62,9 @@
 <script src="{{asset('assets/js/bootstrap.bundle.min.js')}}"></script>
 <script src="{{asset('assets/js/jquery-3.6.0.min.js')}}"></script>
 <script src="{{asset('assets/js/select2.min.js')}}"></script>
-<script src="{{asset('assets/js/intl.js')}}"></script>
-<script src="{{asset('assets/js/intlutils.js')}}"></script>
-<script src="{{asset('assets/js/custom.js')}}"></script>
+{{-- <script src="{{asset('assets/js/intl.js')}}"></script>
+<script src="{{asset('assets/js/intlutils.js')}}"></script> --}}
+<script src="{{asset('assets/js/custom-copy.js')}}"></script>
 
 
 

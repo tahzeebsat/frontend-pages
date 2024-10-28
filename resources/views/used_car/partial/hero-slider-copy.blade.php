@@ -51,7 +51,7 @@
                                 <div class="mb-3">
                                       <div class="dropdown">
                                         <button class="btn btn-select-make dropdown-toggle" type="button" id="dropdownMenuButtonMake" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {{-- <button class="btn btn-select-make dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
+                                        
                                             <span id="selectedMake">Make</span>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonMake" id="makeDropdown">
@@ -75,7 +75,7 @@
                                 <div class="mb-3">
                                     <div class="dropdown">
                                         <button class="btn btn-select-type dropdown-toggle" type="button" id="dropdownMenuButtonType" data-bs-toggle="dropdown" aria-expanded="false">
-                                        {{-- <button class="btn btn-select-type dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
+                                        
                                             <span id="selectedType">Type</span>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonType" id="typeDropdown">
@@ -204,5 +204,9 @@
             </div>
         </form>
        </div>
+
+
+       
     </div>
+    
 </div>
