@@ -224,8 +224,8 @@
                                     src="{{ asset('assets/images/test-background.jpg') }}" 
                                     alt="Car Comparison" 
                                     class="img-fluid car-comparison-img1" 
-                                    width="1920" 
-                                    height="903" 
+                                    width="295" 
+                                    height="213" 
                                     loading="eager" 
                                     srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
                                             {{ asset('assets/images/test-background-medium.webp') }} 800w,
@@ -253,8 +253,8 @@
                             src="{{ asset('assets/images/test-background.jpg') }}" 
                             alt="Car Comparison" 
                             class="img-fluid car-comparison-img1" 
-                            width="1920" 
-                            height="903" 
+                            width="295" 
+                            height="213" 
                             loading="eager" 
                             srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
                                     {{ asset('assets/images/test-background-medium.webp') }} 800w,
@@ -277,8 +277,8 @@
                             src="{{ asset('assets/images/test-background.jpg') }}" 
                             alt="Car Comparison" 
                             class="img-fluid car-comparison-img1" 
-                            width="1920" 
-                            height="903" 
+                            width="295" 
+                            height="213" 
                             loading="eager" 
                             srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
                                     {{ asset('assets/images/test-background-medium.webp') }} 800w,
@@ -301,8 +301,8 @@
                             src="{{ asset('assets/images/test-background.jpg') }}" 
                             alt="Car Comparison" 
                             class="img-fluid car-comparison-img1" 
-                            width="1920" 
-                            height="903"  
+                            width="295" 
+                            height="213" 
                             loading="eager" 
                             srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
                                     {{ asset('assets/images/test-background-medium.webp') }} 800w,
@@ -325,8 +325,8 @@
                             src="{{ asset('assets/images/test-background.jpg') }}" 
                             alt="Car Comparison" 
                             class="img-fluid car-comparison-img1" 
-                            width="1920" 
-                            height="903"  
+                            width="295" 
+                            height="213" 
                             loading="eager" 
                             srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
                                     {{ asset('assets/images/test-background-medium.webp') }} 800w,
