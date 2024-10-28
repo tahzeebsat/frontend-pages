@@ -5,7 +5,7 @@
                 <div class="row align-items-center my-3 pt-1">
                     <div class="col-auto brand-logo-area">
                         <a class="brand-logo" href="#" aria-label="Homepage">
-                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="140" height="46">
+                            <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy">
                         </a>
                     </div>
 

@@ -14,7 +14,7 @@
 
     <link rel="stylesheet" href="{{asset('assets/styles/mobile.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/tablet.min.css')}}">
-    <link rel="stylesheet" href="{{asset('assets/styles/custom-copy.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/custom-copy-min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/mediaquery.min.css')}}">
     <link rel="stylesheet" href="{{asset('assets/styles/bootstrap.min.css')}}">
     {{-- Swiperjs --}}
@@ -64,7 +64,7 @@
 <script src="{{asset('assets/js/select2.min.js')}}"></script>
 {{-- <script src="{{asset('assets/js/intl.js')}}"></script>
 <script src="{{asset('assets/js/intlutils.js')}}"></script> --}}
-<script src="{{asset('assets/js/custom-copy.js')}}"></script>
+<script src="{{asset('assets/js/custom-copy.min.js')}}"></script>
 
 
 
