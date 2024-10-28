@@ -1,5 +1,5 @@
    {{-- Desktop, mobile and tablet Hero Slider area --}}
-   <div class="container p-0">
+   <div class="container p-0 d-none">
    
     <div class="row mb-5 pb-3 position-relative carousel-start">
         <div id="carouselExampleIndicators" class="carousel slide p-0" data-bs-ride="carousel" data-bs-interval="2000" data-bs-wrap="true" aria-labelledby="carouselTitle" aria-live="polite">
