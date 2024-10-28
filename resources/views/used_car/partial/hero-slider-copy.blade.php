@@ -217,21 +217,25 @@
                   <div class="top-selling pt-2">
                     <div class="swiper-slide">
                         <div class="top-selling pt-2">
-                            <img 
-    src="{{ asset('assets/images/test-background.webp') }}" 
-    alt="Car Comparison" 
-    class="img-fluid car-comparison-img1" 
-    width="295" 
-    height="213" 
-    loading="eager" 
-    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
-            {{ asset('assets/images/test-background-medium.webp') }} 800w,
-            {{ asset('assets/images/test-background.webp') }} 1200w" 
-    sizes="(max-width: 576px) 480px,
-           (max-width: 768px) 800px,
-           1200px"
-    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
->
+                            <picture>
+                                <source srcset="{{ asset('assets/images/test-background.webp') }}" type="image/webp">
+                                <source srcset="{{ asset('assets/images/test-background.jpg') }}" type="image/jpeg">
+                                <img 
+                                    src="{{ asset('assets/images/test-background.jpg') }}" 
+                                    alt="Car Comparison" 
+                                    class="img-fluid car-comparison-img1" 
+                                    width="295" 
+                                    height="213" 
+                                    loading="eager" 
+                                    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                            {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                            {{ asset('assets/images/test-background.webp') }} 1200w" 
+                                    sizes="(max-width: 576px) 480px,
+                                           (max-width: 768px) 800px,
+                                           1200px"
+                                    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
+                                >
+                            </picture>
                         </div>
                     </div>
                     {{-- <img src="{{asset('assets/images/selling/car-1.webp')}}" alt="Car Comparison" class="img-fluid car-comprison-img1" loading="lazy"> --}}
@@ -242,81 +246,97 @@
 
             <div class="swiper-slide">
                 <div class="top-selling pt-2">
-                    <img 
-                    src="{{ asset('assets/images/test-background.webp') }}" 
-                    alt="Car Comparison" 
-                    class="img-fluid car-comparison-img1" 
-                    width="295" 
-                    height="213" 
-                    loading="eager" 
-                    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
-                            {{ asset('assets/images/test-background-medium.webp') }} 800w,
-                            {{ asset('assets/images/test-background.webp') }} 1200w" 
-                    sizes="(max-width: 576px) 480px,
-                           (max-width: 768px) 800px,
-                           1200px"
-                    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
-                >
+                    <picture>
+                        <source srcset="{{ asset('assets/images/test-background.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('assets/images/test-background.jpg') }}" type="image/jpeg">
+                        <img 
+                            src="{{ asset('assets/images/test-background.jpg') }}" 
+                            alt="Car Comparison" 
+                            class="img-fluid car-comparison-img1" 
+                            width="295" 
+                            height="213" 
+                            loading="eager" 
+                            srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                    {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                    {{ asset('assets/images/test-background.webp') }} 1200w" 
+                            sizes="(max-width: 576px) 480px,
+                                   (max-width: 768px) 800px,
+                                   1200px"
+                            style="display: block; max-width: 100%; height: auto; object-fit: cover;"
+                        >
+                    </picture>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="top-selling pt-2">
-                    <img 
-                    src="{{ asset('assets/images/test-background.webp') }}" 
-                    alt="Car Comparison" 
-                    class="img-fluid car-comparison-img1" 
-                    width="295" 
-                    height="213" 
-                    loading="eager" 
-                    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
-                            {{ asset('assets/images/test-background-medium.webp') }} 800w,
-                            {{ asset('assets/images/test-background.webp') }} 1200w" 
-                    sizes="(max-width: 576px) 480px,
-                           (max-width: 768px) 800px,
-                           1200px"
-                    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
-                >
+                    <picture>
+                        <source srcset="{{ asset('assets/images/test-background.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('assets/images/test-background.jpg') }}" type="image/jpeg">
+                        <img 
+                            src="{{ asset('assets/images/test-background.jpg') }}" 
+                            alt="Car Comparison" 
+                            class="img-fluid car-comparison-img1" 
+                            width="295" 
+                            height="213" 
+                            loading="eager" 
+                            srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                    {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                    {{ asset('assets/images/test-background.webp') }} 1200w" 
+                            sizes="(max-width: 576px) 480px,
+                                   (max-width: 768px) 800px,
+                                   1200px"
+                            style="display: block; max-width: 100%; height: auto; object-fit: cover;"
+                        >
+                    </picture>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="top-selling pt-2">
-                    <img 
-    src="{{ asset('assets/images/test-background.webp') }}" 
-    alt="Car Comparison" 
-    class="img-fluid car-comparison-img1" 
-    width="295" 
-    height="213" 
-    loading="eager" 
-    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
-            {{ asset('assets/images/test-background-medium.webp') }} 800w,
-            {{ asset('assets/images/test-background.webp') }} 1200w" 
-    sizes="(max-width: 576px) 480px,
-           (max-width: 768px) 800px,
-           1200px"
-    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
->
+                    <picture>
+                        <source srcset="{{ asset('assets/images/test-background.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('assets/images/test-background.jpg') }}" type="image/jpeg">
+                        <img 
+                            src="{{ asset('assets/images/test-background.jpg') }}" 
+                            alt="Car Comparison" 
+                            class="img-fluid car-comparison-img1" 
+                            width="295" 
+                            height="213" 
+                            loading="eager" 
+                            srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                    {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                    {{ asset('assets/images/test-background.webp') }} 1200w" 
+                            sizes="(max-width: 576px) 480px,
+                                   (max-width: 768px) 800px,
+                                   1200px"
+                            style="display: block; max-width: 100%; height: auto; object-fit: cover;"
+                        >
+                    </picture>
                 </div>
             </div>
 
             <div class="swiper-slide">
                 <div class="top-selling pt-2">
-                    <img 
-    src="{{ asset('assets/images/test-background.webp') }}" 
-    alt="Car Comparison" 
-    class="img-fluid car-comparison-img1" 
-    width="295" 
-    height="213" 
-    loading="eager" 
-    srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
-            {{ asset('assets/images/test-background-medium.webp') }} 800w,
-            {{ asset('assets/images/test-background.webp') }} 1200w" 
-    sizes="(max-width: 576px) 480px,
-           (max-width: 768px) 800px,
-           1200px"
-    style="display: block; max-width: 100%; height: auto; object-fit: cover;"
->
+                    <picture>
+                        <source srcset="{{ asset('assets/images/test-background.webp') }}" type="image/webp">
+                        <source srcset="{{ asset('assets/images/test-background.jpg') }}" type="image/jpeg">
+                        <img 
+                            src="{{ asset('assets/images/test-background.jpg') }}" 
+                            alt="Car Comparison" 
+                            class="img-fluid car-comparison-img1" 
+                            width="295" 
+                            height="213" 
+                            loading="eager" 
+                            srcset="{{ asset('assets/images/test-background-small.webp') }} 480w,
+                                    {{ asset('assets/images/test-background-medium.webp') }} 800w,
+                                    {{ asset('assets/images/test-background.webp') }} 1200w" 
+                            sizes="(max-width: 576px) 480px,
+                                   (max-width: 768px) 800px,
+                                   1200px"
+                            style="display: block; max-width: 100%; height: auto; object-fit: cover;"
+                        >
+                    </picture>
                 </div>
             </div>
            
