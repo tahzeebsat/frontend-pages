@@ -982,7 +982,3 @@ const toggleView = document.getElementById('toggleView');
     toggleViewLess.style.display = 'none';
   });
 
-
-
-
-  
