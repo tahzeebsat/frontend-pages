@@ -1,4 +1,4 @@
-<section class="feature-car-resources-desktop desktop-view">
+<section class="feature-car-resources-desktop desktop2-view">
     <div class="feature-car">
         <div class="wrapping">
             <div class="heading">

@@ -1,4 +1,4 @@
-<section class="could-not-find-car-desktop desktop-view">
+<section class="could-not-find-car-desktop desktop2-view">
     <div class="could-not-find-car">
         <div class="wrapping">
             <div class="container p-0 py-3 mt-5">

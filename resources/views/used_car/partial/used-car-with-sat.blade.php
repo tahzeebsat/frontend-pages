@@ -1,4 +1,4 @@
-<section class="used-car-with-sat-desktop desktop-view">
+<section class="used-car-with-sat-desktop desktop2-view">
     <div class="used-car-sat">
         <div class="wrapping">
             <div class="heading">

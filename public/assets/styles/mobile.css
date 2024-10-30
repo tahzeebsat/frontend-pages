@@ -1039,7 +1039,7 @@
 
 
 /* ===================================== Start Mobile Advance Search Page Css ===================================== */
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-button{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-button{
     font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 500;
@@ -1049,11 +1049,13 @@
     border-radius: 4px;
     padding: 10px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-button::after{
-    filter: invert(1);
-    font-size: var(--fs-12);
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-button::after{
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206.41579L0.757004%202.17279L2.172%200.758789L5%203.58779L7.828%200.758789L9.243%202.17279L56.41579Z%22%20fill%3D%22%232F2B43%22%2F%3E%3C%2Fsvg%3E);
+    background-size: 10px;
+    width: 12px;
+    height: 8px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .price-text{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .price-text{
     font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 500;
@@ -1061,7 +1063,7 @@
     letter-spacing: -0.01em;
     color: #858a94;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country label{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country label{
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 600;
@@ -1071,7 +1073,7 @@
     padding: 0px;
     padding-bottom: 6px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country select{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-country select{
     background-color: #f6f6f8;
     height: 31px;
     border-radius: 4px;
@@ -1082,7 +1084,7 @@
     border: 1px solid #858a9478;
     background-size: 16px 9px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port label{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port label{
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 600;
@@ -1092,7 +1094,7 @@
     padding: 0px;
     padding-bottom: 6px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port select{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .areaSelection .dest-port select{
     background-color: #f6f6f8;
     height: 31px;
     border-radius: 4px;
@@ -1103,17 +1105,17 @@
     border: 1px solid #858a9478;
     background-size: 16px 9px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top{
     font-size: 12px;
     font-family: 'Lato';
     color: #000000;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .fa-info-circle{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .fa-info-circle{
     color: #dcdae2;
     font-size:14px;
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button {
     margin: 0 5px 0 0;
     width: 100%;
     position: relative;
@@ -1125,8 +1127,8 @@
   }
 
   
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label,
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label,
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input {
     display: block;
     position: absolute;
     top: 0;
@@ -1135,12 +1137,12 @@
     bottom: 0;
   }
   
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"] {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"] {
     opacity: 0.011;
     z-index: 100;
   }
   
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"]:checked + label {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button input[type="radio"]:checked + label {
     background: #2a9fe8;
     border-radius: 4px;
     font-size: 14px;
@@ -1149,7 +1151,7 @@
     font-family: 'Lato';
   }
   
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .button label {
     cursor: pointer;
     z-index: 90;
     line-height: 1.8em;
@@ -1160,36 +1162,36 @@
     color: #aeb1b8;
     border: 1px solid #ededf1;
   }
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom{
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck {
     display: flex;
     justify-content: space-between;
     gap: 45px; 
 }
-  .mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck  .radio-custom {
+  .mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck  .radio-custom {
     opacity: 0;
     position: absolute;   
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom, 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom, 
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
     display: inline-block;
     vertical-align: middle;
     margin: 5px;
     cursor: pointer;
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
     position: relative;
     color: #858a94;
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
     content: '';
     background: #fff;
     border: 2px solid #ddd;
@@ -1204,25 +1206,25 @@
 
 
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom + 
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
     border-radius: 50%;
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:checked + 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:checked + 
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label:before {
     content: "\f00c";
     font-family: 'FontAwesome';
     color: #bbb;
 }
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:focus + 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom:focus + 
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-bottom .selectionCheck .radio-custom-label {
   outline: 1px solid #ddd; /* focus style */
 }
 
 
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-calculator{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-calculator{
     background-color: #2a9fe8;
     width: 100%;
     color: white;
@@ -1232,7 +1234,7 @@
     padding: 0;
     height: 31px;
 }
-.mobile-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-reset{
+.mobile2-view .advance-search-calculator-mobile .accordion .accordion-body .shipping-method .inner .wrap .top .shipping-calculate .btn-reset{
     border: 1px solid #858a94;
     color: #353c4d;
     width: 100%;
@@ -1243,7 +1245,7 @@
     height: 31px;
 }
   
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders{
     font-size: 12px;
     font-family: 'Lato';
     margin-block: 4px;
@@ -1257,7 +1259,7 @@
     letter-spacing: -0.01em;
     margin-right: 2px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .filters-count{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .filters-count{
     position: relative;
     padding: 2px 5px;
     color: white;
@@ -1269,14 +1271,14 @@
     line-height: 16.68px;
     letter-spacing: -0.01em;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .fa-chevron-down{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders .fa-chevron-down{
     font-size: 8px;
     margin-left: 10px;
     position: relative;
     bottom: 1px;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list{
     padding: 0px 0px;
     list-style-type: none;
     display: inline-block;
@@ -1286,7 +1288,7 @@
     width: 100%;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross{
     font-size: 12px;
     font-family: 'Lato';
     margin-block: 4px;
@@ -1301,20 +1303,20 @@
     letter-spacing: -0.01em;
     margin-right: 2px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross .fa-close{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .icon-sliders-cross .fa-close{
     color: #154F74;
     margin-left: 8px;
     font-size: 12px;
     font-weight: 900;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-anim-details .heading{
+.mobile2-view .advance-search-calculator-mobile .mobile-anim-details .heading{
     font-size: 14px;
     font-weight: 700;
     font-family: 'Lato';
     color: #0c1529;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-anim-details .details{
+.mobile2-view .advance-search-calculator-mobile .mobile-anim-details .details{
     font-size: 12px;
     font-weight: 500;
     font-family: 'Lato';
@@ -1322,11 +1324,11 @@
     margin-bottom: 12px;
     line-height: 21px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-anim-details .details ol{
+.mobile2-view .advance-search-calculator-mobile .mobile-anim-details .details ol{
     color: #353c4d;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .heading{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .heading{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 700;
@@ -1335,7 +1337,7 @@
     color: #353c4d;
     margin-bottom: 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sav-sear{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sav-sear{
     font-family: Lato;
     font-size: 12px;
     font-weight: 500;
@@ -1348,7 +1350,7 @@
     margin-bottom: 0px;
     cursor: pointer;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sort .btn-sort-search-mobile{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .sort .btn-sort-search-mobile{
     font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 700;
@@ -1356,11 +1358,11 @@
     letter-spacing: -0.01em;
     color: #3f395a;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left {
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left {
     width: 33%;
     position: relative;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .overlay {
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .overlay {
     position: absolute;
     top: 25px;
     background-color: #0c1529a6;
@@ -1373,24 +1375,24 @@
     font-weight: 700;
     font-family: 'Lato';
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .dot {
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .dot {
     width: 15px;
     height: 11px;
     font-size: 50px;
     bottom: 19px;
     position: relative;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right {
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right {
     width: 67%;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 500;
     line-height: 16px;
     color: #5d6370;
 } 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text-id{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .left .mobile-stock-search .stock-text-id{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 500;
@@ -1398,7 +1400,7 @@
     letter-spacing: -0.01em;
     color: #0c1529;
 } 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys{
     padding: 4px 6px;
     border-radius: 10px;
     font-family: 'Lato';
@@ -1409,7 +1411,7 @@
     color: #ffffff;
     background-color: #ff4b44;
 } 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys2{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys2{
     padding: 4px 6px;
     border-radius: 10px;
     font-family: 'Lato';
@@ -1420,7 +1422,7 @@
     color: #c8811a;
     background-color: #fbf2cb;
 } 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .country .mobile-nys2{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .country .mobile-nys2{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 500;
@@ -1430,7 +1432,7 @@
     display: flex;
     align-items: center;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .heading{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .heading{
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 700;
@@ -1442,21 +1444,21 @@
     padding: 0px 5px;
 } 
 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .year{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .year{
     font-family: 'Lato';
     font-size: var(--fs-10);
     font-weight: 700;
     line-height: 12px;
     margin-bottom: 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .dot{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .dot{
     background-color: #aeb1b8;
     width: 4px;
     height: 4px;
     border-radius: 50px;
     margin: 0px 2px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices{
     display: flex;
     align-items: center;
     font-size: 10px;
@@ -1464,20 +1466,20 @@
     padding: 0px 5px;
     font-family: 'Lato';
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount{
     font-weight: 700;
     color: #1c6a9b;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount-drop{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .amount-drop{
     color: #aeb1b8;
     text-decoration: line-through;
     font-weight: 700;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .discount{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-search-prices .inner .prices .discount{
     color: #2f9461;
     font-weight: 700;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 400;
@@ -1485,12 +1487,12 @@
     letter-spacing: -0.01em;
     color: #353c4d;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner .amount{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner .amount{
     font-weight: 700;
     color: #1c6a9b;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-inquire{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-inquire{
     background-color: #154f74;
     color: white;
     font-size: 10px;
@@ -1500,7 +1502,7 @@
     line-height: 16px;
     height: 30px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-buyNow{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-buyNow{
     background-color: #2a9fe8;
     color: white;
     font-size: 10px;
@@ -1510,16 +1512,16 @@
     line-height: 16px;
     height: 30px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner{
     font-size: 10px;
     font-family: 'Lato';
 
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.active{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.active{
     color: #1c6a9b;
     font-weight: 700;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.hover{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner .page-list .list-page.hover{
     background-color: #ededf1;
     color: #353c4d;
     font-weight: 700;
@@ -1527,13 +1529,13 @@
     padding: 1px 6px;
     height: 17px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .heading{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .heading{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 700;
     color: #353c4d;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .details .para{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .details .para{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 500;
@@ -1542,7 +1544,7 @@
     text-align: justify;
     color: #5d6370;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .mobile-search-view-text .view-all{
+.mobile2-view .advance-search-calculator-mobile .mobile-used-car-sale .inner .mobile-search-view-text .view-all{
     color: #2384c1;
     font-size: 14px;
     font-weight: 700;
@@ -1552,7 +1554,7 @@
 #toggleViewLess {
     display: none;
   }
-  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .heading{
+  .mobile2-view .advance-search-calculator-mobile .mobile-frc-section .inner .heading{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 700;
@@ -1561,7 +1563,7 @@
     color: #353c4d;
     margin: 4px 0px;
   }
-  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button{
+  .mobile2-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button{
     padding: 10px;
     height: 36px;
     font-family: 'Lato';
@@ -1573,11 +1575,11 @@
     border: 1px solid #aeb1b8;
     background-color: transparent;
   }
-  .mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button:not(.collapsed) {
+  .mobile2-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-button:not(.collapsed) {
     border: 1px solid #1c6a9b;
     color: #1c6a9b;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-body{
+.mobile2-view .advance-search-calculator-mobile .mobile-frc-section .inner .accordion .accordion-body{
     display: flex;
     font-size: 12px;
     font-weight: 500;
@@ -1589,19 +1591,19 @@
 }
 
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .offcanvas-header .offcanvas-title{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .offcanvas-header .offcanvas-title{
     font-size: var(--fs-14);
     font-family: 'Lato';
     font-weight: 700;
     color: #000000;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .dropdown-selection-filter .left{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .dropdown-selection-filter .left{
     font-family: 'Lato';
     font-size: var(--fs-12);
     font-weight: 700;
     color: #000000;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .dropdown-selection-filter .right .btn-make-filter{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .dropdown-selection-filter .right .btn-make-filter{
     height: 36px;
     background-color: #f6f6f8;
     font-family: 'Lato';
@@ -1611,38 +1613,38 @@
     border: 1px solid #f6f6f8;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .accordion-item{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .accordion-item{
     background-color: transparent;
     border: none;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .accordion-button {
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .accordion-button {
     font-family: 'Lato';
     background-color: #f6f6f8;
     font-size: 14px;
     font-weight: 700;
     color: #0c1529;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-input[type=checkbox]{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-input[type=checkbox]{
     border-radius: 0px;
     padding: 6px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-input:checked{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-input:checked{
     background-color: var(--custome-color);
     border-color: var(--custome-color);
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-label{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .accordion .form-check-label{
     font-size: 14px;
     font-weight: 500;
     font-family: 'Lato';
     color: #000;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .deal .title{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .deal .title{
     font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     color: #0c1529;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .earn-points{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .earn-points{
     color: #ad5200;
     background-color: #ffdfc2;
     padding: 3px 10px;
@@ -1650,7 +1652,7 @@
     font-size: var(--fs-12);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .nys{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .nys{
     color: #cd3636;
     background-color: #ffd3d1;
     padding: 3px 10px;
@@ -1658,7 +1660,7 @@
     font-size: var(--fs-12);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .prem-car{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .prem-car{
     color: #c8811a;
     background-color: #fbf2cb;
     padding: 3px 10px;
@@ -1666,7 +1668,7 @@
     font-size: var(--fs-12);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .clear-dis{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .additional-feature-checks .form-check .clear-dis{
     color: #10ab2b;
     background-color: #b2ffc0;
     padding: 3px 10px;
@@ -1674,7 +1676,7 @@
     font-size: var(--fs-12);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .action-filter-buttons .btn-reset{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .action-filter-buttons .btn-reset{
     color: #353c4d;
     border: 1px solid #ededf1;
     background-color: #f6f6f8;
@@ -1683,7 +1685,7 @@
     font-size: var(--fs-14);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .action-filter-buttons .btn-submit{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .action-filter-buttons .btn-submit{
     color: #ffffff;
     background-color: #2a9fe8;
     border-radius: 4px;
@@ -1691,7 +1693,7 @@
     font-size: var(--fs-14);
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search{
     width: 100%;
     border: none;
     height: 35px;
@@ -1704,7 +1706,7 @@
     border-radius: 8px;
     position: relative;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search input{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search input{
     width: 100%;
     background: #ededf1;
     margin: 0;
@@ -1714,13 +1716,13 @@
     border: 1px solid transparent;
     border-radius: inherit;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search img{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .search img{
     width: 22px;
     height: 22px;
     margin: 4px 0px;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .list ul li{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .offcanvas .list ul li{
     padding: 6px 10px;
     margin-bottom: 8px;
     border: none;
@@ -1730,29 +1732,29 @@
     color: #353c4d;
     font-weight: 500;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #makeFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #makeFilterOffCanvas{
     height: 800px;
     border-radius: 20px 20px 0px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #modelFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #modelFilterOffCanvas{
     height: 800px;
     border-radius: 20px 20px 0px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .head .title{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .head .title{
     font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     color: #0c1529;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .left .min-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .left .min-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .left select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .left select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1762,14 +1764,14 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .right .max-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .right .max-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .right select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas .model-years .right select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1779,27 +1781,27 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #yearFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
 }
 
 
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .head .title{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .head .title{
     font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     color: #0c1529;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .left .min-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .left .min-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .left select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .left select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1809,14 +1811,14 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .right .max-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .right .max-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .right select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas .model-years .right select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1826,27 +1828,27 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #priceFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
 }
 
 
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .head .title{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .head .title{
     font-family: 'Lato';
     font-size: var(--fs-14);
     font-weight: 700;
     color: #0c1529;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .left .min-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .left .min-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .left select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .left select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1856,14 +1858,14 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .right .max-year{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .right .max-year{
     font-family: 'Lato';
     font-size: 10px;
     font-weight: 600;
     color: #5d6370;
     padding: 6px 0px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .right select{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas .model-years .right select{
     border: 1px solid #858a94;
     background-color: #f6f6f8;
     border-radius: 4px;
@@ -1873,29 +1875,29 @@
     font-weight: 500;;
     background-size: 8px 10px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #milageFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
 }
 
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #steeringFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #steeringFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
     height: 800px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #transmissionFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #transmissionFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
     height: 800px;
 }
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #engineeFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #engineeFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
     height: 800px;
 }
 
-.mobile-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #fuelFilterOffCanvas{
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list #fuelFilterOffCanvas{
     border-radius: 20px 20px 0px 0px;
     height: 800px;
 }
-.mobile-view .advance-search-calculator-mobile .total{
+.mobile2-view .advance-search-calculator-mobile .total{
     font-family: 'Lato';
     font-size: 12px;
     font-weight: 500;

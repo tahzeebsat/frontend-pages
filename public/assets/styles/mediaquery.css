@@ -24,7 +24,38 @@
     .customer-review-desktop .review-box{
         width: 95%;
     }
-  
+    .advance-search-calculator .shipping-calculate .btn-reset,
+    .advance-search-calculator .shipping-calculate .btn-calculator{
+        width:max-content; 
+    }
+    .advance-search-calculator .form-check{
+        padding-left: 0.5em;
+    }
+    .advance-search-calculator .form-check .form-check-input {
+        margin-left: -6px !important;
+        margin: 4px;
+    }
+    .advance-search-calculator .list-view .wrappers .top-points .earn,
+    .advance-search-calculator .list-view .wrappers .top-points .sale,
+    .advance-search-calculator .list-view .wrappers .top-points .premium,
+    .advance-search-calculator .list-view .wrappers .top-points .discounted{
+        font-size: 10px;
+        white-space: nowrap;
+        padding: 4px 7px 4px 3px;
+    }
+    .advance-search-calculator .list-view .wrappers .right .countryLoc .top .title,
+    .advance-search-calculator .list-view .wrappers .right .countryLoc .top .name,
+    .advance-search-calculator .list-view .wrappers .center .detail1 .inner .top .year,
+    .advance-search-calculator .list-view .wrappers .right .car-price .price{
+        font-size: 16px;
+    }
+    .advance-search-calculator .list-view .wrappers .center .detail1 .inner .top .model,
+    .advance-search-calculator .list-view .wrappers .right .car-price .title{
+        font-size: 14px;
+    }
+    .advance-search-calculator .list-view .wrappers .center .detail1 .more-detail .model-code .bottom{
+        font-size: 11px;
+    }
 }
 
 @media(max-width:1199px){
@@ -85,7 +116,33 @@
     .popular_used_car-desktop .swiper-button-next, .popular_used_car-desktop .swiper-button-prev{
         display: none;
     }
-
+    .advance-search-calculator .shipping-calculate .btn-reset,
+    .advance-search-calculator .shipping-calculate .btn-calculator{
+        width: 113px;
+        margin-right: 4px;
+        font-size: 12px;
+    }
+    .advance-search-calculator label{
+        font-size: 10px;
+        padding: 0px 0px;
+    }
+    .advance-search-calculator .form-check{
+        padding-left: 0.1em;
+    }
+    .advance-search-calculator .shipping-details {
+        padding: 18px 0px 0px 15px;
+    }
+    .could-not-find-car-desktop .could-not-find-car .wrapping .left .details .para,
+    .could-not-find-car-desktop .could-not-find-car .wrapping .left .details ol li,
+    .used-car-with-sat-desktop .used-car-sat .wrapping .details .para{
+        font-size: 18px;
+    }
+    .feature-car-resources-desktop .feature-car .wrapping .runner-year .listing{
+        font-size: 16px;
+    }
+    .customer-review-desktop .customerReviewSwiper{
+        height: 270px;
+    }
    
 }
 
@@ -174,6 +231,7 @@
     .mobile-operate .mobile-operate-flags .mobile-operate-countries{
         height: 111px;
     }
+    
  
 }
 
@@ -582,5 +640,6 @@
     .headerSearch .search-form{
         margin: 0%;
     }
+    
 }
 

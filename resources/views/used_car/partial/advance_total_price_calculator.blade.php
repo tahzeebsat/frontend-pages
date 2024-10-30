@@ -1,4 +1,4 @@
-<section class="desktop-view">
+<section class="desktop2-view">
     <div class="advance-search-calculator pt-2" role="region" aria-labelledby="search-calculator-heading">
         <div class="container">
             <div class="row">
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="col-md-3">
-                            <div class="shipping-calculate d-flex flex-column gap-4 px-4">
+                            <div class="shipping-calculate d-flex flex-column gap-4 px-md-4">
                                 <button class="btn btn-calculator">
                                   <img src="{{asset('assets/images/icons/calculator-line.webp')}}" alt="Reset" class="img-fluid mx-2" loading="lazy" width="25" height="25">
                                   Calculate</button>
@@ -318,11 +318,11 @@
                   <div class="row mb-2" >
                     <div class="col-md-3 d-flex gap-2">
                       <select class="form-select selection-search" aria-label="Default select example">
-                        <option selected>Min load capacity</option>
+                        <option selected>Min load</option>
                         <option value="1">1999</option>
                       </select>
                       <select class="form-select selection-search" aria-label="Default select example">
-                        <option selected>Max load capacity</option>
+                        <option selected>Max load</option>
                         <option value="1">2000</option>
                       </select>
                     </div>
@@ -1669,7 +1669,7 @@
 
 {{-- Mobile View --}}
 
-<section class="mobile-view">
+<section class="mobile2-view">
   <div class="advance-search-calculator-mobile">
     <div class="container">
       <div class="row">
@@ -2425,7 +2425,7 @@
         </div>
     </div>
 
-    <div class="mobile-used-cars-search">
+    <div class="mobile-used-cars-search my-4">
       <div class="top">
         <div class="row">
           <div class="col-12 d-flex justify-content-between align-items-center">
@@ -2636,7 +2636,7 @@
     @component('used_car.partial.similar-car')
     @endcomponent
 
-    <div class="mobile-used-car-sale">
+    <div class="mobile-used-car-sale pb-4">
       <div class="inner">
         <div class="heading py-3">
           <p class="m-0"> Toyota Used Cars for Sale</p>
