@@ -982,3 +982,218 @@ const toggleView = document.getElementById('toggleView');
     toggleViewLess.style.display = 'none';
   });
 
+
+ 
+  // Filter Offcanvas for search page
+  function showsidebar() {
+    const body = document.body;
+    const sidebar = document.querySelector(".sidebarcanvasfilters");
+    sidebar.classList.add("activesidebar-filters");
+    body.classList.add("no-scroll");
+  }
+  function hidesidebar() {
+    const body = document.body;
+    const sidebar = document.querySelector(".sidebarcanvasfilters");
+    sidebar.classList.remove("activesidebar-filters");
+    body.classList.remove("no-scroll");
+  }
+
+
+
+  // offcanvas search input make filter search for search page mobile
+  document.addEventListener('DOMContentLoaded', function () {
+    const makeFilterSearch = document.getElementById('makeFilterSearch');
+    const searchList = document.querySelectorAll('#makeFilterList li'); // Target list items directly
+
+    makeFilterSearch&&makeFilterSearch.addEventListener('input', function () {
+        const query = makeFilterSearch.value.toLowerCase();
+
+        searchList.forEach(function (item) {
+            const text = item.textContent.toLowerCase();
+            item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+        });
+    });
+
+    // Handle selection of make
+    searchList.forEach(function (item) {
+        item&&item.addEventListener('click', function () {
+            const selectedText = item.textContent.trim();
+            makeFilterSearch.value = selectedText; // Update search input with selected text
+            makeFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+        });
+    });
+});
+
+
+// offcanvas search input modal filter search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const modalFilterSearch = document.getElementById('modalFilterSearch');
+  const modalsearchList = document.querySelectorAll('#modalFilterList li'); // Target list items directly
+
+  modalFilterSearch&&modalFilterSearch.addEventListener('input', function () {
+      const query = modalFilterSearch.value.toLowerCase();
+
+      modalsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  modalsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          modalFilterSearch.value = selectedText; // Update search input with selected text
+          modalFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input steering filter search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const steeringFilterSearch = document.getElementById('steeringFilterSearch');
+  const steeringsearchList = document.querySelectorAll('#steeringFilterList li'); // Target list items directly
+
+  steeringFilterSearch&&steeringFilterSearch.addEventListener('input', function () {
+      const query = steeringFilterSearch.value.toLowerCase();
+
+      steeringsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  steeringsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          steeringFilterSearch.value = selectedText; // Update search input with selected text
+          steeringFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input transmission filter search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const transmissionFilterSearch = document.getElementById('transmissionFilterSearch');
+  const transmissionsearchList = document.querySelectorAll('#transmissionFilterList li'); // Target list items directly
+
+  transmissionFilterSearch&&transmissionFilterSearch.addEventListener('input', function () {
+      const query = transmissionFilterSearch.value.toLowerCase();
+
+      transmissionsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  transmissionsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          transmissionFilterSearch.value = selectedText; // Update search input with selected text
+          transmissionFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input engine size filter search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const enginesizeFilterSearch = document.getElementById('enginesizeFilterSearch');
+  const enginesizesearchList = document.querySelectorAll('#enginesizeFilterList li'); // Target list items directly
+
+  enginesizeFilterSearch&&enginesizeFilterSearch.addEventListener('input', function () {
+      const query = enginesizeFilterSearch.value.toLowerCase();
+
+      enginesizesearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  enginesizesearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          enginesizeFilterSearch.value = selectedText; // Update search input with selected text
+          enginesizeFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input fuel filter search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const fuelFilterSearch = document.getElementById('fuelFilterSearch');
+  const fuelsearchList = document.querySelectorAll('#fuelFilterList li'); // Target list items directly
+
+  fuelFilterSearch&&fuelFilterSearch.addEventListener('input', function () {
+      const query = fuelFilterSearch.value.toLowerCase();
+
+      fuelsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  fuelsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          fuelFilterSearch.value = selectedText; // Update search input with selected text
+          fuelFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+// offcanvas search input body type search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const bodytypeFilterSearch = document.getElementById('bodytypeFilterSearch');
+  const bodytypesearchList = document.querySelectorAll('#bodytypeFilterList li'); // Target list items directly
+
+  bodytypeFilterSearch&&bodytypeFilterSearch.addEventListener('input', function () {
+      const query = bodytypeFilterSearch.value.toLowerCase();
+
+      bodytypesearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  bodytypesearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          bodytypeFilterSearch.value = selectedText; // Update search input with selected text
+          bodytypeFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input model code search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const modelcodeFilterSearch = document.getElementById('modelcodeFilterSearch');
+  const modelcodesearchList = document.querySelectorAll('#modelcodeFilterList li'); // Target list items directly
+
+  modelcodeFilterSearch&&modelcodeFilterSearch.addEventListener('input', function () {
+      const query = modelcodeFilterSearch.value.toLowerCase();
+
+      modelcodesearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  modelcodesearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          modelcodeFilterSearch.value = selectedText; // Update search input with selected text
+          modelcodeFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});

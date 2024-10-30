@@ -1815,375 +1815,422 @@
 
         <div class="mobile-filters-search">
           <ul class="list-unstyled filter-list my-3">
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-              <img src="{{asset('assets/images/icons/filters-stick.webp')}}" alt="Filter" loading="lazy" width="14" height="14"> Filters
-              <span class="filters-count">2</span>
-
-              <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="staticBackdropLabel">Filter</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <li class="icon-sliders">
+              <p class="m-0" onclick="showsidebar()">
+                <img src="/assets/images/icons/filters-stick.webp" alt="Filter" loading="lazy" width="14" height="14"> Filters
+                          <span class="filters-count">2</span>
+            </p>
+              <div class="sidebarcanvasfilters" id="all_fiters_siderbar">
+                <div class="sticky-canvas">
+                  <div class="top-head d-flex align-items-center justify-content-between">
+                    <p class="m-0 title">Filter</p>
+                    <p class="fs-1" onclick="hidesidebar()">&times;</p>
+                  </div>
+                  <hr>
                 </div>
-                <hr class="mx-3">
-                <div class="offcanvas-body m-0 p-0 px-3">
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Make</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Make</p>
                   </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Model</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#makeFilterOffCanvas" aria-controls="makeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
                   </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Year</p>
-                    </div>
-                    <div class="right d-flex gap-2 w-50">
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min<i class="fa fa-chevron-down"></i></button>
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left">
-                      <p class="m-0">Price (USD)</p>
-                    </div>
-                    <div class="right d-flex gap-2 w-50">
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left">
-                      <p class="m-0">Mileage</p>
-                    </div>
-                    <div class="right d-flex gap-2 w-50">
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                      <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Steering</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Transmission</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Engine Size</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Fuel</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Body Type</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-
-                  <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                    <div class="left w-50">
-                      <p class="m-0">Model Code</p>
-                    </div>
-                    <div class="right w-50">
-                      <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                    </div>
-                  </div>
-
-
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Additional Filters
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body px-1 p-0">
-                          <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                            <div class="left">
-                              <p class="m-0">Min load capacity</p>
-                            </div>
-                            <div class="right d-flex gap-2 w-50">
-                              <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                              <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
-                            </div>
-                          </div>
-
-                          <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                            <div class="left w-50">
-                              <p class="m-0">Location</p>
-                            </div>
-                            <div class="right w-50">
-                              <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                            </div>
-                          </div>
-
-                          <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                            <div class="left w-50">
-                              <p class="m-0">Colour</p>
-                            </div>
-                            <div class="right w-50">
-                              <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                            </div>
-                          </div>
-
-                          <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
-                            <div class="left w-50">
-                              <p class="m-0">Drivetrain</p>
-                            </div>
-                            <div class="right w-50">
-                              <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
-                            </div>
-                          </div>
-
-
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item my-2">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Additional Features
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body px-2 py-3">
-                        <div class="additional-feature-checks d-flex justify-content-between">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">ABS</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2"> A/C </label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Air Bags</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Back Camera </label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Dual Airbags</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Fog Lights</label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Keyless Entry</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Power Steering</label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Rear Spoiler </label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">Roof Rails</label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">Sun Roof</label>
-                          </div>
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2"> TV </label>
-                          </div>
-                        </div>
-
-                        <div class="additional-feature-checks d-flex justify-content-between pt-3">
-                          <div class="form-check form-check-inline w-50">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">360 Degree Camera </label>
-                          </div>
-                         
-                        </div>
-
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div class="deal">
-                      <p class="m-0 py-3 title">Deals</p>
-                    </div>
-                    <div class="additional-feature-checks d-flex justify-content-between">
-                      <div class="form-check form-check-inline w-50">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label earn-points" for="inlineCheckbox1">Earn Points</label>
-                      </div>
-                      <div class="form-check form-check-inline w-50">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label nys" for="inlineCheckbox2"> New Year Sales </label>
-                      </div>
-                    </div>
-
-                    <div class="additional-feature-checks d-flex justify-content-between py-3">
-                      <div class="form-check form-check-inline w-50">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label prem-car" for="inlineCheckbox1">Premium Cars</label>
-                      </div>
-                      <div class="form-check form-check-inline w-50">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label clear-dis" for="inlineCheckbox2"> Clearance Discount</label>
-                      </div>
-                    </div>
-
-
-
-                    <div class="action-filter-buttons d-flex gap-3 my-5">
-                      <button class="btn btn-reset w-50">Reset</button>
-                      <button class="btn btn-submit w-50">
-                        <img src="{{asset('assets/images/icons/searchIcon.svg')}}" alt="Search Icon" loading="lazy">
-                        Search</button>
-                    </div>
-                  </div>
-
-
                 </div>
-              </div>
-          </li>
-          
-          
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Model</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelFilterOffCanvas" aria-controls="modelFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Year</p>
+                  </div>
+                  <div class="right d-flex gap-2 w-50">
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min<i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left">
+                    <p class="m-0">Price (USD)</p>
+                  </div>
+                  <div class="right d-flex gap-2 w-50">
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left">
+                    <p class="m-0">Mileage</p>
+                  </div>
+                  <div class="right d-flex gap-2 w-50">
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Steering</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#steeringFilterOffCanvas" aria-controls="steeringFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Transmission</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#transmissionFilterOffCanvas" aria-controls="transmissionFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Engine Size</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#engineeFilterOffCanvas" aria-controls="engineeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Fuel</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#fuelFilterOffCanvas" aria-controls="fuelFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Body Type</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#bodytypeFilterOffCanvas" aria-controls="bodytypeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Model Code</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelcodeFilterOffCanvas" aria-controls="modelcodeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
+
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Additional Filters
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body px-1 p-0">
+                        <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                          <div class="left">
+                            <p class="m-0">Min load capacity</p>
+                          </div>
+                          <div class="right d-flex gap-2 w-50">
+                            <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
+                            <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+
+                        <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                          <div class="left w-50">
+                            <p class="m-0">Location</p>
+                          </div>
+                          <div class="right w-50">
+                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+
+                        <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                          <div class="left w-50">
+                            <p class="m-0">Colour</p>
+                          </div>
+                          <div class="right w-50">
+                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+
+                        <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                          <div class="left w-50">
+                            <p class="m-0">Drivetrain</p>
+                          </div>
+                          <div class="right w-50">
+                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item my-2">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Additional Features
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body px-2 py-3">
+                      <div class="additional-feature-checks d-flex justify-content-between">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">ABS</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2"> A/C </label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Air Bags</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Back Camera </label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Dual Airbags</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Fog Lights</label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Keyless Entry</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Power Steering</label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Rear Spoiler </label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2">Roof Rails</label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">Sun Roof</label>
+                        </div>
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <label class="form-check-label" for="inlineCheckbox2"> TV </label>
+                        </div>
+                      </div>
+
+                      <div class="additional-feature-checks d-flex justify-content-between pt-3">
+                        <div class="form-check form-check-inline w-50">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <label class="form-check-label" for="inlineCheckbox1">360 Degree Camera </label>
+                        </div>
+                       
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                 
+                  <div class="deal">
+                    <p class="m-0 py-3 title">Deals</p>
+                  </div>
+                  <div class="additional-feature-checks d-flex justify-content-between">
+                    <div class="form-check form-check-inline w-50">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label earn-points" for="inlineCheckbox1">Earn Points</label>
+                    </div>
+                    <div class="form-check form-check-inline w-50">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <label class="form-check-label nys" for="inlineCheckbox2"> New Year Sales </label>
+                    </div>
+                  </div>
+
+                  <div class="additional-feature-checks d-flex justify-content-between py-3">
+                    <div class="form-check form-check-inline w-50">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <label class="form-check-label prem-car" for="inlineCheckbox1">Premium Cars</label>
+                    </div>
+                    <div class="form-check form-check-inline w-50">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <label class="form-check-label clear-dis" for="inlineCheckbox2"> Clearance Discount</label>
+                    </div>
+                  </div>
+
+
+
+                  <div class="action-filter-buttons d-flex gap-3 my-5">
+                    <button class="btn btn-reset w-50">Reset</button>
+                    <button class="btn btn-submit w-50">
+                      <img src="{{asset('assets/images/icons/searchIcon.svg')}}" alt="Search Icon" loading="lazy">
+                      Search</button>
+                  </div>
+                </div>
+            
+        </div>
+            </li>
+            
             <li class="icon-sliders-cross">
                Toyota <span><i class="fa fa-close"></i></span>
           </li>
             <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#makeFilterOffCanvas" aria-controls="makeFilterOffCanvas">
                Make <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="makeFilterOffCanvas" aria-labelledby="makeFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Make">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
           </li>
             <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#modelFilterOffCanvas" aria-controls="modelFilterOffCanvas">
                Model <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="modelFilterOffCanvas" aria-labelledby="modelFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Model">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+               
           </li>
             <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#yearFilterOffCanvas" aria-controls="yearFilterOffCanvas">
                Year <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="yearFilterOffCanvas" aria-labelledby="yearFilterOffCanvasLabel">
+             
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#priceFilterOffCanvas" aria-controls="priceFilterOffCanvas">
+               Price (USD) <span><i class="fa fa-chevron-down"></i></span>
+               
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#milageFilterOffCanvas" aria-controls="milageFilterOffCanvas">
+               Milage <span><i class="fa fa-chevron-down"></i></span>
+               
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#steeringFilterOffCanvas" aria-controls="steeringFilterOffCanvas">
+               Steering <span><i class="fa fa-chevron-down"></i></span>
+              
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#transmissionFilterOffCanvas" aria-controls="transmissionFilterOffCanvas">
+               Transmission <span><i class="fa fa-chevron-down"></i></span>
+              
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#engineeFilterOffCanvas" aria-controls="engineeFilterOffCanvas">
+               Engine Size <span><i class="fa fa-chevron-down"></i></span>
+              
+          </li>
+            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#fuelFilterOffCanvas" aria-controls="fuelFilterOffCanvas">
+               Fuel <span><i class="fa fa-chevron-down"></i></span>
+               
+          </li>
+            <li class="icon-sliders border-0" style="font-size:14px; color:#5d6370;"
+            type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+               Show All Filters</span>
+          </li>
+            
+          </ul>
+
+          {{-- Start Make Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="makeFilterOffCanvas" aria-labelledby="makeFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+                <div class="search">
+                    <input type="text" placeholder="Search Make" id="makeFilterSearch">
+                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+                </div>
+                <div class="list py-3">
+                    <ul class="list-unstyled" id="makeFilterList">
+                        <li data-make="Honda">Honda (1254)</li>
+                        <li data-make="Yaris">Yaris (1254)</li>
+                        <li data-make="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota">Toyota (1254)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+          {{-- End Make Filter Search --}}
+
+          {{-- Start Modal Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="modelFilterOffCanvas" aria-labelledby="modelFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Model" id="modalFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="modalFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Modal Filter Search --}}
+
+          {{-- Start Year Filter Search --}}
+                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="yearFilterOffCanvas" aria-labelledby="yearFilterOffCanvasLabel">
                 <div class="offcanvas-header">
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -2220,190 +2267,236 @@
 
                 </div>
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#priceFilterOffCanvas" aria-controls="priceFilterOffCanvas">
-               Price (USD) <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="priceFilterOffCanvas" aria-labelledby="priceFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          {{-- End Year Filter Search --}}
+
+
+          {{-- Start Price Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="priceFilterOffCanvas" aria-labelledby="priceFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="head">
+                <p class="m-0 title text-center">Select Price</p>
+              </div>
+
+              <div class="model-years d-flex gap-3 py-4">
+                <div class="left w-50">
+                  <p class="m-0 min-year">Min Price</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>1999</option>
+                    <option value="1">2000</option>
+                    <option value="2">2001</option>
+                    <option value="3">2002</option>
+                  </select>
                 </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="head">
-                    <p class="m-0 title text-center">Select Price</p>
-                  </div>
-
-                  <div class="model-years d-flex gap-3 py-4">
-                    <div class="left w-50">
-                      <p class="m-0 min-year">Min Price</p>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>1999</option>
-                        <option value="1">2000</option>
-                        <option value="2">2001</option>
-                        <option value="3">2002</option>
-                      </select>
-                    </div>
-                    <div class="right w-50">
-                      <p class="m-0 max-year">Max Price</p>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>1999</option>
-                        <option value="1">2000</option>
-                        <option value="2">2001</option>
-                        <option value="3">2002</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="action-filter-buttons d-flex gap-3 mt-5">
-                    <button class="btn btn-reset w-50">Clear</button>
-                    <button class="btn btn-submit w-50">Apply</button>
-                  </div>
-
+                <div class="right w-50">
+                  <p class="m-0 max-year">Max Price</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>1999</option>
+                    <option value="1">2000</option>
+                    <option value="2">2001</option>
+                    <option value="3">2002</option>
+                  </select>
                 </div>
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#milageFilterOffCanvas" aria-controls="milageFilterOffCanvas">
-               Milage <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="milageFilterOffCanvas" aria-labelledby="milageFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="head">
-                    <p class="m-0 title text-center">Select Milage</p>
-                  </div>
 
-                  <div class="model-years d-flex gap-3 py-4">
-                    <div class="left w-50">
-                      <p class="m-0 min-year">Min Milage</p>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>1999</option>
-                        <option value="1">2000</option>
-                        <option value="2">2001</option>
-                        <option value="3">2002</option>
-                      </select>
-                    </div>
-                    <div class="right w-50">
-                      <p class="m-0 max-year">Max Milage</p>
-                      <select class="form-select" aria-label="Default select example">
-                        <option selected>1999</option>
-                        <option value="1">2000</option>
-                        <option value="2">2001</option>
-                        <option value="3">2002</option>
-                      </select>
-                    </div>
-                  </div>
+              <div class="action-filter-buttons d-flex gap-3 mt-5">
+                <button class="btn btn-reset w-50">Clear</button>
+                <button class="btn btn-submit w-50">Apply</button>
+              </div>
 
-                  <div class="action-filter-buttons d-flex gap-3 mt-5">
-                    <button class="btn btn-reset w-50">Clear</button>
-                    <button class="btn btn-submit w-50">Apply</button>
-                  </div>
+            </div>
+          </div>
+          {{-- End Price Filter Search --}}
 
+          {{-- Start Milage Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="milageFilterOffCanvas" aria-labelledby="milageFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="head">
+                <p class="m-0 title text-center">Select Milage</p>
+              </div>
+
+              <div class="model-years d-flex gap-3 py-4">
+                <div class="left w-50">
+                  <p class="m-0 min-year">Min Milage</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>1999</option>
+                    <option value="1">2000</option>
+                    <option value="2">2001</option>
+                    <option value="3">2002</option>
+                  </select>
+                </div>
+                <div class="right w-50">
+                  <p class="m-0 max-year">Max Milage</p>
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>1999</option>
+                    <option value="1">2000</option>
+                    <option value="2">2001</option>
+                    <option value="3">2002</option>
+                  </select>
                 </div>
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#steeringFilterOffCanvas" aria-controls="steeringFilterOffCanvas">
-               Steering <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="steeringFilterOffCanvas" aria-labelledby="steeringFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Steering">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
+
+              <div class="action-filter-buttons d-flex gap-3 mt-5">
+                <button class="btn btn-reset w-50">Clear</button>
+                <button class="btn btn-submit w-50">Apply</button>
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#transmissionFilterOffCanvas" aria-controls="transmissionFilterOffCanvas">
-               Transmission <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="transmissionFilterOffCanvas" aria-labelledby="transmissionFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Transmission">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
+
+            </div>
+          </div>
+          {{-- End Milage Filter Search --}}
+
+          {{-- Start Steering Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="steeringFilterOffCanvas" aria-labelledby="steeringFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Steering" id="steeringFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#engineeFilterOffCanvas" aria-controls="engineeFilterOffCanvas">
-               Engine Size <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="engineeFilterOffCanvas" aria-labelledby="engineeFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Engine Size">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="steeringFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
               </div>
-          </li>
-            <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#fuelFilterOffCanvas" aria-controls="fuelFilterOffCanvas">
-               Fuel <span><i class="fa fa-chevron-down"></i></span>
-               <div class="offcanvas offcanvas-bottom" tabindex="-1" id="fuelFilterOffCanvas" aria-labelledby="fuelFilterOffCanvasLabel">
-                <div class="offcanvas-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body p-0 px-3">
-                  <div class="search">
-                    <input type="text" placeholder="Search Fuel">
-                    <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
-                  </div>
-                  <div class="list py-3">
-                    <ul class="list-unstyled">
-                      <li>Honda (1254)</li>
-                      <li>Yaris (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                      <li>Toyota (1254)</li>
-                    </ul>
-                  </div>
-                </div>
+            </div>
+          </div>
+          {{-- End Steering Filter Search --}}
+
+          {{-- Start Transmission Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="transmissionFilterOffCanvas" aria-labelledby="transmissionFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Transmission" id="transmissionFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
-          </li>
-            <li class="icon-sliders border-0" style="font-size:14px; color:#5d6370;"
-            type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-               Show All Filters</span>
-          </li>
-            
-          </ul>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="transmissionFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Transmission Filter Search --}}
+
+          {{-- Start Engine Size Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="engineeFilterOffCanvas" aria-labelledby="engineeFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Engine Size" id="enginesizeFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="enginesizeFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Engine Size Filter Search --}}
+
+          {{-- Start Fuel Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="fuelFilterOffCanvas" aria-labelledby="fuelFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Fuel" id="fuelFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="fuelFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Fuel Filter Search --}}
+
+          {{-- Start Body Type Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="bodytypeFilterOffCanvas" aria-labelledby="bodytypeFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Body Type" id="bodytypeFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="bodytypeFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Body Type Filter Search --}}
+
+          {{-- Start Model Code Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="modelcodeFilterOffCanvas" aria-labelledby="modelcodeFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Model Code" id="modelcodeFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled" id="modelcodeFilterList">
+                  <li>Honda (1254)</li>
+                  <li>Yaris (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                  <li>Toyota (1254)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Model Code Filter Search --}}
+
         </div>
+
+        
 
         <div class="loti-anim text-center">
           <img src="{{asset('assets/images/lottie.webp')}}" alt="Lottie" class="img-fluid" width="300" loading="lazy">
