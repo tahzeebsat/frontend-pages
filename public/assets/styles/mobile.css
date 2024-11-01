@@ -1619,6 +1619,28 @@ html, body{
     border: 1px solid #f6f6f8;
 }
 
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .dropdown-selection-filter .right .minYear{
+    height: 36px;
+    background-color: #f6f6f8;
+    font-family: 'Lato';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    color: #858a94;
+    border: 1px solid #f6f6f8;
+    background-size: 8px 8px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .dropdown-selection-filter .right .maxYear{
+    height: 36px;
+    background-color: #f6f6f8;
+    font-family: 'Lato';
+    font-size: var(--fs-12);
+    font-weight: 500;
+    color: #858a94;
+    border: 1px solid #f6f6f8;
+    background-size: 8px 8px;
+}
+
+
 .mobile2-view .advance-search-calculator-mobile .mobile-filters-search .filter-list .accordion .accordion-item{
     background-color: transparent;
     border: none;
@@ -1750,7 +1772,23 @@ html, body{
     height: 800px;
     border-radius: 20px 20px 0px 0px;
 }
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search #seatsFilterOffCanvas{
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
 .mobile2-view .advance-search-calculator-mobile .mobile-filters-search #modelcodeFilterOffCanvas{
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search #drivetrainFilterOffCanvas{
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search #locationFilterOffCanvas{
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-filters-search #colourFilterOffCanvas{
     height: 800px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -1927,11 +1965,11 @@ html, body{
     padding: 25px 0px;
 }
 .advance-search-calculator-mobile .customer-review-mobile{
-    padding: 25px 0px;
+    padding: 0px;
 }
-.advance-search-calculator-mobile .customer-review-mobile .customerReviewSwiperMobile{
+/* .advance-search-calculator-mobile .customer-review-mobile .customerReviewSwiperMobile{
     height: 260px;
-}
+} */
 
 /* Filter Offcanvas css */
 .mobile2-view .advance-search-calculator-mobile .sidebarcanvasfilters {
@@ -1964,6 +2002,29 @@ html, body{
     z-index: 999;
     top: -16px;
     padding: 10px 0px;
+  }
+
+  .mobile2-view .advance-search-calculator-mobile .selected-filter-show #selectedItemsList{
+    display: flex;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+  .mobile2-view .advance-search-calculator-mobile .selected-filter-show #selectedItemsList li{
+    font-family: 'Lato';
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    padding: 9px 10px;
+    margin-right: 2px;
+    margin-block: 4px;
+    color: #154f74;
+    background-color: #ecf5ff;
+    border: 1px solid #1c6a9b;
+    border-radius: 41px;
+    text-wrap: nowrap;
+    white-space: nowrap;
   }
 
 /* ===================================== End Mobile Advance Search Page Css ===================================== */

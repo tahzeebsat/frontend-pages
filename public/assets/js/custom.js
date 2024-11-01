@@ -1197,3 +1197,638 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   });
 });
+
+
+
+// offcanvas search input location search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const locationFilterSearch = document.getElementById('locationFilterSearch');
+  const locationsearchList = document.querySelectorAll('#locationFilterList li'); // Target list items directly
+
+  locationFilterSearch&&locationFilterSearch.addEventListener('input', function () {
+      const query = locationFilterSearch.value.toLowerCase();
+
+      locationsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  locationsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          locationFilterSearch.value = selectedText; // Update search input with selected text
+          locationFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input colour search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const colourFilterSearch = document.getElementById('colourFilterSearch');
+  const coloursearchList = document.querySelectorAll('#colourFilterList li'); // Target list items directly
+
+  colourFilterSearch&&colourFilterSearch.addEventListener('input', function () {
+      const query = colourFilterSearch.value.toLowerCase();
+
+      coloursearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  coloursearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          colourFilterSearch.value = selectedText; // Update search input with selected text
+          colourFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input colour search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const drivetrainFilterSearch = document.getElementById('drivetrainFilterSearch');
+  const drivetrainsearchList = document.querySelectorAll('#drivetrainFilterList li'); // Target list items directly
+
+  drivetrainFilterSearch&&drivetrainFilterSearch.addEventListener('input', function () {
+      const query = drivetrainFilterSearch.value.toLowerCase();
+
+      drivetrainsearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  drivetrainsearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          drivetrainFilterSearch.value = selectedText; // Update search input with selected text
+          drivetrainFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+// offcanvas search input seats search for search page mobile
+document.addEventListener('DOMContentLoaded', function () {
+  const seatsFilterSearch = document.getElementById('seatsFilterSearch');
+  const seatssearchList = document.querySelectorAll('#seatsFilterList li'); // Target list items directly
+
+  seatsFilterSearch&&seatsFilterSearch.addEventListener('input', function () {
+      const query = seatsFilterSearch.value.toLowerCase();
+
+      seatssearchList.forEach(function (item) {
+          const text = item.textContent.toLowerCase();
+          item.style.display = text.includes(query) ? 'block' : 'none'; // Show/hide based on query
+      });
+  });
+
+  // Handle selection of make
+  seatssearchList.forEach(function (item) {
+      item&&item.addEventListener('click', function () {
+          const selectedText = item.textContent.trim();
+          seatsFilterSearch.value = selectedText; // Update search input with selected text
+          seatsFilterSearch.dispatchEvent(new Event('input')); // Trigger input event to hide non-matching items
+      });
+  });
+});
+
+
+
+// Filter For Search Items Using Jquery
+
+$(document).ready(function () {
+  function updateButtonText() {
+      // Update button text for make filter
+      if ($('.selectedItemsList li[data-type="make"]').length > 0) {
+          $('.make-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+          $('.make-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+      }
+
+      // Update button text for modal filter
+      if ($('.selectedItemsList li[data-type="modal"]').length > 0) {
+          $('.model-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+          $('.model-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+      }
+
+       // Update button text for modal code filter
+       if ($('.selectedItemsList li[data-type="mc"]').length > 0) {
+        $('.mc-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+    } else {
+        $('.mc-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+
+       // Update button text for steering code filter
+       if ($('.selectedItemsList li[data-type="steering"]').length > 0) {
+        $('.steering-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+    } else {
+        $('.steering-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+       // Update button text for transmission code filter
+       if ($('.selectedItemsList li[data-type="transmission"]').length > 0) {
+        $('.transmission-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+    } else {
+        $('.transmission-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+       // Update button text for eng size code filter
+       if ($('.selectedItemsList li[data-type="engsize"]').length > 0) {
+        $('.engsize-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+    } else {
+        $('.engsize-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+       // Update button text for fuel code filter
+       if ($('.selectedItemsList li[data-type="fuel"]').length > 0) {
+        $('.fuel-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+    } else {
+        $('.fuel-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+
+    // Update button text for bodytype code filter
+    if ($('.selectedItemsList li[data-type="bodytype"]').length > 0) {
+      $('.bodytype-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+  } else {
+      $('.bodytype-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+  }
+  // Update button text for Seats code filter
+    if ($('.selectedItemsList li[data-type="seats"]').length > 0) {
+      $('.seats-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+      $('.seats-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+
+    // Update button text for Location code filter
+    if ($('.selectedItemsList li[data-type="location"]').length > 0) {
+      $('.location-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+      $('.location-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+     // Update button text for Color code filter
+     if ($('.selectedItemsList li[data-type="colour"]').length > 0) {
+      $('.colour-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+      $('.colour-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+
+    // Update button text for Drivetrain code filter
+    if ($('.selectedItemsList li[data-type="drivetrain"]').length > 0) {
+      $('.drivetrain-filter-selected').html('Selected <i class="fa fa-chevron-down"></i>');
+      } else {
+      $('.drivetrain-filter-selected').html('Select <i class="fa fa-chevron-down"></i>');
+    }
+  }
+
+
+  // Handle click on filter list items (main filter)
+  $('.makeFilterList li').on('click', function () {
+      var make = $(this).data('make');
+      var value = $(this).data('value');
+
+      // Clear previous selection from the main filter
+      $('.selectedItemsList li[data-type="make"]').remove();
+
+      // Append selected item to the selected items list
+      $('.selectedItemsList').append(
+          '<li data-value="' + value + '" data-type="make">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+
+      // Update button text after selection
+      updateButtonText();
+  });
+
+  
+
+  // Handle click on filter list items (modal filter)
+  $('.modalFilterList li').on('click', function () {
+      var make = $(this).data('make');
+      var value = $(this).data('value');
+
+      // Clear previous selection from the modal filter
+      $('.selectedItemsList li[data-type="modal"]').remove();
+
+      // Append selected item to the selected items list
+      $('.selectedItemsList').append(
+          '<li data-value="' + value + '" data-type="modal">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+
+      // Update button text after selection
+      updateButtonText();
+  });
+
+  // Handle click on filter list items (modalcode filter)
+  $('.modelcodeFilterList li').on('click', function () {
+    var make = $(this).data('make');
+    var value = $(this).data('value');
+
+    // Clear previous selection from the modal filter
+    $('.selectedItemsList li[data-type="mc"]').remove();
+
+    // Append selected item to the selected items list
+    $('.selectedItemsList').append(
+        '<li data-value="' + value + '" data-type="mc">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+    );
+
+    // Update button text after selection
+    updateButtonText();
+});
+
+ // Handle click on filter list items (steering filter)
+ $('.steeringFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the steering filter
+  $('.selectedItemsList li[data-type="steering"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="steering">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+
+ // Handle click on filter list items (transmission filter)
+ $('.transmissionFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the transmission filter
+  $('.selectedItemsList li[data-type="transmission"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="transmission">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+ // Handle click on filter list items (engine size filter)
+ $('.enginesizeFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the engine size filter
+  $('.selectedItemsList li[data-type="engsize"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="engsize">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+ // Handle click on filter list items (Fuel filter)
+ $('.fuelFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the engine size filter
+  $('.selectedItemsList li[data-type="fuel"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="fuel">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+ // Handle click on filter list items (Body Type filter)
+ $('.bodytypeFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the engine size filter
+  $('.selectedItemsList li[data-type="bodytype"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="bodytype">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+ // Handle click on filter list items (Seats filter)
+ $('.seatsFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the Seats filter
+  $('.selectedItemsList li[data-type="seats"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="seats">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+
+ // Handle click on filter list items (Location filter)
+ $('.locationFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the Seats filter
+  $('.selectedItemsList li[data-type="location"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="location">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+
+ // Handle click on filter list items (Colour filter)
+ $('.colourFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the Seats filter
+  $('.selectedItemsList li[data-type="colour"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="colour">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+// Handle click on filter list items (Drivetrain filter)
+$('.drivetrainFilterList li').on('click', function () {
+  var make = $(this).data('make');
+  var value = $(this).data('value');
+
+  // Clear previous selection from the Seats filter
+  $('.selectedItemsList li[data-type="drivetrain"]').remove();
+
+  // Append selected item to the selected items list
+  $('.selectedItemsList').append(
+      '<li data-value="' + value + '" data-type="drivetrain">' + make + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+  );
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+
+// Checkbox change event handler
+$('.form-check-input').change(function () {
+  const checkboxValue = $(this).val();
+  
+  if ($(this).is(':checked')) {
+      // Append selected item to the selected items list
+      $('.selectedItemsList').append(
+          '<li data-value="' + checkboxValue + '">' + checkboxValue + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+  } else {
+      // Remove the item from the selected items list if unchecked
+      $('.selectedItemsList li[data-value="' + checkboxValue + '"]').remove();
+  }
+
+  // Update button text after selection
+  updateButtonText();
+});
+
+$('.selectedItemsList').on('click', '.remove-item', function () {
+  const valueToRemove = $(this).parent().data('value');
+  
+  // Uncheck the corresponding checkbox
+  $('.form-check-input[value="' + valueToRemove + '"]').prop('checked', false);
+  
+  // Remove the item from the selected items list
+  $(this).parent().remove();
+  
+  // Update button text after removal
+  updateButtonText();
+});
+
+
+ // =================== Start Min Year and Max Year Filter Select ===========
+
+ $('.selectMinYear').change(function () {
+  const minYearValue = $(this).val();
+  const maxYearOptions = $('.selectMaxYear option');
+  let highestValue = null;
+
+  maxYearOptions.each(function () {
+      if ($(this).val() > minYearValue) {
+          if (!highestValue || $(this).val() > highestValue) {
+              highestValue = $(this).val();
+          }
+      }
+  });
+
+  if (highestValue) {
+      $('.selectMaxYear').val(highestValue);
+  } else {
+      $('.selectMaxYear').prop('selectedIndex', 0);
+  }
+
+  updateYearRange();
+});
+
+$('.selectMaxYear').change(function () {
+  updateYearRange();
+});
+
+function updateYearRange() {
+  $('.selectedItemsList li[data-type="yearRange"]').remove();
+  const minYearValue = $('.selectMinYear').val();
+  const maxYearValue = $('.selectMaxYear').val();
+
+  if (minYearValue !== "Min Year" && maxYearValue !== "Max Year") {
+      $('.selectedItemsList').append(
+          '<li data-value="' + minYearValue + ' to ' + maxYearValue + '" data-type="yearRange">' + minYearValue + ' to ' + maxYearValue + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+  }
+
+  updateButtonText();
+}
+
+
+// =================== Start Min Price and Max Price Filter Select ===========
+
+$('.selectMinPrice').change(function () {
+  const minPriceValue = $(this).val();
+  const maxPriceOptions = $('.selectMaxPrice option');
+  let highestValue = null;
+
+  maxPriceOptions.each(function () {
+      if ($(this).val() > minPriceValue) {
+          if (!highestValue || $(this).val() > highestValue) {
+              highestValue = $(this).val();
+          }
+      }
+  });
+
+  if (highestValue) {
+      $('.selectMaxPrice').val(highestValue);
+  } else {
+      $('.selectMaxPrice').prop('selectedIndex', 0);
+  }
+
+  updatePriceRange();
+});
+
+$('.selectMaxPrice').change(function () {
+  updatePriceRange();
+});
+
+function updatePriceRange() {
+  $('.selectedItemsList li[data-type="priceRange"]').remove();
+  const minPriceValue = $('.selectMinPrice').val();
+  const maxPriceValue = $('.selectMaxPrice').val();
+
+  if (minPriceValue !== "Min Price" && maxPriceValue !== "Max Price") {
+      $('.selectedItemsList').append(
+          '<li data-value="' + minPriceValue + ' to ' + maxPriceValue + '" data-type="priceRange">' + minPriceValue + ' to ' + maxPriceValue + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+  }
+
+  updateButtonText();
+}
+
+// =================== Start Min Capacity and Max Capacity Filter Select ===========
+
+$('.selectMinCapacity').change(function () {
+  const minCapacityValue = $(this).val();
+  const maxCapacityOptions = $('.selectMaxCapacity option');
+  let highestValue = null;
+
+  maxCapacityOptions.each(function () {
+      if ($(this).val() > minCapacityValue) {
+          if (!highestValue || $(this).val() > highestValue) {
+              highestValue = $(this).val();
+          }
+      }
+  });
+
+  if (highestValue) {
+      $('.selectMaxCapacity').val(highestValue);
+  } else {
+      $('.selectMaxCapacity').prop('selectedIndex', 0);
+  }
+
+  updateCapacityRange();
+});
+
+$('.selectMaxCapacity').change(function () {
+  updateCapacityRange();
+});
+
+function updateCapacityRange() {
+  $('.selectedItemsList li[data-type="capacityRange"]').remove();
+  const minCapacityValue = $('.selectMinCapacity').val();
+  const maxCapacityValue = $('.selectMaxCapacity').val();
+
+  if (minCapacityValue !== "Min Capacity" && maxCapacityValue !== "Max Capacity") {
+      $('.selectedItemsList').append(
+          '<li data-value="' + minCapacityValue + ' to ' + maxCapacityValue + '" data-type="capacityRange">' + minCapacityValue + ' to ' + maxCapacityValue + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+  }
+
+  updateButtonText();
+}
+
+// =================== Start Min Mileage and Max Mileage Filter Select ===========
+
+$('.selectMinMileage').change(function () {
+  const minMileageValue = $(this).val();
+  const maxMileageOptions = $('.selectMaxMileage option');
+  let highestValue = null;
+
+  maxMileageOptions.each(function () {
+      if ($(this).val() > minMileageValue) {
+          if (!highestValue || $(this).val() > highestValue) {
+              highestValue = $(this).val();
+          }
+      }
+  });
+
+  if (highestValue) {
+      $('.selectMaxMileage').val(highestValue);
+  } else {
+      $('.selectMaxMileage').prop('selectedIndex', 0);
+  }
+
+  updateMileageRange();
+});
+
+$('.selectMaxMileage').change(function () {
+  updateMileageRange();
+});
+
+function updateMileageRange() {
+  $('.selectedItemsList li[data-type="mileageRange"]').remove();
+  const minMileageValue = $('.selectMinMileage').val();
+  const maxMileageValue = $('.selectMaxMileage').val();
+
+  if (minMileageValue !== "Min Mileage" && maxMileageValue !== "Max Mileage") {
+      $('.selectedItemsList').append(
+          '<li data-value="' + minMileageValue + ' to ' + maxMileageValue + '" data-type="mileageRange">' + minMileageValue + ' to ' + maxMileageValue + ' <span class="remove-item" style="cursor: pointer;color: #154f74;font-size:16px;font-weight:bold;">&times;</span></li>'
+      );
+  }
+
+  updateButtonText();
+}
+
+// Handle removal of selected items
+$('.selectedItemsList').on('click', '.remove-item', function () {
+  const valueToRemove = $(this).parent().data('value');
+  $(this).parent().remove();
+
+  // Reset select boxes to defaults based on type
+  if ($(this).parent().data('type') === "yearRange") {
+      $('.selectMinYear').prop('selectedIndex', 0);
+      $('.selectMaxYear').prop('selectedIndex', 0);
+  } else if ($(this).parent().data('type') === "priceRange") {
+      $('.selectMinPrice').prop('selectedIndex', 0);
+      $('.selectMaxPrice').prop('selectedIndex', 0);
+  } else if ($(this).parent().data('type') === "capacityRange") {
+      $('.selectMinCapacity').prop('selectedIndex', 0);
+      $('.selectMaxCapacity').prop('selectedIndex', 0);
+  } else if ($(this).parent().data('type') === "mileageRange") {
+      $('.selectMinMileage').prop('selectedIndex', 0);
+      $('.selectMaxMileage').prop('selectedIndex', 0);
+  }
+
+  updateButtonText();
+});
+
+
+
+  // Handle removal of selected items
+  $('.selectedItemsList').on('click', '.remove-item', function () {
+      $(this).parent().remove();
+      // Update button text after removal
+      updateButtonText();
+  });
+
+  // Initial state check on page load
+  updateButtonText();
+});

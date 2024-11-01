@@ -1814,7 +1814,7 @@
 
 
         <div class="mobile-filters-search">
-          <ul class="list-unstyled filter-list my-3">
+          <ul class="list-unstyled filter-list my-3 d-flex align-items-center gap-1">
             <li class="icon-sliders">
               <p class="m-0" onclick="showsidebar()">
                 <img src="/assets/images/icons/filters-stick.webp" alt="Filter" loading="lazy" width="14" height="14"> Filters
@@ -1826,15 +1826,21 @@
                     <p class="m-0 title">Filter</p>
                     <p class="fs-1" onclick="hidesidebar()">&times;</p>
                   </div>
+
+                  <div class="selected-filter-show">
+                    <ul class="list-unstyled selectedItemsList" id="selectedItemsList">
+                      {{-- <li>0k</li> --}}
+                    </ul>
+                  </div>
                   <hr>
                 </div>
-                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center">
                   <div class="left w-50">
                     <p class="m-0">Make</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#makeFilterOffCanvas" aria-controls="makeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter make-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#makeFilterOffCanvas" aria-controls="makeFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
@@ -1843,18 +1849,39 @@
                     <p class="m-0">Model</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelFilterOffCanvas" aria-controls="modelFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter model-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelFilterOffCanvas" aria-controls="modelFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
+
+                <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
+                  <div class="left w-50">
+                    <p class="m-0">Model Code</p>
+                  </div>
+                  <div class="right w-50">
+                    <button class="btn btn-make-filter mc-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelcodeFilterOffCanvas" aria-controls="modelcodeFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
+                  </div>
+                </div>
+
 
                 <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
                   <div class="left w-50">
                     <p class="m-0">Year</p>
                   </div>
                   <div class="right d-flex gap-2 w-50">
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min<i class="fa fa-chevron-down"></i></button>
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                    <select class="form-select minYear selectMinYear" aria-label="Default select example">
+                    <option selected>Min</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="300">2002</option>
+                  </select>
+                    <select class="form-select maxYear selectMaxYear" aria-label="Default select example">
+                    <option selected>Max</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
                   </div>
                 </div>
 
@@ -1863,8 +1890,18 @@
                     <p class="m-0">Price (USD)</p>
                   </div>
                   <div class="right d-flex gap-2 w-50">
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                   <select class="form-select minYear selectMinPrice" aria-label="Default select example">
+                    <option selected>Min</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
+                    <select class="form-select maxYear selectMaxPrice" aria-label="Default select example">
+                    <option selected>Max</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
                   </div>
                 </div>
 
@@ -1873,8 +1910,18 @@
                     <p class="m-0">Mileage</p>
                   </div>
                   <div class="right d-flex gap-2 w-50">
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                    <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                    <select class="form-select minYear selectMinMileage" aria-label="Default select example">
+                    <option selected>Min</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
+                    <select class="form-select maxYear selectMaxMileage" aria-label="Default select example">
+                    <option selected>Max</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                  </select>
                   </div>
                 </div>
 
@@ -1883,8 +1930,8 @@
                     <p class="m-0">Steering</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#steeringFilterOffCanvas" aria-controls="steeringFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter steering-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#steeringFilterOffCanvas" aria-controls="steeringFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
@@ -1893,8 +1940,8 @@
                     <p class="m-0">Transmission</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#transmissionFilterOffCanvas" aria-controls="transmissionFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter transmission-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#transmissionFilterOffCanvas" aria-controls="transmissionFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
@@ -1903,8 +1950,8 @@
                     <p class="m-0">Engine Size</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#engineeFilterOffCanvas" aria-controls="engineeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter engsize-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#engineeFilterOffCanvas" aria-controls="engineeFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
@@ -1913,8 +1960,8 @@
                     <p class="m-0">Fuel</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#fuelFilterOffCanvas" aria-controls="fuelFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter fuel-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#fuelFilterOffCanvas" aria-controls="fuelFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
@@ -1923,22 +1970,24 @@
                     <p class="m-0">Body Type</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#bodytypeFilterOffCanvas" aria-controls="bodytypeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter bodytype-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#bodytypeFilterOffCanvas" aria-controls="bodytypeFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
 
                 <div class="dropdown-selection-filter d-flex justify-content-between align-items-center my-3">
                   <div class="left w-50">
-                    <p class="m-0">Model Code</p>
+                    <p class="m-0">Seats</p>
                   </div>
                   <div class="right w-50">
-                    <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between"
-                    type="button" data-bs-toggle="offcanvas" data-bs-target="#modelcodeFilterOffCanvas" aria-controls="modelcodeFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
+                    <button class="btn btn-make-filter seats-filter-selected w-100 d-flex align-items-center justify-content-between"
+                    type="button" data-bs-toggle="offcanvas" data-bs-target="#seatsFilterOffCanvas" aria-controls="seatsFilterOffCanvas">Select <i class="fa fa-chevron-down"></i></button>
                   </div>
                 </div>
 
+
+                
 
                 <div class="accordion" id="accordionExample">
                   <div class="accordion-item">
@@ -1954,8 +2003,18 @@
                             <p class="m-0">Min load capacity</p>
                           </div>
                           <div class="right d-flex gap-2 w-50">
-                            <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Min <i class="fa fa-chevron-down"></i></button>
-                            <button class="btn btn-make-filter d-flex align-items-center justify-content-between w-50">Max <i class="fa fa-chevron-down"></i></button>
+                            <select class="form-select minYear selectMinCapacity" aria-label="Default select example">
+                              <option selected>Min</option>
+                              <option value="2000">2000</option>
+                              <option value="2001">2001</option>
+                              <option value="2002">2002</option>
+                            </select>
+                              <select class="form-select maxYear selectMaxCapacity" aria-label="Default select example">
+                              <option selected>Max</option>
+                              <option value="2000">2000</option>
+                              <option value="2001">2001</option>
+                              <option value="2002">2002</option>
+                            </select>
                           </div>
                         </div>
 
@@ -1964,7 +2023,8 @@
                             <p class="m-0">Location</p>
                           </div>
                           <div class="right w-50">
-                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                            <button class="btn btn-make-filter location-filter-selected w-100 d-flex align-items-center justify-content-between"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#locationFilterOffCanvas" aria-controls="locationFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
                           </div>
                         </div>
 
@@ -1973,7 +2033,8 @@
                             <p class="m-0">Colour</p>
                           </div>
                           <div class="right w-50">
-                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                            <button class="btn btn-make-filter colour-filter-selected w-100 d-flex align-items-center justify-content-between"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#colourFilterOffCanvas" aria-controls="colourFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
                           </div>
                         </div>
 
@@ -1982,7 +2043,8 @@
                             <p class="m-0">Drivetrain</p>
                           </div>
                           <div class="right w-50">
-                            <button class="btn btn-make-filter w-100 d-flex align-items-center justify-content-between">Search <i class="fa fa-chevron-down"></i></button>
+                            <button class="btn btn-make-filter drivetrain-filter-selected w-100 d-flex align-items-center justify-content-between"
+                            type="button" data-bs-toggle="offcanvas" data-bs-target="#drivetrainFilterOffCanvas" aria-controls="drivetrainFilterOffCanvas">Search <i class="fa fa-chevron-down"></i></button>
                           </div>
                         </div>
 
@@ -2000,95 +2062,95 @@
                       <div class="accordion-body px-2 py-3">
                       <div class="additional-feature-checks d-flex justify-content-between">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="ABS">
                           <label class="form-check-label" for="inlineCheckbox1">ABS</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="A/C">
                           <label class="form-check-label" for="inlineCheckbox2"> A/C </label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Air Bags">
                           <label class="form-check-label" for="inlineCheckbox1">Air Bags</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Back Camera">
                           <label class="form-check-label" for="inlineCheckbox2">Back Camera </label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Dual Airbags">
                           <label class="form-check-label" for="inlineCheckbox1">Dual Airbags</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Fog Lights">
                           <label class="form-check-label" for="inlineCheckbox2">Fog Lights</label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Keyless Entry">
                           <label class="form-check-label" for="inlineCheckbox1">Keyless Entry</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Power Steering">
                           <label class="form-check-label" for="inlineCheckbox2">Power Steering</label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Power Windows">
                           <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Push Start">
                           <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                          <label class="form-check-label" for="inlineCheckbox1">Power Windows</label>
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Power Windows1">
+                          <label class="form-check-label" for="inlineCheckbox1">Power Windows1</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                          <label class="form-check-label" for="inlineCheckbox2">Push Start</label>
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Push Start1">
+                          <label class="form-check-label" for="inlineCheckbox2">Push Start1</label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Rear Spoiler">
                           <label class="form-check-label" for="inlineCheckbox1">Rear Spoiler </label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Roof Rails">
                           <label class="form-check-label" for="inlineCheckbox2">Roof Rails</label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Sun Roof">
                           <label class="form-check-label" for="inlineCheckbox1">Sun Roof</label>
                         </div>
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="TV">
                           <label class="form-check-label" for="inlineCheckbox2"> TV </label>
                         </div>
                       </div>
 
                       <div class="additional-feature-checks d-flex justify-content-between pt-3">
                         <div class="form-check form-check-inline w-50">
-                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                          <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="360 Degree Camera">
                           <label class="form-check-label" for="inlineCheckbox1">360 Degree Camera </label>
                         </div>
                        
@@ -2103,22 +2165,22 @@
                   </div>
                   <div class="additional-feature-checks d-flex justify-content-between">
                     <div class="form-check form-check-inline w-50">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Earn Points">
                       <label class="form-check-label earn-points" for="inlineCheckbox1">Earn Points</label>
                     </div>
                     <div class="form-check form-check-inline w-50">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="New Year Sales">
                       <label class="form-check-label nys" for="inlineCheckbox2"> New Year Sales </label>
                     </div>
                   </div>
 
                   <div class="additional-feature-checks d-flex justify-content-between py-3">
                     <div class="form-check form-check-inline w-50">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="Premium Cars">
                       <label class="form-check-label prem-car" for="inlineCheckbox1">Premium Cars</label>
                     </div>
                     <div class="form-check form-check-inline w-50">
-                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                      <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="Clearance Discount">
                       <label class="form-check-label clear-dis" for="inlineCheckbox2"> Clearance Discount</label>
                     </div>
                   </div>
@@ -2136,8 +2198,13 @@
         </div>
             </li>
             
-            <li class="icon-sliders-cross">
-               Toyota <span><i class="fa fa-close"></i></span>
+            <li>
+               {{-- Toyota <span><i class="fa fa-close"></i></span> --}}
+               <div class="selected-filter-show">
+                <ul class="list-unstyled selectedItemsList" id="selectedItemsList">
+                  {{-- <li>0k</li> --}}
+                </ul>
+              </div>
           </li>
             <li class="icon-sliders" type="button" data-bs-toggle="offcanvas" data-bs-target="#makeFilterOffCanvas" aria-controls="makeFilterOffCanvas">
                Make <span><i class="fa fa-chevron-down"></i></span>
@@ -2192,13 +2259,13 @@
                     <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
                 </div>
                 <div class="list py-3">
-                    <ul class="list-unstyled" id="makeFilterList">
-                        <li data-make="Honda">Honda (1254)</li>
-                        <li data-make="Yaris">Yaris (1254)</li>
-                        <li data-make="Toyota">Toyota (1254)</li>
-                        <li data-make="Toyota">Toyota (1254)</li>
-                        <li data-make="Toyota">Toyota (1254)</li>
-                        <li data-make="Toyota">Toyota (1254)</li>
+                    <ul class="list-unstyled makeFilterList" id="makeFilterList">
+                        <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                        <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                        <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                        <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                     </ul>
                 </div>
             </div>
@@ -2216,13 +2283,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="modalFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled modalFilterList" id="modalFilterList">
+                   <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                  <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2242,7 +2309,7 @@
                   <div class="model-years d-flex gap-3 py-4">
                     <div class="left w-50">
                       <p class="m-0 min-year">Min Year</p>
-                      <select class="form-select" aria-label="Default select example">
+                      <select class="form-select selectMinYear" aria-label="Default select example">
                         <option selected>1999</option>
                         <option value="1">2000</option>
                         <option value="2">2001</option>
@@ -2251,7 +2318,7 @@
                     </div>
                     <div class="right w-50">
                       <p class="m-0 max-year">Max Year</p>
-                      <select class="form-select" aria-label="Default select example">
+                      <select class="form-select selectMaxYear" aria-label="Default select example">
                         <option selected>1999</option>
                         <option value="1">2000</option>
                         <option value="2">2001</option>
@@ -2282,7 +2349,7 @@
 
               <div class="model-years d-flex gap-3 py-4">
                 <div class="left w-50">
-                  <p class="m-0 min-year">Min Price</p>
+                  <p class="m-0 min-year selectMinPrice">Min Price</p>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>1999</option>
                     <option value="1">2000</option>
@@ -2291,7 +2358,7 @@
                   </select>
                 </div>
                 <div class="right w-50">
-                  <p class="m-0 max-year">Max Price</p>
+                  <p class="m-0 max-year selectMaxPrice">Max Price</p>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>1999</option>
                     <option value="1">2000</option>
@@ -2322,7 +2389,7 @@
 
               <div class="model-years d-flex gap-3 py-4">
                 <div class="left w-50">
-                  <p class="m-0 min-year">Min Milage</p>
+                  <p class="m-0 min-year selectMinMilage">Min Milage</p>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>1999</option>
                     <option value="1">2000</option>
@@ -2331,7 +2398,7 @@
                   </select>
                 </div>
                 <div class="right w-50">
-                  <p class="m-0 max-year">Max Milage</p>
+                  <p class="m-0 max-year selectMaxMilage">Max Milage</p>
                   <select class="form-select" aria-label="Default select example">
                     <option selected>1999</option>
                     <option value="1">2000</option>
@@ -2361,13 +2428,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="steeringFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled steeringFilterList" id="steeringFilterList">
+                  <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                  <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2385,13 +2452,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="transmissionFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled transmissionFilterList" id="transmissionFilterList">
+                   <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                    <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2409,13 +2476,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="enginesizeFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled enginesizeFilterList" id="enginesizeFilterList">
+                  <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                  <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2433,13 +2500,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="fuelFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled fuelFilterList" id="fuelFilterList">
+                   <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                    <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2457,13 +2524,13 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="bodytypeFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled bodytypeFilterList" id="bodytypeFilterList">
+                   <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                    <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                    <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
@@ -2481,18 +2548,102 @@
                 <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
               </div>
               <div class="list py-3">
-                <ul class="list-unstyled" id="modelcodeFilterList">
-                  <li>Honda (1254)</li>
-                  <li>Yaris (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
-                  <li>Toyota (1254)</li>
+                <ul class="list-unstyled modelcodeFilterList" id="modelcodeFilterList">
+                   <li data-make="Honda" data-value="Honda">Honda (1254)</li>
+                  <li data-make="Yaris" data-value="Yaris">Yaris (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
+                  <li data-make="Toyota" data-value="Toyota">Toyota (1254)</li>
                 </ul>
               </div>
             </div>
           </div>
           {{-- End Model Code Filter Search --}}
+
+          {{-- Start Location Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="locationFilterOffCanvas" aria-labelledby="locationFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Location" id="locationFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled locationFilterList" id="locationFilterList">
+                   <li data-make="Lahore" data-value="Lahore">Lahore</li>
+                  <li data-make="Karachi" data-value="Karachi">Karachi</li>
+                  <li data-make="Islamabad" data-value="Islamabad">Islamabad</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Location Filter Search --}}
+
+          {{-- Start Colour Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="colourFilterOffCanvas" aria-labelledby="colourFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Colour" id="colourFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled colourFilterList" id="colourFilterList">
+                   <li data-make="Blue" data-value="Blue">Blue</li>
+                  <li data-make="Pink" data-value="Pink">Pink</li>
+                  <li data-make="Red" data-value="Red">Red</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Colour Filter Search --}}
+
+          {{-- Start Drivetrain Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="drivetrainFilterOffCanvas" aria-labelledby="drivetrainFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Drivetrain" id="drivetrainFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled drivetrainFilterList" id="drivetrainFilterList">
+                   <li data-make="2W" data-value="2W">2W</li>
+                  <li data-make="4w" data-value="4w">4w</li>
+                  <li data-make="6w" data-value="6w">6w</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Drivetrain Filter Search --}}
+
+          {{-- Start Seats Filter Search --}}
+          <div class="offcanvas offcanvas-bottom" tabindex="-1" id="seatsFilterOffCanvas" aria-labelledby="seatsFilterOffCanvasLabel">
+            <div class="offcanvas-header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body p-0 px-3">
+              <div class="search">
+                <input type="text" placeholder="Search Seats" id="seatsFilterSearch">
+                <img src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
+              </div>
+              <div class="list py-3">
+                <ul class="list-unstyled seatsFilterList" id="seatsFilterList">
+                   <li data-make="Front" data-value="Front">Front</li>
+                  <li data-make="Back" data-value="Back">Back</li>
+                  <li data-make="Center" data-value="Center">Center</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          {{-- End Seats Filter Search --}}
 
         </div>
 
