@@ -1834,8 +1834,3 @@ $('.selectedItemsList').on('click', '.remove-item', function () {
 });
 
 
-
-// Fotorama Js
-// $(function() {
-//   $('.slider').fotorama();
-// });
