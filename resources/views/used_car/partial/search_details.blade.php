@@ -202,7 +202,7 @@
                                             <p class="m-0">Paypal</p>
                                            </div>
                                            <div class="overflow1 text-center">
-                                            <img src="{{asset('assets/images/fotorama/country-glob.webp')}}" alt="Vehicle" class="img-fluid" loading="lazy" width="110" height="82">
+                                            <img src="{{asset('assets/images/fotorama/country-glob.webp')}}" alt="Vehicle" class="img-fluid" loading="lazy" width="80" height="82">
                                             <p class="m-0">Visit our nearest branch</p>
                                            </div>
                                         </div>
