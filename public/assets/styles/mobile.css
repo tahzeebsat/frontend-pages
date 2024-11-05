@@ -47,10 +47,6 @@
 .fa-chevron-right{
     font-size: var(--fs-10);
 }
-html, body{
-    overflow-x: hidden;
-    scrollbar-width: none;
-}
 
 
 .mobile-view .headerSearch .offcanvas.offcanvas-start{
@@ -2028,4 +2024,239 @@ html, body{
   }
 
 /* ===================================== End Mobile Advance Search Page Css ===================================== */
+
+/* ===================================== Start Mobile Search Details Page Css ===================================== */
+.search-details-mobile .search-details .wrapper .detailsArea .inner .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .top .earn{
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-size: var(--fs-10);
+    font-weight: 500;
+    line-height: 8.99px;
+    letter-spacing: -0.01em;
+    background-color: #f1892b;
+    color: white;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .top .location{
+    display: flex;
+    align-items: center;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .top .location img{
+    background-color: #ededf1;
+    padding: 1px;
+    margin: 0px 5px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .top .location p{
+    font-size: var(--fs-10);
+    color: #0c1529;
+    font-family: 'Lato';
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1c6a9b;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail1{
+    background-color: #ecf5ff;
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail1 .year{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    color: #858a94;
+    padding-top: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail1 .date{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: center;
+    color: #0c1529;
+    padding: 8px 0px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail2{
+    background-color: #ecf5ff;
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail2 .year{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    color: #858a94;
+    padding-top: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail2 .date{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: center;
+    color: #0c1529;
+    padding: 8px 0px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail3{
+    background-color: #ecf5ff;
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail3 .year{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    color: #858a94;
+    padding-top: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail3 .date{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: center;
+    color: #0c1529;
+    padding: 8px 0px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail4{
+    background-color: #ecf5ff;
+    border-radius: 4px;
+    text-align: center;
+    width: 25%;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail4 .year{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 11px;
+    text-align: center;
+    color: #858a94;
+    padding-top: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .inner .detail4 .date{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 11px;
+    text-align: center;
+    color: #0c1529;
+    padding: 8px 0px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .carPricing .left{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #5d6370;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .carPricing .right{
+    color: #1c6a9b;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .carPricing .right2{
+    color: #0C1529;
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: 700;
+    line-height: 26px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .change-port{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #1c6a9b;
+    cursor: pointer;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvTitle{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .portOffcanvas .left p{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .portOffcanvas .left select{
+    border: 1px solid #858a94;
+    background-color: #f6f6f8;
+    border-radius: 4px;
+    height: 36px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background-size: 8px 10px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .portOffcanvas .right p{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas{
+    border-radius: 24px 24px 0px 0px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .portOffcanvas .right select{
+    border: 1px solid #858a94;
+    background-color: #f6f6f8;
+    border-radius: 4px;
+    height: 36px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background-size: 8px 10px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+}
+/* ===================================== End Mobile Search Details Page Css ===================================== */
 

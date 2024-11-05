@@ -29,7 +29,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 .form-control:focus, .form-select:focus{
     border-color: unset !important;
@@ -4581,5 +4581,7 @@ display: none;
     color: #141817;
     line-height: 40px;
 }
- 
+
+
+
 /* ==================================== End Search Detail Page Css ============================*/

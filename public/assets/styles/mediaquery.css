@@ -241,6 +241,10 @@
 }
 
 @media (max-width:767px){
+    html, body{
+        overflow-x: hidden;
+        scrollbar-width: none;
+    }
     .desktop2-view{
         display: none ;
     }
