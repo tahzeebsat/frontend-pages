@@ -3918,3 +3918,667 @@ display: none;
     font-family: 'Lato';
 }
 /* ==================================== End Advance Search Page Css ============================*/
+
+
+/* ==================================== Start Search Detail Page Css ============================*/
+.search-details-desktop .searchDetails .startDetails .right-details .inner .top-location .loc-title{
+    color: #858a94;
+    font-size: 18px;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .top-location .location{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    color: #0C1529;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .heading{
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    text-align: left;
+    color: #1c6a9b;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-1 .top{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-1 .bottom{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #0c1529;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-1 .bottom::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #aeb1b8;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 16px;
+    border-radius: 50px;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-2 .top{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-2 .bottom{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #0c1529;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-2 .bottom::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #aeb1b8;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 16px;
+    border-radius: 50px;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-3 .top{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-3 .bottom{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #0c1529;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-3 .bottom::after{
+    content: "";
+    width: 7px;
+    height: 7px;
+    background: #aeb1b8;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    top: 16px;
+    border-radius: 50px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-4 .top{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-4 .bottom{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #0c1529;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price .top{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price .bottom{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+    position: relative;
+    right: 37px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price .bottom2{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    color: #0C1529;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price small{
+    color: #212529;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price-disclaim{
+    padding: 4px 8px;
+    background-color: #17b26a;
+    max-width: 248px;
+    width: 100%;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: white;
+    margin: 0px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price-disclaim .top{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-buynow{
+    background: #2a9fe8;
+    margin: 0px 0px 0px 100px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-reserve{
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    margin: 10px 0px 0px 100px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-inquire{
+    background-color: transparent;
+    color: #71bff0;
+    border: 1px solid #71bff0;
+    margin: 10px 0px 0px 100px;
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content{
+    width: 768px;
+    position: relative;
+    right: 25%;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .modal-header{
+    padding-block: 14px;
+    padding-inline: 24px;
+    background-color: #f1f5f9;
+    border-radius: 0px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .modal-title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inquiry-details .title{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails{
+    background-color: #f1f5f9;
+    border-radius: 10px;
+    padding: 12px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .top .left .earn{
+    background: #f1892b;
+    color: white;
+    padding: 3px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .top .right .loc-title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.78px;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .top .right .location{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.78px;
+    margin-bottom: 0px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.93px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-1 .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-2 .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-3 .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-4 .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-1 .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-1::after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: block;
+    background: #aeb1b8;
+    position: absolute;
+    top: 15px;
+    left: 64px;
+    border-radius: 50px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-2::after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: block;
+    background: #aeb1b8;
+    position: absolute;
+    top: 15px;
+    left: 64px;
+    border-radius: 50px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-3::after{
+    content: "";
+    width: 3px;
+    height: 3px;
+    display: block;
+    background: #aeb1b8;
+    position: absolute;
+    top: 15px;
+    left: 64px;
+    border-radius: 50px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .right table{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-2 .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-3 .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .details .left .spec .detail-4 .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom {
+    opacity: 0;
+    position: absolute;   
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons {
+    height: unset !important;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom, 
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    cursor: pointer;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label {
+    position: relative;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom + 
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom + 
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label:before {
+    border-radius: 50%;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom:checked + 
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label:before {
+    content: "\f00c";
+    font-family: 'FontAwesome';
+    color: #bbb;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom:focus + 
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance .form-check .radio-custom-label {
+    outline: 1px solid #ddd; /* focus style */
+  }
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance-check{
+    position: relative;
+    bottom: 6px;
+    left: 8px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance-check .form-check{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .productDetails .radio-buttons .marine-insurance{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inpurtForm .form-label{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inpurtForm .required{
+    color: #dc3545;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inpurtForm input{
+    font-family: 'Lato';
+    font-size: 12px;
+    border-radius: 8px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #d0d5dd;
+    color: #101828;
+    height: 40px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inpurtForm .btn-submit{
+    height: 40px;
+    width: 208px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 10px;
+    border: 1px solid #2a9fe8;
+    transition-duration: 0.4s;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .modal-content .inpurtForm .btn-submit:hover{
+    background-color: #2a9fe8bc;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .selectDestinations .country p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #5d6370;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .selectDestinations .country select{
+    font-family: 'Lato';
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5d6370;
+    background-color: #f6f6f8;
+    border-radius: 4px;
+    height: 40px;
+    border: 1px solid #5d6370;
+   
+}
+.fotorama__caption__wrap{
+    background-color: #000000b9 !important;
+    color: white !important;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .download-print .download{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+} 
+.search-details-desktop .searchDetails .startDetails .left-details .inner .download-print .print{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+} 
+
+.search-details-desktop .searchDetails .startDetails .left-details .inner .car-heading h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+
+.search-details-desktop .searchDetails .startDetails .left-details .inner .further-details .inner .left-further-details .left span{
+    display: inline-block;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    margin-bottom: 0px;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .further-details .inner .left-further-details .right{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .further-details .inner .right-further-details .left span{
+    display: inline-block;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    margin-bottom: 0px;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .further-details .inner .right-further-details .right{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailFeatures .inner .heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailFeatures .inner .checks p{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+    display: flex;
+    align-items: center;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailFeatures .inner .checks .aw{
+    position: relative;
+    left: 8px;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailFeatures .inner .checks .keyless{
+    position: relative;
+    right: 43px;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailOrderFlow .inner .heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailOrderFlow .inner .checks .overflow1 .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailOrderFlow .inner .checks .overflow1 .date{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailPaymentMethod .inner .heading{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .left-details .inner .detailPaymentMethod .inner .checks .overflow1 p{
+    margin-top: 10px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-desktop .searchDetails .startDetails .searchDetailAbout .inner .title{
+    font-size: 24px;
+    font-weight: 700;
+    color: #08202e;
+    line-height: 36px;
+    font-family: 'Lato';
+}
+.search-details-desktop .searchDetails .startDetails .searchDetailAbout .inner .para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #141817;
+    line-height: 40px;
+}
+/* ==================================== End Search Detail Page Css ============================*/

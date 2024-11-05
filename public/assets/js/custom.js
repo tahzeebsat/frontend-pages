@@ -1832,3 +1832,10 @@ $('.selectedItemsList').on('click', '.remove-item', function () {
   // Initial state check on page load
   updateButtonText();
 });
+
+
+
+// Fotorama Js
+// $(function() {
+//   $('.slider').fotorama();
+// });

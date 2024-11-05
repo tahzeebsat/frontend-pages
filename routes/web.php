@@ -22,4 +22,7 @@ Route::get('/home-copy', function () {
 Route::get('/search', function () {
     return view('used_car/advance_search');
 });
+Route::get('/search-details', function () {
+    return view('used_car/search_details');
+});
 
