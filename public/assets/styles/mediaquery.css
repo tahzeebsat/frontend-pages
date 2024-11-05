@@ -56,6 +56,11 @@
     .advance-search-calculator .list-view .wrappers .center .detail1 .more-detail .model-code .bottom{
         font-size: 11px;
     }
+    .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-buynow,
+    .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-reserve,
+    .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-inquire{
+        margin: 10px 0px 0px 50px;
+    }
 }
 
 @media(max-width:1199px){

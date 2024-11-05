@@ -34,86 +34,86 @@
                                 <div class="further-details">
                                     <div class="inner d-flex gap-3">
                                         <div class="col-md-6">
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                     <p class="left"><img src="assets/images/fotorama/stock-i.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Stock ID</span></p>
                                                     <p class="right">SAT-16857529</p>
                                             </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                     <p class="left"><img src="assets/images/fotorama/calendar-2-fill.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Manufacturing Year</span></p>
                                                     <p class="right">-</p>
                                             </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                     <p class="left"><img src="assets/images/fotorama/register.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Registration Year</span></p>
                                                     <p class="right">2009/03</p>
                                             </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                     <p class="left"><img src="assets/images/fotorama/grade-new.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Grade</span></p>
                                                     <p class="right">W</p>
                                             </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/milage.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Mileage</span></p>
                                                 <p class="right">157761 km</p>
                                         </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/trans-type.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Transmission</span></p>
                                                 <p class="right">AT</p>
                                         </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/drive-th.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Drive Type</span></p>
                                                 <p class="right">2WD</p>
                                         </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/paint-brush-fill.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Color</span></p>
                                                 <p class="right">Black</p>
                                         </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/capacity.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Max capacity</span></p>
                                                 <p class="right">-</p>
                                         </div>
-                                            <div class="left-further-details d-flex justify-content-between">
+                                            <div class="left-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/weight-new.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Vehicle Weight</span></p>
                                                 <p class="right">-</p>
                                         </div>
 
                                         </div>
                                         <div class="col-md-6">
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/model-code-i.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Model </span></p>
                                                  <p class="right">DBA-JE1</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/chassis-specs.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Chassis No</span></p>
                                                  <p class="right">JE1-1211620</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/egine-spec.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Engine Code</span></p>
                                                  <p class="right">-</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/engin-size.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Size</span></p>
                                                  <p class="right">660 cc</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/steering-2-fill.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Steering</span></p>
                                                  <p class="right">RHD</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/fuel-spec.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Fuel Type</span></p>
                                                  <p class="right">Petrol</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/seart.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Number of Seats</span></p>
                                                  <p class="right">4</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/doors-spec.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Number of Doors</span></p>
                                                  <p class="right">5</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/m3.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">M3</span></p>
                                                  <p class="right">8.173</p>
                                             </div>
-                                            <div class="right-further-details d-flex justify-content-between">
+                                            <div class="right-further-details d-flex justify-content-between mb-3">
                                                 <p class="left"><img src="assets/images/fotorama/dimension.webp" alt="Download" class="img-fluid" width="24" height="24" loading="lazy"><span class="mx-2">Dimension</span></p>
                                                  <p class="right">3.39 * 1.47 * 1.64</p>
                                             </div>
@@ -488,8 +488,12 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
 
-
+            <div class="container">
+                <div class="row">
+                    
                     @component('used_car.partial.similar-car')
                     @endcomponent
                     @component('used_car.partial.customer_review')
