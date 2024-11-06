@@ -1833,3 +1833,5 @@ $('.selectedItemsList').on('click', '.remove-item', function () {
   updateButtonText();
 });
 
+
+

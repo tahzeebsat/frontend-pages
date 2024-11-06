@@ -2199,13 +2199,16 @@
     color: #1c6a9b;
     cursor: pointer;
 }
-.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvTitle{
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offCanvTitle{
     font-family: 'Lato';
     font-size: 14px;
     font-weight: 700;
     line-height: 20px;
     letter-spacing: -0.01em;
     color: #0c1529;
+    position: relative;
+    left: 100px;
+    top: 10px;
 }
 .search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .portOffcanvas .left p{
     font-family: 'Lato';
@@ -2257,6 +2260,250 @@
     line-height: 20px;
     letter-spacing: -0.01em;
     color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button{
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 28px;
+    position: relative;
+    background-color: #f6f6f8;
+    color: #aeb1b8;
+    border-radius: 4px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button label,
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button input{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button input[type="radio"] {
+    opacity: 0.011;
+    z-index: 100;
+  }
+  .search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button input[type="radio"]:checked + label {
+    background-color: #2a9fe8;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .button label {
+    cursor: pointer;
+    z-index: 90;
+    line-height: 1em;
+    color: #aeb1b8;
+    font-size: 14px;
+  }
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .switchMethod .container{
+    background-color: #f6f6f8;
+    color: #aeb1b8;
+    border: 1px solid #ededf1;
+    font-family: 'Lato';
+    font-size: 14px;
+    border-radius: 4px;
+    line-height: 20px;
+    font-weight: 500;
+    height: 28px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .actionButton .clear{
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    border: 1px solid #ededf1;
+    background-color: #f6f6f8;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .offcanvas .offcanvas-body .offCanvShippingMethod .actionButton .apply{
+    background-color: #2a9fe8;
+    color: #ffffff;
+    border: 1px solid #ededf1;
+    height: 40px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #353c4d;
+    margin-top: 24px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .detailSet .left{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: #858a94;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .detailSet .right{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: right;
+    color: #353c4d;
+    margin-bottom: 0;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .seeAll .btn-view-all-spec{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #1c6a9b;
+    margin: 10px 0px 24px 0px;
+    border: 1px solid;
+    width: 100%;
+    max-width: 248px;
+    height: 33px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasViewAllSpec{
+    height: 800px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasViewAllSpec .offcanvas-title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    position: relative;
+    left: 32%;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .featuresDetails .inner .checks{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #353c4d;
+    padding: 11px 0px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .orderFlow .inner .checks .title{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #353c4d;
+    padding: 15px 0px 0px 0px;
+}
+.search-details-mobile .search-details .customer-review-mobile .customerReviewSwiperMobile .swiper-slide {
+    height: 235px;
+}
+.search-details-mobile .search-details .customer-review-mobile .customerReviewSwiperMobile .swiper-slide .review-box{
+    height: 187.25px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .aboutDetailsSearch .para{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;
+    color: #5d6370;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .searchDetailBottom .inner{
+    background-color: #ffffffe6;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    left: 0;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .searchDetailBottom .inner .btn-buy{
+    width: 100%;
+    font-size: clamp(10px, 3vw, 14px);
+    background-color: #2a9fe8;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .searchDetailBottom .inner .btn-reserve{
+    width: 100%;
+    font-size: clamp(10px, 3vw, 14px);
+    background-color: #2384c1;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px !important;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .searchDetailBottom .inner .btn-inquire{
+    width: 100%;
+    height: 40px;
+    font-size: clamp(10px, 3vw, 14px);
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #ededf1;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background: #f6f6f8;
+    color: #353c4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 10px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail .searchDetailBottom .inner .btn-whatsapp{
+    max-width: 42px;
+    width: 100%;
+    font-size: clamp(12px, 2vw, 14px);
+    background-color: #22d143;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry{
+    border-radius: 0px;
+    border: 0px;
 }
 /* ===================================== End Mobile Search Details Page Css ===================================== */
 

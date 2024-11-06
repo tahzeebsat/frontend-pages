@@ -633,10 +633,10 @@
 
                         <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
                             <div class="offcanvas-header">
+                                <p class="m-0 offCanvTitle">Select Country & Port</p>
                               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body m-0 p-0 px-3">
-                                <p class="m-0 text-center offCanvTitle">Select Country & Port</p>
                               <div class="portOffcanvas d-flex justify-content-between gap-3 pt-3">
                               
                                 <div class="left w-100">
@@ -663,18 +663,467 @@
                               <div class="offCanvShippingMethod">
                                 <p class="m-0 my-3 title">Shipping Method:</p>
                                 <div class="switchMethod d-flex gap-3">
-                                    <button class="w-100">ROR</button>
-                                    <button class="w-100">Container</button>
+                                    {{-- <button class="ror w-100">ROR</button>
+                                    <button class="container w-100">Container</button> --}}
+                                    <div class="button w-100">
+                                        <input type="radio" id="a25" name="check-substitution-2" checked/>
+                                        <label class="btn btn-default" for="a25">ROR</label>
+                                      </div>
+                                      <div class="button w-100">
+                                        <input type="radio" id="a50" name="check-substitution-2" />
+                                        <label class="btn btn-default" for="a50">Container</label>
+                                      </div>
                                 </div>
 
                                 <div class="actionButton d-flex gap-3 mt-5">
-                                    <button class="w-100">Clear</button>
-                                    <button class="w-100">Apply Filter</button>
+                                    <button class="clear w-100">Clear</button>
+                                    <button class="apply w-100">Apply Filter</button>
                                 </div>
                               </div>
+
                             </div>
                           </div>
 
+
+                          <div class="furtherSpec">
+                            <div class="innerDetail">
+                                <p class="m-0 title pt-3">Specifications</p>
+                                <div class="detailSet d-flex justify-content-between pt-3">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/stock-id-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Stock ID:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">SAT-37655435</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/modl-car-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Model Code:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">5BA-LA350S</p>
+                                    </div>
+                                </div>
+
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/grade-car-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Grade:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">Corner</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/calendar-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Manufacturing Year:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">-</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/registrtion-yrs-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Registration Year:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">2021/01</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/mileage-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Mileage:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">2021/01</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/engin-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Engine Size:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">660 cc</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/transmission-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Transmission:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">AT</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/drive-ltrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Drivetrain:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">2WD</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/fuel-ltrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Fuel Type:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">Petrol</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/color-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Color</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">Silver</p>
+                                    </div>
+                                </div>
+
+                                <div class="detailSet d-flex justify-content-between pt-1">
+                                    <div class="left d-flex align-items-center">
+                                        <img src="{{asset('assets/images/Seat-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                        <p class="m-0 name">Number of Seats:</p>
+                                    </div>
+                                    <div class="right">
+                                        <p class="m-0 name">4</p>
+                                    </div>
+                                </div>
+
+                                <div class="seeAll text-center">
+                                    <button class="btn btn-view-all-spec"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasViewAllSpec" aria-controls="offcanvasViewAllSpec">View All Specifications
+                                        <i class="fas fa-angle-down ps-2"></i>
+                                    </button>
+                                </div>
+
+                                <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasViewAllSpec" aria-labelledby="offcanvasBottoViewAllSpec">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasBottomLabel">Specifications</h5>
+                                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body small">
+                                        <div class="detailSet d-flex justify-content-between pt-3">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/stock-id-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Stock ID:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">SAT-37655435</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/modl-car-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Model Code:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">5BA-LA350S</p>
+                                            </div>
+                                        </div>
+        
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/grade-car-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Grade:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">Corner</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/calendar-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Manufacturing Year:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">-</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/registrtion-yrs-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Registration Year:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">2021/01</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/mileage-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Mileage:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">2021/01</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/engin-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Engine Size:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">660 cc</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/transmission-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Transmission:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">AT</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/drive-ltrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Drivetrain:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">2WD</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/fuel-ltrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Fuel Type:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">Petrol</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/color-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Color</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">Silver</p>
+                                            </div>
+                                        </div>
+        
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/Seat-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Number of Seats:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">4</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/steering-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Steering:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">-</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/chassis-spec.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Chassis No:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">LA350S-0247512</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/engin-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Engine Code:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">-</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/door-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Number of Doors:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">5</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/capacity-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Max capacity:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">-</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/m3-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">M3</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">7.475</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/vehicle-weight-litrc.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Vehicle Weight:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">-</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="detailSet d-flex justify-content-between pt-1">
+                                            <div class="left d-flex align-items-center">
+                                                <img src="{{asset('assets/images/dimension.webp')}}" alt="stock" class="img-fluid" loading="lazy" width="14" height="14">
+                                                <p class="m-0 name">Dimension:</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="m-0 name">3.39 * 1.47 * 1.5</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                  </div>
+
+                                  <div class="featuresDetails">
+                                    <div class="inner">
+                                        <p class="m-0 title pb-2">Features</p>
+                                        <div class="checks d-flex">
+                                            <table>
+                                                <tr>
+                                                    <td> <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Power Steering</td>
+                                                    <td class="px-4"> <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Power Steering</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pt-3"> <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Airbag </td>
+                                                    <td class="px-4 pt-3">  <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Air Condition</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pt-3"> <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        ABS </td>
+                                                    <td class="px-4 pt-3">  <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Navi </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="pt-3">  <img src="{{asset('assets/images/fotorama/tick.webp')}}" alt="Tick" class="img-fluid me-2" loading="lazy" width="18" height="18">
+                                                        Keyless </td>
+                                                </tr>
+                                            </table>
+                                         
+                                        </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="orderFlow">
+                                    <div class="inner">
+                                        <p class="m-0 title py-3 mb-2">Order Flow</p>
+                                        <div class="checks d-flex justify-content-between">
+                                            <div class="overflow1 text-center">
+                                             <img src="{{asset('assets/images/fotorama/select-vehical.webp')}}" alt="Vehicle" class="img-fluid rounded-5" loading="lazy" width="52" height="52">
+                                             <p class="m-0 title">Select Vehicle</p>
+                                            </div>
+                                            <div class="overflow1 text-center">
+                                             <img src="{{asset('assets/images/fotorama/make-payment-n.webp')}}" alt="Vehicle" class="img-fluid rounded-5" loading="lazy" width="52" height="52">
+                                             <p class="m-0 title">Make Payment</p>
+                                            </div>
+                                            <div class="overflow1 text-center">
+                                             <img src="{{asset('assets/images/fotorama/shipment-n.webp')}}" alt="Vehicle" class="img-fluid rounded-5" loading="lazy" width="52" height="52">
+                                             <p class="m-0 title">Track Shipment</p>
+                                            </div>
+                                            <div class="overflow1 text-center">
+                                             <img src="{{asset('assets/images/fotorama/receive-delivery-n.webp')}}" alt="Vehicle" class="img-fluid rounded-5" loading="lazy" width="52" height="52">
+                                             <p class="m-0 title">Receive Delivery</p>
+                                            </div>
+                                         </div>
+                                    </div>
+                                  </div>
+
+                                  @component('used_car.partial.similar-car')
+                                  @endcomponent
+                                  @component('used_car.partial.customer_review')
+                                  @endcomponent
+
+
+                                  <div class="aboutDetailsSearch">
+                                    <p class="m-0 title pb-2">About Daihatsu Mira e:S</p>
+                                    <p class="m-0 para pb-3">
+                                        The Mira e:S was registered in 2021/01. It is a 4 seater hatchback with 5 doors. This  vehicle has an engine size of 660 cc and a mileage of 36570 km.
+                                        Hatchbacks can be easily identified by their three and five door structures. What’s great about hatchbacks is that you can adjust larger items into the hatchback’s trunk, and the rear seats also fold down, providing you with more space for cargo. The trunk area of a hatchback is also flat making it much easier to load and unload.
+                                    </p>
+                                  </div>
+
+                                  <div class="searchDetailBottom">
+                                    <div class="inner d-flex justify-content-between gap-2 p-2">
+                                        <button class="btn btn-buy">
+                                            <img src="{{asset('assets/images/stickyt-btn-inq-icon-cart.webp')}}" alt="Cart" loading="lazy" class="img-fluid mx-1" width="14" height="14">Buy Now</button>
+                                        <button class="btn btn-reserve">
+                                            <img src="{{asset('assets/images/reserve-icon.webp')}}" alt="Cart" loading="lazy" class="img-fluid mx-1" width="14" height="14">Reserve</button>
+                                        <button class="btn btn-inquire" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasInquiry" aria-controls="offcanvasInquiry">
+                                            <img src="{{asset('assets/images/stickyt-mail-btn-icon-cart.webp')}}" alt="Cart" loading="lazy" class="img-fluid mx-1" width="14" height="14">Inquire</button>
+                                        <button class="btn btn-whatsapp">
+                                            <img src="{{asset('assets/images/whatsapp-icon.webp')}}" alt="Cart" loading="lazy" class="img-fluid" width="14" height="14"></button>
+                                    </div>
+                                  </div>
+
+                                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasInquiry" aria-labelledby="offcanvasInquiryLabel">
+                                    <div class="offcanvas-header">
+                                        <i class="fa fa-arrow-left" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                        <div class="inquryDetails">
+                                            <div class="inner">
+                                                <p class="m-0 title">Product Detail</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                  </div>
+
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
