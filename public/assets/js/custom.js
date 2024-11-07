@@ -405,7 +405,7 @@ document.getElementById('showMoreCountries').addEventListener('click', function(
 
 // ===================== Start Similar Cars Swipper =====================
 var swiper = new Swiper('.similarCarSwiper', {
-  slidesPerView: 2, // Default for mobile
+  slidesPerView: 3, // Default for mobile
   spaceBetween: 15, // Space between slides for mobile
   freeMode: true,
   navigation: {
@@ -419,7 +419,7 @@ var swiper = new Swiper('.similarCarSwiper', {
   breakpoints: {
     // For mobile (below 640px)
     640: {
-      slidesPerView: 2, // Single slide per view on mobile
+      slidesPerView: 3, // Single slide per view on mobile
       spaceBetween: 5, // Small space between slides
       freeMode: true, // Enable free mode for mobile
     },

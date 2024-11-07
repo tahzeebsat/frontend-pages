@@ -649,6 +649,59 @@
     .headerSearch .search-form{
         margin: 0%;
     }
-    
+    .similar-car-desktop .top-selling img{
+        width: 135px;
+        height: 92px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .similar-car-desktop .price-area .top .left .price .amount{
+        font-size: 14px;
+    }
+    .similar-car-desktop .price-area .bottom .sale-car-name,
+    .similar-car-desktop .price-area .bottom .sale-car-average{
+        font-size: 12px;
+    }
+    .similar-car-desktop .swiper-slide .car-spec{
+        display: none !important;
+    }
+    .similar-car-desktop .swiper-slide{
+        height: 210px;
+        width: 135px !important;
+    }
+    .similar-car-desktop .top-selling {
+        padding: 0px;
+    }
+    .similar-car-desktop .price-area {
+        padding: 4px !important;
+    }
+    .similar-car-desktop .swiper-button-next, .similar-car-desktop .swiper-button-prev{
+        display: none;
+    }
+    .similar-car-desktop .swiper-slide,
+    .similar-car-desktop .swiper-backface-hidden .swiper-slide:hover {
+        background-color: transparent;
+    }
+    .similar-car-desktop .price-area .top .right .heart-icon{
+        height: 18px;
+        width: 15px;
+        font-size: 16px;
+    }
+    .similar-car-desktop .view-detail{
+        font-family: 'Lato';
+        font-size: 14px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+        padding: 15px 0px 0px 0px;
+    }
+    .similar-car-desktop .container{
+        padding: 0;
+    }
+    .similar-car-desktop .swiper-wrapper{
+        padding: 0px 15px;
+    }
 }
 
