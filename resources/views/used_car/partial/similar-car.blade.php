@@ -30,7 +30,6 @@
 
                     <div class="bottom pt-2">
                         <p class="sale-car-name">Toyota RAIZE</p>
-                        <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
                         <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
                     </div>
                   </div>
@@ -58,7 +57,6 @@
 
                   <div class="bottom pt-2">
                       <p class="sale-car-name">Toyota RAIZE</p>
-                      <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
                       <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
                   </div>
                 </div>
@@ -86,7 +84,6 @@
 
               <div class="bottom pt-2">
                   <p class="sale-car-name">Toyota RAIZE</p>
-                  <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
                   <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
               </div>
             </div>
@@ -114,7 +111,6 @@
 
           <div class="bottom pt-2">
               <p class="sale-car-name">Toyota RAIZE</p>
-              <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
               <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
           </div>
         </div>
@@ -142,7 +138,6 @@
 
       <div class="bottom pt-2">
           <p class="sale-car-name">Toyota RAIZE</p>
-          <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
           <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
       </div>
     </div>
@@ -170,7 +165,6 @@
 
       <div class="bottom pt-2">
           <p class="sale-car-name">Toyota RAIZE</p>
-          <p class="sale-car-average m-0">2010-05 DBA-GE6</p>
           <p class="sale-car-average m-0">21265 km | RHD | 1000 cc</p>
       </div>
     </div>

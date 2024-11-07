@@ -1,4 +1,4 @@
-<section class="search-details-desktop desktop-view">
+<section class="search-details-desktop desktop2-view">
     <div class="searchDetails">
         <div class="startDetails">
             <div class="container">
@@ -534,7 +534,7 @@
 
 {{-- Mobile View --}}
 
-<section class="search-details-mobile mobile-view">
+<section class="search-details-mobile mobile2-view">
 <div class="search-details">
     <div class="wrapper">
        <div class="container">
