@@ -2021,6 +2021,159 @@ footer .footer-copyright{
 }
 /* ===================================== End Top Selling Car Css ===================================== */
 
+/* ===================================== Start Similar Car Css ===================================== */
+.similar-car-desktop .swiper{
+    cursor: pointer;
+}
+.similar-car-desktop .sellingCarSwiper{
+    height: 390px;
+}
+.similar-car-desktop .swiper-slide{
+    height: 390px;
+    background: #F6F6F8;
+    border-radius: 16px;
+}
+.similar-car-desktop .heading .title{
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.similar-car-desktop .top-selling{
+    padding: 0px 12px;
+}
+.similar-car-desktop .car-spec .nys{
+    background: #FF4B44;
+    font-size: 12px;
+    color: white;
+    border-radius: 50px;
+    padding: 0px 6px 1px 6px;
+}
+.similar-car-desktop .car-spec .pc{
+    background: #A576F1;
+    font-size: 12px;
+    color: white;
+    border-radius: 50px;
+    padding: 0px 6px 1px 6px;
+}
+
+.similar-car-desktop .top-selling img{
+    /* width: 284px; */
+    height: 213px;
+    border-radius: 15px;
+    margin: 6px 0px 0px 0px;
+}
+.similar-car-desktop .price-area{
+    padding: 0px 10px 0px 10px;
+}
+.similar-car-desktop .price-area .top .left .price .amount{
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-24);
+    font-weight: 700;
+    color: #0c1529;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+.similar-car-desktop .price-area .top .left .price .discount .off{
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+.similar-car-desktop .price-area .top .left .price .discount .value{
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.similar-car-desktop .price-area .top .right .heart-icon{
+    font-size: 26px;
+    height: 25px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+}
+.similar-car-desktop .price-area .bottom .sale-car-name{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #353C4D;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
+.similar-car-desktop .price-area .bottom .sale-car-average{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #353C4D;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 220px;
+}
+
+.similar-car-desktop .swiper-button-next, .similar-car-desktop .swiper-button-prev {
+    color: #333;
+    background-color: #ffffffa9;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    
+}
+.similar-car-desktop .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.similar-car-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.similar-car-desktop .swiper-button-next:hover, .similar-car-desktop .swiper-button-prev:hover {
+    background-color: #229be7b8;
+    color: white;
+}
+
+.similar-car-desktop .view-all-selling .view-all {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.similar-car-desktop .view-all-selling .view-all:hover {
+    color: var(--custome-color);
+}
+.similar-car-desktop .swiper-backface-hidden .swiper-slide:hover{
+    background-color: #f6f6f8e5;
+}
+
+.similar-car-desktop .swiper-button-prev{
+    left: var(--swiper-navigation-sides-offset, 22px);
+    ;
+}
+.similar-car-desktop .swiper-button-next{
+    right: var(--swiper-navigation-sides-offset, 22px)
+}
+
+/* ===================================== End Similar Car Css ===================================== */
+
 
 /* ===================================== Start Recomended Car Css ===================================== */
 .recomended-car-desktop .swiper{

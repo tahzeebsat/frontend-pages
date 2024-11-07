@@ -425,7 +425,7 @@ var swiper = new Swiper('.similarCarSwiper', {
     },
     // For tablets (above 640px, up to 1024px)
     1024: {
-      slidesPerView: 5, // Show 3 slides per view on desktop
+      slidesPerView: 4, // Show 3 slides per view on desktop
       spaceBetween: 10, // Larger space between slides
       freeMode: false, // Disable free mode on larger screens
     },

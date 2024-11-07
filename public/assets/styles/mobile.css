@@ -2505,5 +2505,249 @@
     border-radius: 0px;
     border: 0px;
 }
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .top .left .earnPoints{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #f1892b;
+    color: white;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails{
+    background-color: #f1f5f9;
+    border-radius: 10px;
+    padding: 12px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .top .right .location{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.78px;
+    margin-bottom: 0px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .top .right img{
+    background-color: #ededf1;
+    padding: 1px;
+    margin: 0px 10px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .top .right .country{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.78px;
+    margin-bottom: 0px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 23.93px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail1 .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail1 .top span{
+    font-size: 30px;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    color: #aeb1b8;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail1 .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail2 .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail2 .top span{
+    font-size: 30px;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    color: #aeb1b8;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail2 .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail3 .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail3 .top span{
+    font-size: 30px;
+    position: relative;
+    top: 11px;
+    left: 16px;
+    color: #aeb1b8;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail3 .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail4 .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .specDetails .detail4 .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .selectDestinations .country p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .selectDestinations .country select{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 2.6px;
+    height: 36px;
+    border-radius: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .selectDestinations .country .form-select{
+    background-size: 10px 8px;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .radio-buttons .marine-insurance{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .radio-buttons .marine-insurance-check{
+    position: relative;
+    bottom: 14px;
+    left: 8px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .radio-buttons .marine-insurance-check .form-check{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .radio-buttons .marine-insurance-check .form-check label{
+    font-family: 'LATO';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    display: flex;
+    align-items: center;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .pre-exp-insp{
+    position: relative;
+    bottom: 15px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inquryFurtherDetails .pricingDetails table{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inpurtForm label{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inpurtForm .required{
+    color: #dc3545;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inpurtForm input{
+    font-family: 'Lato';
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 24px;
+    border: 1px solid #d0d5dd;
+    color: #101828;
+    height: 40px;
+}
+.search-details-mobile .search-details .wrapper .detailsArea .inner .specificationDetails .furtherSpec .innerDetail #offcanvasInquiry .inpurtForm .actionButton .btn-submit{
+    max-width: 231px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 10px;
+    border: 1px solid #2a9fe8;
+    transition-duration: 0.4s;
+}
 /* ===================================== End Mobile Search Details Page Css ===================================== */
 
