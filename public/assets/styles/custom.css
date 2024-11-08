@@ -4735,6 +4735,378 @@ display: none;
     line-height: 40px;
 }
 
-
-
 /* ==================================== End Search Detail Page Css ============================*/
+
+
+/* ==================================== Start Country Page Css ============================*/
+.selling-recommended-tabs-desktop .sellingRecommendedTabs{
+    position: relative;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .nav-tabs{
+    width: max-content;
+    border: none;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .nav-tabs .nav-item .nav-link{
+    background-color: #f6f6f8;
+    border-color: #f6f6f8;
+    color: #5d6370;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    border-radius: 50px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active {
+    color: #353c4d !important;
+    border: none;
+    border-bottom: none !important;
+    background-color: #ecf5ff !important;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card .top img{
+    border-radius: 10px 10px 0px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card .detail .top .left{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card .detail .top .from{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #aeb1b8;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card .detail .top .right .fa-heart{
+    font-size: 26px;
+    height: 25px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+    position: relative;
+    right: 11px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card .detail .bottom .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 220px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card{
+    padding: 10px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .car-card:hover{
+    background-color: #f6f6f8;
+}
+
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .view-all-selling-recommended .view-all{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .tab-content .tab-pane .view-all-selling-recommended .view-all:hover{
+    color: var(--custome-color);
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner{
+    background-image: url('../images/banner.webp');
+    background-repeat: no-repeat;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec {
+    margin: 45px 35px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left{
+    width: 33%;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .title{
+    color: #fff;
+    font-family: "Lato";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .para{
+    color: #fff;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    padding: 15px 0px;
+    width: 85%;
+
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address .top {
+    background-color: #f6f6f8;
+    padding: 10px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address .top .countryPort{
+    color: #353C4D;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address .portsHeading{
+    color: #5d6370;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address .portName{
+    color:#5D6370;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address ul li{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .address .pickUp{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .carFinanceBanner .inner{
+    background-image: url(../images/bannar_for_specific_country.webp);
+    background-repeat: no-repeat;
+    height: 286px;
+    background-size: cover;
+    margin: 75px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .carFinanceBanner .inner .btn-dreamCar{
+    position: relative;
+    top: 65%;
+    left: 55px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+    background-color: #ffffff;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    max-width: 148px;
+    max-height: 44px;
+    font-family: 'Lato';
+    border-radius: 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .carFinanceBanner .inner .btn-dreamCar:hover{
+    background-color: #ffffffd6;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .paymentMethods .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .paymentMethods .inner p{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .paymentMethods .inner .view-all-payment .view-all{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .paymentMethods .inner .view-all-payment .view-all:hover{
+    color: var(--custome-color);
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .officeLocation .addressArea .timing{
+    width: max-content;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    display: inline-block;
+    background-color: #f6f6f8;
+    padding: 12px;
+    margin: 20px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .officeLocation .addressArea .timeOperate{
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #353C4D;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .officeLocation .addressArea .linkMap{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    color: #2384c1;;
+}
+
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea .topHead{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Lato';
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    padding: 10px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea .bottomHead{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea .view-all-payment .view-all{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent .showDetailMore{
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent .inner .heading{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    background-color: #ededf1;
+    padding: 12px;
+    color: #1c6a9b;
+    display: inline-block;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent .inner .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    margin-block: 10px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent ul li{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    margin-block: 10px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent ul li::marker{
+   color: black;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan{
+    background-color: #f6f6f8;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .para{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #353c4d;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-all{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    color: #2384c1;
+    cursor: pointer;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .whyChooseSat .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .whyChooseSat .inner .satChooingReason .topHead{
+    padding-bottom: 6px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .whyChooseSat .inner .satChooingReason .bottomHead{
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+    color: #5d6370;
+}
+/* ==================================== End Country Page Css ============================*/

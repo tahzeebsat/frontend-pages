@@ -25,4 +25,7 @@ Route::get('/search', function () {
 Route::get('/search-details', function () {
     return view('used_car/search_details');
 });
+Route::get('/country', function () {
+    return view('used_car/country');
+});
 
