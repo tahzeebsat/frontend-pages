@@ -2751,3 +2751,318 @@
 }
 /* ===================================== End Mobile Search Details Page Css ===================================== */
 
+/* ===================================== Start Mobile Country Page Css ===================================== */
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .nav-pills .nav-link{
+    border-radius: 33px;
+    background: #f6f6f8;
+    color: #353c4d;
+    font-size: 12px;
+    font-weight: 500;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .nav-pills .nav-link.active{
+    background-color: #ecf5ff;
+    color: #353c4d;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 33px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card .detail .top .left{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    color: #0c1529;
+    margin-bottom: 5px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card .detail .top .left span{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #aeb1b8;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card .detail .top .right{
+    font-size: 16px;
+    height: 20px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card .detail .bottom .para{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    max-width: 134px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .tabs-mobile-country .view-all-country{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1c6a9b;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner{
+    background: linear-gradient(180deg, #185982 0%, #2a9fe8 185.15%);
+    border-radius: 6px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner .bannerImage{
+    width: 50%;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner .bannerImage img{
+   height: 121px;
+   border-radius: 6px 0px 0px 6px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner .bannerText{
+    width: 50%;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner .bannerText .banner-text{
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.252px;
+    text-transform: capitalize;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .countryWebBannerPro .wraps .banner .bannerText .banner-para{
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: -0.14px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapDetails .top{
+    background-color: #f6f6f8;
+    padding: 6px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapDetails .top .countryPort{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #0c1529;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapDetailsCountryList ul li{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapDetailsCountryList .portDetail{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #858a94;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .viewAlls .getView{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #1c6a9b;
+    background: transparent;
+    border: none;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner #offcanvasCountryAllMobile{
+    font-family: 'Lato';
+    height: 800px;
+    border-radius: 20px 20px 0px 0px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner #offcanvasCountryAllMobile .offcanvas-body{
+    font-family: 'Lato';
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner #offcanvasCountryAllMobile .offcanvas-body ul li{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner #offcanvasCountryAllMobile .offcanvas-body .portTag{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    color: #858a94;
+    list-style: none;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .carFinanceBannerMobile .inner{
+    background-image: url(../images/bannar-mobile-country.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .carFinanceBannerMobile .inner .btn-dreamCar{
+    position: relative;
+    top: 65%;
+    font-size: 10px;
+    font-weight: 700;
+    color: #1c6a9b;
+    background-color: #ffffff;
+    border: 0px;
+    font-family: 'Lato';
+    border-radius: 0px;
+    padding: 5px 5px;
+    left: 8px;    
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .paymentMethodMobile .wraps .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .paymentMethodMobile .wraps .viewDetail{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #1c6a9b;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .paymentMethodMobile .wraps .paymentMethodCardsMobile .mainSec .title{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion .accordion-item .accordion-button{
+    height: 36px;
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    background-color: #f6f6f8;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion-button:not(.collapsed)::after{
+    background-image: var(--bs-accordion-btn-active-icon) !important;
+    background-size: 15px 16px !important;
+    position: relative;
+    top: 0px;
+
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion-button::after{
+    background-image: var(--bs-accordion-btn-icon) !important;
+    background-size: 15px 16px !important;
+    position: relative;
+    top: 0px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion-button:focus{
+   box-shadow: none;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion button[aria-expanded="true"].accordion-button{
+    background-color: #ecf5ff;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion .addressArea .timing{
+    background-color: #f6f6f8;
+    height: 28px;
+    width: 50%;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion .addressArea .timing .timeOperate{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #5d6370;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .ourHeadOfficeMobile .wraps .accordion .addressArea .textOperate{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #353c4d;
+    margin: 10px 0px 20px 33px !important;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .left img{
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    background: #f6f6f8;
+    padding: 10px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .left .topHead{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0c1529;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .left .bottomHead{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5d6370;
+}
+
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .right img{
+    border-radius: 50%;
+    height: 52px;
+    width: 52px;
+    background: #f6f6f8;
+    padding: 10px;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .right .topHead{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #0c1529;
+}
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .importRegulationMobile .wraps .regulationSec .right .bottomHead{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5d6370;
+}
+/* ===================================== End Mobile Country Page Css ===================================== */
+

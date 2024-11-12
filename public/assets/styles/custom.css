@@ -5056,8 +5056,17 @@ display: none;
     color: #5d6370;
     margin-block: 10px;
 }
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #toggleBtn[aria-expanded="true"] {
+    color: #1c6a9b;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #toggleBtn[aria-expanded="true"] img {
+    filter: hue-rotate(300deg) saturate(10);  /* Adjust the image to a pinkish hue */
+}
 .selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .regulationArea #moreContent ul li::marker{
    color: black;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .importRegulations .inner .content{
+    display: none;
 }
 .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan{
     background-color: #f6f6f8;
@@ -5084,6 +5093,37 @@ display: none;
     color: #2384c1;
     cursor: pointer;
 }
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text #toggleView[aria-expanded="true"] {
+    display: none;
+  }
+  .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text .subHeading{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #08202e;
+  }
+  .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text .details .para{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #353c4d;
+  }
+  .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text .details ul{
+    line-height: 40px;
+  }
+  .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text .details a{
+    text-decoration: none;
+    color: #2384c1;
+  }
+  .selling-recommended-tabs-desktop .sellingRecommendedTabs .usedCarSatJapan .inner .view-text .details ul li strong{
+    color: #353C4D;
+    font-size: 16px;
+    font-weight: 700;
+  }
 .selling-recommended-tabs-desktop .sellingRecommendedTabs .whyChooseSat .inner .title{
     font-size: 24px;
     font-weight: 600;
@@ -5109,4 +5149,102 @@ display: none;
     text-align: justify;
     color: #5d6370;
 }
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner{
+    padding: 8px 64px 0;
+    border-radius: 20px;
+    background: #f7fbfb;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner .center{
+    margin: 50px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner .center .top .title{
+    color: #000;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner .center .top .para{
+    color: #000;
+    font-size: 16px;
+    font-family: 'Lato';
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    width: 75%;
+    padding: 15px 0px 45px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner .right{
+    padding: 90px 0px 0px 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .getMoreApp .inner .right .tag{
+    color: #0c1529;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .title{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Lato';
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .nav-pills .nav-link{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    color: #858a94;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .nav-pills .nav-link.active{
+    color: #1c6a9b;
+    border-bottom: 2px solid #1c6a9b;
+    margin-top: unset;
+    border-radius: unset;
+    background-color:transparent;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+    transition: all 0.2s linear;
+    box-shadow: none !important;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-item{
+    border: unset;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0px;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button:not(.collapsed){
+    background-color: unset;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button:focus{
+    box-shadow: none;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button:not(.collapsed)::after{
+    content: "\f067";
+    font-family: 'FontAwesome';
+    background-image: unset;
+    transform: unset;
+}
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button::after{
+     content: "\f068";
+     font-family: 'FontAwesome';
+     background-image: unset;
+     transform: unset;
+}
+
+
+
 /* ==================================== End Country Page Css ============================*/

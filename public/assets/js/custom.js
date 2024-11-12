@@ -1,3 +1,30 @@
+// ========================== Start Country Page Show More and Hide More Js ==========================
+
+
+$(document).ready(function() {
+  // Set a flag to track if the content is expanded or collapsed
+  var isExpanded = false;
+
+  // Attach a click event to the toggle button
+  $('#toggleBtn').click(function() {
+      // Check if the content is expanded
+      if (isExpanded) {
+          // Collapse the content and change the button text
+          $('.content').css('display', 'none');
+          $(this).html('Show More <img src="assets/images/add-circle.webp" alt="minus" class="img-fluid" loading="lazy">');
+      } else {
+          // Expand the content and change the button text
+          $('.content').css('display', 'block');
+          $(this).html('Hide More <img src="assets/images/add-circle.webp" alt="minus" class="img-fluid" loading="lazy">');
+      }
+
+      // Toggle the expanded state
+      isExpanded = !isExpanded;
+  });
+});
+
+// ========================== End Country Page Show More and Hide More Js ==========================
+
 // Dropdown show list while search item for car header
 
 const searchInput = document.getElementById('searchInput');
@@ -347,7 +374,7 @@ try{
 
     // Check if any of the elements are not found
     if (!buyMoreBtn || !toggleFlags || !addIcon || !removeIcon || !btnText) {
-        console.error("One or more elements are not found!");
+        // console.error("One or more elements are not found!");
         return;  // Exit early if any element is missing
     }
 
@@ -1835,3 +1862,30 @@ $('.selectedItemsList').on('click', '.remove-item', function () {
 
 
 
+
+// ========================== Start Country Page Show More and Hide More Js ==========================
+
+
+$(document).ready(function() {
+  // Set a flag to track if the content is expanded or collapsed
+  var isExpanded = false;
+
+  // Attach a click event to the toggle button
+  $('#toggleBtn').click(function() {
+      // Check if the content is expanded
+      if (isExpanded) {
+          // Collapse the content and change the button text
+          $('.content').css('display', 'none');
+          $(this).text('Show More');
+      } else {
+          // Expand the content and change the button text
+          $('.content').css('display', 'block');
+          $(this).text('Show Less');
+      }
+
+      // Toggle the expanded state
+      isExpanded = !isExpanded;
+  });
+});
+
+// ========================== End Country Page Show More and Hide More Js ==========================
