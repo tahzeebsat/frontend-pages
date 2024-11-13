@@ -1,4 +1,4 @@
-<section class="selling-recommended-tabs-desktop desktop-view">
+<section class="selling-recommended-tabs-desktop desktop2-view">
     <div class="sellingRecommendedTabs">
         <div class="container p-0">
             <!-- Nav Tabs -->
@@ -738,7 +738,7 @@
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                                 What is the age restriction on imported cars in Pakistan?
                                             </button>
                                         </h2>
@@ -751,7 +751,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingTwo">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                 How much is the import tax applied on vehicles in Pakistan?
                                             </button>
                                         </h2>
@@ -808,7 +808,7 @@
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingPROne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePROne" aria-expanded="true" aria-controls="collapsePROne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePROne" aria-expanded="false" aria-controls="collapsePROne">
                                                 Which currency does SAT accept payment in for orders from Pakistan?
                                             </button>
                                         </h2>
@@ -821,7 +821,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingPRTwo">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePRTwo" aria-expanded="true" aria-controls="collapsePRTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePRTwo" aria-expanded="false" aria-controls="collapsePRTwo">
                                                 Does SAT offer service of installments in Pakistan?
                                             </button>
                                         </h2>
@@ -866,7 +866,7 @@
                                 <div class="accordion" id="accordionExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingDSOne">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSOne" aria-expanded="true" aria-controls="collapseDSOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSOne" aria-expanded="false" aria-controls="collapseDSOne">
                                                 How long will it take for my car to arrive in Pakistan?
                                             </button>
                                         </h2>
@@ -879,7 +879,7 @@
 
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="headingDSTwo">
-                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSTwo" aria-expanded="true" aria-controls="collapseDSTwo">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDSTwo" aria-expanded="false" aria-controls="collapseDSTwo">
                                                 At which shipping port can I receive my vehicle?
                                             </button>
                                         </h2>
@@ -942,7 +942,7 @@
 
 {{-- ==================== Mobile View ==================== --}}
 
-<section class="selling-recommended-tabs-mobile mobile-view">
+<section class="selling-recommended-tabs-mobile mobile2-view">
 <div class="sellingRecommendedTabsMobile">
     <div class="container">
         <div class="row">

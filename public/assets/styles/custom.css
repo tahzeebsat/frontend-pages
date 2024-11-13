@@ -5232,19 +5232,16 @@ display: none;
 .selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button:focus{
     box-shadow: none;
 }
-.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button:not(.collapsed)::after{
-    content: "\f067";
-    font-family: 'FontAwesome';
-    background-image: unset;
-    transform: unset;
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion-button::after{
+    
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2227%22%20viewBox%3D%220%200%2024%2027%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M11%2013.9619V7.96191H13V13.9619H19V15.9619H13V21.9619H11V15.9619H5V13.9619H11Z%22%20fill%3D%22%232F2B43%22%2F%3E%3C%2Fsvg%3E);
+    transition: none;
 }
-.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion .accordion-button::after{
-     content: "\f068";
-     font-family: 'FontAwesome';
-     background-image: unset;
-     transform: unset;
+.selling-recommended-tabs-desktop .sellingRecommendedTabs .faqsArea .inner .tab-content .accordion-button:not(.collapsed)::after{
+    
+    transition: none;
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2224%22%20height%3D%2225%22%20viewBox%3D%220%200%2024%2025%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%2011.9619H19V13.9619H5V11.9619Z%22%20fill%3D%22%232F2B43%22%2F%3E%3C%2Fsvg%3E);
+
 }
-
-
 
 /* ==================================== End Country Page Css ============================*/
