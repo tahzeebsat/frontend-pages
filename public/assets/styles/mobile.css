@@ -2858,6 +2858,9 @@
     text-align: left;
     color: #353c4d;
 }
+.selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapMobile img{
+    width: 100%;
+}
 .selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .mobileServiceMap .wraps .mapDetails .top{
     background-color: #f6f6f8;
     padding: 6px;
