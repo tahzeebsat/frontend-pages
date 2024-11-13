@@ -948,6 +948,7 @@
         <div class="row">
             <div class="inner">
                 <div class="tabs-mobile-country pt-5">
+                    <p class="m-0 title">Country Deals</p>
                     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                       <li class="nav-item" role="presentation">
                         <button class="nav-link active position-relative" id="pills-home-mobile-tab" data-bs-toggle="pill" data-bs-target="#pills-home-mobile" type="button" role="tab" aria-controls="pills-home-mobile" aria-selected="true">Top Selling</button>
@@ -1345,7 +1346,400 @@
                   </div>
 
 
+                 <div class="usedCarSaleMobile">
+                    <div class="wraps">
+                        <div class="view-text text-center py-3">
+                            <p class="m-0 view-all d-flex align-items-center justify-content-center" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Show All <img src="{{asset('assets/images/add-circle.webp')}}" alt="icon" class="img-fluid px-2" loading="lazy" width="29" height="29"></p>
+                            
+                            <div class="collapse" id="collapseExample">
+                                <div class="mt-3">
+                                    <p class="text-start showDetailMore">Used Cars Import Rules and Regulations in the Pakistan</p>
+                                    <div class="inner text-start">
+                                        <p class="m-0 heading mt-4">Age Restriction</p>
+                                        <p class="m-0 para my-3">According to the policy from 2006, vehicles not older than three years from the date of manufacturing can be imported into Pakistan. </p>
+                                        <p class="m-0 para">Commercial vehicles not older than five years from the date of manufacturing can be imported into the country. </p>
+
+                                        <p class="m-0 heading mt-3">Right-Hand Drive Vehicles</p>
+                                        <p class="m-0 para my-3">All the vehicles imported from Japan must be Right Hand Drive (RHD)</p>
+
+                                        <p class="m-0 heading mt-1">Inspection</p>
+                                        <p class="m-0 para my-3">No specific inspection is required on the import of used vehicles.</p>
+                                       
+                                        <p class="m-0 heading mt-1">Import Duties and Taxes on Used Cars in Pakistan</p>
+                                       
+                                            <ul class="px-4">
+                                                <li>New vehicles with a capacity of up to 1,300cc are charged 50% import duty. </li>
+                                                <li>Cars with a capacity up to 1800cc are charged 65% import duty. </li>
+                                                <li>Vehicles with a capacity of more than 1800cc are charged 75% import duty.</li>
+                                            </ul>
+                                        
+                                        <p class="m-0 para">
+                                            Though the majority of the vehicles sold in Pakistan are 1300 or below, the government is encouraging the import of larger luxury cars. 
+                                        </p>
+
+                                        <p class="m-0 heading mt-3">Documentation Required on Vehicle Import in Pakistan</p>
+                                      
+                                            <ul class="px-4">
+                                                <li>Original commercial invoice </li>
+                                                <li>Original certificate of registration and title </li>
+                                                <li>Bill of lading (BL)</li>
+                                                <li>Original invoice</li>
+                                                <li>ID card/passport copy</li>
+                                                <li>Vehicle license document or insurance certificate</li>
+                                            </ul>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                          <div class="usedCarcontent">
+                            <p class="m-0 title pb-2">Used Cars for Sale in Pakistan - SAT Japan</p>
+                            <p class="used-car-aust-para">
+                                Welcome to SAT Japan, your top destination for high-quality <b> Used Cars for Sale in Pakistan.</b> We take pride in offering an extensive selection of reliable, Whether you're looking for a compact car for city driving, a spacious family vehicle, or a powerful SUV, SAT Japan has the perfect car for you
+                             </p>
+                          </div>
+                    </div>
+                 </div>
+
+
+                 <div class="whyChooseSatMobile">
+                    <div class="wraps">
+                        <div class="view-text text-center pb-3">
+                            <p class="m-0 view-all" id="toggleView2" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">View All</p>
+                            
+                            <div class="collapse" id="collapseExample2">
+                              <div class="heading pb-3">
+                                <p class="m-0 text-start subHeading"> Why Choose SAT Japan?</p>
+                              </div>
+                              <div class="details text-start">
+                                <p class="m-0 para pb-3">At SAT Japan, we are dedicated to offering our customers in Pakistan with the best car buying experience. Here's why choose us:</p>
+                                <ul>
+                                    <li><strong>Wide Selection of Vehicles: </strong> Our inventory includes a variety of Used Cars for Sale in Pakistan, ensuring that you'll find the perfect car to suit your needs and budget.</li>
+                                    <li><strong>Competitive Prices: </strong> We offer competitive pricing on all our vehicles, making it easier for you to own a top-quality used car.</li>
+                                    <li><strong>Expert Support: </strong> Our team of knowledgeable professionals is here to assist you every step of the way, from selecting the right car to arranging shipping to Pakistan.</li>
+                                   
+                                </ul>
+                              </div>
+
+                              <div class="heading py-3">
+                                <p class="m-0 text-start subHeading">Easy Shipping to Pakistan</p>
+                              </div>
+                              <div class="details text-start">
+                                <p class="m-0 para">No matter where you are in the world, SAT Japan ensures a smooth and hassle-free shipping process. We have established partnerships with reliable shipping companies to deliver your vehicle safely and on time. Our team will handle all the necessary documentation and logistics, so you can enjoy your new car without any worries.</p>
+                               
+                              </div>
+
+                              <div class="heading py-3">
+                                <p class="m-0 text-start subHeading pt-2">Customer Satisfaction Guaranteed</p>
+                              </div>
+                              <div class="details text-start">
+                                <p class="m-0 para">
+                                    At SAT Japan, customer satisfaction is our top priority. We strive to exceed your expectations by providing exceptional service and high-quality
+                                    <b><a href="https://satjapan.com/" class="clr-blue-60"> Used Cars for Sale</a>.</b>
+                                    Don't just take our word for it - read what our satisfied customers in Pakistan have to say about their experience with SAT Japan. 
+                                    Browse our inventory of  <b><a class="clr-blue-60" href="https://satjapan.com/used-cars">Best Japanese Cars</a></b>
+                                    and discover why discerning drivers choose <b>SAT Japan</b> for their Japanese used car needs.
+
+                                </p>
+                               
+                              </div>
                   
+                          
+                              <p class="m-0 view-all pt-3" id="toggleViewLess2" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="true" aria-controls="collapseExample2">View Less</p>
+                            </div>
+                          </div> 
+                    </div>
+                 </div>
+
+
+                 <div class="reasonChooseSatMobile">
+                    <div class="wraps">
+                        <p class="m-0 title pb-3">Why Choose SAT </p>
+                        <div class="satChooingReason text-center">
+                            <div class="row">
+                                <div class="col-6 col-md-6">
+                                    <img src="{{asset('assets/images/country-transparency.webp')}}" alt="Country" class="img-fluid" loading="lazy" width="32" height="32">
+                                    <p class="m-0 topHead py-2">Transparency</p>
+                                    <p class="m-0 bottomHead"> With SAT, you do not have to worry about hidden fees or extra charges. We strive to provide fair deals to our customers in Pakistan without compromising on quality.</p>
+                                </div>
+                                <div class="col-6 col-md-6">
+                                    <img src="{{asset('assets/images/country-affordability.webp')}}" alt="Country" class="img-fluid" loading="lazy" width="32" height="32">
+                                    <p class="m-0 topHead py-2">Affordability</p>
+                                    <p class="m-0 bottomHead">SAT takes pride in offering high-quality Japanese-used cars in Pakistan at affordable prices. With SAT, You can find reliable vehicles at the most reasonable rates.</p>
+                                </div>
+                                <div class="col-6 col-md-6 pt-3">
+                                    <img src="{{asset('assets/images/country-extensive-selection.webp')}}" alt="Country" class="img-fluid" loading="lazy" width="32" height="32">
+                                    <p class="m-0 topHead py-2">Extensive Selection</p>
+                                    <p class="m-0 bottomHead">Visit SAT and choose from our wide collection of Japanese used cars. We are Pakistan's biggest Japanese car exporters, offering vehicles that match your style and budget.</p>
+                                </div>
+                                <div class="col-6 col-md-6 pt-3">
+                                    <img src="{{asset('assets/images/country-customer-service-line.webp')}}" alt="Country" class="img-fluid" loading="lazy" width="32" height="32">
+                                    <p class="m-0 topHead py-2 text-start">Unmatched Customer Service</p>
+                                    <p class="m-0 bottomHead">Our dedicated team always goes above and beyond to offer exceptional services to our customers in Pakistan and build long-term relationships with them.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="usedCarCountryBannerMobile">
+                    <div class="wraps my-4">
+                        <img src="{{asset('assets/images/mobilepromotioncountry.webp')}}" alt="Banner" class="img-fluid" loading="lazy" width="336" height="160">
+                    </div>
+                 </div>
+
+
+                 @component('used_car.partial.customer_review')
+                 @endcomponent
+
+                 <div class="getMoreAppTouchMobile">
+                    <div class="wraps">
+                        <div class="getMoreApp">
+                            <div class="inner d-flex justify-content-between">
+                                <div class="left">
+                                    <div class="bannerImg">
+                                        <img src="{{asset('assets/images/mob-ls.webp')}}" alt="Banner Image" class="img-fluid" loading="lazy" width="143" height="127">
+                                    </div>
+                                </div>
+                                <div class="center">
+                                    <div class="top">
+                                        <p class="m-0 title ps-2 pb-1">Get More With Our App</p>
+                                        <p class="m-0 para ps-2 pb-1">Find your dream ride and earn extra rewards from the comfort of your phone</p>
+                                        <div class="appAction ps-2 d-flex mt-1 gap-2">
+                                            <img src="{{asset('assets/images/google-app-bannar.webp')}}" alt="Google" class="img-fluid" loading="lazy" width="100" height="22">
+                                            <img src="{{asset('assets/images/ios-app-bannar.webp')}}" alt="IOS" class="img-fluid" loading="lazy" width="100" height="22">
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                          </div>
+                    </div>
+                 </div>
+
+                 <div class="faqCountryMobile">
+                    <div class="wraps">
+                        <p class="m-0 title py-3">Frequently Asked Questions</p>
+                        
+                            <ul class="nav nav-pills mb-3" id="mobileCountrypills-tab" role="tablist">
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link active position-relative" id="mobileCountrypills-home-tab" data-bs-toggle="pill" data-bs-target="#mobileCountrypills-home" type="button" role="tab" aria-controls="mobileCountrypills-home" aria-selected="true">Import Policy</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link position-relative" id="mobileCountrypills-profile-tab" data-bs-toggle="pill" data-bs-target="#mobileCountrypills-profile" type="button" role="tab" aria-controls="mobileCountrypills-profile" aria-selected="false">Payment and Refund Policies</button>
+                              </li>
+                              <li class="nav-item" role="presentation">
+                                <button class="nav-link position-relative" id="mobileCountrypills-contact-tab" data-bs-toggle="pill" data-bs-target="#mobileCountrypills-contact" type="button" role="tab" aria-controls="mobileCountrypills-contact" aria-selected="false">Shipment and Delivery</button>
+                              </li>
+                            </ul>
+                            <div class="tab-content" id="mobileCountrypills-tabContent">
+                              <div class="tab-pane fade show active" id="mobileCountrypills-home" role="tabpanel" aria-labelledby="mobileCountrypills-home-tab">
+                                <div class="accordion" id="accordionExample">
+                                    
+                                    <div class="accordion-item rounded-0">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs1" aria-expanded="false" aria-controls="collapseCountryFaqs1">
+                                            What is the age restriction on imported cars in Pakistan?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseCountryFaqs1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Vehicles should not be older than 3 years in order for them to be imported in Pakistan.
+
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs2" aria-expanded="false" aria-controls="collapseCountryFaqs2">
+                                            How much is the import tax applied on vehicles in Pakistan
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs2" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            The Import tax of 17% is applied to the full value of your vehicle.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs3" aria-expanded="false" aria-controls="collapseCountryFaqs3">
+                                            Can I import a left-hand drive vehicle to Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs3" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Only Right Hand Drive (RHD) vehicles can be imported into Pakistan.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs4" aria-expanded="false" aria-controls="collapseCountryFaqs4">
+                                            Can a disabled person import cars in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs4" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            According to the import policy order 2022, Pakistan has granted a scheme of duty-free import of cars for disabled people into the country.
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs5" aria-expanded="false" aria-controls="collapseCountryFaqs5">
+                                            What is the penalty on non-custom paid cars in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs5" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            The imprisonment term for driving a non-custom vehicle is up to 6 months. Also, the owner is charged a fine of up to 1700 USD. The government of Pakistan has the authority to seize any non-custom vehicle found on roads in Pakistan.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="tab-pane fade" id="mobileCountrypills-profile" role="tabpanel" aria-labelledby="mobileCountrypills-profile-tab">
+                                <div class="accordion" id="accordionExample">
+                                    
+                                    <div class="accordion-item rounded-0">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs6" aria-expanded="false" aria-controls="collapseCountryFaqs6">
+                                            Which currency does SAT accept payment in for orders from Pakistan?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseCountryFaqs6" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            SAT accepts payments in USD and JPY for all orders from Pakistan.
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs7" aria-expanded="false" aria-controls="collapseCountryFaqs7">
+                                            Does SAT offer service of installments in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs7" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Installment service is offered by SAT in Pakistan. Please contact our sales team at sales@satjapan.co for more details.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs8" aria-expanded="false" aria-controls="collapseCountryFaqs8">
+                                            What will be the total cost of getting an automobile delivered to Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs8" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            The total cost is calculated after adding freight charges and local customs duty charges in Pakistan.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs9" aria-expanded="false" aria-controls="collapseCountryFaqs9">
+                                            Can I get any price adjustment on purchasing a used Japanese car in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs9" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            You can negotiate the price of your preferred vehicle by contacting our sales representatives in Pakistan.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+
+                              </div>
+                              <div class="tab-pane fade" id="mobileCountrypills-contact" role="tabpanel" aria-labelledby="mobileCountrypills-contact-tab">
+                               <div class="accordion" id="accordionExample">
+                                    
+                                    <div class="accordion-item rounded-0">
+                                      <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs10" aria-expanded="false" aria-controls="collapseCountryFaqs10">
+                                            How long will it take for my car to arrive in Pakistan?
+                                        </button>
+                                      </h2>
+                                      <div id="collapseCountryFaqs10" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            The car usually takes 3-5 weeks to be shipped to Pakistan.
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs11" aria-expanded="false" aria-controls="collapseCountryFaqs11">
+                                            At which shipping port can I receive my vehicle?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs11" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            You can receive your vehicle at Karachi port.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs12" aria-expanded="false" aria-controls="collapseCountryFaqs12">
+                                            Can I get a doorstep delivery service in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs12" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            SAT offers door-to-door delivery service in Pakistan, allowing you to enjoy a hassle-free purchase experience.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs13" aria-expanded="false" aria-controls="collapseCountryFaqs13">
+                                            How are vehicles shipped from Japan to  Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs13" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            Your vehicle will  be shipped to Pakistan on a cargo ship in one of the following two ways, RORO (Roll on/Roll off) or Container.
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="accordion-item border rounded-0 my-2">
+                                        <h2 class="accordion-header">
+                                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCountryFaqs14" aria-expanded="false" aria-controls="collapseCountryFaqs14">
+                                            How can I get more information about automobile shipments in Pakistan?
+                                          </button>
+                                        </h2>
+                                        <div id="collapseCountryFaqs14" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                          <div class="accordion-body">
+                                            To get more information about vehicle shipments in Pakistan, contact us at +81 709-008-7605 or reach out to us at support@satjapan.com.
+                                          </div>
+                                        </div>
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                            </div>
+                          
+                    </div>
+                 </div>
 
             </div>
         </div>
