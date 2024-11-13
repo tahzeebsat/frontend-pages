@@ -1487,7 +1487,7 @@
 
                  <div class="usedCarCountryBannerMobile">
                     <div class="wraps my-4">
-                        <img src="{{asset('assets/images/mobilepromotioncountry.webp')}}" alt="Banner" class="img-fluid" loading="lazy" width="336" height="160">
+                        <img src="{{asset('assets/images/mobilepromotioncountry.webp')}}" alt="Banner" class="img-fluid" loading="lazy" width="100%" height="100%">
                     </div>
                  </div>
 

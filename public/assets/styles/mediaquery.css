@@ -61,6 +61,29 @@
     .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing-action .btn-inquire{
         margin: 10px 0px 0px 50px;
     }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .title{
+        font-size: 24px;
+        padding: 0px 50px;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .para{
+        font-size: 16px;
+        padding: 15px 50px;
+        width: 100%;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .appAction{
+        padding: 0px 50px;
+        width: 400px;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .serviceMap .inner .mapAddress .address{
+        padding: 0px 30px;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .officeLocation .locationPic img{
+        width: 45%;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .headOffice .inner .officeLocation .locationPic iframe{
+        width: 45%;
+        height: 257px;
+    }
 }
 
 @media(max-width:1199px){
@@ -166,6 +189,23 @@
     .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price .bottom2{
         font-size: 16px;
     }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .title{
+        font-size: 24px;
+        padding: 0px 24px;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .para{
+        font-size: 16px;
+        padding: 15px 24px;
+        width: 100%;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .left .appAction{
+        padding: 0px 24px;
+        width: 335px;
+    }
+    .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .right{
+        display: none;
+    }
+    
 }
 
 @media (max-width:991px){
