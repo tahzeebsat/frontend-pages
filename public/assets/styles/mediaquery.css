@@ -293,7 +293,9 @@
     .mobile-operate .mobile-operate-flags .mobile-operate-countries{
         height: 111px;
     }
-    
+    .selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card img{
+        width: 100%;
+    }
     
 }
 
