@@ -296,7 +296,92 @@
     .selling-recommended-tabs-mobile .sellingRecommendedTabsMobile .inner .filterCountryMobile .car-card img{
         width: 100%;
     }
-    
+    .latest-addition-car-desktop .heading .title{
+        font-family: 'Lato';
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: -0.01em;
+        color: #353c4d;
+        padding: 0;
+    }
+    .latest-addition-car-desktop .heading .view-detail{
+        font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+        margin-bottom: 0px;
+        padding: 0;
+    }
+    .latest-addition-car-desktop .swiper-button-next, .latest-addition-car-desktop .swiper-button-prev,
+    .latest-addition-car-desktop .view-all-selling .view-all{
+        display: none;
+    }
+    .latest-addition-car-desktop .price-area .top .left .price .amount {
+        font-size: var(--fs-14);
+    }
+    .latest-addition-car-desktop .price-area .bottom .sale-car-name{
+        font-size: var(--fs-14);
+        font-weight: 400;
+        white-space: unset;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+    }
+    .latest-addition-car-desktop .price-area .top .right .heart-icon{
+        font-size: 15px;
+        height: 15px;
+        width: 15px;
+        cursor: pointer;
+        color: #ced0d4;
+        margin-right: 3px;
+    }
+    .latest-addition-car-desktop .latestNewCarSwiper {
+        height: 310px;
+    }
+    .new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .heading .topView{
+        display: block;
+        font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+      }
+      .latest-addition-car-desktop .heading .topView{
+        display: block;
+        font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+      }
+      .popular_used_car-mobile .heading .topView{
+        display: block;
+        font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+      }
+      .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .heading .topView{
+        font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+      }
 }
 
 @media (max-width:767px){
@@ -767,6 +852,12 @@
     }
     .similar-car-desktop .swiper-wrapper{
         padding: 0px 15px;
+    }
+    .latest-addition-car-desktop .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+        display: none;
+    }
+    .latest-addition-car-desktop .latestNewCarSwiper {
+        height: 215px !important;
     }
 }
 

@@ -5243,3 +5243,283 @@ display: none;
 }
 
 /* ==================================== End Country Page Css ============================*/
+
+
+/* ==================================== Start New Car Home Page Css ============================*/
+.new_car_popular_desktop .new_car_popular_wrapper .inner .title{
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .nav-pills .nav-link{
+    background-color: #f6f6f8;
+    border-color: #f6f6f8;
+    color: #5d6370;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    border-radius: 50px;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .nav-pills .nav-link.active{
+    background-color: #ecf5ff;
+    border-color: #ecf5ff;
+    color: #353c4d;
+    border-radius: 50px;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .new-car-card .top img{
+    width: 100%;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .new-car-card .cardDetails .tag{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .new-car-card .cardDetails .price .head{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .new-car-card .cardDetails .price .fa-heart{
+    font-size: 26px;
+    height: 25px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+    padding-right: 50px;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .new-car-card .cardDetails .carModal{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    margin-bottom: 0px;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .view-all-newCar{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    margin-top: 32px;
+    cursor: pointer;
+}
+.new_car_popular_desktop .new_car_popular_wrapper .inner .tab-content .view-all-newCar:hover{
+   color: var(--custome-color);
+}
+.latest-addition-car-desktop .heading .title {
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+.latest-addition-car-desktop .latestNewCarSwiper {
+    height: 410px;
+}
+.latest-addition-car-desktop .swiper-slide {
+    height: 350px;
+}
+.latest-addition-car-desktop .top-selling {
+    padding: 0px 12px;
+}
+.latest-addition-car-desktop .top-selling img {
+    /* width: 284px; */
+    height: 213px;
+}
+.latest-addition-car-desktop .price-area {
+    padding: 10px 10px 0px 10px;
+}
+.latest-addition-car-desktop .price-area .top .left .newFrom{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    line-height: 18px;
+}
+.latest-addition-car-desktop .price-area .top .left .price .amount {
+    font-family: "Lato", sans-serif;
+    font-size: var(--fs-24);
+    font-weight: 700;
+    color: #0c1529;
+    margin-bottom: 10px;
+    margin-top: 13px;
+}
+.latest-addition-car-desktop .price-area .top .right .heart-icon {
+    font-size: 26px;
+    height: 25px;
+    width: 26px;
+    cursor: pointer;
+    color: #ced0d4;
+}
+.latest-addition-car-desktop .price-area .bottom .sale-car-name {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #353c4d;
+    white-space: nowrap;
+    margin-bottom: 2px;
+}
+.latest-addition-car-desktop .price-area .bottom .sale-car-average {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #353c4d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 220px;
+}
+.latest-addition-car-desktop .swiper-button-prev {
+    left: var(--swiper-navigation-sides-offset, 15px);
+}
+.latest-addition-car-desktop .swiper-button-next, .latest-addition-car-desktop .swiper-button-prev {
+    color: #333;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    transform: translateY(-50%);
+    border: 1px solid #aeb1b8;
+    box-shadow: 0px 0px 6.08px 0px #2f2b434d;
+    background-color: white;
+}
+.latest-addition-car-desktop .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.latest-addition-car-desktop .swiper-button-next:hover, .latest-addition-car-desktop .swiper-button-prev:hover {
+    background-color: var(--custome-color);
+    color: white;
+}
+.latest-addition-car-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.latest-addition-car-desktop .view-all-selling .view-all {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.latest-addition-car-desktop .view-all-selling .view-all:hover {
+    color: var(--custome-color);
+}
+
+.new_car_faqs_desktop .newCarFaqs .inner .title {
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+  }
+.new_car_faqs_desktop .newCarFaqs .inner .collapsible-tabs__wrapper {
+    margin: 0px 0px;
+  }
+  
+.new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper:last-child {
+    border-bottom: 1px solid #979797;
+}
+  
+.new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper .collapsible-trigger-btn {
+    background: none;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+    transition: all 0.2s linear;
+    box-shadow: none;
+  }
+  
+.new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper .collapsible-trigger-btn::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+  }
+  
+  .new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper.collapsible-tab__open .collapsible-trigger-btn::after {
+    content: "-";
+    font-size: 40px;
+  }
+  
+  .new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper .collapsible-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s linear;
+  }
+  
+  .new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper.collapsible-tab__open .collapsible-content {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper .collapsible-content__inner {
+    padding-bottom: 20px;
+  }
+  
+  .new_car_faqs_desktop .newCarFaqs .inner .collapsibles-wrapper .collapsible-content__inner p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #858a94;
+    margin-bottom: 0px;
+  }
+  .new_car_faqs_desktop .newCarFaqs .inner .faqsViewMore {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .new_car_faqs_desktop .newCarFaqs .inner .faqsViewMore:hover {
+    color: var(--custome-color);
+  }
+  .new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .heading .topView{
+    display: none;
+  }
+  .latest-addition-car-desktop .heading .topView{
+    display: none;
+  }
+/* ==================================== End New Car Home Page Css ============================*/

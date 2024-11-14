@@ -25,6 +25,29 @@ $(document).ready(function() {
 
 // ========================== End Country Page Show More and Hide More Js ==========================
 
+// ========================== Start Accordian For New Car Home Page ==========================
+
+const collapsibleButtons = document.querySelectorAll(
+  ".collapsible-trigger-btn"
+);
+
+collapsibleButtons.forEach((collapsibleButton) => {
+  const collapsibleContentDataHeight =
+    collapsibleButton.nextElementSibling.offsetHeight;
+  collapsibleButton.nextElementSibling.style.height = 0;
+  collapsibleButton&&collapsibleButton.addEventListener("click", (e) => {
+    if (
+      !e.currentTarget.parentElement.classList.contains("collapsible-tab__open")
+    ) {
+      e.currentTarget.parentElement.classList.toggle("collapsible-tab__open");
+      e.currentTarget.nextElementSibling.style.height = `${collapsibleContentDataHeight}px`;
+    } else {
+      e.currentTarget.parentElement.classList.remove("collapsible-tab__open");
+      e.currentTarget.nextElementSibling.style.height = 0;
+    }
+  });
+});  
+// ========================== End Accordian For New Car Home Page ==========================
 // Dropdown show list while search item for car header
 
 const searchInput = document.getElementById('searchInput');
@@ -570,7 +593,38 @@ var swiper = new Swiper('.sellByTypeSwiperMobile', {
 
 
 
-
+// ================== Start Latest Additiona New Car Swipper ==================
+var swiper = new Swiper('.latestNewCarSwiper', {
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
+  freeMode: true,
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    // For mobile (below 640px)
+    640: {
+      slidesPerView: 3, // Single slide per view on mobile
+      spaceBetween: 5, // Small space between slides
+      freeMode: true, // Enable free mode for mobile
+    },
+    // For tablets (above 640px, up to 1024px)
+    1024: {
+      slidesPerView: 4, // Show 3 slides per view on desktop
+      spaceBetween: 15, // Larger space between slides
+      freeMode: false, // Disable free mode on larger screens
+    },
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ================== End Latest Additiona New Car Swipper ==================
 
 // ================== Start Selling Car Swipper ==================
 var swiper = new Swiper('.sellingCarSwiper', {
@@ -1889,3 +1943,4 @@ $(document).ready(function() {
 });
 
 // ========================== End Country Page Show More and Hide More Js ==========================
+

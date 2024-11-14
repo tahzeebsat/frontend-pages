@@ -28,4 +28,7 @@ Route::get('/search-details', function () {
 Route::get('/country', function () {
     return view('used_car/country');
 });
+Route::get('/new_car', function () {
+    return view('used_car/new_car');
+});
 

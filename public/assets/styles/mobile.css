@@ -3310,3 +3310,146 @@
   }
 /* ===================================== End Mobile Country Page Css ===================================== */
 
+/* ===================================== Start New Car Home Page Css ===================================== */
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .heading .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+}
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .heading .topView{
+    font-family: 'Lato';
+    font-size: 12px;
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+    margin-bottom: 0px;
+}
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .nav-pills .nav-link{
+    background-color: #f6f6f8;
+    border-color: #f6f6f8;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    padding: 6px 12px;
+    border-radius: 50px;
+}
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .nav-pills .nav-link.active{
+    background-color: #ecf5ff;
+    border-color: #ecf5ff;
+    color: #353c4d;
+    border-radius: 50px;
+}
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .tab-content .new-car-card .cardDetails .tag{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    line-height: 18px;
+} 
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .tab-content .new-car-card .cardDetails .price .head{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    margin-bottom: 0px;
+} 
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .tab-content .new-car-card .cardDetails .price .heart-icon{
+    font-size: 15px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+    color: #ced0d4;
+    margin-right: 3px;
+} 
+.new_car_popular_mobile .new_car_popular_wrapper_mobile .inner .tab-content .new-car-card .cardDetails .carModal{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #64748b;
+    margin-bottom: 0px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+} 
+
+.new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .heading .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #353c4d;
+}
+.new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .heading .view-detail{
+    font-family: 'Lato';
+        font-size: 12px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.01em;
+        color: #1c6a9b;
+        margin-bottom: 0px;
+        padding: 0;
+}
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion .accordion-button{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    gap: 10px;
+  }
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion .accordion-button:focus{
+    box-shadow: none;
+  }
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion .accordion-button:not(.collapsed){
+    background-color: #ffffff;
+    color: #2384c1;
+    border: 1px solid #2384c1;
+    border-radius: 0px;
+  }
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion-button::before {
+    flex-shrink: 0;
+    margin-right: 18px;
+    content: "";
+    background-size: 12px;
+    width: 12px;
+    height: 8px;
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206.41579L0.757004%202.17279L2.172%200.758789L5%203.58779L7.828%200.758789L9.243%202.17279L56.41579Z%22%20fill%3D%22%232F2B43%22%2F%3E%3C%2Fsvg%3E);
+}
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion-button:not(.collapsed)::before {
+    background-image: url(data:image/svg+xml,%3Csvg%20width%3D%2210%22%20height%3D%227%22%20viewBox%3D%220%200%2010%207%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206.41579L0.757004%202.17279L2.172%200.758789L5%203.58779L7.828%200.758789L9.243%202.17279L56.41579Z%22%20fill%3D%22%232F2B43%22%2F%3E%3C%2Fsvg%3E);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion .accordion-button::after{
+    background-image: none !important;
+  }
+  .new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .accordion .accordion-body{
+    background-color: #f6f6f8e5;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    padding-inline: 10px;
+    padding-block: 4px;
+  }
+/* ===================================== End New Car Home Page Css ===================================== */
+
