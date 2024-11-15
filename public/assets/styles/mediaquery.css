@@ -205,6 +205,9 @@
     .selling-recommended-tabs-desktop .sellingRecommendedTabs .exclusive-benefits .inner .detSec .right{
         display: none;
     }
+    .advance-search-calculator .list-view .wrappers .center .detail1 .newCarDetails {
+        width: 120px;
+    }
     
 }
 
@@ -859,5 +862,6 @@
     .latest-addition-car-desktop .latestNewCarSwiper {
         height: 215px !important;
     }
+    
 }
 

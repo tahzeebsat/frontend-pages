@@ -1413,6 +1413,17 @@
     color: #ffffff;
     background-color: #ff4b44;
 } 
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys-NewCarSearchMobile{
+    padding: 4px 6px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 8.99px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    background-color: #f1892b;
+} 
 .mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .top .mobile-nys2{
     padding: 4px 6px;
     border-radius: 10px;
@@ -1445,6 +1456,47 @@
     margin-top: 4px;
     padding: 0px 5px;
 } 
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .heading-NewCarSearchMobile{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+    margin-bottom: 0px;
+    margin-top: 4px;
+    padding: 0px 5px;
+} 
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-infor-NewCarSearch .inner .newCarSearchMC{
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border-radius: 6px;
+    background: #f6f6f8;
+    flex-direction: column;
+} 
+
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-infor-NewCarSearch .inner .newCarSearchMC .top img{
+    width: 10px;
+    height: 10px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-infor-NewCarSearch .inner .newCarSearchMC .top p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-infor-NewCarSearch .inner .newCarSearchMC .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    margin-bottom: 0px;
+}
 
 .mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-spec-info .inner .year{
     font-family: 'Lato';
@@ -1489,6 +1541,24 @@
     letter-spacing: -0.01em;
     color: #353c4d;
 }
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .newCarSearchMobileTP .inner .title{
+    font-size: 12px;
+    color: #000000;
+    font-family: 'Lato';
+    font-weight: 600;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .newCarSearchMobileTP .inner .amount{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
 .mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-total-price-car .inner .amount{
     font-weight: 700;
     color: #1c6a9b;
@@ -1504,6 +1574,15 @@
     line-height: 16px;
     height: 30px;
 }
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .newCarSearchButtonsMobile .inner .btn-inquire{
+    background-color: #2a9fe8 !important;
+    color: white;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .newCarSearchButtonsMobile .inner .btn-buyNow{
+    background-color: transparent !important;
+    color: #1c6a9b !important;
+    border: 1px solid #154f74;
+}
 .mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-car-details-search .inner .right .mobile-car-buttons-buy .inner .btn-buyNow{
     background-color: #2a9fe8;
     color: white;
@@ -1513,6 +1592,26 @@
     border-radius: 4px;
     line-height: 16px;
     height: 30px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-new-car-search .inner .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0px;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-new-car-search .inner .para{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: justify;
+    color: #5d6370;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 .mobile2-view .advance-search-calculator-mobile .mobile-used-cars-search .top .mobile-searh-pagination .inner{
     font-size: 10px;

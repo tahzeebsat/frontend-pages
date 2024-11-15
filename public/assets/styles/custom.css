@@ -3553,6 +3553,27 @@ footer .footer-copyright{
     padding-left: 8px;
     font-family: 'Lato';
 }
+.advance-search-calculator .list-view .wrappers .center .detail1 .newCarDetails{
+   width: 150px;
+}
+.advance-search-calculator .list-view .wrappers .center .detail1 .newCarDetails .from{
+    font-size: 12px;
+    color: #000000;
+    font-weight: 600;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 0;
+    line-height: 18px;
+}
+.advance-search-calculator .list-view .wrappers .center .detail1 .newCarDetails .priceList{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.62px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+    margin-bottom: 0px;
+}
 .advance-search-calculator .list-view .wrappers .center .detail1 .more-detail .model-code{
     background: #f6f6f8;
     height: 58px;
@@ -3762,6 +3783,14 @@ display: none;
     border-radius: 23px;
     padding: 2px 7px;
 }
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearch .sale{
+    background-color: #f1892b;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 12px;
+    height: 16px;
+}
 .advance-search-calculator .grid-view .item .card .card-body .grid-details .top .mark .sale2{
     font-size: 8px;
     font-family: 'Lato';
@@ -3831,6 +3860,35 @@ display: none;
     position: relative;
     left: 6px;
 }
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .details .inner .newCarSearchMC .top img{
+  width: 10px;
+  height: 10px;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .details .inner .newCarSearchMC .top .code{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    margin-bottom: 2px;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .details .inner .newCarSearchMC .bottom{
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    margin-bottom: 0px;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .details .inner .newCarSearchMC{
+    display: flex;
+    background-color: #f6f6f8;
+    padding: 6px;
+    gap: 6px;
+    flex-direction: column;
+}
 
 .advance-search-calculator .grid-view .item .card .card-body .grid-details .top .pricing{
     display: flex;
@@ -3849,6 +3907,40 @@ display: none;
     font-size: 17.32px;
     font-weight: 700;
     color: #0c1529;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearchPC .price{
+    margin-block: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0c1529;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearchPC .total{
+    margin-block: 20px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0c1529;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearchPC .tag{
+    font-size: 12px !important;
+    color: #000000;
+    font-weight: 600 !important;
+    padding-right: 0px;
+    letter-spacing: 0px;
+    font-family: "Lato";
+    margin-bottom: 0;
+    line-height: 18px !important;
 }
 .advance-search-calculator .grid-view .item .card .card-body .grid-details .top .action-buying{
     display: flex;
@@ -3874,6 +3966,12 @@ display: none;
     font-size: 12px;
     font-weight: 700;
     font-family: 'Lato';
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearchBTN .btn-buy{
+    font-size: 14px;
+}
+.advance-search-calculator .grid-view .item .card .card-body .grid-details .top .newCarSearchBTN .btn-quote{
+    font-size: 14px;
 }
 
 
@@ -3931,6 +4029,22 @@ display: none;
     width: 26%;
     border-radius: 0px;
     border: 1px solid black;
+}
+.advance-search-calculator .newCarSatarea .top .title{
+    font-size: var(--fs-24);
+    font-weight: 600;
+    line-height: 32px;
+    color: #212529;
+    font-family: 'Sofia-pro';
+}
+.advance-search-calculator .newCarSatarea .top .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #5d6370;
 }
 
 
