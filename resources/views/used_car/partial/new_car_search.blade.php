@@ -302,7 +302,7 @@
 
                               <div class="col-md-3 right">
                                
-                                <div class="action-buy">
+                                <div class="action-buy newSearchCarAction">
                                   <button class="btn btn-buy">View Detail</button>
                                   <button class="btn btn-quote">Inquire</button>
                                   <button class="btn btn-notify">Notify If Available</button>
@@ -484,7 +484,7 @@
 
                             <div class="col-md-3 right">
                              
-                              <div class="action-buy">
+                              <div class="action-buy newSearchCarAction">
                                 <button class="btn btn-buy">View Detail</button>
                                 <button class="btn btn-quote">Inquire</button>
                                 <button class="btn btn-notify">Notify If Available</button>
@@ -666,7 +666,7 @@
 
                             <div class="col-md-3 right">
                              
-                              <div class="action-buy">
+                              <div class="action-buy newSearchCarAction">
                                 <button class="btn btn-buy">View Detail</button>
                                 <button class="btn btn-quote">Inquire</button>
                                 <button class="btn btn-notify">Notify If Available</button>
@@ -848,7 +848,7 @@
 
                             <div class="col-md-3 right">
                              
-                              <div class="action-buy">
+                              <div class="action-buy newSearchCarAction">
                                 <button class="btn btn-buy">View Detail</button>
                                 <button class="btn btn-quote">Inquire</button>
                                 <button class="btn btn-notify">Notify If Available</button>

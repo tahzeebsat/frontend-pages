@@ -3676,6 +3676,11 @@ footer .footer-copyright{
     background: #2a9fe8;
     margin: 6% 23% 0% 23%;
 }
+.advance-search-calculator .list-view .wrappers .right .newSearchCarAction .btn-buy{
+    width: unset;
+    margin: 6% 5% 0% 23%;
+}
+
 .advance-search-calculator .list-view .wrappers .right .action-buy .btn-quote{
     width: 177px;
     height: 48px;
@@ -3687,6 +3692,10 @@ footer .footer-copyright{
     margin: 2% 23% 0% 23%;
     color: #71bff0;
     border: 1px solid #71bff0;
+}
+.advance-search-calculator .list-view .wrappers .right .newSearchCarAction .btn-quote{
+    width: unset;
+    margin: 2% 5% 0% 23%;
 }
 .advance-search-calculator .list-view .wrappers .right .action-buy .btn-notify{
     display: none;
