@@ -5646,3 +5646,203 @@ display: none;
     display: none;
   }
 /* ==================================== End New Car Home Page Css ============================*/
+
+/* ==================================== Start New Car Search Detail Page Css ============================*/
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .download-print{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .left-further-details .left{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .left-further-details .right{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .detailFeatures .inner table{
+    width: 750px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .detailFeatures .inner table tr td{
+    padding-bottom: 20px;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .detailOrderFlow .inner .checks .overflow1 .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .detailOrderFlow .inner .checks .overflow1 .date{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .detailPaymentMethod .inner .checks .overflow1 {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .right-further-details .left{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .left-details .inner .right-further-details .right{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .top-location .loc-title{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .top-location .location-name img{
+    background-color: #ededf1;
+    padding: 4px;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .top-location .location-name .location{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.012em;
+    color: #0C1529;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .heading{
+    font-family: 'Lato';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #020408;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .selectDestinations .country p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 14.4px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .selectDestinations .country select{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background-color: #ffffff;
+    border: 1px solid #0000001a;
+    border-radius: 6px;
+    font-family: "Lato", sans-serif, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    width: 100%;
+    color: #000000;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .priceNewCarTotal .priceTitle{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #353c4d;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .priceNewCarTotal .priceAmount{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .price-disclaim{
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: #17b26a;
+    max-width: 265px;
+    margin-top: 23px;
+    width: 100%;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .price-disclaim .points{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    margin-bottom: 1px;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .price-disclaim .para{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: white;
+    margin: 0px;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .newCarSearchDetailAction .btn-buy-now{
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    background-color: #2a9fe8;
+}
+.new_car_search-detail_desktop .neCarSearchDetails .right-details .inner .newCarSearchDetailAction .btn-inquire{
+    border: 2px solid #71bff0;
+    background-color: none;
+    color: #4dafec;
+    height: 48px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size:16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ==================================== End New Car Search Detail Page Css ============================*/

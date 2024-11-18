@@ -34,4 +34,7 @@ Route::get('/new_car', function () {
 Route::get('/new_car_search', function () {
     return view('used_car/new_car_search');
 });
+Route::get('/new_car_search_detail', function () {
+    return view('used_car/new_car_search_detail');
+});
 
