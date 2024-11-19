@@ -208,6 +208,12 @@
     .advance-search-calculator .list-view .wrappers .center .detail1 .newCarDetails {
         width: 120px;
     }
+    .blog-cards-desktop .blogCards .pagination .pager ul li {
+        list-style: none;
+        margin: 10px 23px;
+        padding: 3px;
+        font-family: 'Lato';
+    }
     
 }
 
@@ -862,6 +868,32 @@
     .latest-addition-car-desktop .latestNewCarSwiper {
         height: 215px !important;
     }
-    
+    .blog-cards-desktop .blogCards .pagination{
+        display: block;
+    }
+    .blog-cards-desktop .blogCards .pagination .pager {
+        display: flex;
+        justify-content: center;
+    }
+    .blog-cards-desktop .blogCards .pagination .pager ul li {
+        list-style: none;
+        margin: 10px 14px !important;
+        padding: 2px !important;
+        font-family: 'Lato';
+        font-size: 12px;
+    }
+    .blog-cards-desktop .blogCards .pagination .noOfPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Lato';
+        margin-bottom: 20px;
+    }
+    .blog-cards-desktop .blogCards .pagination .noOfPage p{
+        font-size: 14px;
+    }
+    .blog-cards-desktop .blogCards .blog-cards-section .inner .card{
+    margin-bottom: 15px;
+    }
 }
 
