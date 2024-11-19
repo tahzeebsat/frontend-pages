@@ -1532,7 +1532,7 @@ footer .footer-copyright{
     height: 8px !important;
     border-radius: 100px !important;
     border: none !important;
-    background-color: var(--custome-color) !important;
+    background-color: #157abc !important;
   }
 
 
@@ -2336,10 +2336,12 @@ footer .footer-copyright{
     border: none;
     isolation: unset;
 }
-.early-budget-desktop .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
-    color: var(--custome-color) !important;
+.early-budget-desktop .nav-tabs .nav-item.show .nav-link, 
+.early-budget-desktop .nav-tabs .nav-link.active{
+    color: #157abc !important;
     border: none;
-    border-bottom: 2px solid var(--custome-color) !important;
+    border-bottom: 2px solid #157abc !important;
+    background: transparent !important;
 }
 
 .early-budget-desktop .nav-link:focus-visible {
