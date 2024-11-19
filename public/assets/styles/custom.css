@@ -495,8 +495,8 @@ input:focus {
 .hero-slider-form-area .form-slider{
     position: absolute;
     background-color: var(--white-color);
-    top: 30px;
-    left: 25px;
+    top: 25px;
+    left: 12px;
     width: 25%;
     border-radius: 6px;
     z-index: 1;
