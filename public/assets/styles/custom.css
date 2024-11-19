@@ -477,11 +477,11 @@ input:focus {
 }
 
 .carousel-indicators .active {
-    background-color: var(--custome-color) !important;
+    background-color: #157abc !important;
     width: 15px !important;
     height: 6px !important; 
     border-radius: 25% !important;
-    border: 1px solid var(--custome-color) !important;
+    border: 1px solid #157abc !important;
 }
 .carousel-control-prev-icon{
     background-image: url('data:image/svg+xml,%3Csvg xmlns=%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 viewBox=%270%200%2016%2016%27 fill=%27%23333%27%3E%3Cpath d=%27M11.354%201.646a.5.5%200%200%201%200%20.708L5.707%208l5.647%205.646a.5.5%200%200%201-.708.708l-6-6a.5.5%200%200%201%200-.708l6-6a.5.5%200%200%201%20.708%200z%27%2F%3E%3C%2Fsvg%3E') !important;
@@ -516,7 +516,7 @@ input:focus {
     box-shadow: none;
 }
 .hero-slider-form-area .form-slider .from-wrapper .btn-slider-form-search{
-    background-color: var(--custome-color);
+    background-color:#157abc;
     width: 100%;
     color: var(--white-color);
     font-family: "Lato", sans-serif;
@@ -5846,3 +5846,38 @@ display: none;
 
 
 /* ==================================== End New Car Search Detail Page Css ============================*/
+
+/* ==================================== Start Get More App Section CSS ============================*/
+.get_more_app_desktop .getMoreApp .inner{
+    padding: 8px 64px 0;
+    border-radius: 20px;
+    background: #f7fbfb;
+}
+.get_more_app_desktop .getMoreApp .inner .center .top .title{
+    color: #000;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+.get_more_app_desktop .getMoreApp .inner .center .top .para{
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+}
+.get_more_app_desktop .getMoreApp .inner .right .tag{
+    color: #0c1529;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* ==================================== End Get More App Section CSS ============================*/

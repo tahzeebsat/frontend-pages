@@ -48,7 +48,7 @@
 @component('used_car.partial.customer_review')
 @endcomponent
 
-@component('used_car.partial.web_promotion3')
+@component('used_car.partial.get_more_with_apps')
 @endcomponent
 
 @component('used_car.partial.need_help')
