@@ -3793,30 +3793,20 @@
 
 /* ==================================== Start Get More App Section CSS ============================*/
 .get_more_app_mobile .getMoreApp .inner{
-    padding: 8px 17px 8px;
-    border-radius: 20px;
     background: #f7fbfb;
-    gap: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 0;
 }
-.get_more_app_mobile .getMoreApp .inner .right .top .title{
+.get_more_app_mobile .getMoreApp .inner .top .title{
     color: #000;
     font-family: "Lato", sans-serif;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 700;
     line-height: 15.525px;
     letter-spacing: -0.233px;
-    margin-bottom: 4px;
 }
-.get_more_app_mobile .getMoreApp .inner .right .top .para{
-    color: #353c4d;
-    font-family: "Lato", sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 14px;
-    letter-spacing: -0.12px;
-    margin-bottom: 12px;
+.get_more_app_mobile .getMoreApp .inner .top .para{
+    font-family: "Lato";
 }
 
 /* ==================================== End Get More App Section CSS ============================*/

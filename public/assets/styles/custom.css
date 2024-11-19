@@ -5852,6 +5852,7 @@ display: none;
     padding: 8px 64px 0;
     border-radius: 20px;
     background: #f7fbfb;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .get_more_app_desktop .getMoreApp .inner .center .top .title{
     color: #000;
