@@ -47,7 +47,65 @@ collapsibleButtons.forEach((collapsibleButton) => {
     }
   });
 });  
+
 // ========================== End Accordian For New Car Home Page ==========================
+
+// ========================== Start Auto Parts Page ==========================
+const collapsibleButtons2 = document.querySelectorAll(".collapsible-trigger-btn2");
+
+collapsibleButtons2.forEach((collapsibleButton2) => {
+  const collapsibleContent2 = collapsibleButton2.nextElementSibling; // This gets the .collapsible-content2
+  const collapsibleContentInner2 = collapsibleContent2.querySelector(".collapsible-content__inner2");
+
+  // Set initial height of content to 0
+  collapsibleContent2.style.height = '0px';
+  collapsibleContent2.style.overflow = 'hidden'; // Prevent overflow
+
+  collapsibleButton2&&collapsibleButton2.addEventListener("click", (e) => {
+    const parentWrapper = e.currentTarget.parentElement;
+    const contentHeight = collapsibleContentInner2.offsetHeight; // Get the content's natural height
+
+    if (!parentWrapper.classList.contains("collapsible-tab__open2")) {
+      // Open the collapsible
+      parentWrapper.classList.add("collapsible-tab__open2");
+      collapsibleContent2.style.height = `${contentHeight}px`; // Expand to full content height
+    } else {
+      // Close the collapsible
+      parentWrapper.classList.remove("collapsible-tab__open2");
+      collapsibleContent2.style.height = '0px'; // Collapse back to 0 height
+    }
+  });
+});
+
+
+const collapsibleButtons3 = document.querySelectorAll(".collapsible-trigger-btn3");
+
+collapsibleButtons3.forEach((collapsibleButton3) => {
+  const collapsibleContent3 = collapsibleButton3.nextElementSibling; // This gets the .collapsible-content2
+  const collapsibleContentInner3 = collapsibleContent3.querySelector(".collapsible-content__inner3");
+
+  // Set initial height of content to 0
+  collapsibleContent3.style.height = '0px';
+  collapsibleContent3.style.overflow = 'hidden'; // Prevent overflow
+
+  collapsibleButton3&&collapsibleButton3.addEventListener("click", (e) => {
+    const parentWrapper = e.currentTarget.parentElement;
+    const contentHeight = collapsibleContentInner3.offsetHeight; // Get the content's natural height
+
+    if (!parentWrapper.classList.contains("collapsible-tab__open3")) {
+      // Open the collapsible
+      parentWrapper.classList.add("collapsible-tab__open3");
+      collapsibleContent3.style.height = `${contentHeight}px`; // Expand to full content height
+    } else {
+      // Close the collapsible
+      parentWrapper.classList.remove("collapsible-tab__open3");
+      collapsibleContent3.style.height = '0px'; // Collapse back to 0 height
+    }
+  });
+});
+// ========================== End Auto Parts Page ==========================
+
+
 // Dropdown show list while search item for car header
 
 const searchInput = document.getElementById('searchInput');
@@ -451,6 +509,101 @@ document.getElementById('showMoreCountries').addEventListener('click', function(
 
 // ========================= Start Swiper Js Section ======================
 
+
+// ===================== Start Auto Parts Cars Swipper =====================
+var swiper = new Swiper(".autoPartsSlider", {
+  slidesPerView: 2, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  freeMode: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+
+document.querySelectorAll('p').forEach(function (pElement) {
+  pElement&&pElement.addEventListener('click', function() {
+    // Remove 'active' class from all p elements
+    document.querySelectorAll('p').forEach(function (p) {
+      p.classList.remove('active');
+    });
+    
+    // Add 'active' class to the clicked p element
+    pElement.classList.add('active');
+  });
+});
+// ===================== End Auto Parts Cars Swipper =====================
+
+// ===================== Start Auto Parts Cars Category Mobile Swipper =====================
+var swiper = new Swiper('.autoPartsCategoryMobile', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 15, // Space between slides for mobile
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+
+// ===================== End Auto Parts Cars Category Mobile Swipper =====================
+
+// ===================== Start Auto Parts Cars All Category Mobile Swipper =====================
+var swiper = new Swiper('.autoPartsAllCategoryMobile', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 15, // Space between slides for mobile
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ===================== End Auto Parts Cars All Category Mobile Swipper =====================
+
+// ===================== Start Auto Parts Cars Browse By Make Mobile Swipper =====================
+
+var swiper = new Swiper('.autoPartsBrowseByMakeMobile', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 15, // Space between slides for mobile
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ===================== End Auto Parts Cars Browse By Make Mobile Swipper =====================
+
+// ===================== Start Auto Parts Cars New Arrival Mobile Swipper =====================
+
+var swiper = new Swiper('.autoPartsNewArrivalMobile', {
+  slidesPerView: 1, // Default for mobile
+  spaceBetween: 15, // Space between slides for mobile
+  freeMode: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  loop: true, // Enable looping
+  autoplay: false,
+  touchEventsTarget: "container", // Ensure touch events are properly handled
+});
+// ===================== End Auto Parts Cars New Arrival Mobile Swipper =====================
 
 
 // ===================== Start Similar Cars Swipper =====================
@@ -1944,3 +2097,16 @@ $(document).ready(function() {
 
 // ========================== End Country Page Show More and Hide More Js ==========================
 
+
+// ========================= Start Mobile Auto Parts Page Filter Active =========================
+
+const categoryTabs = document.querySelectorAll('.categoryTabsMobile p');
+
+categoryTabs.forEach(tab => {
+    tab.addEventListener('click', function() {
+        categoryTabs.forEach(item => item.classList.remove('active'));
+        this.classList.add('active');
+    });
+});
+
+// ========================= End Mobile Auto Parts Page Filter Active =========================

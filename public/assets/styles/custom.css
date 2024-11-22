@@ -6027,3 +6027,589 @@ display: none;
     max-height: 44px;
 }
 /* ==================================== End Blog Page CSS ============================*/
+
+/* ==================================== Start Marine Insurance Services Page CSS ============================*/
+.insurance-services-desktop .insuranceServices .inner .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0C1529;
+}
+.insurance-services-desktop .insuranceServices .inner .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5D6370;
+}
+.insurance-services-desktop .insuranceServices .inner .services-cover .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0C1529;
+}
+
+.insurance-services-desktop .insuranceServices .inner .services-cover .cover{
+    border-radius: 5px;
+    border: 1.22px solid #ced0d4;
+    padding: 16px;
+    height: 150px;
+}
+.insurance-services-desktop .insuranceServices .inner .services-cover .cover .bottom{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #0C1529;
+}
+
+.insurance-services-desktop .insuranceServices .inner .marine-services-cover .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0C1529;
+}
+
+.insurance-services-desktop .insuranceServices .inner .marine-services-cover .cover{
+    padding: 16px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #AEB1B8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFFDF6;
+    height: 72px;
+}
+.insurance-services-desktop .insuranceServices .inner .marine-services-cover .cover .text{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #0C1529;
+}
+
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0C1529;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5D6370;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-left{
+    border: 1px solid var(--Stroke-Light-Base, #EAEBF0);
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-left .top{
+    background-color: unset;
+    border-bottom: 1px solid #D4ECFA !important;
+    padding: 0px 0px 10px 0px;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-left .top .title{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+}
+
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-right{
+    border: 1px solid var(--Stroke-Light-Base, #EAEBF0);
+    height: 100%;
+    border-radius: 6px;
+    padding: 15px;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-right .top{
+    background-color: unset;
+    border-bottom: 1px solid #D4ECFA !important;
+    padding: 0px 0px 10px 0px;
+}
+.insurance-services-desktop .insuranceServices .inner .utilize-marine-services-cover .umsc-right .top .title{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+}
+/* ==================================== End Marine Insurance Services Page CSS ============================*/
+
+/* ==================================== Start Auto Parts Page CSS ============================*/
+.auto-parts-desktop .autoParts .inner .title{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+}
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .deal-img{
+    padding: 20px;
+    border: 1px solid #ced0d4d2;
+}
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .deal-img:hover{
+    border: 1px solid #2a9fe8;
+}
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .deal-img:hover ~ .deal-text {
+    color: #2a9fe8;
+}
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .deal-img img{
+    object-fit: contain;
+    width: 190px;
+    height: 124px;
+    
+}
+
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .deal-text{
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-top: 13.71px;
+}
+
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .view-all {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auto-parts-desktop .autoParts .inner .categoyrBrowse .view-all:hover {
+    color: var(--custome-color);
+}
+.auto-parts-desktop .autoParts .inner .allCategory .title{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+}
+.auto-parts-desktop .autoParts .inner .allCategory .listTitle{
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    font-weight: 600;
+}
+.auto-parts-desktop .autoParts .inner .allCategory ul{
+    padding: 15px 0px;
+}
+.auto-parts-desktop .autoParts .inner .allCategory ul li{
+    list-style: none;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 40px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.auto-parts-desktop .autoParts .inner .allCategory ul li a{
+    text-decoration: none;
+    color: #1c6a9b;
+}
+.auto-parts-desktop .autoParts .inner .allCategory .view-all{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auto-parts-desktop .autoParts .inner .allCategory .view-all:hover{
+    color: var(--custome-color);
+}
+
+.auto-parts-desktop .autoParts .inner .newArrivals .title{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card{
+    padding: 15px 15px 5px 15px;
+    border: 1px solid #ced0d4;
+    cursor: pointer;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card:hover{
+    border: 1px solid #353c4d;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card a{
+    text-decoration: none;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card .arrival-body .condition-arrival{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    margin-bottom: 0px;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card .arrival-body .des-arrival{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    padding-right: 15.25px;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card .arrival-body .discount-arrival{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20.86px;
+    letter-spacing: -0.012em;
+    color: #cd3636;
+    margin-bottom: 0px;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card .arrival-body .price-arrival .arrival-pric-title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .arrival-card .arrival-body .price-arrival .arrival-pric{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.016em;
+    text-align: right;
+    color: #0c1529;
+    padding-right: 15.25px;
+}
+
+.auto-parts-desktop .autoParts .inner .newArrivals .view-all{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #5d6370;
+    cursor: pointer;
+    text-decoration: none;
+}
+.auto-parts-desktop .autoParts .inner .newArrivals .view-all:hover{
+    color: var(--custome-color)
+}
+
+.auto-parts-desktop .autoParts .JUCPE .wraps{
+    background-color: #f6f6f8;
+}
+.auto-parts-desktop .autoParts .JUCPE .wraps .title{
+    margin-bottom: 14px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+    font-family: 'Sofia-Pro';
+}
+.auto-parts-desktop .autoParts .JUCPE .wraps .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #5d6370;
+    max-width: 1233px;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+    font-family: 'Sofia-Pro';
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .nav-pills .nav-link.active{
+    background-color: #ffffff;
+    color: #1c6a9b;
+    border-bottom: 2px solid #1c6a9b;
+    margin-top: unset;
+    border-radius: 0px;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .nav-pills .nav-link{
+    height: 56px;
+    border: none;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsible-tabs__wrapper{
+    margin: 0px 0px;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper .collapsible-trigger-btn {
+    background: none;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+    transition: all 0.2s linear;
+    box-shadow: none;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsible-trigger-btn::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper .collapsible-content {
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper.collapsible-tab__open .collapsible-content {
+    visibility: visible;
+    opacity: 1;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper .collapsible-content__inner {
+    padding-bottom: 20px;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper .collapsible-content__inner p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #858a94;
+    margin-bottom: 0px;
+}
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper.collapsible-tab__open .collapsible-trigger-btn::after {
+    content: "-";
+    font-size: 40px;
+}
+
+
+.auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2 .collapsible-trigger-btn2 {
+    background: none;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+    transition: all 0.2s linear;
+    box-shadow: none;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsible-trigger-btn2::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2 .collapsible-content2 {
+    overflow: hidden;
+    height: 0; /* Initially collapsed */
+    transition: height 0.3s ease-out; /* Smooth transition for height */
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2.collapsible-tab__open2 .collapsible-content2 {
+    height: auto; /* Automatically adjust height when expanded */
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2 .collapsible-content__inner2 {
+    padding-bottom: 20px;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2 .collapsible-content__inner2 p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #858a94;
+    margin-bottom: 0px;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper2.collapsible-tab__open2 .collapsible-trigger-btn2::after {
+    content: "-";
+    font-size: 40px;
+  }
+  
+
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3 .collapsible-trigger-btn3 {
+    background: none;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #d8d8d8;
+    position: relative;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+    transition: all 0.2s linear;
+    box-shadow: none;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsible-trigger-btn3::after {
+    content: "+";
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3 .collapsible-content3 {
+    overflow: hidden;
+    height: 0; /* Initially collapsed */
+    transition: height 0.3s ease-out; /* Smooth transition for height */
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3.collapsible-tab__open3 .collapsible-content3 {
+    height: auto; /* Automatically adjust height when expanded */
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3 .collapsible-content__inner3 {
+    padding-bottom: 20px;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3 .collapsible-content__inner3 p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #858a94;
+    margin-bottom: 0px;
+  }
+  
+  .auto-parts-desktop .autoParts .autoParts_faqs .wraps .collapsibles-wrapper3.collapsible-tab__open3 .collapsible-trigger-btn3::after {
+    content: "-";
+    font-size: 40px;
+  }
+
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-wrapper{
+    margin: 0px 42px;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-wrapper .swiper-slide{
+    display: flex;
+    /* justify-content: space-between; */
+    white-space: nowrap;
+    gap: 5px;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-wrapper .swiper-slide p{
+    cursor: pointer;
+    padding-block: 14px;
+    padding-inline: 20px;
+    color: #5d6370;
+    border-radius: 100px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    background-color: #f6f6f8;
+    height: 52px;
+    /* margin-inline: 12px;
+    text-wrap: nowrap; */
+    text-align: center;
+    width: max-content;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-wrapper .swiper-slide p.active {
+    color: #353c4d;
+    background-color: #ecf5ff;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-button-prev:after{
+    background: white;
+    position: relative;
+    padding: 11px 17px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #aeb1b8;
+    position: absolute;
+    background: white;
+    color: #5d6370;
+    box-shadow: 1px 1px 6px #2f2b434d;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-button-next:after{
+    background: white;
+    position: relative;
+    padding: 11px 17px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #aeb1b8;
+    position: absolute;
+    background: white;
+    color: #5d6370;
+    box-shadow: 1px 1px 6px #2f2b434d;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-button-prev:hover:after{
+    color: white;
+    background-color: #2a9fe8;
+    opacity: 1;
+  }
+  .auto-parts-desktop .autoParts .autoPartsSlider .swiper-button-next:hover:after{
+    color: white;
+    background-color: #2a9fe8;
+    opacity: 1;
+  }
+/* ==================================== End Auto Parts Page CSS ============================*/

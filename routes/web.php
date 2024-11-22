@@ -41,3 +41,13 @@ Route::get('/blogs', function () {
     return view('used_car/blogs');
 });
 
+Route::get('/auto-parts', function () {
+    return view('used_car/auto-parts');
+});
+
+
+// ========================== Static Pages Route ==========================
+
+Route::get('/marine-insurance-services', function () {
+    return view('static_pages/marine-insurance-services');
+});
