@@ -516,7 +516,7 @@ input:focus {
     box-shadow: none;
 }
 .hero-slider-form-area .form-slider .from-wrapper .btn-slider-form-search{
-    background-color:#157abc;
+    background-color:var(--custome-color);
     width: 100%;
     color: var(--white-color);
     font-family: "Lato", sans-serif;
