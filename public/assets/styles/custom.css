@@ -3298,6 +3298,7 @@ footer .footer-copyright{
     color: white;
     font-size: var(--fs-14);
     font-weight: 700;
+    font-family: 'Lato';
 }
 .advance-search-calculator .advanceSearchBtn .borderSearch{
     border: 1px solid #ced0d4;
@@ -6615,6 +6616,15 @@ display: none;
 /* ==================================== End Auto Parts Page CSS ============================*/
 
 /* ==================================== Start Auto Parts Search Page CSS ============================*/
+.advance-search-calculator .mainHeading{
+    font-family: 'Sofia-Pro';
+    color: #020408;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 16px 0 18px 0;
+    margin-bottom: 0px;
+}
 .advance-search-calculator .autopartSearch .wrappers .center .car-details{
     top: 32px;
     position: relative;

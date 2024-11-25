@@ -3,7 +3,7 @@
         <div class="container">
             <div class="searchItemsCar">
               <div class="wrapper">
-                <h3 class="pb-3">Auto Parts Search</h3>
+                <h3 class="pb-3 mainHeading">Auto Parts Search</h3>
                 <div class="row mb-2">
                   <div class="col-md-3 position-relative">
                     
