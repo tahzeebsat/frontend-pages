@@ -214,7 +214,21 @@
         padding: 3px;
         font-family: 'Lato';
     }
-    
+    .advance-search-calculator .list-view .autopartSearch .top-card-image .stocks{
+        font-size: 14px;
+    }
+    .advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList .totalRate{
+        font-size: 20px;
+    }
+    .advance-search-calculator .page-count .counts select{
+        width: 40%;
+    }
+    .advance-search-calculator .autopartSearch .wrappers .right .action-buy{
+        margin-left: -20px !important;
+    }
+    .advance-search-calculator .autopartSearch .wrappers .right .countryLoc {
+        margin: 0px !important;
+    }
 }
 
 @media (max-width:991px){

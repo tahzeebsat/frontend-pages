@@ -6613,3 +6613,150 @@ display: none;
     opacity: 1;
   }
 /* ==================================== End Auto Parts Page CSS ============================*/
+
+/* ==================================== Start Auto Parts Search Page CSS ============================*/
+.advance-search-calculator .autopartSearch .wrappers .center .car-details{
+    top: 32px;
+    position: relative;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .bottom{
+    padding-left: 0px;
+}
+
+.advance-search-calculator .list-view .autopartSearch .top-card-image img{
+    width: 244px;
+    height: 160px;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code{
+background-color: transparent;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList{
+    position:relative;
+    bottom: 18px;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList .offRateate{
+    font-family: 'Lato';
+    font-weight: 600;
+    line-height: normal;
+    color: #2384c1;
+    font-size: 12px;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList .disRate{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList .totalRate{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.62px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .priceList .totalRate span{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin: 0px;
+    color: #353c4d;
+}
+.advance-search-calculator .list-view .autopartSearch .top-card-image .stocks{
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    text-align: left;
+    color:#0c1529;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.advance-search-calculator .list-view .autopartSearch .top-card-image .stocks span{
+    color: #5d6370;
+}
+.advance-search-calculator .autopartSearch .wrappers .center .detail1 .more-detail .model-code .top .head{
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 91px;
+    color: #858a94;
+}
+.advance-search-calculator .grid-view .autopartSearch .card .card-body .top-card-image img{
+    width: 100%;
+}
+.advance-search-calculator .grid-view .autopartSearch .stocks{
+    display: none;
+}
+.advance-search-calculator .grid-view .autopartSearch .card .card-body .grid-details .top .pricing .priceListGrid .perOffGrid{
+    font-family: 'Lato';
+    font-weight: 600;
+    line-height: normal;
+    color: #2384c1;
+    font-size: 12px;
+}
+.advance-search-calculator .grid-view .autopartSearch .card .card-body .grid-details .top .pricing .priceListGrid .priceGrid{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: line-through;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.advance-search-calculator .grid-view .autopartSearch .card .card-body .grid-details .top .pricing .priceListGrid .totalGrid{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 29.32px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.advance-search-calculator .grid-view .autopartSearch .card .card-body .grid-details .top .details .inner .dot{
+    left: 3px;
+}
+
+.advance-search-calculator .autoPartCarDesc .title{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #08202e;
+}
+.advance-search-calculator .autoPartCarDesc .desc{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #5d6370;
+}
+.advance-search-calculator .list-view .autopartSearch .top-card-image .percent-off{
+    top: 0;
+    margin: 10px;
+    background: linear-gradient(180deg, #49d197 0%, #26ae00 100%);
+    width: max-content;
+    height: 21px;
+    padding: 4px 6px 4px 6px;
+    border-radius: 24px;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12.29px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    position: absolute;
+}
+/* ==================================== End Auto Parts Search Page CSS ============================*/

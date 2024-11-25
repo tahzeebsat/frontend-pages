@@ -4082,3 +4082,39 @@
     padding: 0px 0px 20px 0px;
 }
 /* ==================================== End Auto Parts Page CSS ============================*/
+
+/* ==================================== Start Auto Parts Search Page CSS ============================*/
+.mobile2-view .advance-search-calculator-mobile .mobile-auto-parts-search-price .inner .title{
+    margin-top: 4px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-auto-parts-search-price .inner .amount{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-auto-parts-search-action .btn-cart{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.05em;
+    border-radius: 4px;
+    height: 28px;
+    width: 100%;
+    color: #1c6a9b;
+    background-color: transparent;
+    border: 1px solid;
+}
+.mobile2-view .advance-search-calculator-mobile .mobile-auto-parts-search-show #toggleView[aria-expanded="true"]{
+    display: none;
+}
+/* ==================================== End Auto Parts Search Page CSS ============================*/
