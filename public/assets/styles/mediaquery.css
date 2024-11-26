@@ -180,6 +180,9 @@
     .search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .detail-3 .bottom::after{
         left: 85px;
     }
+    .search-details-desktop .searchDetails .startDetails .right-details .inner .car-search-details .autoPartsDetailPlug .bottom::after{
+        left: 100px;
+    }
     .search-details-desktop .searchDetails .startDetails .right-details .inner .details-pricing .pricing .price .top{
         font-size: 14px;
     }

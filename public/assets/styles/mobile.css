@@ -4118,3 +4118,69 @@
     display: none;
 }
 /* ==================================== End Auto Parts Search Page CSS ============================*/
+
+/* ==================================== Start Auto Parts Search Details Page CSS ============================*/
+.search-details-mobile .search-details .wrapper .paymentAutoPartsDetails .inner .topHeadAutoPartsDetailMobile .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #353c4d;
+    margin-top: 24px;
+}
+.search-details-mobile .search-details .wrapper .paymentAutoPartsDetails .inner .topHeadAutoPartsDetailMobile .viewAll{
+    font-family: 'Lato';
+    font-size: 14px;
+    align-self: center;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.search-details-mobile .search-details .wrapper .paymentAutoPartsDetails .inner .checks .overflow1 .paymentSource{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #353c4d;
+    margin-bottom: 16px;
+}
+.mobile-autoParts-Details-Mobile .customer-review-mobile .container{
+    padding: 0;
+}
+
+.mobile-autoParts-Details-Mobile .descriptionAutoPartsDetailMobile .inner .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #353c4d;
+}
+.mobile-autoParts-Details-Mobile .descriptionAutoPartsDetailMobile .inner .details .para{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: justify;
+    color: #5d6370;
+}
+.mobile-autoParts-Details-Mobile .descriptionAutoPartsDetailMobile .inner .mobile-search-view-text #toggleView{
+    color: #1c6a9b;
+    font-size: 16px;
+    font-family: 'Sofia-Pro';
+    font-weight: 700;
+}
+.mobile-autoParts-Details-Mobile .descriptionAutoPartsDetailMobile .inner .mobile-search-view-text #toggleView[aria-expanded="true"]{
+    display: none;
+}
+.mobile-autoParts-Details-Mobile .descriptionAutoPartsDetailMobile .inner .mobile-search-view-text #toggleViewLess2{
+    color: #1c6a9b;
+    font-size: 16px;
+    font-family: 'Sofia-Pro';
+    font-weight: 700;
+}
+
+/* ==================================== End Auto Parts Search Details Page CSS ============================*/

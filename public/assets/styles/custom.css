@@ -6770,3 +6770,24 @@ background-color: transparent;
     position: absolute;
 }
 /* ==================================== End Auto Parts Search Page CSS ============================*/
+
+/* ==================================== Start Auto Parts Search Details Page CSS ============================*/
+.search-details-desktop .searchDetails .startDetails .right-details .inner .top-location .left .nysales_autoPartsDetail{
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #ff4b44;
+    padding: 2px 10px;
+    border-radius: 50px;
+}
+.search-details-desktop .searchDetails .startDetails .right-details .inner .autoPartsDetailHeading{
+    font-family: 'Lato';
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    text-align: left;
+    color: #0C1529;
+}
+
+/* ==================================== End Auto Parts Search Details Page CSS ============================*/
