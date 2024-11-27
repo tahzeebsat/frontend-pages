@@ -4184,3 +4184,144 @@
 }
 
 /* ==================================== End Auto Parts Search Details Page CSS ============================*/
+
+/* ==================================== Start Reserve Page CSS ============================*/
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile label{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile label span{
+    color: #dc3545;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile input{
+    font-family: 'Lato';
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 16px;
+    border: 1px solid #d0d5dd;
+    color: #101828;
+    height: 40px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .paymentMethodHeading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reservePaymentMobile label{
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    padding: 16px 10px;
+    font-size: 16px;
+    font-family: 'Lato';
+    width: 100%;
+    margin: 0px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary{
+    background-color: #f1f5f9;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .earn p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #f1892b;
+    width: max-content;
+    color: white;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .title p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+    margin-top: 10.22px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .reserveDetails .detail .inner .top{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .reserveDetails .detail .inner .bottom{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .reserveDetails .detail span{
+    font-size: 30px;
+    align-self: center;
+    color: #aeb1b8;
+    position: relative;
+    left: 6px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .reservePrice .priceTitle{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveSummary .reservePrice .priceAmount{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    padding-right: 21px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveBtn .btn-reserve{
+    background-color: #2a9fe8;
+    border: 1px solid #2a9fe8;
+    border-radius: 4px;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    height: 36px;
+    width: 176px;
+    margin: 15px 0px;
+}
+.reserve_car_mobile .reserveCarMobile .infoReserveMobile .reserveOrderText{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+/* ==================================== End Reserve Page CSS ============================*/
