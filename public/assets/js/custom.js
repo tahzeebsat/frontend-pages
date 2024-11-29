@@ -50,6 +50,66 @@ collapsibleButtons.forEach((collapsibleButton) => {
 
 // ========================== End Accordian For New Car Home Page ==========================
 
+// ========================= Start Buy Page Accordion Active =========================
+const accSingleTriggers = document.querySelectorAll('.js-acc-single-trigger');
+
+accSingleTriggers.forEach(trigger => trigger.addEventListener('click', toggleAccordion));
+
+function toggleAccordion() {
+  const items = document.querySelectorAll('.js-acc-item');
+  const thisItem = this.parentNode;
+
+  items.forEach(item => {
+    if (thisItem == item) {
+      thisItem.classList.toggle('is-open');
+      return;
+    }
+    item.classList.remove('is-open');
+  });
+}
+
+
+// Get references to the input and button elements
+const inputField = document.getElementById("codeInput");
+const applyButton = document.getElementById("applyBtn");
+
+// Listen for input events on the input field
+inputField&&inputField.addEventListener("input", function() {
+  // If there is text in the input, enable the button and change its color to blue
+  if (inputField.value.trim() !== "") {
+    applyButton.disabled = false;
+    applyButton.classList.remove("btn-secondary");
+    applyButton.classList.add("btn-primary"); // Add blue button class
+  } else {
+    applyButton.disabled = true;
+    applyButton.classList.remove("btn-primary");
+    applyButton.classList.add("btn-secondary"); // Revert to grey button
+  }
+});
+
+// ===================== Mobile View
+
+// Get references to the input and button elements
+const inputField2 = document.getElementById("codeInput2");
+const applyButton2 = document.getElementById("applyBtn2");
+
+// Listen for input events on the input field
+inputField2&&inputField2.addEventListener("input", function() {
+  // If there is text in the input, enable the button and change its color to blue
+  if (inputField2.value.trim() !== "") {
+    applyButton2.disabled = false;
+    applyButton2.classList.remove("btn-secondary");
+    applyButton2.classList.add("btn-primary"); // Add blue button class
+  } else {
+    applyButton2.disabled = true;
+    applyButton2.classList.remove("btn-primary");
+    applyButton2.classList.add("btn-secondary"); // Revert to grey button
+  }
+});
+
+// ========================= End Buy Page Accordion Active =========================
+
+
 // ========================== Start Auto Parts Page ==========================
 const collapsibleButtons2 = document.querySelectorAll(".collapsible-trigger-btn2");
 
@@ -2110,3 +2170,4 @@ categoryTabs.forEach(tab => {
 });
 
 // ========================= End Mobile Auto Parts Page Filter Active =========================
+

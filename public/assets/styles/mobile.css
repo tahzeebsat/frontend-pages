@@ -4325,3 +4325,529 @@
     color: #858a94;
 }
 /* ==================================== End Reserve Page CSS ============================*/
+
+/* ==================================== Start Reserve Car Home Page CSS ============================*/
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom{
+    box-shadow: 0px 0px 5.24px 0px #2f2b4333;
+    padding: 10px;
+    border-radius: 9px;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .topHead .left .earn-points{
+    padding: 2px 6px;
+    border-radius: 20px;
+    background: #f1892b;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .topHead .left .off{
+    padding: 2px 6px;
+    border-radius: 20px;
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #2a9fe8;
+    color: #fff;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .topHead .right .loc{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #858a94;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .topHead .right .country{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #0c1529;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .desTitle{
+    font-family: 'Lato';
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #1c6a9b;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .details .detail .inner .topHead{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .details .detail .inner .bottomHead{
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .details .detail span{
+    font-size: 40px;
+    color: #aeb1b8;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .carPriceReserve .titlePrice{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .bottom .carPriceReserve .amountPrice{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .reserveActionMobile .btn-reserveAction{
+    width: 100%;
+    height: 45px;
+    border-radius: 4px;
+    background: #2a9fe8;
+    border: unset;
+    font-family: 'Lato';
+    font-size: 13.4px;
+    font-weight: 700;
+    line-height: 20.1px;
+    color: #ffffff;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .howItWorksReserveMobile .title{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1c6a9b;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .howItWorksReserveMobile .heading{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #020408;
+}
+.reserveCarHome-Mobile .reserveCarHomeMobile .content .howItWorksReserveMobile .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 500;
+    line-height: clamp(20px, 2vw, 24px);
+    color: #5d6370;
+    margin: 8px 0 0 20px;
+    text-align: justify;
+    letter-spacing: -0.01em;
+}
+/* ==================================== End Reserve Car Home Page CSS ============================*/
+
+/* ==================================== Start Buy Order Page CSS ============================*/
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile{
+    border-radius: 10px;
+    background-color: #f1f5f9;
+    padding: 12px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .heading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    margin-bottom: 11px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .nextOrderLabel{
+    background-color: #fefaf5;
+    padding: 6px 6px 6px 6px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .nextOrderLabel img{
+    height: 12px;
+    width: 12px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .nextOrderLabel p{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0px 4px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .earn p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    background-color: #f1892b;
+    color: white;
+    width: max-content;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .title p{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+    padding: 10px 0px 0px 0px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .detailsMobile .detail .inner .top{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .detailsMobile .detail .inner .bottom{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .detailsMobile .detail span{
+    font-size: 30px;
+    color: grey;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .destinationBuyMobile .left p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .destinationBuyMobile .left select{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    height: 36px;
+    margin: 10px 0px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .destinationBuyMobile .right p{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .destinationBuyMobile .right select{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    height: 36px;
+    margin: 10px 0px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .marine-insuranceBuy .left{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    display: flex;
+    justify-content: start;
+    flex-grow: 1;
+    align-items: center;
+    gap: 8.49px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .marine-insuranceBuy .right{
+    display: flex;
+    align-items: center;
+    gap: 11.55px;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .marine-insuranceBuy .right .form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image: url(../images/radioCheck.webp);
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .marine-insuranceBuy .right .form-check-input:checked{
+    border-color: transparent;
+    background-color: transparent;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .currencyBuyMobile .title{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17.78px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-bottom: 0;
+} 
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .furtherDetailBuy .currencyBuyMobile select{
+    background-color: #ededf1;
+    width: 81px;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 6px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    box-shadow: 0px 1px 4px 0px #0000001a;
+    border: unset;
+    background-size: 10px;
+} 
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .carBuyPrice .inner .pricing .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderSummaryBuyMobile .carBuyPrice .inner .pricing .bottom{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .personalInfoMobile .inner .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .personalInfoMobile .inner .addNewMobile{
+    padding: 15px 10px 5px 10px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .personalInfoMobile .inner .addNewMobile .fa-plus{
+    color: #80808082;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .personalInfoMobile .inner .addNewMobile a{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+    text-decoration: none;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .activeInformationMobile .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-bottom: 0;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .activeInformationMobile .persInfoActiveDetails{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .activeInformationMobile .activeInfoEdit{
+    color: #2384c1;
+    font-size: 14px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single {
+    margin-top: 10px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-title {
+    cursor: pointer;
+    position: relative;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-title::after {
+    content: "";
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-top: solid 2px #353c4d;
+    border-right: solid 2px #353c4d;
+    transform: translateY(-50%) rotate(135deg);
+    left: 115px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-item.is-open .accordion-single-title::after {
+    transform: translateY(-50%) rotate(315deg);
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-content .accordDetail {
+    padding: 10px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-item.is-open .accordion-single-content {
+    max-height: 150px;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+}
+
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordion-single-content .accordDetail input {
+    width: 306px;
+    height: 40px;
+    max-width: 306px;
+    background-color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+    border-radius: 10px;
+    border: 1px solid #d0d5dd;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordDetail .btn-primary {
+    background-color: var(--custome-color);
+    border: 1px solid var(--custome-color);
+    border-radius: 4px;
+    color: white;
+    height: 40px;
+    width: 176px;
+    transition-duration: 0.4s;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .accordDetail .btn-secondary:disabled {
+    border-color: #ced0d4;
+    height: 40px;
+    width: 176px;
+    background-color: #ededf1;
+    border: 1px solid #ededf1;
+    border-radius: 4px;
+    padding: 8px 10px 8px 10px;
+    color: #b2aebf;
+    transition-duration: 0.4s;
+}
+
+.buy_car_method_mobile .buyCarmethodMobile .inner .paymentBuy .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .orderPlaceBuy .btn-buy{
+    background-color: #2a9fe8;
+    border: 1px solid #2a9fe8;
+    border-radius: 4px;
+    padding: 8px 40px 8px 40px;
+    color: white;
+    transition-duration: 0.4s;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .buyTerms{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    margin: 15px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .inner .buyTerms a{
+    text-decoration: none;
+    color: #2384c1;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-content{
+   margin-top: 50%;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-header{
+    padding-block: 14px;
+    padding-inline: 24px;
+    background-color: #f1f5f9;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-header .modal-title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-body form label{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-body form span{
+    color: #dc3545;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-body form input{
+    font-family: 'Lato';
+    font-size: 12px;
+    border-radius: 6px;
+    font-weight: 400;
+    line-height: 16px;
+    border: 1px solid #d0d5dd;
+    color: #101828;
+    height: 40px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .modal-body form select{
+    font-size: 12px;
+}
+.buy_car_method_mobile .buyCarmethodMobile .modal .saveActionMobile .btn-save{
+    height: 32px;
+    width: 208px;
+    color: white;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    padding-block: 8px;
+    padding-inline: 10px;
+    border: 1px solid #2a9fe8;
+    transition-duration: 0.4s;
+    margin-bottom: 32px;
+}
+/* ==================================== End Buy Order Page CSS ============================*/

@@ -51,8 +51,14 @@ Route::get('/auto-parts-search', function () {
 Route::get('/auto-parts-search-details', function () {
     return view('used_car/auto-parts-search-details');
 });
+Route::get('/reserve-car', function () {
+    return view('used_car/reserve-car');
+});
 Route::get('/reserve', function () {
     return view('used_car/reserve');
+});
+Route::get('/buy', function () {
+    return view('used_car/buy');
 });
 
 // ========================== Static Pages Route ==========================
