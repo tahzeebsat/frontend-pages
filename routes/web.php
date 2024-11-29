@@ -60,6 +60,9 @@ Route::get('/reserve', function () {
 Route::get('/buy', function () {
     return view('used_car/buy');
 });
+Route::get('/thankyou', function () {
+    return view('used_car/thankyou');
+});
 
 // ========================== Static Pages Route ==========================
 

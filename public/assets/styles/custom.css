@@ -7559,3 +7559,180 @@ background-color: transparent;
     padding-right: 21px;
 }
 /* ==================================== End Buy Car Page CSS ============================*/
+
+/* ==================================== Start Thankyou Page CSS ============================*/
+.thankyou_desktop .thankyouDesktop .inner .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.57px;
+    letter-spacing: -0.018em;
+    color: #353c4d;
+}
+.thankyou_desktop .thankyouDesktop .inner .heading span{
+    color: #2384c1;
+}
+.thankyou_desktop .thankyouDesktop .inner .tag{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.thankyou_desktop .thankyouDesktop .inner .orderPrice .order .order1 .top{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475569;
+}
+.thankyou_desktop .thankyouDesktop .inner .orderPrice .order .order1 .bottom{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    padding-left: 40px;
+}
+.thankyou_desktop .thankyouDesktop .inner .orderPrice .order .order1 .paid{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #2f9461;
+    padding-left: 60px;
+}
+.thankyou_desktop .thankyouDesktop .inner .orderPrice .btn-track-order{
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: white;
+    border-radius: 4px;
+    height: 44px;
+    width: max-content;
+}
+.thankyou_desktop .thankyouDesktop .inner .shippingAddress .title{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+}
+.thankyou_desktop .thankyouDesktop .inner .shippingAddress .para{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 4px;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 12px;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails{
+    background-color: #fbfdff;
+    border: 1px solid #cbcbcb;
+    border-radius: 10px;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .nys{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #ff4b44;
+    color: white;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .pc{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+    background-color: #fbf2cb;
+    color: #c8811a;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .heading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.93px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+    padding: 11px 0px;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .details .detail .inner .top{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color:#858a94;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .details .detail .inner .bottom{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .details .detail span{
+    font-size: 30px;
+    align-self: center;
+    color: #aeb1b8;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .thankyouPrice .inner .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .thankyouPrice .inner .bottom{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+}
+.thankyou_desktop .thankyouDesktop .orderSummary .orderDetails .thankyouPrice .inner .km{
+    color: #7a7493;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+/* ==================================== End Thankyou Page CSS ============================ */

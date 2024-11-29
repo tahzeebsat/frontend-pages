@@ -4851,3 +4851,185 @@
     margin-bottom: 32px;
 }
 /* ==================================== End Buy Order Page CSS ============================*/
+
+/* ==================================== Start Thankyou Page CSS ============================*/
+.thankyou_mobile .thankYouMobile .inner .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24.57px;
+    letter-spacing: -0.018em;
+    color: #353c4d;
+    padding-bottom: 10px;
+}
+.thankyou_mobile .thankYouMobile .inner .heading span{
+    color: #2384c1;
+}
+.thankyou_mobile .thankYouMobile .inner .tag{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+}
+.thankyou_mobile .thankYouMobile .inner .orderPrice .order .order1 .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475569;
+}
+.thankyou_mobile .thankYouMobile .inner .orderPrice .order .order1 .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    padding-left: 80px;
+
+}
+.thankyou_mobile .thankYouMobile .inner .orderPrice .order .order1 .paid{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #2f9461;
+    padding-left: 100px;
+}
+.thankyou_mobile .thankYouMobile .inner .orderPrice .btn-track-order{
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: white;
+    border-radius: 4px;
+    height: 44px;
+    width: max-content;
+}
+.thankyou_mobile .thankYouMobile .inner .shippingAddress .title{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+}
+.thankyou_mobile .thankYouMobile .inner .shippingAddress .para{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding-top: 4px;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails{
+    border-radius: 10px;
+    background-color: #f1f5f9;
+    padding: 12px;
+    border: 1px solid #cbcbcb;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .top .nys{
+    background-color: #ff4b44;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .top .pc{
+    background-color: #fbf2cb;
+    color: #c8811a;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .heading{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+    margin-top: 10.22px;
+    margin-bottom: 7.41px;
+
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .details .detail .inner .top{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .details .detail .inner .bottom{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .details .detail span{
+    font-size: 30px;
+    align-self: center;
+    color: #aeb1b8;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .thankyouPrice .inner .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .thankyouPrice .inner .bottom{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    padding-right: 21px;
+}
+.thankyou_mobile .thankYouMobile .inner .orderSummary .orderDetails .thankyouPrice .inner .km{
+    color: #7a7493;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+/* ==================================== End Thankyou Page CSS ============================*/

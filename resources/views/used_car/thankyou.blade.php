@@ -9,7 +9,7 @@
 @component('used_car.partial.breadcrumbs')
 @endcomponent
 
-@component('used_car.partial.reserve_car')
+@component('used_car.partial.thanks')
 @endcomponent
 
 
