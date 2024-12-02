@@ -7736,3 +7736,456 @@ background-color: transparent;
     letter-spacing: -0.01em;
 }
 /* ==================================== End Thankyou Page CSS ============================ */
+
+/* ==================================== Start Tracking Page CSS ============================ */
+.track_order-desktop .trackOrder .helpCard{
+    margin-block: 32px;
+    background-color: #2f2b430d;
+    padding: 24px;
+    border-radius: 12px;
+}
+.track_order-desktop .trackOrder .helpCard .helpUsGrow{
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 4px solid #2384c1;
+}
+.track_order-desktop .trackOrder .helpCard .helpUsGrow .heading{
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #08202e;
+}
+.track_order-desktop .trackOrder .helpCard .helpUsGrow .para{
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #08202e;
+}
+.track_order-desktop .trackOrder .helpCard .helpUsGrow .btn-giveUp{
+    color: #ffffff;
+    padding: 7px 47px;
+    border: 1px solid #2384c1;
+    background-color: #2384c1;
+    border-radius: 4px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+}
+.track_order-desktop .trackOrder .trackOrderDetails .left .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #08202e;
+    padding-bottom: 24px;
+}
+
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items {
+    margin-bottom: 17px;
+    padding-left: 35px;
+    position: relative;
+    border-left: 2px solid #cac8d4;
+    padding-bottom: 8px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items h2 {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #344054;
+    margin-bottom: 2px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items p {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #475467;
+    margin-bottom: 2px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items h4 {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    margin-bottom: 0px;
+  }
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.completed::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -7px;
+    left: -20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: #2384c1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess::before {
+    content: "";
+    position: absolute;
+    font-size: 22px;
+    width: 32px;
+    height: 32px;
+    top: -5px;
+    left: -16px;
+    border: 2px solid #d0d5dd;
+    color: #d0d5dd;
+    border-radius: 50%;
+    background: #eaecf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess::after {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 4px solid white;
+    top: -9px;
+    left: -20px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.completed {
+    border-left: 2px solid #2384c1;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess {
+    border-left: 2px solid #eaecf0;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess h2 {
+    color: #858a94;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess p {
+    color: #aeb1b8;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess h4 {
+    color: #aeb1b8;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.completed .marker-tick {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -6px;
+    height: 15px;
+    width: 15px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess .marker-tick {
+    display: none;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.completed .marker-dots {
+    display: none;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items.inprocess .marker-dots {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: -5px;
+    height: 10px;
+    width: 10px;
+  }
+  
+.track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items:last-child {
+    border-left: 0px;
+  }
+
+  .track_order-desktop .trackOrder .trackOrderDetails .right .heading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 12px;
+  }
+
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail{
+    border-radius: 10px;
+    background-color: #fbfdff;
+    border: 1px solid #cbcbcb;
+    padding: 12px;
+  }
+
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .top .nys{
+    background-color: #ff4b44;
+    color: white;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .top .pc{
+    background-color: #fbf2cb;
+    color: #c8811a;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    padding-block: 2px;
+    padding-inline: 10px;
+    border-radius: 31px;
+    display: flex;
+    align-items: center;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .heading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.93px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .details .detail .inner .top{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .details .detail .inner .bottom{
+    font-family: 'Lato';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18.28px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .details .detail span{
+    font-size: 30px;
+    color: #858a94;
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .price .text{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .price .amount{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    padding-right: 21px;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .deliveryItem .top{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .deliveryItem .bottom{
+    color: #7a7493;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+  .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .deliveryItem .paid{
+    color: #2F9461;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+  .track_order-desktop .trackOrder .haveAQuestion{
+    background-color: #f6f6f8;
+    padding-block: 32px;
+  }
+  .track_order-desktop .trackOrder .haveAQuestion .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #08202e;
+    margin-bottom: 8px;
+  }
+  .track_order-desktop .trackOrder .haveAQuestion .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #5d6370;
+    font-weight: 400;
+  }
+  .track_order-desktop .trackOrder .haveAQuestion .para a{
+    color: #2384c1;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .track_order-desktop .trackOrder .modal-content{
+    width: 650px;
+    position: relative;
+    right: 130px;
+    border-radius: 20px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-header .modal-title{
+    font-family: "Lato";
+    color: #0c1529;
+    letter-spacing: -0.01em;
+    position: relative;
+    left: 40%;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .amount-card .title{
+    font-family: "Lato";
+    color: #0c1529;
+    letter-spacing: -0.01em;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .amount-card{
+    border-radius: 5px;
+    background-color: #2f2b430d;
+    padding: 14px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .amountSelect .inner .amount input{
+    width: 100%;
+    outline: none;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #667085;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .amountSelect .inner .amount select{
+    width: max-content;
+    font-family: "Lato";
+    font-size: 11.4px;
+    font-weight: 600;
+    color: #353c4d;
+    outline: none;
+    height: 36px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .amountSelect .inner label{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+    margin-bottom: 6px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .selectFromHere .title{
+    font-family: "Lato";
+    color: #0c1529;
+    letter-spacing: -0.01em;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 3px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .selectFromHere .selectedAmount .inner{
+    padding-block: 2px;
+    color: #5d6370;
+    padding-inline: 22px;
+    border: 1px solid #5d6370;
+    border-radius: 54px;
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.018em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .paymentMethod .inner{
+    border-radius: 5px;
+    background-color: #2f2b430d;
+    padding: 14px;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .paymentMethod .inner .title{
+    font-family: "Lato";
+    color: #0c1529;
+    letter-spacing: -0.01em;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .paymentMethod .inner .cardAccept .head{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #344054;
+  }
+  .track_order-desktop .trackOrder .modal-content .modal-body .paymentMethod .inner .cardAccept input{
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #b2aebf;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    height: 40px;
+  }
+  .track_order-desktop .trackOrder .modal-content .sumbit_form .btn-submit{
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    color: #ffffff;
+    border-radius: 6px;
+    letter-spacing: -0.018
+  }
+
+  .track_order-desktop .trackOrder .modal-content .modal-body .selectFromHere .inner.selectAmountPaid{
+    cursor: pointer;
+  }
+
+  .track_order-desktop .trackOrder .modal-content .modal-body .selectFromHere .inner.selectAmountPaid.active{
+    background-color: #2384c1;
+    border: 1px solid #154f74;
+    color: #ffffff;
+  }
+/* ==================================== End Tracking Page CSS ============================ */

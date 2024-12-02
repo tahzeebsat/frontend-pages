@@ -63,6 +63,9 @@ Route::get('/buy', function () {
 Route::get('/thankyou', function () {
     return view('used_car/thankyou');
 });
+Route::get('/track_order', function () {
+    return view('used_car/track_order');
+});
 
 // ========================== Static Pages Route ==========================
 

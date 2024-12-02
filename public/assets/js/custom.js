@@ -565,6 +565,19 @@ document.getElementById('showMoreCountries').addEventListener('click', function(
 }catch(error){}
 // ========================= End Expand Country Home Section ======================
 
+// ========================= Start Track Order Model Buttons ======================
+document.querySelectorAll('.selectAmountPaid').forEach(function(innerElement) {
+  innerElement.addEventListener('click', function() {
+    // Remove 'active' class from all .inner divs
+    document.querySelectorAll('.inner').forEach(function(inner) {
+      inner.classList.remove('active');
+    });
+    
+    // Add 'active' class to the clicked .inner div
+    innerElement.classList.add('active');
+  });
+});
+// ========================= End Track Order Model Buttons ======================
 
 
 // ========================= Start Swiper Js Section ======================
@@ -2170,4 +2183,5 @@ categoryTabs.forEach(tab => {
 });
 
 // ========================= End Mobile Auto Parts Page Filter Active =========================
+
 

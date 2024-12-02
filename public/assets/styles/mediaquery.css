@@ -408,6 +408,19 @@
         letter-spacing: -0.01em;
         color: #1c6a9b;
       }
+      .track_order-desktop .trackOrder .trackOrderDetails{
+        display: block !important;
+      }
+      .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail{
+        width: max-content;
+      }
+      .track_order-desktop .trackOrder .trackOrderDetails .timeline{
+        margin: 0px 10px;
+      }
+      .track_order-desktop .trackOrder .modal-content{
+        width: unset;
+        right: 0px;
+      }
 }
 
 @media (max-width:767px){
@@ -911,6 +924,41 @@
     }
     .blog-cards-desktop .blogCards .blog-cards-section .inner .card{
     margin-bottom: 15px;
+    }
+    .track_order-desktop .trackOrder .helpCard .helpUsGrow .heading{
+        font-size: 18px;
+    }
+    .track_order-desktop .trackOrder .helpCard .helpUsGrow .para{
+        font-size: 14px;
+    }
+    .track_order-desktop .trackOrder .helpCard .helpUsGrow .btn-giveUp{
+        font-size: 12px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .left .heading{
+        font-size: 18px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items h2{
+        font-size: 12px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .left .timeline-items p{
+        font-size: 14px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .price .text{
+        font-size: 12px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .price .amount{
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .track_order-desktop .trackOrder .trackOrderDetails .right .orderSummaryDetail .totalPrice .deliveryItem .top{
+        font-size: 12px;
+    }
+    .track_order-desktop .trackOrder .haveAQuestion .heading{
+        font-size: 16px;
+    }
+    .track_order-desktop .trackOrder .haveAQuestion .para{
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 
