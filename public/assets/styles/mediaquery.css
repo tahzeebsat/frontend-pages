@@ -84,6 +84,9 @@
         width: 45%;
         height: 257px;
     }
+    .carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .inner .inner{
+        height: 245px;
+    }
 }
 
 @media(max-width:1199px){
@@ -421,6 +424,9 @@
         width: unset;
         right: 0px;
       }
+      .carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .inner .inner {
+        height: 320px;
+    }
 }
 
 @media (max-width:767px){

@@ -5033,3 +5033,34 @@
     letter-spacing: -0.01em;
 }
 /* ==================================== End Thankyou Page CSS ============================*/
+
+/* ==================================== Start Ship Agent Page CSS ============================*/
+.shipAgent_Mobile .shipAgentMobile .heading{
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "Sofia Pro", sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.018em;
+    color: #020408;
+    padding-bottom: 10px;
+}
+.shipAgent_Mobile .shipAgentMobile .para{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Lato";
+    font-weight: 500;
+    letter-spacing: -0.014em;
+    color: #020408;
+}
+.shipAgent_Mobile .shipAgentMobile .africaRigionMobile .list-group .list-group-item{
+   border: none;
+}
+.shipAgent_Mobile .shipAgentMobile .africaRigionMobile ul li a{
+    color: #2384c1;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Lato';
+    text-decoration: none;
+}
+
+/* ==================================== End Ship Agent Page CSS ============================*/

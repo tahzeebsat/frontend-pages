@@ -69,6 +69,12 @@ Route::get('/track_order', function () {
 
 // ========================== Static Pages Route ==========================
 
+Route::get('/shipping_agent', function () {
+    return view('static_pages/shipping_agent');
+});
+Route::get('/carrier-service-policy', function () {
+    return view('static_pages/carrier-service-policy');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });

@@ -8189,3 +8189,146 @@ background-color: transparent;
     color: #ffffff;
   }
 /* ==================================== End Tracking Page CSS ============================ */
+
+/* ==================================== Start Shipping Agent Page CSS ============================ */
+.shipAgent_desktop .shipAgent .heading{
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #020408;
+    padding-bottom: 10px;
+}
+.shipAgent_desktop .shipAgent .para{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+
+.shipAgent_desktop .shipAgent .africaReigion .inner ul li{
+   color: #2384C1;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Lato';
+}
+.shipAgent_desktop .shipAgent .africaReigion .inner ul li{
+   color: #2384C1;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Lato';
+}
+.shipAgent_desktop .shipAgent .europeReigion .inner ul li{
+   color: #2384C1;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Lato';
+}
+.shipAgent_desktop .shipAgent .asiaReigion .inner ul li{
+   color: #2384C1;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Lato';
+}
+.shipAgent_desktop .shipAgent .americaReigion .inner ul li{
+   color: #2384C1;
+   font-size: 18px;
+   font-weight: 500;
+   font-family: 'Lato';
+}
+/* ==================================== End Shipping Agent Page CSS ============================ */
+
+/* ==================================== Start Carrier Service Page CSS ============================ */
+.carrier_service_policy_desktop .carrierService .innerDetails .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0c1529;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #5d6370
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .left{
+    padding: 20px 14px 20px 10px;
+    border: 1px solid #eaebf0;
+    height: 58vh;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .title{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #0c1529;
+    border-bottom: 1px solid #d4ecfa;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .detail{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    margin-bottom: 0;
+    padding: 20px 0 20px 0;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .right{
+    padding: 20px 14px 20px 10px;
+    border: 1px solid #eaebf0;
+    height: 58vh;
+}
+
+.carrier_service_policy_desktop .carrierService .innerDetails .carrierService .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0c1529;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .carrierService .inner .maxSec{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #051128;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #aeb1b8;
+    background-color: #fffdf6;
+    height: 72px;
+    width: 95%;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0c1529;
+}
+.carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .inner .inner .head{
+    color: #0c1529;
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/* ==================================== End Carrier Service Page CSS ============================ */
