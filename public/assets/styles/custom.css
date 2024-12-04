@@ -8405,3 +8405,33 @@ background-color: transparent;
     height: 95%;
 }
 /* ==================================== End Finance Service Page CSS ============================ */
+
+/* ==================================== Start Refund Policy Page CSS ============================ */
+.refund_policy_desktop .refundPolicy .innerDetails .heading{
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #5d6370;
+    margin-bottom: 24px;
+    color: #0c1529;
+}
+.refund_policy_desktop .refundPolicy .innerDetails .para{
+    font-family: "Lato";
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+}
+.refund_policy_desktop .refundPolicy .innerDetails .list{
+    font-family: "Lato";
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+}
+
+/* ==================================== End Refund Policy Page CSS ============================ */
