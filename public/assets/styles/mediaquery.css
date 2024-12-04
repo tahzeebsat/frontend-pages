@@ -424,9 +424,7 @@
         width: unset;
         right: 0px;
       }
-      .carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .inner .inner {
-        height: 320px;
-    }
+     
 }
 
 @media (max-width:767px){
@@ -965,6 +963,15 @@
     .track_order-desktop .trackOrder .haveAQuestion .para{
         font-size: 14px;
         line-height: 24px;
+    }
+    .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption{
+        display: block !important;
+    }
+    .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .left{
+        height: unset;
+    }
+    .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .right{
+        height: unset;
     }
 }
 
