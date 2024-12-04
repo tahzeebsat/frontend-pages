@@ -114,15 +114,3 @@
     </div>
 </section>
 
-
-{{-- =========================== Mobile View =========================--}}
-{{-- <section class="carrier_service_policy_mobile mobile2-view">
-    <div class="carrierServicePolicyMobile">
-        <div class="container">
-            <div class="row">
-
-            </div>
-        </div>
-    </div>
-
-</section> --}}

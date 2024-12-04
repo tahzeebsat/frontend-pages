@@ -8332,3 +8332,76 @@ background-color: transparent;
     margin-bottom: 20px;
 }
 /* ==================================== End Carrier Service Page CSS ============================ */
+
+/* ==================================== Start Finance Service Page CSS ============================ */
+.finance_service_desktop .financeService .innerDetail .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0c1529;
+}
+.finance_service_desktop .financeService .innerDetail .para{
+    font-family: 'Lato';
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5d6370;
+    text-align: left;
+}
+.finance_service_desktop .financeService .innerDetail .payInstallment{
+    background-color: #f6f6f8;
+    padding-block: 22px;
+    padding-right: 24px;
+}
+.finance_service_desktop .financeService .innerDetail .payInstallment .centeralized .htb-heading .title{
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #0C1529;
+    margin-bottom: 3px;
+}
+.finance_service_desktop .financeService .innerDetail .payInstallment .centeralized .htb-heading .para{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    max-width: 480px;
+}
+.finance_service_desktop .financeService .innerDetail .finance-services-custom .finance-services-card .card{
+    padding: 20px 14px 20px 10px;
+    border: 1px solid #eaebf0;
+    background-color: #ffff;
+    height: 95%;
+}
+.finance_service_desktop .financeService .innerDetail .finance-services-card .finance-body-inner .finance-services-hdr{
+    font-family: 'Lato';
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+}
+.finance_service_desktop .financeService .innerDetail .finance-services-card .finance-body-inner .finance-services-para{
+    font-family: 'Lato';
+    font-size: clamp(16px, 4vw, 20px);
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #5D6370;
+}
+.finance_service_desktop .financeService .innerDetail .ourFinanceService .financ-emore-cookies .finance-services-card .card{
+    padding: 20px 14px 20px 10px;
+    border: 1px solid #eaebf0;
+    background-color: #ffff;
+    height: 95%;
+}
+/* ==================================== End Finance Service Page CSS ============================ */

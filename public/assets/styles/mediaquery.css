@@ -424,6 +424,24 @@
         width: unset;
         right: 0px;
       }
+      .finance_service_desktop .financeService .innerDetail .payInstallment .centeralized .htb-heading .title{
+        margin: 0 !important;
+        padding: 0px 15px !important;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .finance_service_desktop .financeService .innerDetail .payInstallment .centeralized .htb-heading .para{
+        margin: 0 !important;
+        padding: 10px 15px !important;
+        font-size: 16px;
+    }
+    .finance_service_desktop .financeService .innerDetail .payInstallment .sat-video-frame iframe{
+        width: 100%;
+        margin: 0px 12px
+    }
+    .finance_service_desktop .financeService .innerDetail .payInstallment{
+        display: block !important;
+    }
      
 }
 
@@ -973,5 +991,6 @@
     .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .right{
         height: unset;
     }
+   
 }
 

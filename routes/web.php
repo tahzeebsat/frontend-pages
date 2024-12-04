@@ -75,6 +75,9 @@ Route::get('/shipping_agent', function () {
 Route::get('/carrier-service-policy', function () {
     return view('static_pages/carrier-service-policy');
 });
+Route::get('/finance-service', function () {
+    return view('static_pages/finance-services-new');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });
