@@ -442,6 +442,12 @@
     .finance_service_desktop .financeService .innerDetail .payInstallment{
         display: block !important;
     }
+    .why_choose_sat_desktop .whyChooseSat .left .imgSec{
+        min-height: auto;
+    }
+    .why_choose_sat_desktop .whyChooseSat .right .imgSec{
+        min-height: auto;
+    }
      
 }
 

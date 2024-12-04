@@ -81,6 +81,12 @@ Route::get('/finance-service', function () {
 Route::get('/refund-policy', function () {
     return view('static_pages/refund-policy');
 });
+Route::get('/none-stolen-vehicle', function () {
+    return view('static_pages/none-stolen-vehicle');
+});
+Route::get('/why-choose-sat', function () {
+    return view('static_pages/why-choose-sat');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });
