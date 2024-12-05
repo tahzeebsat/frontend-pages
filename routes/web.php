@@ -87,6 +87,9 @@ Route::get('/none-stolen-vehicle', function () {
 Route::get('/why-choose-sat', function () {
     return view('static_pages/why-choose-sat');
 });
+Route::get('/biding-form', function () {
+    return view('static_pages/biding-form');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });

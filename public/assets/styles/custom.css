@@ -8567,3 +8567,130 @@ background-color: transparent;
     text-decoration: none;
  }
  /* ==================================== End Why Choose Sat Page CSS ============================ */
+ 
+ /* ==================================== Start Bidding Form Page CSS ============================ */
+ .bidding_form_desktop .biddingForm .similar-car-desktop {
+    padding: 0;
+    position: relative !important;
+    bottom: 30px;
+ }
+ .bidding_form_desktop .biddingForm .left .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24.57px;
+    letter-spacing: -0.018em;
+    color: #353c4d;
+    padding-bottom: 10px;
+ }
+ .bidding_form_desktop .biddingForm .left .heading span{
+    color: #2384c1;
+ }
+ .bidding_form_desktop .biddingForm .left .status .title{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475569;
+ }
+ .bidding_form_desktop .biddingForm .left .status .paid{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #2f9461;
+    padding-left: 8px;
+ }
+ .bidding_form_desktop .biddingForm .rights{
+    border-radius: 10px;
+    background-color: #fbfdff;
+    border: 1px solid #cbcbcb;
+    padding: 12px;
+ }
+ .bidding_form_desktop .biddingForm .rights .heading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    padding-bottom: 12px;
+ }
+ .bidding_form_desktop .biddingForm .rights .title{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 23.93px;
+    letter-spacing: -0.018em;
+    color: #1c6a9b;
+ }
+ .bidding_form_desktop .biddingForm .rights .details .detail .top{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.76px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+ }
+ .bidding_form_desktop .biddingForm .rights .details .detail .bottom{
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15.76px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .meeting .meetingTime{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    text-align: left;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .meeting .meetingdate{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .time .timeTitle{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    text-align: left;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .time .timeClock{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .amount .amountTitle{
+    color: #353c4d;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    text-align: left;
+ }
+ .bidding_form_desktop .biddingForm .rights .pricing .amount .amountPaid{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.73px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+ }
+ /* ==================================== End Bidding Form Page CSS ============================ */

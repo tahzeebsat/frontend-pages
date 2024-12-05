@@ -448,7 +448,48 @@
     .why_choose_sat_desktop .whyChooseSat .right .imgSec{
         min-height: auto;
     }
-     
+    .bidding_form_desktop .biddingForm .left .heading{
+        font-size: 18px;
+    }
+    .bidding_form_desktop .biddingForm .left .status .title{
+        font-size: 16px;
+    }
+    .bidding_form_desktop .biddingForm .left .status .paid{
+        font-size: 16px;
+    }
+    .bidding_form_desktop .biddingForm .rights .heading{
+        font-size: 14px;
+    }
+    .bidding_form_desktop .biddingForm .rights .title{
+        font-size: 14px;
+    }
+    .bidding_form_desktop .biddingForm .rights .details{
+        gap: 10px !important;
+    }
+    .bidding_form_desktop .biddingForm .rights .details .detail .top{
+        font-size: 10px;
+    }
+    .bidding_form_desktop .biddingForm .rights .details .detail .bottom{
+        font-size: 10px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .meeting .meetingTime{
+        font-size: 12px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .meeting .meetingdate{
+        font-size: 12px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .time .timeTitle{
+        font-size: 12px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .time .timeClock{
+        font-size: 12px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .amount .amountTitle{
+        font-size: 12px;
+    }
+    .bidding_form_desktop .biddingForm .rights .pricing .amount .amountPaid{
+        font-size: 12px;
+    }
 }
 
 @media (max-width:767px){
