@@ -90,6 +90,9 @@ Route::get('/why-choose-sat', function () {
 Route::get('/biding-form', function () {
     return view('static_pages/biding-form');
 });
+Route::get('/security-export-new', function () {
+    return view('static_pages/security-export-new');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });

@@ -8694,3 +8694,48 @@ background-color: transparent;
     color: #0c1529;
  }
  /* ==================================== End Bidding Form Page CSS ============================ */
+ 
+ /* ==================================== Start Security Export Page CSS ============================ */
+ .security_export_desktop .top{
+    border: 1px solid #EAEBF0;
+    border-radius: 6px;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 32px;
+    height: auto;
+ }
+ .security_export_desktop .top .title{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+ }
+ .security_export_desktop .top .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5D6370;
+ }
+ .security_export_desktop .bottom{
+    border: 1px solid #EAEBF0;
+    border-radius: 6px;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 32px;
+    height: auto;
+ }
+ .security_export_desktop .bottom .title{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0C1529;
+ }
+ .security_export_desktop .bottom .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5D6370;
+ }
+ /* ==================================== End Security Export Page CSS ============================ */
