@@ -28,6 +28,8 @@
                     <img src="{{asset('assets/images/staticPagesAssets/images/security-export-control-img2.webp')}}" alt="Security" class="img-fluid" loading="lazy">
                 </div>
             </div>
+
+            
         </div>
     </div>
 </section>

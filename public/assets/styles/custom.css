@@ -8739,3 +8739,105 @@ background-color: transparent;
     color: #5D6370;
  }
  /* ==================================== End Security Export Page CSS ============================ */
+ 
+ /* ==================================== Start Sat Faq New Page CSS ============================ */
+ .sat_faq_new_desktop .satFaqs .tabList{
+    display: flex;
+ }
+ .sat_faq_new_desktop .satFaqs .nav-tabs{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+ }
+ .sat_faq_new_desktop .satFaqs .nav-tabs .nav-item{
+    display: inline-block;
+ }
+ .sat_faq_new_desktop .satFaqs .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover{
+    border: none;
+ }
+ .sat_faq_new_desktop .satFaqs .nav-tabs .nav-item .nav-link{
+    padding: 10px 42px 10px 42px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #f7f8fb;
+    color: #5d6370;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+ }
+ .sat_faq_new_desktop .satFaqs .nav-tabs .nav-item .nav-link:hover{
+    color: #353c4d;
+    background-color: #ecf5ff;
+ }
+ .sat_faq_new_desktop .satFaqs .newCarFaqs .title{
+    display: none;
+ }
+ .sat_faq_new_desktop .satFaqs .newCarFaqs .faqsViewMore{
+    display: none;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .heading{
+    color: #020408;
+    font-family: 'Sofia-Pro';
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    text-align: left;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .question-form label{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #5d6370;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .question-form .form-texarea-inq{
+    background-color: #f6f6f8;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .question-form input{
+    height: 45px;
+    background-color: #f6f6f8;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .form-check #flexCheckChecked{
+    position: relative;
+    bottom: 7px;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .form-check #flexCheckChecked:checked {
+    background-color: var(--custome-color);
+    border-color: var(--custome-color);
+}
+
+ .sat_faq_new_desktop .satFaqs .questionForm .form-check .form-check-label{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #051128;
+ }
+
+ .sat_faq_new_desktop .satFaqs .questionForm .sendQuestion .btn-submit{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 50px 12px 50px;
+    background-color: #2384C1;
+ }
+ .sat_faq_new_desktop .satFaqs .questionForm .sendQuestion .btn-submit:hover{
+    background-color: #2a9fe8bc;
+ }
+ .sat_faq_new_desktop .satFaqs .faqCountryMobile .heading {
+    display: none !important;
+ }
+ /* ==================================== End Sat Faq New Page CSS ============================ */

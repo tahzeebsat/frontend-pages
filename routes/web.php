@@ -93,6 +93,9 @@ Route::get('/biding-form', function () {
 Route::get('/security-export-new', function () {
     return view('static_pages/security-export-new');
 });
+Route::get('/sat-faqs-new', function () {
+    return view('static_pages/sat-faqs-new');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });
