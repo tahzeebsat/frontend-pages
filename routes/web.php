@@ -96,6 +96,9 @@ Route::get('/security-export-new', function () {
 Route::get('/sat-faqs-new', function () {
     return view('static_pages/sat-faqs-new');
 });
+Route::get('/cookies-policy', function () {
+    return view('static_pages/cookies-policy');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
 });
