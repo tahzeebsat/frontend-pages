@@ -490,6 +490,9 @@
     .bidding_form_desktop .biddingForm .rights .pricing .amount .amountPaid{
         font-size: 12px;
     }
+    .payment-failed-desktop .paymentFailed .inner{
+        flex-direction: column-reverse;
+    }
 }
 
 @media (max-width:767px){

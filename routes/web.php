@@ -99,6 +99,18 @@ Route::get('/sat-faqs-new', function () {
 Route::get('/cookies-policy', function () {
     return view('static_pages/cookies-policy');
 });
+Route::get('/storage-policy', function () {
+    return view('static_pages/storage-policy');
+});
 Route::get('/marine-insurance-services', function () {
     return view('static_pages/marine-insurance-services');
+});
+Route::get('/payment-failed', function () {
+    return view('static_pages/payment-failed');
+});
+Route::get('/how-to-buy', function () {
+    return view('static_pages/how-to-buy');
+});
+Route::get('/page-not-found', function () {
+    return view('static_pages/page-not-found');
 });

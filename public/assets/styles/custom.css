@@ -8883,3 +8883,239 @@ background-color: transparent;
     text-decoration: none;
  }
  /* ==================================== End Cookies Policy Page CSS ============================ */
+ 
+ /* ==================================== Start Storage Policy Page CSS ============================ */
+.storage-policy-desktop .storagePolicy .inner .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 600;
+    line-height: 32px;
+    text-align: start;
+    color: #0c1529;
+}
+.storage-policy-desktop .storagePolicy .inner .para{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 30px;
+    color: #5d6370;
+}
+.storage-policy-desktop .storagePolicy .inner table thead tr{
+    border-color:white;
+}
+.storage-policy-desktop .storagePolicy .inner table thead tr th{
+   background-color: #f7f8fb;
+}
+.storage-policy-desktop .storagePolicy .inner table thead tr .heading{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    white-space: nowrap;
+    color: #5d6370 !important;
+}
+.storage-policy-desktop .storagePolicy .inner table thead tr .heading2{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #2384c1 !important;
+    white-space: nowrap;
+}
+.storage-policy-desktop .storagePolicy .inner table tr .countryTitle{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    color: #2384c1 !important;
+    white-space: nowrap;
+}
+.storage-policy-desktop .storagePolicy .inner table tr .tablePara{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    color: #353c4d !important;
+    white-space: nowrap;
+}
+.storage-policy-desktop .storagePolicy .inner .key-services-offere-card .key-services-col .vehicle-strorage-crd{
+    border: 1px solid #eaebf0;
+    padding: 32px 0 32px 0;
+    display: grid;
+    justify-items: center;
+}
+.storage-policy-desktop .storagePolicy .inner .key-services-offere-card .key-services-col .vehicle-strorage-crd .benefit-vechicle-hdr{
+    font-size: clamp(16px, 1vw, 20px);
+    white-space: nowrap;
+    color: #353c4d;
+    font-family: 'Lato';
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+}
+.storage-policy-desktop .storagePolicy .inner .vehicle-storage-min-col{
+    display: flex;
+    justify-content: space-around;
+}
+.storage-policy-desktop .storagePolicy .inner .vehicle-storage-min-col .new-vehicle-card-main{
+    border: 1px solid #eaebf0;
+    border-radius: 6px;
+    padding: 10px 12px 10px 12px
+}
+.storage-policy-desktop .storagePolicy .inner .vehicle-storage-min-col .new-vehicle-card-main .stgr-botm-img-hdr{
+    font-family: var(--font-family-Lato);
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: clamp(18px, 4vw, 24px);
+    text-align: center;
+    color: #353c4d;
+    margin-top: 24px;
+    max-width: 280px;
+}
+ /* ==================================== End Storage Policy Page CSS ============================ */
+ 
+ /* ==================================== Start Payment Failed Page CSS ============================ */
+ .payment-failed-desktop .paymentFailed .heading{
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #353c4d;
+    margin-bottom: 16px;
+ }
+ .payment-failed-desktop .paymentFailed .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #353c4d;
+    margin-bottom: 46px;
+ }
+ .payment-failed-desktop .paymentFailed .goToCheckout{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    padding: 10px 40px;
+    text-decoration: none;
+ }
+ /* ==================================== End Payment Failed Page CSS ============================ */
+ 
+ /* ==================================== Start How to Buy Page CSS ============================ */
+ .how-to-buy-desktop .howToBuy .grd-ts{
+    background-color: #f6f6f8;
+    padding-block: 22px;
+    padding-right: 24px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+ }
+ .how-to-buy-desktop .howToBuy .grd-ts .centeralized{
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-top: 63px;
+ }
+ .how-to-buy-desktop .howToBuy .grd-ts .centeralized .htb-heading .title{
+    font-family: 'Lato';
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: -0.02em;
+    color: #353c4d;
+    margin-bottom: 3px;
+ }
+ .how-to-buy-desktop .howToBuy .grd-ts .centeralized .htb-heading .para{
+    font-family: 'Lato';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    max-width: 480px;
+ }
+ .how-to-buy-desktop .howToBuy .grd-ts .sat-video-frame {
+    display: flex;
+}
+
+.how-to-buy-desktop .howToBuy .grd-4-eqs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.how-to-buy-desktop .howToBuy .grd-4-eqs .eqs-items{
+    border: 1px solid #dcdae2;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 10px;
+}
+.how-to-buy-desktop .howToBuy .grd-4-eqs .eqs-items h3{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #101828;
+    margin-bottom: 8px;
+}
+.how-to-buy-desktop .howToBuy .grd-4-eqs .eqs-items p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467;
+    margin-bottom: 0px;
+    max-width: 254px;
+    padding-inline: 12.75px;
+}
+.how-to-buy-desktop .howToBuy .grd-4-eqs .eqs-items a{
+    color: #0368a0;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+    max-width: 254px;
+    padding-inline: 12.75px;
+    text-decoration: none;
+}
+.how-to-buy-desktop .howToBuy .accordian-title .heading {
+    font-weight: bold;
+}
+ /* ==================================== End How to Buy Page CSS ============================ */
+ 
+ /* ==================================== Start 404 Page CSS ============================ */
+ .page-not-found-desktop .pageNotFound .title{
+    font-family: 'Lato';
+    font-size: clamp(18px, 4vw, 30px);
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: #08202E;
+ }
+ .page-not-found-desktop .pageNotFound .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: #5D6370;
+ }
+ .page-not-found-desktop .pageNotFound a{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-decoration: none;
+    color: #2384C1;
+    cursor: pointer;
+ }
+ /* ==================================== End 404 Page CSS ============================ */
+ 
