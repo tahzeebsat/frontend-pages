@@ -9119,3 +9119,256 @@ background-color: transparent;
  }
  /* ==================================== End 404 Page CSS ============================ */
  
+ /* ==================================== Start Insurance Service Page CSS ============================ */
+ .insurance-services-desktop .insuranceServices .top{
+    justify-content: center;
+    padding: 26px 93px;
+    gap: 16px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+ }
+ .insurance-services-desktop .insuranceServices .top .heading{
+    font-family: "Lato";
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 42px;
+    letter-spacing: -0.018em;
+    max-width: 520px;
+    padding-bottom: 16px;
+ }
+ .insurance-services-desktop .insuranceServices .top .para{
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+    max-width: 562px;
+    padding-bottom: 0px;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0c1529;
+    margin: 0 0 16px 0;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .para{
+    font-size: clamp(12px, 2vw, 20px);
+    color: #0c1529;
+    font-family: 'Lato';
+    font-weight: 500;
+    line-height: 28px;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards{
+    display: flex;
+    /* justify-content: center; */
+    gap: 24px;
+    margin: 0 0 24px 0;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card{
+    width: 250px;
+    border-radius: 5px;
+    border: 1px;
+    border: 1.22px solid #ced0d4;
+    padding: 30px 14px 30px 14px;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-img{
+    margin: 0 0 10px 0;
+    width: 50px;
+    height: 50px;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-hdr{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: #353c4d;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue{
+    padding: 12px;
+    text-align: center;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue h3{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0d0a19;
+    margin-top: 24px;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue p{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    max-width: 358px;
+    text-align: center;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .coverage .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5d6370;
+ }
+ .insurance-services-desktop .insuranceServices .innerDetails .coverage .para a{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #2384c1;
+    text-decoration: none;
+ }
+ .insurance-services-desktop .insuranceServices .accordian-title .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0c1529;
+    margin: 0 0 16px 0;
+ }
+ /* ==================================== End Insurance Service Page CSS ============================ */
+ 
+ /* ==================================== Start Company Profile Page CSS ============================ */
+.company-profile-desktop .companyProfile .innerDetails .title{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: clamp(30px, 4vw, 44px);
+    color: #101828;
+    margin: 32px 0 20px 0;
+}
+.company-profile-desktop .companyProfile .innerDetails .para{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: justify;
+    color: #5d6370;
+}
+.company-profile-desktop .companyProfile .innerDetails .table-container .table .tble-hdr{
+    color: #2384c1 !important;
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    background-color: #f7f8fb !important;
+    text-align: left;
+    border: 0;
+    white-space: nowrap;
+    padding: 23px 22px 23px 49px !important;
+    width: 368px;
+    min-width: 240px;
+}
+.company-profile-desktop .companyProfile .innerDetails .table-container .tble-td-compny-name {
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    color: #0c1529 !important;
+    font-weight: 700;
+    line-height: 28px;
+    white-space: nowrap;
+    padding: 22px 0px 22px 10px !important;
+}
+.company-profile-desktop .companyProfile .innerDetails .table-container .tble-td {
+    white-space: nowrap;
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    padding: 22px 0px 22px 10px !important;
+    color: #5d6370 !important;
+}
+.company-profile-desktop .companyProfile .innerDetails .key-services-offered .compmany-hdr{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: start;
+    color: #0c1529;
+}
+.company-profile-desktop .companyProfile .innerDetails .key-services-offered .key-services-iner .company-key-services-crd {
+    border: 1px solid #dcdae2;
+    border-radius: 10px;
+    padding: 32px 0 32px 0;
+}
+.company-profile-desktop .companyProfile .innerDetails .key-services-offered .key-services-iner .company-key-services-crd .cust-img-satisfact-hhdr {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.company-profile-desktop .companyProfile .innerDetails .key-services-offered .key-services-iner .company-key-services-crd .used-card-hdr-comp {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #353c4d;
+}
+.company-profile-desktop .companyProfile .innerDetails .core-values-company .core-values-company-inner .compmany-hdr{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: start;
+    color: #0c1529;
+}
+.company-profile-desktop .companyProfile .innerDetails .core-values-company .core-values-company-inner .core-value-card {
+    border: 1px solid var(--Stroke-Light-Base, #eaebf0);
+    background: #fffdf6;
+    padding: 24px;
+    height: 100%;
+    border-radius: 6px;
+    gap: 20px;
+}
+.company-profile-desktop .companyProfile .innerDetails .core-values-company .core-values-company-inner .core-value-card .core-value-img {
+    width: 50px;
+    height: 50px;
+}
+.company-profile-desktop .companyProfile .innerDetails .core-values-company .core-values-company-inner .core-value-card .core-value-hdr {
+    font-family: 'Lato';
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #252525;
+}
+.company-profile-desktop .companyProfile .innerDetails .core-values-company .core-values-company-inner .core-value-card .core-value-para {
+    font-family: 'Lato';
+    font-size: clamp(16px, 4vw, 20px);
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #5d6370;
+}
+.company-profile-desktop .companyProfile .innerDetails .features .compmany-hdr{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    text-align: start;
+    color: #0c1529;
+}
+.company-profile-desktop .companyProfile .innerDetails .features .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .company-profile-desktop .companyProfile .innerDetails .features .scroll-content {
+    display: flex;
+  }
+  
+  .company-profile-desktop .companyProfile .innerDetails .features .item {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ /* ==================================== End Company Profile Page CSS ============================ */
+ 

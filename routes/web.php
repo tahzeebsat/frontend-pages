@@ -114,3 +114,9 @@ Route::get('/how-to-buy', function () {
 Route::get('/page-not-found', function () {
     return view('static_pages/page-not-found');
 });
+Route::get('/insurance-services', function () {
+    return view('static_pages/insurance-services');
+});
+Route::get('/company-profile', function () {
+    return view('static_pages/company-profile');
+});

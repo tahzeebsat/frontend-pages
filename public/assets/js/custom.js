@@ -582,6 +582,52 @@ document.querySelectorAll('.selectAmountPaid').forEach(function(innerElement) {
 
 // ========================= Start Swiper Js Section ======================
 
+// ===================== Start Featured Swipper =====================
+const scrollContainer = document.querySelector('.scroll-container');
+    const scrollContent = document.querySelector('.scroll-content');
+    scrollContent.innerHTML += scrollContent.innerHTML;
+    let scrollPosition = 0;
+    let scrollAnimation;
+    let speed = 1;
+    let isTouching = false;
+    let startX, currentScrollLeft;
+    function scrollContinuously() {
+        if (!isTouching) {
+        scrollPosition += speed;
+        if (scrollPosition >= scrollContent.scrollWidth / 2) {
+            scrollPosition = 0;
+        }
+
+        scrollContainer.scrollLeft = scrollPosition;
+        }
+        scrollAnimation = requestAnimationFrame(scrollContinuously);
+    }
+    scrollContinuously();
+    scrollContainer.addEventListener('mouseenter', () => {
+        cancelAnimationFrame(scrollAnimation);
+    });
+    scrollContainer.addEventListener('mouseleave', () => {
+        scrollContinuously();
+    });
+    scrollContainer.addEventListener('touchstart', (e) => {
+        cancelAnimationFrame(scrollAnimation);
+        isTouching = true;
+        startX = e.touches[0].pageX;
+        currentScrollLeft = scrollContainer.scrollLeft;
+    });
+    scrollContainer.addEventListener('touchmove', (e) => {
+        if (isTouching) {
+        const touchDelta = e.touches[0].pageX - startX;
+        scrollContainer.scrollLeft = currentScrollLeft - touchDelta;
+        scrollPosition = scrollContainer.scrollLeft;
+        }
+    });
+    scrollContainer.addEventListener('touchend', () => {
+        isTouching = false;
+        scrollContinuously(); 
+    });
+
+// ===================== End Featured Swipper =====================
 
 // ===================== Start Auto Parts Cars Swipper =====================
 var swiper = new Swiper(".autoPartsSlider", {
