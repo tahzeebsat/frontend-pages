@@ -499,13 +499,13 @@
     .payment-failed-desktop .paymentFailed .inner{
         flex-direction: column-reverse;
     }
-    .insurance-services-desktop .insuranceServices .top{
+    .insurance-services-static-desktop .insuranceServices .top{
         padding: 26px 26px;
     }
-    .insurance-services-desktop .insuranceServices .top .heading{
+    .insurance-services-static-desktop .insuranceServices .top .heading{
         font-size: 24px;
     }
-    .insurance-services-desktop .insuranceServices .top .para{
+    .insurance-services-static-desktop .insuranceServices .top .para{
         font-size: 16px;
     }
 }
@@ -1056,20 +1056,20 @@
     .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .right{
         height: unset;
     }
-    .insurance-services-desktop .insuranceServices .top{
+    .insurance-services-static-desktop .insuranceServices .top{
         flex-direction: column-reverse;
     }
-    .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards{
+    .insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards{
         display: block;
     }
-    .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card{
+    .insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card{
         width: 100%;
         margin-bottom:10px;
     }
-    .insurance-services-desktop .insuranceServices .accordion-button {
+    .insurance-services-static-desktop .insuranceServices .accordion-button {
         font-size: var(--fs-16);
     }
-    .insurance-services-desktop .insuranceServices .accordion-body p {
+    .insurance-services-static-desktop .insuranceServices .accordion-body p {
         font-size: var(--fs-16);
     }
 }

@@ -109,6 +109,69 @@ inputField2&&inputField2.addEventListener("input", function() {
 
 // ========================= End Buy Page Accordion Active =========================
 
+// ===================== Start Featured Swipper =====================
+document.addEventListener('DOMContentLoaded', () => {
+  const scrollContainer = document.querySelector('.scroll-container');
+  const scrollContent = document.querySelector('.scroll-content');
+
+  // Ensure the elements exist before proceeding
+  if (scrollContainer && scrollContent) {
+      scrollContent.innerHTML += scrollContent.innerHTML;
+      let scrollPosition = 0;
+      let scrollAnimation;
+      let speed = 1;
+      let isTouching = false;
+      let startX, currentScrollLeft;
+
+      function scrollContinuously() {
+          if (!isTouching) {
+              scrollPosition += speed;
+              if (scrollPosition >= scrollContent.scrollWidth / 2) {
+                  scrollPosition = 0;
+              }
+
+              scrollContainer.scrollLeft = scrollPosition;
+          }
+          scrollAnimation = requestAnimationFrame(scrollContinuously);
+      }
+
+      scrollContinuously();
+
+      scrollContainer&&scrollContainer.addEventListener('mouseenter', () => {
+          cancelAnimationFrame(scrollAnimation);
+      });
+
+      scrollContainer&&scrollContainer.addEventListener('mouseleave', () => {
+          scrollContinuously();
+      });
+
+      scrollContainer&&scrollContainer.addEventListener('touchstart', (e) => {
+          cancelAnimationFrame(scrollAnimation);
+          isTouching = true;
+          startX = e.touches[0].pageX;
+          currentScrollLeft = scrollContainer.scrollLeft;
+      });
+
+      scrollContainer&&scrollContainer.addEventListener('touchmove', (e) => {
+          if (isTouching) {
+              const touchDelta = e.touches[0].pageX - startX;
+              scrollContainer.scrollLeft = currentScrollLeft - touchDelta;
+              scrollPosition = scrollContainer.scrollLeft;
+          }
+      });
+
+      scrollContainer&&scrollContainer.addEventListener('touchend', () => {
+          isTouching = false;
+          scrollContinuously();
+      });
+  } else {
+      console.error('scrollContainer or scrollContent is not found.');
+  }
+});
+
+
+// ===================== End Featured Swipper =====================
+
 
 // ========================== Start Auto Parts Page ==========================
 const collapsibleButtons2 = document.querySelectorAll(".collapsible-trigger-btn2");
@@ -164,6 +227,7 @@ collapsibleButtons3.forEach((collapsibleButton3) => {
   });
 });
 // ========================== End Auto Parts Page ==========================
+
 
 
 // Dropdown show list while search item for car header
@@ -582,52 +646,7 @@ document.querySelectorAll('.selectAmountPaid').forEach(function(innerElement) {
 
 // ========================= Start Swiper Js Section ======================
 
-// ===================== Start Featured Swipper =====================
-const scrollContainer = document.querySelector('.scroll-container');
-    const scrollContent = document.querySelector('.scroll-content');
-    scrollContent.innerHTML += scrollContent.innerHTML;
-    let scrollPosition = 0;
-    let scrollAnimation;
-    let speed = 1;
-    let isTouching = false;
-    let startX, currentScrollLeft;
-    function scrollContinuously() {
-        if (!isTouching) {
-        scrollPosition += speed;
-        if (scrollPosition >= scrollContent.scrollWidth / 2) {
-            scrollPosition = 0;
-        }
 
-        scrollContainer.scrollLeft = scrollPosition;
-        }
-        scrollAnimation = requestAnimationFrame(scrollContinuously);
-    }
-    scrollContinuously();
-    scrollContainer.addEventListener('mouseenter', () => {
-        cancelAnimationFrame(scrollAnimation);
-    });
-    scrollContainer.addEventListener('mouseleave', () => {
-        scrollContinuously();
-    });
-    scrollContainer.addEventListener('touchstart', (e) => {
-        cancelAnimationFrame(scrollAnimation);
-        isTouching = true;
-        startX = e.touches[0].pageX;
-        currentScrollLeft = scrollContainer.scrollLeft;
-    });
-    scrollContainer.addEventListener('touchmove', (e) => {
-        if (isTouching) {
-        const touchDelta = e.touches[0].pageX - startX;
-        scrollContainer.scrollLeft = currentScrollLeft - touchDelta;
-        scrollPosition = scrollContainer.scrollLeft;
-        }
-    });
-    scrollContainer.addEventListener('touchend', () => {
-        isTouching = false;
-        scrollContinuously(); 
-    });
-
-// ===================== End Featured Swipper =====================
 
 // ===================== Start Auto Parts Cars Swipper =====================
 var swiper = new Swiper(".autoPartsSlider", {

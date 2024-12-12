@@ -9120,14 +9120,15 @@ background-color: transparent;
  /* ==================================== End 404 Page CSS ============================ */
  
  /* ==================================== Start Insurance Service Page CSS ============================ */
- .insurance-services-desktop .insuranceServices .top{
+.insurance-services-static-desktop .insuranceServices .top{
     justify-content: center;
     padding: 26px 93px;
     gap: 16px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
     border-radius: 12px;
  }
- .insurance-services-desktop .insuranceServices .top .heading{
+.insurance-services-static-desktop .insuranceServices .top .heading{
+
     font-family: "Lato";
     font-size: 36px;
     font-weight: 900;
@@ -9136,7 +9137,7 @@ background-color: transparent;
     max-width: 520px;
     padding-bottom: 16px;
  }
- .insurance-services-desktop .insuranceServices .top .para{
+.insurance-services-static-desktop .insuranceServices .top .para{
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 500;
@@ -9146,7 +9147,7 @@ background-color: transparent;
     max-width: 562px;
     padding-bottom: 0px;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .title{
+.insurance-services-static-desktop .insuranceServices .innerDetails .title{
     font-family: 'Sofia-Pro';
     font-size: clamp(16px, 2vw, 24px);
     font-weight: 700;
@@ -9154,32 +9155,32 @@ background-color: transparent;
     color: #0c1529;
     margin: 0 0 16px 0;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .para{
+.insurance-services-static-desktop .insuranceServices .innerDetails .para{
     font-size: clamp(12px, 2vw, 20px);
     color: #0c1529;
     font-family: 'Lato';
     font-weight: 500;
     line-height: 28px;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards{
+.insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards{
     display: flex;
     /* justify-content: center; */
     gap: 24px;
     margin: 0 0 24px 0;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card{
+.insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card{
     width: 250px;
     border-radius: 5px;
     border: 1px;
     border: 1.22px solid #ced0d4;
     padding: 30px 14px 30px 14px;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-img{
+.insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-img{
     margin: 0 0 10px 0;
     width: 50px;
     height: 50px;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-hdr{
+.insurance-services-static-desktop .insuranceServices .innerDetails .insurance-cover-cards .automobile-insurance-card .automobile-insurance-hdr{
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 700;
@@ -9187,11 +9188,11 @@ background-color: transparent;
     text-align: center;
     color: #353c4d;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue{
+.insurance-services-static-desktop .insuranceServices .innerDetails .card-report-issue{
     padding: 12px;
     text-align: center;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue h3{
+.insurance-services-static-desktop .insuranceServices .innerDetails .card-report-issue h3{
     font-family: 'Lato';
     font-size: clamp(14px, 2vw, 20px);
     font-weight: 700;
@@ -9200,7 +9201,7 @@ background-color: transparent;
     color: #0d0a19;
     margin-top: 24px;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .card-report-issue p{
+.insurance-services-static-desktop .insuranceServices .innerDetails .card-report-issue p{
     font-family: 'Lato';
     font-size: clamp(14px, 2vw, 20px);
     font-weight: 400;
@@ -9210,14 +9211,14 @@ background-color: transparent;
     max-width: 358px;
     text-align: center;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .coverage .para{
+.insurance-services-static-desktop .insuranceServices .innerDetails .coverage .para{
     font-family: 'Lato';
     font-size: clamp(14px, 2vw, 20px);
     font-weight: 500;
     line-height: 28px;
     color: #5d6370;
  }
- .insurance-services-desktop .insuranceServices .innerDetails .coverage .para a{
+.insurance-services-static-desktop .insuranceServices .innerDetails .coverage .para a{
     font-family: 'Lato';
     font-size: clamp(16px, 2vw, 20px);
     font-weight: 400;
@@ -9225,7 +9226,7 @@ background-color: transparent;
     color: #2384c1;
     text-decoration: none;
  }
- .insurance-services-desktop .insuranceServices .accordian-title .heading{
+.insurance-services-static-desktop .insuranceServices .accordian-title .heading{
     font-family: 'Sofia-Pro';
     font-size: clamp(16px, 2vw, 24px);
     font-weight: 700;

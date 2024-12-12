@@ -1,4 +1,4 @@
-<section class="insurance-services-desktop">
+<section class="insurance-services-static-desktop">
     <div class="insuranceServices">
         <div class="container">
             <div class="row">
