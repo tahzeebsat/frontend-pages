@@ -9373,3 +9373,150 @@ background-color: transparent;
 
  /* ==================================== End Company Profile Page CSS ============================ */
  
+ /* ==================================== Start How To Pay Page CSS ============================ */
+.how-to-pay-desktop .howToPay .left{
+    padding: 24px 0px 24px 0;
+    min-width: 244px;
+    top: 45px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.how-to-pay-desktop .howToPay .left ul{
+    padding: 0;
+    margin: 0;
+}
+.how-to-pay-desktop .howToPay .left ul li{
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+}
+.how-to-pay-desktop .howToPay .left ul li a:hover{
+    background-color: #f5f6f7;
+    color: #353c4d;
+}
+.how-to-pay-desktop .howToPay .left ul li a:hover img {
+    filter: invert(25%) sepia(84%) saturate(600%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+.how-to-pay-desktop .howToPay .left ul li a {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    padding: 17px 19px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #b2aebf;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+}
+.how-to-pay-desktop .howToPay .left ul li .active{
+    background-color: #f5f6f7;
+    color: #353c4d;
+}
+.how-to-pay-desktop .howToPay .left ul li .active img {
+    filter: invert(25%) sepia(84%) saturate(600%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+.how-to-pay-desktop .howToPay .right .title{
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 24px);
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363636;
+}
+.how-to-pay-desktop .howToPay .right .para{
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: clamp(18px, 2vw, 28px);
+    text-align: left;
+    color: #5D6370;
+    font-family: 'Lato';
+    font-weight: 500;
+}
+.how-to-pay-desktop .howToPay .right .how-pay-crd-hdr{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #353C4D;
+}
+.how-to-pay-desktop .howToPay .right .how-to-py-paragrp{
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 500;
+    line-height: clamp(18px, 2vw, 24px);
+    text-align: left;
+    color: #5D6370;
+}
+
+.how-to-pay-desktop .howToPay .right .form-label-inq{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #344054;
+    margin-bottom: 6px;
+}
+
+.how-to-pay-desktop .howToPay .right .comman-input-field {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 4px !important;
+    background-size: 16px 9px;
+}
+.how-to-pay-desktop .howToPay .right .update-inquiry-btn {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 10px 16px 10px;
+    background-color: #2384C1;
+}
+.how-to-pay-desktop .howToPay .right .IconBan{
+    background-color: #f6f6f8;
+    width: 17%;
+    text-align: center;
+}
+.how-to-pay-desktop .howToPay .right .bankIcon{
+    background-color: #f6f6f8;
+    width: 90px;
+    height: 90px;
+}
+.how-to-pay-desktop .howToPay .right .bank-name-div {
+    background-color: #F6F6F8;
+    height: 36px;
+}
+.how-to-pay-desktop .howToPay .right .bank-name-label {
+    font-family: 'Lato';
+    font-size: clamp(12px, 1vw, 16px);
+    font-weight: 500;
+    line-height: clamp(18px, 2vw, 24px);
+    text-align: left;
+    color: #353c4d;
+}
+.how-to-pay-desktop .howToPay .right .bank-name-div-texture .bank-name-label-spn{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #1c6a9b;
+    padding-left: 16px;
+}
+
+ /* ==================================== End How To Pay Page CSS ============================ */
+ 

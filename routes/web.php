@@ -120,3 +120,15 @@ Route::get('/insurance-services', function () {
 Route::get('/company-profile', function () {
     return view('static_pages/company-profile');
 });
+Route::get('/how-to-pay', function () {
+    return view('static_pages/how-to-pay');
+});
+Route::get('/vehicle-information', function () {
+    return view('static_pages/vehicle-information');
+});
+Route::get('/inquirey-form', function () {
+    return view('static_pages/inquirey-form');
+});
+Route::get('/bank-information', function () {
+    return view('static_pages/bank-information');
+});

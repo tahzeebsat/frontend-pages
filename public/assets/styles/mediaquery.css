@@ -87,6 +87,9 @@
     .carrier_service_policy_desktop .carrierService .innerDetails .utilizeCar .inner .inner{
         height: 245px;
     }
+    .how-to-pay-desktop .howToPay .right{
+        margin: 0px 50px;
+    }
 }
 
 @media(max-width:1199px){
@@ -240,6 +243,9 @@
     }
     .insurance-services-desktop .insuranceServices .top .para{
         font-size: 18px;
+    }
+    .how-to-pay-desktop .howToPay .right{
+        margin: 0px 75px;
     }
 }
 
@@ -508,6 +514,7 @@
     .insurance-services-static-desktop .insuranceServices .top .para{
         font-size: 16px;
     }
+   
 }
 
 @media (max-width:767px){
@@ -1071,6 +1078,9 @@
     }
     .insurance-services-static-desktop .insuranceServices .accordion-body p {
         font-size: var(--fs-16);
+    }
+    .how-to-pay-mobile .howToPayMobile .right .bank-info-top-comp{
+        width: 50%;
     }
 }
 

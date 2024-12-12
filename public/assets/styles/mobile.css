@@ -5104,3 +5104,146 @@
 }
 
 /* ==================================== End How to Buy Page CSS ============================*/
+
+/* ==================================== Start How to Pay Page CSS ============================*/
+.how-to-pay-mobile .howToPayMobile .top ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    white-space: nowrap;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.how-to-pay-mobile .howToPayMobile .top ul li {
+    flex: 0 0 auto;
+    padding: 10px 35px 10px 35px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #f7f8fb;
+    color: #5d6370;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.how-to-pay-mobile .howToPayMobile .top ul li.active {
+    background-color: #d4ecfa;
+    color: #0c1529;
+}
+.how-to-pay-mobile .howToPayMobile .top ul li:hover{
+    background-color: #d4ecfa;
+    color: #0c1529;
+}
+.how-to-pay-mobile .howToPayMobile .right .title{
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 24px);
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363636;
+}
+.how-to-pay-mobile .howToPayMobile .right .para{
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: clamp(18px, 2vw, 28px);
+    text-align: left;
+    color: #5D6370;
+    font-family: Lato;
+    font-weight: 500;
+}
+.how-to-pay-mobile .howToPayMobile .right .how-pay-crd-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 18px);
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+    color: #353C4D;
+}
+.how-to-pay-mobile .howToPayMobile .right .how-to-py-paragrp{
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 500;
+    line-height: clamp(18px, 2vw, 24px);
+    text-align: left;
+    color: #5D6370;
+}
+.how-to-pay-mobile .howToPayMobile .right .inquiry-hdr{
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 24px);
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363636;
+}
+
+.how-to-pay-mobile .howToPayMobile .right .form-label-inq {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.how-to-pay-mobile .howToPayMobile .right .comman-input-field {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 4px !important;
+    background-size: 16px 9px;
+}
+.how-to-pay-mobile .howToPayMobile .right .update-inquiry-btn {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    height: 50px;
+    border: 0;
+    border-radius: 4px;
+    padding: 16px 10px 16px 10px;
+    background-color: #2384C1;
+}
+
+.how-to-pay-mobile .howToPayMobile .right .bank-name-div {
+    background-color: #F6F6F8;
+    height: 36px;
+}
+.how-to-pay-mobile .howToPayMobile .right .bank-name-label {
+    font-family: 'Lato';
+    font-size: clamp(12px, 1vw, 16px);
+    font-weight: 500;
+    line-height: clamp(18px, 2vw, 24px);
+    text-align: left;
+    color: #353c4d;
+}
+.how-to-pay-mobile .howToPayMobile .right .bank-name-label-spn {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #1c6a9b;
+    padding: 6px 0px 0px 0px;
+}
+.how-to-pay-mobile .howToPayMobile .right .bank-info-top-hdr {
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 24px);
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #363636;
+}
+.how-to-pay-mobile .howToPayMobile .right .bank-info-top-comp{
+    width: 35%;
+    background-color: #f6f6f8;
+    text-align: center;
+}
+/* ==================================== End How to Pay Page CSS ============================*/
