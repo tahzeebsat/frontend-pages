@@ -950,6 +950,39 @@ var swiper = new Swiper('.sellingCarSwiper', {
   });
 // ================== End Selling Car Swipper ==================
 
+// ================== Start About Feature Swipper ==================
+var swiper = new Swiper('.aboutFeaturesSwiper', {
+    slidesPerView: 1, // Default for mobile
+    spaceBetween: 10, // Space between slides for mobile
+    freeMode: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 3, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 4, // Show 3 slides per view on desktop
+        spaceBetween: 15, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+// ================== End About Feature Swipper ==================
+
 
 
 // ================== Start Recomended Car Swipper ==================

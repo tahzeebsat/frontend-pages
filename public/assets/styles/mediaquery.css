@@ -247,6 +247,10 @@
     .how-to-pay-desktop .howToPay .right{
         margin: 0px 75px;
     }
+    .about_us_page_desktop .aboutUsPage .inner .swiper-button-next, 
+    .about_us_page_desktop .aboutUsPage .inner .swiper-button-prev{
+        display: none;
+    }
 }
 
 @media (max-width:991px){

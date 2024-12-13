@@ -132,3 +132,6 @@ Route::get('/inquirey-form', function () {
 Route::get('/bank-information', function () {
     return view('static_pages/bank-information');
 });
+Route::get('/about-us', function () {
+    return view('static_pages/about-us');
+});
