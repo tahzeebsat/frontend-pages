@@ -107,7 +107,7 @@
                 <div class="col-md-6 finance-card-col mb-3">
                     <div class="pre-export-service-crd">
                         <div class="card-header pre-export-services-hdr mx-3 px-0">
-                            <img src="{{asset('assets/images/staticPagesAssets/icon/location-icon.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
+                            <img src="{{asset('assets/images/staticPagesAssets/icon/finance-expert.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
                             <h4 class="pre-export-ser-hdr">2. Connect With Our Sales Team</h4>
                         </div>
                         <div class="card-body py-0">
@@ -121,7 +121,7 @@
                 <div class="col-md-6  finance-card-col mb-3">
                     <div class="pre-export-service-crd">
                         <div class="card-header pre-export-services-hdr mx-3 px-0">
-                            <img src="{{asset('assets/images/staticPagesAssets/icon/location-icon.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
+                            <img src="{{asset('assets/images/staticPagesAssets/icon/document-validation.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
                             <h4 class="pre-export-ser-hdr">3. Get Your Inspection Report</h4>
                         </div>
                         <div class="card-body py-0">
@@ -134,7 +134,7 @@
                 <div class="col-md-6 finance-card-col mb-3">
                     <div class="pre-export-service-crd">
                         <div class="card-header pre-export-services-hdr mx-3 px-0">
-                            <img src="{{asset('assets/images/staticPagesAssets/icon/location-icon.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
+                            <img src="{{asset('assets/images/staticPagesAssets/icon/finance-ride-card.webp')}}" class="services-crd-icons img-fluid" alt="Image" loading="lazy">
                             <h4 class="pre-export-ser-hdr">4. Receive Your Inspected Vehicle</h4>
                         </div>
                         <div class="card-body py-0">
