@@ -9649,5 +9649,372 @@ background-color: transparent;
     background-color: var(--custome-color);
     color: white;
 }
- /* ====================================  End About Us Page CSS ============================ */
+
+/* ====================================  End About Us Page CSS ============================ */
+
+/* ====================================  Start Testimonial Page CSS ============================ */
+.testimonial-desktop .testimonialSec .bannerSearch{
+    background-image: url(../images/staticPagesAssets/images/testimonials-bannar.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px 50px 0px 50px;
+}
+.testimonial-desktop .testimonialSec .bannerSearch .search-filters-testimonials{
+    background-color: hsla(0, 0%, 17%, 0.7);
+    padding: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+.testimonial-desktop .testimonialSec .bannerSearch .search-filters-testimonials .search-btn{
+    background-color: #2a9fe8;
+    border: 1px solid #2a9fe8;
+    gap: 6px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    width: 100%;
+    justify-content: center;
+}
+.testimonial-desktop .testimonialSec .reviewSec .heading{
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #08202e;
+    margin-bottom: 0px;
+}
+.testimonial-desktop .testimonialSec .reviewSec .sortBy .title{
+    flex-basis: 8ch;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.testimonial-desktop .testimonialSec .reviewSec .sortBy select{
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    height: 40px;
+    width: 196px;
+    border: 1px solid #5d6370;
+    border-radius: 4px;
+    background-size: 9px 12px;
+}
+.testimonial-desktop .testimonialSec .innerImage .rev-cl{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #64748b;
+    margin-bottom: clamp(4px, 2vw, 8px);
+    margin-top: clamp(14px, 2vw, 20px);
+}
+.testimonial-desktop .testimonialSec .innerImage .rev-para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #94a3b8;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card {
+    padding: 10px;
+    border: 2px solid #f6f6f8;
+    border-radius: 10px;
+    margin-bottom: 32px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .flag{
+    background-color: #ededf1;
+    width: 32px;
+    height: 24px;
+    padding: 4px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .title-para {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    margin-bottom: 10px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .para-extended {
+        font-family: 'Lato';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        color: #0c1529;
+        margin-bottom: 10px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .date-created {
+    display: flex;
+    align-items: center;
+    gap: 5.36px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .date-created .initials {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color: #2a9fe8;
+    font-family: 'Lato';
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: -0.01em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .date-created .text-para-date {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    margin-bottom: 0px;
+}
+.testimonial-desktop .testimonialSec .cards-reviews .review-card .date-created .text-para-date .car-title{
+    color: black;
+}
+.testimonial-desktop .testimonialSec .pageination-test{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    cursor: pointer;
+   
+}
+.testimonial-desktop .testimonialSec .pageination-test li{
+    border-radius: 33px;
+    padding: 10px;
+   
+}
+.testimonial-desktop .testimonialSec .pageination-test .active{
+    color: #2384c1
+}
+.testimonial-desktop .testimonialSec .pageination-test .number{
+    border-radius: 33px;
+    padding: 10px;
+}
+.testimonial-desktop .testimonialSec .pageination-test .number:hover{
+    background-color: #ededf1;
+}
+.testimonial-desktop .testimonialSec .pageination-test .fa-chevron-left:before,
+.testimonial-desktop .testimonialSec .pageination-test .fa-chevron-right:before{
+    font-size: 12px;
+}
+
+.testimonial-desktop .testimonialSec .totalPage p{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.testimonial-desktop .testimonialSec .totalPage select{
+    height: 44px;
+    width: 76px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    border-radius: 0px;
+    background-size: 9px 12px;
+}
+/* ====================================  End Testimonial Page CSS ============================ */
+
+/* ====================================  Start Pre Export Insurance Page CSS ============================ */
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0c1529;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .para{
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5d6370;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .card-refund-primary {
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #2f2b430d;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .card-refund-inner {
+    border-radius: 12px;
+    background-color: #ffffff;
+    border-left: 4px solid #2384c1;
+    padding: 20px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .refund-title {
+    font-family: "Sofia-Pro";
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #08202e;
+    margin-bottom: 8px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .refund-para {
+    font-family: "Lato";
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #08202e;
+    margin-bottom: 24px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #68727d;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .copy {
+    padding: 20px 22px;
+    background-color: #0368a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .download {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding: 18px 24px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .download span {
+    font-family: "Lato";
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #0c1529;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails #download_image {
+    position: relative;
+    background-image: url(../images/staticPagesAssets/icon/download-refund.webp);
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: -1.5px;
+    width: 24px;
+    cursor: pointer;
+    height: 24px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails #download_image:hover {
+    background-position: -29.5px;
+}
+
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-cover-main {
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+    margin: 32px 0 24px 0;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-card-cover {
+    width: 250px;
+    border-radius: 5px;
+    border: 1px;
+    border: 1.22px solid #ced0d4;
+    padding: 16px;
+    text-align: center;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 14px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .inspection-services-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #0c1529;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-comman-hdr {
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    color: #0c1529;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-ins-card {
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #aeb1b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #fffdf6;
+    height: 72px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-crd-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #0c1529;
+    margin-bottom: 0;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-service-crd {
+    border: 1px solid #eaebf0;
+    box-shadow: 1px #1018280a;
+    height: 100%;
+    border-radius: 6px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-services-hdr {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: unset;
+    border-bottom: 1px solid #d4ecfa !important;
+    padding: 10px 10px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .services-crd-icons {
+    width: 50px;
+    height: 50px;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-ser-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0c1529;
+    margin-bottom: 0;
+}
+.pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-bdy-para {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #68727d;
+    padding: 20px 16px 20px 16px;
+    margin-bottom: 0;
+}
+/* ====================================  End Pre Export Insurance Page CSS ============================ */
  

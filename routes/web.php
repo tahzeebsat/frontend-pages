@@ -135,3 +135,9 @@ Route::get('/bank-information', function () {
 Route::get('/about-us', function () {
     return view('static_pages/about-us');
 });
+Route::get('/testimonials', function () {
+    return view('static_pages/testimonials');
+});
+Route::get('/pre-export-inspection', function () {
+    return view('static_pages/pre-export-inspection');
+});

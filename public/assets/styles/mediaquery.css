@@ -518,7 +518,12 @@
     .insurance-services-static-desktop .insuranceServices .top .para{
         font-size: 16px;
     }
-   
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-cover-main{
+        gap: 12px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-crd-hdr{
+        font-size: 14px;
+    }
 }
 
 @media (max-width:767px){
@@ -1085,6 +1090,19 @@
     }
     .how-to-pay-mobile .howToPayMobile .right .bank-info-top-comp{
         width: 50%;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-cover-main{
+        display: block;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-card-cover{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download{
+        display: block;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .copy{
+        border-radius: 8px 8px 0px 0px;
     }
 }
 
