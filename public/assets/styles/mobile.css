@@ -5392,4 +5392,8 @@
     line-height: 24px;
     cursor: pointer !important;
 }
+
+.new_car_faqs_mobile .newCarFaqsMobile .inner .faqCountryMobile .wraps .heading .topView{
+    display: none;
+}
 /* ==================================== End Testimonial Page CSS ============================*/

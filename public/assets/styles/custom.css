@@ -10017,4 +10017,269 @@ background-color: transparent;
     margin-bottom: 0;
 }
 /* ====================================  End Pre Export Insurance Page CSS ============================ */
+
+/* ====================================  Start Sat Auction Page CSS ============================ */
+.sat-auction-desktop .satAuction .heading{
+    font-family: 'Sofia-Pro';
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    color: #0c1529;
+}
+.sat-auction-desktop .satAuction .para{
+    font-family: "Lato";
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: clamp(30px, 2vw, 40px);
+    color: #5d6370;
+}
+.sat-auction-desktop .satAuction .bidding-card {
+    background-color: #2f2b430d;
+    border-radius: 12px;
+    padding: 24px;
+}
+.sat-auction-desktop .satAuction .middle-section-biddinggrow {
+    background-color: #ffffff;
+    border-radius: 12px;
+    border-left: 4px solid #2384c1;
+    padding: 20px;
+}
+
+.sat-auction-desktop .satAuction .h-title {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #08202e;
+    margin-bottom: 8px;
+}
+
+.sat-auction-desktop .satAuction .h-para {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #08202e;
+    margin-bottom: 24px;
+}
+.sat-auction-desktop .satAuction .h-tip {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    border: 1px solid #2384c1;
+    background-color: #2384c1;
+    border-radius: 4px;
+    padding: 14px 46px;
+}
+
+.sat-auction-desktop .satAuction .download-items {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 5.5px 0px rgba(0, 0, 0, 0.18);
+}
+.sat-auction-desktop .satAuction  .download-text {
+    padding: 20px 23px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    color: #0c1529;
+    font-family: Lato;
+    font-size: clamp(16px, 2vw, 20px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    color: #0c1529;
+    user-select: none;
+    text-decoration: none;
+}
+.sat-auction-desktop .satAuction #download_image {
+    position: relative;
+    background-image: url(../images/staticPagesAssets/icon/download-refund.webp);
+    background-repeat: no-repeat;
+    background-size: 56px;
+    background-position: -1.5px;
+    width: 24px;
+    cursor: pointer;
+    height: 24px;
+}
+.sat-auction-desktop .satAuction .divider-download {
+    border: 1px solid #cac8d4;
+    height: 68px;
+}
+
+.sat-auction-desktop .satAuction #download_image:hover {
+    background-position: -29.5px;
+}
+
+.sat-auction-desktop .satAuction .work-auction-col {
+    margin: 0 0 20px 0;
+}
+
+.sat-auction-desktop .satAuction .work-auction-card {
+    border: 1px solid #dcdae2;
+    box-shadow: 0px 1px 2px 0px #1018280a;
+    border-radius: 6px;
+    height: 100%;
+    padding: 16px;
+    display: grid;
+    justify-content: center;
+}
+.sat-auction-desktop .satAuction .work-img-sctin {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.sat-auction-desktop .satAuction .work-auction-card-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0c1529;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.sat-auction-desktop .satAuction .work-auction-card-para {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+    color: #5d6370;
+}
+
+.sat-auction-desktop .satAuction .adv-depo {
+    width: 97%;
+    margin: 25px 10px;
+}
+.sat-auction-desktop .satAuction .adv-depo tr th, 
+.sat-auction-desktop .satAuction  .adv-depo tr td {
+    padding: 12px 20px;
+}
+.sat-auction-desktop .satAuction .adv-depo th {
+    background-color: #dcdae2;
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+}
+
+.sat-auction-desktop .satAuction .adv-depo td {
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #3a3a3a;
+    border-bottom: 1px solid #dcdae2;
+    border-right: 1px solid #dcdae2;
+}
+
+.sat-auction-desktop .satAuction .what-offer-card {
+    border: 1px solid #ced0d4;
+    background: #fffdf6;
+    border-radius: 6px;
+    padding: 20px;
+    height: 100%;
+}
+.sat-auction-desktop .satAuction .what-offer-card-hdr {
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    color: #0c1529;
+    margin-bottom: 10px;
+}
+.sat-auction-desktop .satAuction .sat-auction-comman-para {
+    font-family: "Lato";
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    color: #5d6370;
+}
+.sat-auction-desktop .satAuction .title{
+    display: none;
+}
+
+.sat-auction-desktop .satAuction .autoParts_faqs .wraps .title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -.016em;
+    color: #020408;
+    font-family: 'Sofia-Pro';
+}
+
+.sat-auction-desktop .satAuction .autoParts_faqs .wraps .nav-pills .nav-link.active {
+    background-color: #ffffff;
+    color: #1c6a9b;
+    border-bottom: 2px solid #1c6a9b;
+    margin-top: unset;
+    border-radius: 0px;
+}
+.sat-auction-desktop .satAuction .autoParts_faqs .wraps .nav-pills .nav-link {
+    height: 56px;
+    border: none;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+
+/* ====================================  End Sat Auction Page CSS ============================ */
+
+/* ====================================  Start Empaty Cart Page CSS ============================ */
+.empty-cart-desktop .emptyCart .innerDetails a{
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #020408;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.empty-cart-desktop .emptyCart .innerDetails .fa-arrow-left{
+    color: #9196a1;
+    font-size: 16px;
+}
+.empty-cart-desktop .emptyCart .innerDetails .heading {
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #141817;
+    margin: 14px 24px;
+}
+.empty-cart-desktop .emptyCart .innerDetails .go-shopping {
+    background-color: #2a9fe8;
+    border: 1px solid;
+    color: #ffffff;
+    height: 42px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 9px;
+    font-family: Lato;
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+/* ====================================  End Empaty Cart Page CSS ============================ */
  

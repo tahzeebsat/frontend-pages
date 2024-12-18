@@ -141,3 +141,9 @@ Route::get('/testimonials', function () {
 Route::get('/pre-export-inspection', function () {
     return view('static_pages/pre-export-inspection');
 });
+Route::get('/sat-auction', function () {
+    return view('static_pages/sat-auction');
+});
+Route::get('/empty-cart', function () {
+    return view('static_pages/emty-cart');
+});
