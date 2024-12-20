@@ -147,3 +147,6 @@ Route::get('/sat-auction', function () {
 Route::get('/empty-cart', function () {
     return view('static_pages/emty-cart');
 });
+Route::get('/cart-items', function () {
+    return view('static_pages/cart-items');
+});

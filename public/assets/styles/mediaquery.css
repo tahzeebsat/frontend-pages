@@ -251,6 +251,9 @@
     .about_us_page_desktop .aboutUsPage .inner .swiper-button-prev{
         display: none;
     }
+    .cart-items-desktop .cartItems .search-parts-badge{
+        top: 20px;
+    }
 }
 
 @media (max-width:991px){

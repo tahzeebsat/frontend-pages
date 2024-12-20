@@ -5397,3 +5397,233 @@
     display: none;
 }
 /* ==================================== End Testimonial Page CSS ============================*/
+
+/* ==================================== Start Cart Item Page CSS ============================*/
+.cart-items-mobile .carItemsMobile .text-cart {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1e293b;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+.cart-items-mobile .carItemsMobile  #select_all {
+    background-color: #f8f8f8;
+    margin-bottom: 16px;
+}
+.cart-items-mobile .carItemsMobile  #select_all .flex-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-items-mobile .carItemsMobile  #select_all .slect-text {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.012em;
+    color: #475569;
+    margin-left: 5px;
+}
+.cart-items-mobile .carItemsMobile  #select_all .dl-selected {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+    margin-left: 6px;
+}
+.cart-items-mobile .carItemsMobile  #select_all .form-check-input:checked {
+    background-color: #2a9fe8;
+    border-color: #2a9fe8 !important;
+}
+.cart-items-mobile .carItemsMobile  #select_all .form-check-input:focus{
+    box-shadow: none;
+}
+.cart-items-mobile .carItemsMobile #carts_items {
+    margin-bottom: 16px;
+}
+.cart-items-mobile .carItemsMobile .items-sat-parts {
+    display: flex;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #ced0d4a1;
+    padding: 6px 6px 6px 0px;
+}
+.cart-items-mobile .carItemsMobile .chk-box {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.cart-items-mobile .carItemsMobile .main-div-used-info {
+    flex-grow: 1;
+    margin: 0px 10px;
+}
+.cart-items-mobile .carItemsMobile .promo-section {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 7.3px;
+}
+.cart-items-mobile .carItemsMobile .promo-badge-info {
+    padding: 2px 6px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 8.99px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    background-color: #ff4b44;
+}
+.cart-items-mobile .carItemsMobile .main-specs-car-price .price-title-car {
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-right: 6px;
+}
+.cart-items-mobile .carItemsMobile .main-specs-car-price .price-count-car {
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+}
+.cart-items-mobile .carItemsMobile .car-title-search-inf {
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #1c6a9b;
+    margin-bottom: 6px;
+}
+.cart-items-mobile .carItemsMobile .main-specs-inf {
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.cart-items-mobile .carItemsMobile .main-specs-inf .spec-info-text {
+    font-family: 'Lato';
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.cart-items-mobile .carItemsMobile .main-specs-inf .spec-info-text span {
+    font-size: 5px;
+    margin-inline: 4px;
+    color: #5d6370;
+}
+.cart-items-mobile .carItemsMobile .main-specs-car-price {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 7.35px;
+}
+.cart-items-mobile .carItemsMobile .plus-minus-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    color: #000000;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+}
+.cart-items-mobile .carItemsMobile .plus-minus-product button {
+    color: #2f2b43;
+    height: 22px;
+    width: 22px;
+    border-radius: 4px;
+    background-color: #f1f5f9;
+    color: #2f2b43;
+    border: 1px solid #f1f5f9;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cart-items-mobile .carItemsMobile .add-morelink {
+   text-align: center;
+    text-decoration: none;
+    margin-top: 4px;
+}
+.cart-items-mobile .carItemsMobile .add-morelink span {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+
+.cart-items-mobile .carItemsMobile #sticky_checkout {
+    position: fixed;
+    bottom: 0px;
+    height: 62px;
+    width: 100%;
+    background-color: #f1f5f9;
+    z-index: 10;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .d-items-stick {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout #selection_all_s {
+    height: 18px;
+    width: 18px;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .slect-text2 {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #475569;
+    margin-left: 5px;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .total-stick span {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .total-stick span:first-of-type {
+    color: #475569;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .total-stick span:last-of-type {
+    color: #2384c1;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .btn-stick button {
+    height: 36px;
+    /* max-width: 132px; */
+    width: 100%;
+    background-color: #2384c1;
+    border: 1px solid;
+    border-radius: 4px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: #ffffff;
+    padding: 10px 12px;
+}
+.cart-items-mobile .carItemsMobile #sticky_checkout .btn-stick button[disabled] {
+    background-color: #cbd5e1;
+}
+/* ==================================== End Cart Item Page CSS ============================*/

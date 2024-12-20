@@ -10282,4 +10282,298 @@ background-color: transparent;
     letter-spacing: -0.01em;
 }
 /* ====================================  End Empaty Cart Page CSS ============================ */
+
+/* ====================================  Start Cart Items Page CSS ============================ */
+.cart-items-desktop .cartItems .selectAllItems {
+    padding: 14px 20px;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+}
+.cart-items-desktop .cartItems .selectAllItems .form-check-input[type=checkbox] {
+    border-radius: .25em;
+}
+.cart-items-desktop .cartItems .selectAllItems .slect-text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+    margin-left: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.cart-items-desktop .cartItems .selectAllItems .dl-selected {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+    margin-left: 6px;
+    user-select: none;
+}
+
+.cart-items-desktop .cartItems .added-item {
+    padding: 14px 20px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+}
+.cart-items-desktop .cartItems .checkbx-slection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.cart-items-desktop .cartItems .checkbx-slection .form-check-input[type=checkbox] {
+    border-radius: .25em;
+} 
+.cart-items-desktop .cartItems .items-detail-specs {
+    display: flex;
+    flex-grow: 1;
+    gap: 19.89px;
+}
+.cart-items-desktop .cartItems .search-parts-badge {
+    background: linear-gradient(180deg, #49d197 0%, #26ae00 100%);
+    width: max-content;
+    height: 11px;
+    padding: 7px 4.26px;
+    border-radius: 17px;
+    font-family: 'Lato';
+    font-size: 7px;
+    font-weight: 700;
+    line-height: 8px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: absolute;
+    top: 6px;
+    left: 11px;
+}
+.cart-items-desktop .cartItems .search-parts-img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 6px;
+}
+.cart-items-desktop .cartItems .specs-items-detail-s {
+    flex-grow: 1;
+}
+.cart-items-desktop .cartItems .promo-items {
+    display: flex;
+    justify-content: start;
+    gap: 6px;
+    margin-bottom: 5.68px;
+}
+.cart-items-desktop .cartItems span.modal-promo-1 {
+    background-color: #ff4b44;
+    color: white;
+}
+.cart-items-desktop .cartItems .promo-items span {
+    padding: 2px 7px;
+    border-radius: 22px;
+    font-family: 'Lato';
+    font-size: 8.52px;
+    font-weight: 600;
+    line-height: 10.37px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+.cart-items-desktop .cartItems .search-item-title {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+    text-decoration: none;
+}
+.cart-items-desktop .cartItems .add-price-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.cart-items-desktop .cartItems .specs-section {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-top: 20px;
+}
+.cart-items-desktop .cartItems .specs-section-item .topHead {
+    font-family: 'Lato';
+    font-size: 12.79px;
+    line-height: 18.47px;
+    letter-spacing: -0.012em;
+    color: #858a94;
+}
+.cart-items-desktop .cartItems .specs-section-item .spc-text {
+    font-family: 'Lato';
+    font-size: 12.79px;
+    line-height: 18.47px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    font-weight: 700;
+}
+
+.cart-items-desktop .cartItems .price-pro-tile {
+    font-family: 'Lato';
+    font-size: 11.94px;
+    font-weight: 700;
+    line-height: 17.91px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    margin-right: 10px;
+}
+.cart-items-desktop .cartItems .price-pro {
+    font-family: 'Lato';
+    font-size: 17.91px;
+    font-weight: 700;
+    line-height: 23.88px;
+    letter-spacing: -0.016em;
+    color: #0c1529;
+}
+.cart-items-desktop .cartItems .plus-minus-product button {
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    background-color: #f1f5f9;
+    color: #2f2b43;
+    border: 1px solid #f1f5f9;
+    font-size: 18px;
+    font-weight: 500;
+}
+.cart-items-desktop .cartItems .plus-minus-product button:first-of-type {
+    margin-right: 16px;
+}
+.cart-items-desktop .cartItems .plus-minus-product button:last-of-type {
+    margin-left: 16px;
+}
+.cart-items-desktop .cartItems .add-more-section a {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    text-align: center;
+    text-decoration: none;
+}
+.cart-items-desktop .cartItems .add-more-section a:hover {
+    color: #2384c1;
+}
+.cart-items-desktop .cartItems .form-check-input:checked {
+    background-color: #2a9fe8;
+    border-color: #2a9fe8 !important;
+}
+.cart-items-desktop .cartItems .form-check-input:focus{
+    box-shadow: none;
+}
+.cart-items-desktop .cartItems .order-summary {
+    position: sticky;
+    top: 45px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #2f2b431f;
+    padding: 16px;
+}
+.cart-items-desktop .cartItems .order-summary .summary-text {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #353c4d;
+    margin-bottom: 24px;
+}
+
+.cart-items-desktop .cartItems .order-summary .flex-pricing {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.cart-items-desktop .cartItems .order-summary .flex-pricing .title-price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #353c4d;
+}
+.cart-items-desktop .cartItems .order-summary .flex-pricing  .selected-price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #0c1529;
+}
+.cart-items-desktop .cartItems .order-summary .buton-proceed {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2384c1;
+    border: 1px solid;
+    padding: 10px;
+}
+.cart-items-desktop .cartItems .order-summary .buton-proceed[disabled] {
+    background-color: #ced0d4;
+}
+
+.cart-items-desktop .cartItems .modal-content{
+    margin-top: 70%;
+}
+.cart-items-desktop .cartItems .modal-content .modal-body .custom-para{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+.cart-items-desktop .cartItems .modal-content .modal-body .action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.cart-items-desktop .cartItems .modal-content .modal-body .action-buttons button {
+    height: 32px;
+    max-width: 76px;
+    width: 100%;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    border: 1px solid;
+}
+.cart-items-desktop .cartItems .modal-content .modal-body .action-buttons button:first-of-type {
+    color: #353c4d;
+    background-color: #ffffff;
+    border-color: #98a2b3;
+}
+.cart-items-desktop .cartItems .modal-content .modal-body .action-buttons button:last-of-type {
+    color: #ffffff;
+    background-color: #2a9fe8;
+    border: #2a9fe8;
+}
+
+/* ====================================  End Cart Items Page CSS ============================ */
  

@@ -9,8 +9,10 @@
 @component('used_car.partial.breadcrumbs')
 @endcomponent
 
-@component('used_car.partial.advance_total_price_calculator')
+@component('static_pages.partial.cartItems')
 @endcomponent
+
+
 
 
 @endsection
