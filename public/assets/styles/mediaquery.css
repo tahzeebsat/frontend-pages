@@ -527,6 +527,16 @@
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-crd-hdr{
         font-size: 14px;
     }
+    .dash-item-3 .pagination .pagination-new .li-pagination-new{
+        margin: 0px;
+    }
+    .fav-item-3 .pagination-new .li-pagination-new{
+        margin: 0px;
+    }
+    .dash-item-transaction .pagination .pagination-new .li-pagination-new{
+        margin: -1px;
+    }
+   
 }
 
 @media (max-width:767px){
@@ -1107,5 +1117,20 @@
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .copy{
         border-radius: 8px 8px 0px 0px;
     }
+    .grid-danshboard .dash-item-1{
+        display: none;
+    }
+    .grid-danshboard {
+        grid-template-columns: unset;
+    }
+    .dash-item-3 .error-img {
+        height: unset;
+    }
+    .dash-item-transaction .user-dash-board-top-sub-hdr {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+   
 }
 

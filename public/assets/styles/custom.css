@@ -10576,4 +10576,1251 @@ background-color: transparent;
 }
 
 /* ====================================  End Cart Items Page CSS ============================ */
+
+/* ====================================  Start Dashboard Page CSS ============================ */
+.grid-danshboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 56px;
+}
+.grid-danshboard .dash-item-1 {
+    padding: 24px 0px 24px 0;
+    min-width: 244px;
+}
+.grid-danshboard .dash-item-1 .sticy-items-dashboard {
+    top: 45px;
+    position: -webkit-sticky !important;
+    position: sticky !important;
+}
+.grid-danshboard .dash-item-1 .sticy-items-dashboard ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.dash-item-1 ul li {
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+.dash-item-1 ul li.selected-option {
+    background-color: #f5f6f7;
+}
+.dash-item-1 ul li a {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 17px 19px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #b2aebf;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+}
+.dash-item-1 ul li a img.active{
+    /* filter: sepia(1) saturate(5) hue-rotate(180deg) brightness(0.9); */
+    filter: brightness(0) saturate(100%) invert(45%) sepia(90%) hue-rotate(180deg) contrast(100%) saturate(500%);
+}
+
+.dash-item-1 ul li a:hover {
+    background-color: #f5f6f7;
+    color: #353c4d;
+}
+.dash-item-1 ul li a:hover > img {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(90%) hue-rotate(180deg) contrast(100%) saturate(500%);
+}
+.dash-item-1 ul li.selected-option a {
+    color: #353c4d;
+}
+.dash-icon {
+    height: 22px;
+    width: 22px;
+    fill: #b2aebf;
+}
+.dash-item-1 ul li.selected-option .dash-icon {
+    background-color: #f5f6f7;
+    fill: #2384c1;
+}
+.grid-danshboard .dash-item-1 .sticy-items-dashboard .card-sidebar {
+    border-radius: 10px;
+    background-color: #f5f6f7;
+    padding: 20px 30px;
+    margin-top: 21px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.grid-danshboard .dash-item-1 .sticy-items-dashboard .card-sidebar p {
+    margin-bottom: 12px;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #9a9ea7;
+    text-align: center;
+    max-width: 135px;
+}
+.grid-danshboard .dash-item-1 .sticy-items-dashboard .card-sidebar .logout-sidebar {
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.dash-item-2 .card-img-selecton {
+    padding: 42px 56px;
+    border-radius: 20px;
+    background-color: #f8fafc;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.dash-item-2 .card-img-selecton .position-relative {
+    display: inline-block;
+    cursor: pointer;
+}
+.dash-item-2 .prof-pic {
+    border-radius: 50%;
+    object-position: center;
+}
+.dash-item-2 .action-img {
+    position: absolute;
+    opacity: 0;
+    top: 26px;
+    left: 34%;
+    z-index: 1;
+    transition: opacity 0.3s;
+}
+.dash-item-2 .overlay-img {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.dash-item-2 .card-img-selecton .prof-tile {
+    font-family: "Lato";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    word-break: break-all;
+}
+.dash-item-2 .card-img-selecton .prof-email {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    margin-bottom: 0px;
+}
+.dash-item-2 .input-field-set label {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.dash-item-2 .input-field-set input[type="text"] {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+}
+.dash-item-2 .form-error {
+    font-size: 10px;
+    color: red;
+    margin-top: 3px;
+}
+.dash-item-2 .input-field-set select {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    background-size: 16px 9px;
+}
+.dash-item-2 .update-btn {
+    height: 44px;
+    width: 100%;
+    max-width: 186px;
+    background-color: #2384c1;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid #2384c1;
+    margin-bottom: 32px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+}
+/* ====================================  End Dashboard Page CSS ============================ */
+
+/* ====================================  Start Save Search Page CSS ============================ */
+.dash-item-account .title-account {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin-bottom: 24px;
+}
+.dash-item-account .save-search-fil {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 24px;
+    column-gap: 33px;
+}
+.dash-item-account .search-fil-item {
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #dcdae2;
+}
+.dash-item-account .total-match-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.dash-item-account .total-match-item h3 {
+    margin-bottom: 0px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #353c4d;
+}
+.dash-item-account .search-fil-item p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    margin-bottom: 12px;
+}
+.dash-item-account .list-save-search {
+    height: 72px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.dash-item-account .list-save-search li {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+    padding-block: 4px;
+    padding-inline: 8px;
+    background-color: #ededf1;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+.dash-item-account .search-fil-item .save-btn {
+    background-color: #2384c1;
+    border: 1px solid;
+    height: 38px;
+    width: 100%;
+    color: white;
+    border-radius: 6px;
+    margin-top: 2px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+}
+.dash-item-account .pagination-save-search .pagination-new {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 24px 0 42px;
+    align-items: center;
+    cursor: pointer !important;
+}
+.dash-item-account .pagination-save-search .pagination-new .li-pagination-new {
+    margin: 5px;
+    cursor: pointer;
+}
+.dash-item-account .pagination-save-search .pagination-new a.disabled {
+    color: #5D6370;
+    pointer-events: none;
+    font-family: Lato;
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+}
+.dash-item-account .pagination-save-search .pagination-new a {
+    text-decoration: none;
+    color: #5D6370;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: Lato;
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+.dash-item-account .pagination-save-search .pagination-new a.active {
+    color: #2A9FE8;
+    pointer-events: none;
+}
+.dash-item-account .pagination-save-search .pagination-new .page-next-texture {
+    color: #2A9FE8 !important;
+    text-decoration: none;
+    padding: 8px 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: Lato;
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer !important;
+}
+.dashboard-error-img {
+    max-width: 240px;
+    width: 100%;
+}
+.error-img{
+    height: 100vh;
+}
+.error-img .error-img-label {
+    font-family: 'Sofia-Pro';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #64748b;
+    margin-top: 14px;
+}
+.dash-item-account .pagination-save-search .pagination-new .page-next-texture .fa-chevron-right:before {
+    content: "\f054";
+    font-size: 16px;
+}
+.dash-item-account .total-match-item img{
+    width: 24px;
+    height: 26px;
+}
+/* ====================================  End Save Search Page CSS ============================ */
+
+/* ====================================  Start My Booking Page CSS ============================ */
+.dash-item-3  .valid-item {
+    display: flex;
+    margin-bottom: 12px;
+}
+.dash-item-3 .valid-item .heading-item {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 20%;
+}
+.dash-item-3 .valid-item {
+    display: flex;
+    border-radius: 6px;
+}
+.dash-item-3 .item-value {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    border-top: 1px solid #ededf1;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 20%;
+}
+.dash-item-3 .item-value:first-child {
+    border-right: 0px;
+    border-radius: 6px;
+    border-left: 1px solid #ededf1;
+}
+.dash-item-3 .td-img-booking-compt {
+    width: 100%;
+    min-width: 110px;
+    border-radius: 6px;
+}
+.dash-item-3 .item-value:last-child {
+    border-radius: 6px;
+    border-right: 1px solid #ededf1;
+}
+.dash-item-3 .status-btn {
+    font-family: "Lato";
+    font-size: 14px;
+    padding: 8px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a9fe8;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    width: 100%;
+    flex-grow: 1;
+    text-decoration: none;
+}
+.dash-item-3 .screenshot-btn {
+    background-color: #ffffff;
+    border: 1px solid #2384c1;
+    color: #898989;
+    min-height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    border-radius: 4px;
+    padding-inline: 17px;
+    flex-grow: 1;
+}
+.dash-item-3 .car-bking-detail-hdr {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #2384C1;
+}
+.dash-item-3 .car-detail-sub-hdr {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #5D6370;
+}
+.dash-item-3 .clr-blue-60 {
+    color: #2384c1;
+}
+.dash-item-3 .specs-ms-car {
+    font-family: "Lato";
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+    font-weight: bold;
+}
+.dash-item-3 .specs-carprice-title {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #475569;
+}
+.dash-item-3 .time-overdue {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #cd3636;
+}
+.dash-item-3 .request-moretime {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+    cursor: pointer;
+}
+.dash-item-3 .pagination .pagination-new {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 24px 0 42px;
+    align-items: center;
+    cursor: pointer !important;
+}
+.dash-item-3 .pagination .pagination-new .li-pagination-new {
+    margin: 5px;
+    cursor: pointer;
+}
+.dash-item-3 .pagination .pagination-new a {
+    text-decoration: none;
+    color: #5D6370;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: Lato;
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+.dash-item-3 .pagination .pagination-new a.disabled {
+    color: #5D6370;
+    pointer-events: none;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+}
+.dash-item-3 .pagination .pagination-new a.active {
+    color: #2A9FE8;
+    pointer-events: none;
+}
+.dash-item-3 .pagination .page-next-texture {
+    color: #2A9FE8 !important;
+    text-decoration: none;
+    padding: 8px 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: Lato;
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer !important;
+}
+.dash-item-3 .pagination .fa-chevron-right{
+    font-size: 16px;
+}
+
+.heading-request-timemore {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #f1f5f9;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.heading-request-timemore h2 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.requesttime-body {
+    padding: 18px 24px;
+}
+.requesttime-body label {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #344054;
+    margin-bottom: 8px;
+}
+.requesttime-body label span {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #b2aebf;
+}
+.requesttime-body select {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+    min-height: 40px;
+}
+.requesttime-body textarea {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #667085;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+    min-height: 100px !important;
+}
+.sub-requestbtn {
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    width: 100%;
+    max-width: 208px;
+    min-height: 40px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 3.31px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+/* ====================================  End My Booking Page CSS ============================ */
+
+/* ====================================  Start Favourite Page CSS ============================ */
+.fav-item-3 .user-dash-board-top-sub-hdr {
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.fav-item-3 .fav-card {
+    padding: 10px;
+    display: flex;
+    border: 1px solid #eaebf0;
+    border-radius: 6px;
+}
+.fav-item-3 .fav-card img {
+    border-radius: 6px;
+}
+.fav-item-3 .specs-fav-car {
+    flex-grow: 1;
+}
+.fav-item-3 .specs-fav-car h2 {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+.fav-item-3 .new-cars-specs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 7px;
+    row-gap: 12px;
+}
+.fav-item-3 .new-cars-specs .specs-item-new {
+    margin-right: 24px;
+}
+.fav-item-3 .specs-item-new .cmn-stl {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+}
+.fav-item-3 .specs-item-new .title {
+    color: #858a94;
+}
+.fav-item-3 .specs-item-new .spec {
+    color: #0c1529;
+}
+.fav-item-3 .fav-bok-refer-car {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #5d6370;
+}
+.fav-item-3 .fav-view-detal-btn-bkng {
+    background: #1c6a9a;
+    height: 35px;
+    padding: 0 20px 0 20px !important;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #ffffff;
+    border: 0;
+    white-space: nowrap;
+}
+
+.fav-item-3 .pagination-new {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 24px 0 42px;
+    align-items: center;
+    cursor: pointer !important;
+}
+.fav-item-3 .pagination-new .li-pagination-new {
+    margin: 5px;
+    cursor: pointer;
+}
+.fav-item-3 .pagination-new a {
+    text-decoration: none;
+    color: #5D6370;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+.fav-item-3 .pagination-new a.disabled {
+    color: #5D6370;
+    pointer-events: none;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+}
+.fav-item-3 .pagination-new a.active {
+    color: #2A9FE8;
+    pointer-events: none;
+}
+.fav-item-3 .page-next-texture {
+    color: #2A9FE8 !important;
+    text-decoration: none;
+    padding: 8px 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer !important;
+}
+.fav-item-3 .page-next-texture .fa-chevron-right{
+    font-size: 16px;
+}
+/* ====================================  End Favourite Page CSS ============================ */
+
+
+/* ==================================== Start My Transaction Page CSS ============================ */
+.dash-item-transaction .user-dash-board-top-sub-hdr {
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 400;
+    line-height: 28px;
+    color: #363636;
+    margin-bottom: 10px;
+}
+.dash-item-transaction .valid-item {
+    display: flex;
+    margin-bottom: 12px;
+}
+.dash-item-transaction .heading-item {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 30%;
+}
+.dash-item-transaction .item-value {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    border-top: 1px solid #ededf1;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 30%;
+}
+.dash-item-transaction .item-value:first-child {
+    border-right: 0px;
+    border-radius: 6px;
+    border-left: 1px solid #ededf1;
+}
+.dash-item-transaction .td-img-booking-compt {
+    width: 100%;
+    min-width: 110px;
+    border-radius: 6px;
+}
+.dash-item-transaction .fav-car-modl-fav {
+    font-family: 'Lato';
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    line-height: clamp(18px, 2vw, 24px);
+    text-align: left;
+    color: #2384c1;
+}
+.dash-item-transaction .track-car-detl-hdr {
+    color: #5d6370;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.dash-item-transaction .fav-bok-refer-car {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #5d6370;
+}
+.dash-item-transaction .track-date-car {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: left;
+    color: #5d6370;
+}
+.dash-item-transaction .track-hdr-country {
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #353c4d;
+    white-space: nowrap;
+}
+.dash-item-transaction .item-value:last-child {
+    border-radius: 6px;
+    border-right: 1px solid #ededf1;
+    flex-basis: 30%;
+}
+.dash-item-transaction .go-tobtn {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.dash-item-transaction .car-detail-colmn-status {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #0c1529;
+    height: 50%;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+}
+.dash-item-transaction .status-btn {
+    font-family: "Lato";
+    font-size: 14px;
+    padding: 8px 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2a9fe8;
+    width: 100%;
+    border-radius: 4px;
+    color: white;
+    line-height: normal;
+    letter-spacing: -0.01em;
+    font-weight: 500;
+    width: 100%;
+    flex-grow: 1;
+    text-decoration: none;
+}
+.dash-item-transaction .pagination .pagination-new {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin: 24px 0 42px;
+    align-items: center;
+    cursor: pointer !important;
+}
+.dash-item-transaction .pagination .pagination-new .li-pagination-new {
+    margin: 5px;
+    cursor: pointer;
+}
+.dash-item-transaction .pagination .pagination-new a {
+    text-decoration: none;
+    color: #5D6370;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+.dash-item-transaction .pagination .pagination-new a.active {
+    color: #2A9FE8;
+    pointer-events: none;
+}
+
+.dash-item-transaction .pagination .page-next-texture {
+    color: #2A9FE8 !important;
+    text-decoration: none;
+    padding: 8px 4px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+    display: block;
+    font-family: 'Lato';
+    font-size: clamp(12px, 2vw, 16px);
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer !important;
+}
+.dash-item-transaction .pagination .page-next-texture .fa-chevron-right{
+    font-size: 16px;
+}
+/* ==================================== End My Transaction Page CSS ============================ */
+
+/* ==================================== Start Consignee Page CSS ============================ */
+.dash-item-3 .user-dash-board-top-hdr {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #363636;
+    margin-bottom: 24px;
+}
+.dash-item-3 .user-dash-board-top-hdr .inquiry-hdr-spn {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #aeb1b8;
+}
+.dash-item-3 .form-label-consignee {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #344054;
+    margin: 10px 0px;
+}
+.dash-item-3 .comman-input-field {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085 !important;
+    border-radius: 6px !important;
+}
+.dash-item-3 .comman-consigne-input-slect {
+    height: 40px;
+    border: 1px solid #d0d5dd;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085 !important;
+    background-size: 16px 9px;
+}
+.dash-item-3 .comman-input-field-textarea {
+    border: 1px solid #d0d5dd;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #667085 !important;
+    border-radius: 6px !important;
+}
+.dash-item-3 .consignee-submit-btn {
+    background: linear-gradient(0deg, #2384c1, #2384c1), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    /* width: 186px; */
+    height: 44px;
+    padding: 12px 32px 12px 32px;
+    border-radius: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    border: unset;
+    margin: 32px 0px;
+}
+/* ==================================== End Consignee Page CSS ============================ */
+
+/* ==================================== Start Loyalty Point Page CSS ============================ */
+.overflow-auto-cust{
+    width: 100%;
+    overflow: auto;
+    margin: 20px 0px;
+}
+.dash-itemd-4 .title--page {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin-bottom: 24px;
+}
+.dash-itemd-4 .tab-nav-link-ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 12px;
+}
+.dash-itemd-4 .tab-nav-link-ul li a {
+    width: 135px;
+    height: 44px;
+    padding: 10px;
+    border-radius: 100px !important;
+    border: 1px solid #dcdae2 !important;
+    text-align: center;
+    align-content: center;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #5d6370;
+    background-color: #f6f6f8;
+}
+
+.dash-itemd-4 .tab-nav-link-ul a.active {
+    background: linear-gradient(0deg, #2384c1, #2384c1), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    color: #ffffff !important;
+    border-radius: 100px;
+    border: 1px;
+    text-align: center;
+    align-content: center;
+}
+
+.dash-itemd-4 .valid-item {
+    display: flex;
+    margin-bottom: 12px;
+}
+.dash-itemd-4 .heading-item {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 30%;
+}
+.dash-itemd-4 .valid-item.item {
+    border-radius: 6px;
+    /* border: 1px solid #ededf1; */
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.dash-itemd-4 .item-value {
+    padding: 10px;
+    flex-grow: 1;
+    min-width: 126px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    border-top: 1px solid #ededf1;
+    border-bottom: 1px solid #ededf1;
+    flex-basis: 30%;
+}
+.dash-itemd-4 .item-value:first-child {
+    border-right: 0px;
+    border-radius: 6px;
+    border-left: 1px solid #ededf1;
+}
+/* ==================================== End Loyalty Point Page CSS ============================ */
+
+/* ==================================== Start My Bid Page CSS ============================ */
+#aucion_listing_user {
+    padding-block: 24px;
+}
+#aucion_listing_user .tabs-auction-list {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+#aucion_listing_user .tabs-auction-list > * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #aeb1b8;
+    padding: 10px 16px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    min-width: 88px;
+    text-decoration: none;
+}
+#aucion_listing_user .tabs-auction-list > *.active {
+    color: #2384c1;
+}
+.dash-itemd-5 .table-auction-headings {
+    display: flex;
+    margin-top: 12px;
+    gap: 30px;
+    border-bottom: 1px solid #ededf1;
+    min-width: 750px;
+    padding-inline: 10px;
+}
+.dash-itemd-5 .table-auction-headings .auction-item-tab {
+    flex: 1 0 calc(20% - 30px);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    padding-block: 10px;
+}
+.dash-itemd-5 .auction-listing-pending {
+    min-width: 750px;
+}
+.dash-itemd-5 .auction-listing-pending .pending-item {
+    display: flex;
+    margin-top: 12px;
+    border: 1px solid #eaebf0;
+    border-radius: 6px;
+    padding: 10px;
+    align-items: center;
+    gap: 30px;
+}
+.dash-itemd-5 .auction-listing-pending .value-item {
+    flex: 1 0 calc(20% - 30px);
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.dash-itemd-5 .auction-listing-pending .value-item .car-img-auct {
+    max-width: 177px;
+    max-height: 102px;
+    object-fit: cover;
+    width: 100%;
+    min-width: 100px;
+}
+.dash-itemd-5 .auction-listing-pending .title {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+.dash-itemd-5 .auction-listing-pending .price {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+.dash-itemd-5 .auction-listing-pending .status-paid {
+    border-radius: 51px;
+    background-color: #caeed5;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #36844f;
+    width: 100%;
+    padding-block: 6px;
+    display: inline-block;
+    text-align: center;
+    max-width: 121px;
+}
+.dash-itemd-5 .auction-listing-pending .status-lost {
+    border-radius: 51px;
+    background-color: #fddbda;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #b2444a;
+    width: 100%;
+    padding-block: 6px;
+    display: inline-block;
+    text-align: center;
+    max-width: 121px;
+}
+/* ==================================== End My Bid Page CSS ============================ */
  

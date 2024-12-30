@@ -150,3 +150,34 @@ Route::get('/empty-cart', function () {
 Route::get('/cart-items', function () {
     return view('static_pages/cart-items');
 });
+
+Route::get('/dashboard-profile', function () {
+    return view('static_pages/dashboard-profile');
+});
+Route::get('/dashboard-save-search', function () {
+    return view('static_pages/dashboard-save-search');
+});
+Route::get('/dashboard-my-booking', function () {
+    return view('static_pages/dashboard-my-booking');
+});
+Route::get('/dashboard-favourites', function () {
+    return view('static_pages/dashboard-favourites');
+});
+Route::get('/dashboard-my-transaction', function () {
+    return view('static_pages/dashboard-my-transaction');
+});
+Route::get('/dashboard-consignee-info', function () {
+    return view('static_pages/consignee-information');
+});
+Route::get('/dashboard-review', function () {
+    return view('static_pages/dashboard-review');
+});
+Route::get('/dashboard-loyalty-points', function () {
+    return view('static_pages/dashboard-loyalty-points');
+});
+Route::get('/dashboard-my-bid', function () {
+    return view('static_pages/dashboard-my-bid');
+});
+Route::get('/why-sell-with-sat', function () {
+    return view('static_pages/why-sell-with-sat');
+});
