@@ -11823,4 +11823,27 @@ background-color: transparent;
     max-width: 121px;
 }
 /* ==================================== End My Bid Page CSS ============================ */
+
+/* ==================================== Start Sell With Sat Page CSS ============================ */
+.why-title-desktop .why-title{
+    font-family: "Sofia-Pro";
+    font-size: clamp(20px, 2vw, 32px);
+    font-weight: 700;
+    line-height: clamp(30px, 2vw, 36px);
+    letter-spacing: -0.018em;
+    color: #000;
+    margin-bottom: 12px;
+    max-width: 535px;
+}
+.why-title-desktop .why-title-para {
+    font-family: 'Lato';
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: clamp(20px, 2vw, 28px);
+    letter-spacing: -0.014em;
+    color: #020408;
+    margin-bottom: 0px;
+    max-width: 535px;
+}
+/* ==================================== End Sell With Sat Page CSS ============================ */
  
