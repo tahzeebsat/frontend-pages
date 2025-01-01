@@ -181,3 +181,21 @@ Route::get('/dashboard-my-bid', function () {
 Route::get('/why-sell-with-sat', function () {
     return view('static_pages/why-sell-with-sat');
 });
+Route::get('/dashboard-auction-car-sat', function () {
+    return view('static_pages/auction-car-sat');
+});
+Route::get('/dashboard-my-ads', function () {
+    return view('static_pages/dashboard-my-ads');
+});
+Route::get('/dashboard-ads-edit', function () {
+    return view('static_pages/dashboard-ads-edit');
+});
+Route::get('/dashboard-ads-edit-detail', function () {
+    return view('static_pages/dashboard-ads-edit-detail');
+});
+Route::get('/dashboard-ads-personal-info', function () {
+    return view('static_pages/dashboard-ads-personal-info');
+});
+Route::get('/dashboard-request-submitted', function () {
+    return view('static_pages/dashboard-request-submitted');
+});

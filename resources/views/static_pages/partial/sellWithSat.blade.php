@@ -62,6 +62,7 @@
                   <img src="{{asset('assets/images/staticPagesAssets/images/whysell-4.webp')}}" width="500" height="331" class="sellimage img-fluid" loading="lazy" alt="sat img">
                 </div>
               </div>
+              
         </div>
     </div>
 </section>

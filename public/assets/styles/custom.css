@@ -11846,4 +11846,555 @@ background-color: transparent;
     max-width: 535px;
 }
 /* ==================================== End Sell With Sat Page CSS ============================ */
+
+/* ==================================== Start My Ads Page CSS ============================ */
+#dashboard_selection .main-content {
+    padding-block: 24px;
+    flex-grow: 1;
+    padding-left: 55px;
+    overflow-x: auto;
+}
+#dashboard_selection .main-content .tabs-users-selection {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+#dashboard_selection .main-content .tabs-users-selection > * {
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+    padding: 10px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #aeb1b8;
+    cursor: pointer;
+}
+#dashboard_selection .main-content .tabs-users-selection > *.active {
+    color: #2384c1;
+}
+
+#dashboard_selection .main-content .dynamic_listing .item-car {
+    border: 1px solid #dcdae2;
+    padding: 9px;
+    margin-top: 20px;
+    min-width: 700px;
+    max-width: 100%;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .img-container {
+    margin-right: 20px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .img-container img {
+    max-width: 274px;
+    max-height: 206px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .set-specs {
+    flex-grow: 1 !important;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .tags-sell {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 6px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .ad-views {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    background-color: #a576f1;
+    display: flex;
+    gap: 10px;
+    padding-inline: 10px;
+    padding-block: 2px;
+    color: #ffffff;
+    border-radius: 49px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .location-sell {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .location-sell span:first-of-type {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #858a94;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .location-sell span:last-of-type {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .title-user-car .name-car {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #1c6a9b;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+
+#dashboard_selection .main-content .dynamic_listing .item-car .new-cars-specs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 7px;
+    row-gap: 12px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .specs-item-new {
+    margin-right: 26px;
+    width: max-content;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .specs-item-new .cmn-stl {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: -0.012em;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .specs-item-new .title {
+    color: #858a94;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .specs-item-new .spec {
+    color: #0c1529;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .clr-black-20s {
+    color: #aeb1b8;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .car-item-price {
+    margin-top: 9px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .car-item-price span:first-of-type {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .car-item-price span {
+    display: inline-block;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .car-item-price span:last-of-type {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.95px;
+    letter-spacing: -0.016em;
+    text-align: left;
+    color: #0c1529;
+    margin-left: 29px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .update-edit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .update-edit span {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    display: inline-block;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .dropdown-toggle {
+    white-space: nowrap;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .dropdown-menu.show {
+    display: block;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .edit-remove-card ul {
+    padding: 4px;
+    border-radius: 4px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .edit-remove-card ul li {
+    cursor: pointer;
+    padding: 6px 10px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #353c4d;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .edit-remove-card ul li a {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .active-ad {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    background-color: #2384c1;
+    display: flex;
+    gap: 10px;
+    padding-inline: 10px;
+    padding-block: 2px;
+    color: #ffffff;
+    border-radius: 49px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .in-verification {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    background-color: #faa51b;
+    display: flex;
+    gap: 10px;
+    padding-inline: 10px;
+    padding-block: 2px;
+    color: #ffffff;
+    border-radius: 49px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .in-draft {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    background-color: #b2aebf;
+    display: flex;
+    gap: 10px;
+    padding-inline: 10px;
+    padding-block: 2px;
+    color: #ffffff;
+    border-radius: 49px;
+}
+#dashboard_selection .main-content .dynamic_listing .item-car .img-flag-sell {
+    padding: 2.61px;
+    background-color: #ededf1;
+}
+/* ==================================== End My Ads Page CSS ============================ */
+
+/* ==================================== Start My Ads Edit Page CSS ============================ */
+.dashboard-my-ads-edit .myAdsEdit .car-show {
+    background-color: #0368a0;
+    padding: 14px 20px 8px 20px;
+}
+.dashboard-my-ads-edit .myAdsEdit .car-show .car-place {
+    text-align: center;
+}
+.dashboard-my-ads-edit .myAdsEdit .car-show .car-place .head {
+    font-family: "Sofia-Pro";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.018em;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.dashboard-my-ads-edit .myAdsEdit .car-show .car-place .car-image {
+    position: absolute;
+    bottom: -21%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.dashboard-my-ads-edit .myAdsEdit .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .para-sell {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+}
+.dashboard-my-ads-edit .myAdsEdit label.sell-label {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #344054;
+    margin-bottom: 12px;
+}
+.dashboard-my-ads-edit .myAdsEdit .select-input-cmn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    min-height: 52px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+}
+.dashboard-my-ads-edit .myAdsEdit .select-input-cmn span {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    max-width: calc(100% - 13px);
+}
+.dashboard-my-ads-edit .myAdsEdit .select-input-cmn .fa-chevron-up {
+    font-size: 14px;
+    transform: rotate(180deg);
+}
+.dashboard-my-ads-edit .myAdsEdit .cmn-drp .dropdown-menu {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    width: 100%;
+    color: #000000;
+    box-shadow: 0px 0px 8px 0px rgba(47, 43, 67, 0.2);
+    border-bottom: 6px;
+    padding-block: 0px;
+    overflow-x: auto;
+    max-height: 208px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.dashboard-my-ads-edit .myAdsEdit .dropdown-toggle::after{
+    display: none;
+}
+.dashboard-my-ads-edit .myAdsEdit .cmn-drp .dropdown-menu {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    width: 100%;
+    color: #000000;
+    box-shadow: 0px 0px 8px 0px rgba(47, 43, 67, 0.2);
+    border-bottom: 6px;
+    padding-block: 0px;
+    overflow-x: auto;
+    max-height: 208px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.dashboard-my-ads-edit .myAdsEdit .cmn-drp .dropdown-menu .dropdown-item {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+    padding: 12px 10px;
+}
+.dashboard-my-ads-edit .myAdsEdit .btn-sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    padding: 12px 20px;
+    margin-top: 24px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 40px;
+    margin-bottom: 120px;
+    text-decoration: none;
+}
+
+.dashboard-my-ads-edit .myAdsEdit .usercar-detail {
+    background-color: #ededf1;
+    padding: 24px;
+    margin: 60px 0px;
+}
+.dashboard-my-ads-edit .myAdsEdit .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .para-ter {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+.dashboard-my-ads-edit .myAdsEdit .section-border {
+    border-top: 6px solid #0368a0;
+    padding-inline: 24px;
+    padding-block: 32px;
+}
+.dashboard-my-ads-edit .myAdsEdit .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-images {
+    border: 2px dashed #0368a0;
+    padding-block: 32px;
+    border-radius: 12px;
+    padding-inline: 52px;
+}
+.dashboard-my-ads-edit .myAdsEdit #uploaded_images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .btn-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-selection button {
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-selection span {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #475467;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-images .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.dashboard-my-ads-edit .myAdsEdit .upload-images .text p {
+    display: flex;
+    align-items: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #020408;
+    max-width: 480px;
+}
+.dashboard-my-ads-edit .myAdsEdit .form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: .125rem;
+}
+.dashboard-my-ads-edit .myAdsEdit .check-label {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+}
+.dashboard-my-ads-edit .myAdsEdit .check-label a {
+    color: #2384c1;
+    text-decoration: none;
+}
+.dashboard-my-ads-edit .myAdsEdit .form-check-input:checked {
+    background-color: #2a9fe8;
+    border-color: #2a9fe8 !important;
+}
+/* ==================================== End My Ads Edit Page CSS ============================ */
+
+/* ==================================== Start My Submitted Request Page CSS ============================ */
+.dashboard-request-submitted .requestSubmitted .listsatjapan2 .sellwithsat-heading{
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.dashboard-request-submitted .requestSubmitted .listsatjapan2 .para-ter {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+.dashboard-request-submitted .requestSubmitted .listsatjapan2 .para-ter a {
+    color: #2384c1;
+    text-decoration: none;
+}
+.dashboard-request-submitted .requestSubmitted .btn-sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    padding: 12px 20px;
+    margin-top: 24px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 40px;
+    text-decoration: none;
+}
+/* ==================================== End My Submitted Request Page CSS ============================ */
  

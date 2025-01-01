@@ -1131,6 +1131,20 @@
         line-height: 20px;
         font-weight: 400;
     }
-   
+    .dashboard-my-ads-edit .myAdsEdit .car-show .car-place .head{
+        font-size: 24px;
+    }
+    .dashboard-my-ads-edit .myAdsEdit .sellwithsat-heading{
+        font-size: 18px;
+    }
+    .dashboard-my-ads-edit .myAdsEdit .para-sell{
+        font-size: 16px;
+    }
+    .dashboard-my-ads-edit .myAdsEdit label.sell-label{
+        font-size: 16px;
+    }
+    .dashboard-my-ads-edit .myAdsEdit .upload-images .text{
+        display: block;
+    }
 }
 
