@@ -199,3 +199,12 @@ Route::get('/dashboard-ads-personal-info', function () {
 Route::get('/dashboard-request-submitted', function () {
     return view('static_pages/dashboard-request-submitted');
 });
+Route::get('/dashboard-auction-cars', function () {
+    return view('static_pages/dashboard-auction-cars');
+});
+Route::get('/dashboard-sell-with-sat', function () {
+    return view('static_pages/dashboard-sell-with-sat');
+});
+Route::get('/list-on-sat', function () {
+    return view('static_pages/list-on-sat');
+});

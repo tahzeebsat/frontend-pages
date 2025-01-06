@@ -12397,4 +12397,479 @@ background-color: transparent;
     text-decoration: none;
 }
 /* ==================================== End My Submitted Request Page CSS ============================ */
+
+/* ==================================== Start List Sat Page CSS ============================ */
+.list-sat-desktop .listSat .listsatjapan3 {
+    max-width: 536px;
+}
+.list-sat-desktop .listSat .listsatjapan3 .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.list-sat-desktop .listSat .listsatjapan3 .para-ter3 {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+.list-sat-desktop .listSat .card-detail-sell {
+    background-color: #f6f6f8;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 51px;
+}
+.list-sat-desktop .listSat .card-detail-sell .item-del-sell {
+    display: flex;
+    align-items: center;
+}
+.list-sat-desktop .listSat .card-detail-sell .img-del-sel {
+    background-color: #ffffff;
+    border-radius: 57px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-sat-desktop .listSat .card-detail-sell .item-del-sell p {
+    margin-left: 10px;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+.list-sat-desktop .listSat .additionaldetail2 {
+    background-color: #f6f6f8;
+}
+.list-sat-desktop .listSat .section-border {
+    border-top: 6px solid #0368a0;
+    padding-inline: 24px;
+    padding-block: 32px;
+}
+.list-sat-desktop .listSat .section-border .add-det {
+    padding: 32px 24px;
+    background-color: #ffffff;
+}
+.list-sat-desktop .listSat .section-border .add-det .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.list-sat-desktop .listSat .section-border .add-det .para-ter {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #020408;
+    margin-bottom: 0px;
+}
+.list-sat-desktop .listSat .section-border .add-det label.sell-label {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #344054;
+    margin-bottom: 12px;
+}
+.list-sat-desktop .listSat .section-border .add-det .select-input-cmn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    min-height: 52px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+}
+.list-sat-desktop .listSat .section-border .add-det .select-input-cmn .fa-chevron-up {
+    font-size: 14px;
+    transform: rotate(180deg);
+}
+.list-sat-desktop .listSat .section-border .add-det .dropdown-toggle::after{
+    display: none;
+}
+.list-sat-desktop .listSat .section-border .add-det label.sell-label span {
+    color: red;
+}
+.list-sat-desktop .listSat .section-border .add-det .cmn-drp .dropdown-menu {
+    font-family: "Lato";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: -0.01em;
+    width: 100%;
+    color: #000000;
+    box-shadow: 0px 0px 8px 0px rgba(47, 43, 67, 0.2);
+    border-bottom: 6px;
+    padding-block: 0px;
+    overflow-x: auto;
+    max-height: 208px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.list-sat-desktop .listSat .section-border .add-det .cmn-drp .dropdown-menu .dropdown-item {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+    padding: 12px 10px;
+}
+.list-sat-desktop .listSat .section-border .add-det .select-sell {
+    border: 1px solid #d0d5dd;
+    border-radius: 6px;
+    min-height: 52px;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+}
+.list-sat-desktop .listSat .section-border .add-det .idea {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #344054 !important;
+}
+.list-sat-desktop .listSat .section-border .add-det .tags-sellwith-sat {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.list-sat-desktop .listSat .section-border .add-det .tags-sellwith-sat span {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #667085;
+    border: 1px solid #2384c1;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #e2f4ff;
+    cursor: pointer;
+    user-select: none;
+}
+.list-sat-desktop .listSat .section-border .add-det .show-more-suggestions {
+    border-top: 1px solid #dcdae2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    padding: 12px;
+}
+.list-sat-desktop .listSat .section-border .add-det .show-more-suggestions p {
+    margin-bottom: 0px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #182230;
+}
+.list-sat-desktop .listSat .section-border .add-det .rotateless-90 {
+    transform: rotate(180deg);
+}
+.list-sat-desktop .listSat .section-border .add-det .upload-images {
+    border: 2px dashed #0368a0;
+    padding-block: 32px;
+    border-radius: 12px;
+    padding-inline: 52px;
+}
+.list-sat-desktop .listSat .section-border .add-det #uploaded_images {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.list-sat-desktop .listSat .section-border .add-det .btn-upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+.list-sat-desktop .listSat .section-border .add-det .upload-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.list-sat-desktop .listSat .section-border .add-det .upload-selection button {
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+}
+.list-sat-desktop .listSat .section-border .add-det .upload-selection span {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #475467;
+}
+.list-sat-desktop .listSat .section-border .add-det .btn-upload img{
+    background: #f7f6f9;
+    padding: 10px;
+    border-radius: 50%;
+}
+.list-sat-desktop .listSat .section-border .add-det .upload-images .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.list-sat-desktop .listSat .section-border .add-det .features-items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.list-sat-desktop .listSat .section-border .add-det .feat-item {
+    min-width: 156px;
+    padding: 8px 6px;
+    width: 25%;
+}
+.list-sat-desktop .listSat .section-border .add-det .feat-item .form-check {
+    margin-bottom: 0px;
+}
+.list-sat-desktop .listSat .section-border .add-det .feat-item input {
+    border: 2px solid #858a94;
+}
+.list-sat-desktop .listSat .section-border .add-det .feat-item label {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    user-select: none;
+    cursor: pointer;
+}
+.list-sat-desktop .listSat .section-border .add-det .form-check-input:checked {
+    background-color: #2a9fe8;
+    border-color: #2a9fe8 !important;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection {
+    display: flex;
+    align-items: center;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection .whatsapp-label {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #020408;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection .switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 31.62px;
+    margin-left: 12px;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #78788029;
+    border-radius: 40px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection .slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 50%;
+    left: 4px;
+    bottom: 1px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    filter: drop-shadow(0px 1.054px 2.108px rgba(0, 0, 0, 0.2)) drop-shadow(0px 0.105px 0.316px rgba(0, 0, 0, 0.1));
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection input:checked + .slider {
+    background: #34c759;
+}
+.list-sat-desktop .listSat .section-border .add-det .whatsapp-selection input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -moz-transform: translateX(16px);
+    transform: translateX(16px);
+}
+.list-sat-desktop .listSat .section-border .add-det #whatsapp_input{
+    display: none;
+}
+.list-sat-desktop .listSat .btn-sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    padding: 12px 20px;
+    margin-top: 24px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 40px;
+    text-decoration: none;
+}
+/* ==================================== End List Sat Page CSS ============================ */
+
+/* ==================================== Start New Sell With Sat Page CSS ============================ */
+.new-sell-with-sat-desktop .newSellWithSat .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .para-sell {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+    color: #020408;
+}
+.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions {
+    overflow: auto;
+    max-width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell span.active {
+    color: #2384c1;
+    border-bottom: 2px solid #2384c1;
+}
+.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell span {
+    display: inline-block;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    padding-block: 8px;
+    cursor: pointer;
+    will-change: color;
+    transition: color 0.3s ease;
+    white-space: nowrap;
+    margin-right: 32px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer {
+    max-width: 555px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer .para-sell-secondary {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #2384c1;
+    margin-block: 12px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer .list-sell-section {
+    display: flex;
+    align-items: start;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer .listing-sell .title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #131313;
+    margin-bottom: 2px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer .para-sell {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+    color: #3a3a3a;
+}
+.new-sell-with-sat-desktop .newSellWithSat .instoffer .btn-sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    padding: 12px 20px;
+    margin-top: 24px;
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 40px;
+    text-decoration: none;
+}
+/* ==================================== End New Sell With Sat Page CSS ============================ */
  

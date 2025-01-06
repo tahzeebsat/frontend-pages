@@ -1146,5 +1146,11 @@
     .dashboard-my-ads-edit .myAdsEdit .upload-images .text{
         display: block;
     }
+    .list-sat-desktop .listSat .card-detail-sell{
+        display: block;
+    }
+    .list-sat-desktop .listSat .card-detail-sell .item-del-sell{
+        padding: 10px 0px;
+    }
 }
 
