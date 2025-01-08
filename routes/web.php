@@ -208,3 +208,12 @@ Route::get('/dashboard-sell-with-sat', function () {
 Route::get('/list-on-sat', function () {
     return view('static_pages/list-on-sat');
 });
+Route::get('/satpro-memeberend-reason', function () {
+    return view('static_pages/satpro-memeberend-reason');
+});
+Route::get('/satpro-mobile-memberend', function () {
+    return view('static_pages/satpro-mobile-memberend');
+});
+Route::get('/satpro-mobile-member', function () {
+    return view('static_pages/satpro-mobile-member');
+});

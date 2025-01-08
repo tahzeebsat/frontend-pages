@@ -12772,6 +12772,110 @@ background-color: transparent;
 /* ==================================== End List Sat Page CSS ============================ */
 
 /* ==================================== Start New Sell With Sat Page CSS ============================ */
+.new-sell-with-sat-desktop .newSellWithSat .top .heading{
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408
+}
+.new-sell-with-sat-desktop .newSellWithSat .top .para{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+}
+
+.new-sell-with-sat-desktop .newSellWithSat .nav .nav-item button{
+    display: inline-block;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    padding-block: 8px;
+    cursor: pointer;
+    will-change: color;
+    transition: color 0.3s ease;
+}
+.new-sell-with-sat-desktop .newSellWithSat .nav .nav-item button.active {
+    background-color: transparent;
+    color: #2384c1;
+  }
+.new-sell-with-sat-desktop .newSellWithSat .nav .nav-item button.active::after {
+    content: "";
+    border-bottom: 2px solid #2384c1;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+  }
+.new-sell-with-sat-desktop .newSellWithSat .auction-dash-itemd-3 .nav-link:focus, .nav-link:hover{
+    color: unset !important;
+}
+.new-sell-with-sat-desktop .newSellWithSat .paras{
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+    color: #020408;
+}
+.new-sell-with-sat-desktop .newSellWithSat .para-sell-secondary {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #2384c1;
+    margin-block: 12px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .list-sell-section {
+    display: flex;
+    align-items: start;
+}
+.new-sell-with-sat-desktop .newSellWithSat .listing-sell .title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #131313;
+    margin-bottom: 2px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .para-sell {
+    font-family: "Lato";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 0px;
+    color: #3a3a3a;
+}
+
+.new-sell-with-sat-desktop .newSellWithSat .btn-sell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    padding: 12px 20px;
+    margin-top: 24px;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 40px;
+    text-decoration: none;
+}
+
 .new-sell-with-sat-desktop .newSellWithSat .sellwithsat-heading {
     font-family: "Sofia-Pro";
     font-size: 24px;
@@ -12780,6 +12884,18 @@ background-color: transparent;
     letter-spacing: -0.016em;
     color: #020408;
     margin-bottom: 24px;
+}
+.new-sell-with-sat-desktop .newSellWithSat .add-card {
+    text-align: center;
+}
+.new-sell-with-sat-desktop .newSellWithSat .add-card .head {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #020408;
+    margin-bottom: 12px;
 }
 .new-sell-with-sat-desktop .newSellWithSat .para-sell {
     font-family: "Lato";
@@ -12790,86 +12906,305 @@ background-color: transparent;
     margin-bottom: 0px;
     color: #020408;
 }
-.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions {
-    overflow: auto;
-    max-width: 100%;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell {
+.new-sell-with-sat-desktop .newSellWithSat .see-more {
     display: flex;
-    flex-wrap: nowrap;
     align-items: center;
+    gap: 10px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    text-decoration: none;
 }
-.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell span.active {
-    color: #2384c1;
-    border-bottom: 2px solid #2384c1;
+.new-sell-with-sat-desktop .newSellWithSat .see-more:hover {
+    color: #2a9fe8;
 }
-.new-sell-with-sat-desktop .newSellWithSat .items-list-auctions .tabs-sell span {
-    display: inline-block;
-    font-family: "Lato";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 26px;
-    letter-spacing: -0.012em;
-    color: #0c1529;
-    padding-block: 8px;
-    cursor: pointer;
-    will-change: color;
-    transition: color 0.3s ease;
-    white-space: nowrap;
-    margin-right: 32px;
+.new-sell-with-sat-desktop .newSellWithSat .bg-auction-sat {
+    background-color: #f0f2f1;
 }
-.new-sell-with-sat-desktop .newSellWithSat .instoffer {
-    max-width: 555px;
+.new-sell-with-sat-desktop .newSellWithSat .auctdiv {
+    flex: 0 0 430px;
 }
-.new-sell-with-sat-desktop .newSellWithSat .instoffer .para-sell-secondary {
-    font-family: "Lato";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: -0.014em;
-    color: #2384c1;
-    margin-block: 12px;
-}
-.new-sell-with-sat-desktop .newSellWithSat .instoffer .list-sell-section {
+.new-sell-with-sat-desktop .newSellWithSat .howtoauction-card {
     display: flex;
-    align-items: start;
+    gap: 12px;
 }
-.new-sell-with-sat-desktop .newSellWithSat .instoffer .listing-sell .title {
+.new-sell-with-sat-desktop .newSellWithSat .auctdiv .auct-title {
     font-family: 'Lato';
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.014em;
     color: #131313;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
 }
-.new-sell-with-sat-desktop .newSellWithSat .instoffer .para-sell {
-    font-family: "Lato";
-    font-size: 20px;
+.new-sell-with-sat-desktop .newSellWithSat .auctdiv .auct-para {
+    font-family: 'Lato';
+    font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
-    letter-spacing: -0.014em;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #131313;
     margin-bottom: 0px;
-    color: #3a3a3a;
+    max-width: 258px;
 }
-.new-sell-with-sat-desktop .newSellWithSat .instoffer .btn-sell {
+/* ==================================== End New Sell With Sat Page CSS ============================ */
+
+/* ==================================== Start Sat Pro Member Page CSS ============================ */
+.sat-pro-member-reson-desktop .satProMemberReason .title-cancel-member {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #313131;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .cancel-rtitle {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #1e293b;
+    margin-top: 24px;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .cancel-rpara {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #1e293b;
+    margin-top: 8px;
+    margin-bottom: 14px;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .end-member-list-select ul li {
+    padding: 8px 10px;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .end-member-list-select span {
+    font-weight: 600;
+    color: #475569;
+    font-family: 'Lato';
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .exp-end {
+    border: 1px solid #2a9fe8;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    width: 213px;
+    min-height: 42px;
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 600;
+    line-height: 24px;
+    color:#fff;
+    text-decoration: none;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .exp-div {
+    padding: 0 10px;
+    margin-block: 12px;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .exp-div .exp {
+    color: #344054;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .exp-div .form-control {
+    font-weight: 600;
+    color: #667085;
+    min-height: 55px;
+    border-radius: 6px;
+    font-size:14px;
+    font-family: 'Lato';
+}
+.sat-pro-member-reson-desktop .satProMemberReason .form-check-input:checked[type=radio] {
+    --bs-form-check-bg-image: url('../images/staticPagesAssets/icon/tick-radio.webp') !important;
+}
+.sat-pro-member-reson-desktop .satProMemberReason .form-check-input:checked{
+    background-color: transparent;
+    border-color: transparent;
+}
+/* ==================================== End Sat Pro Member Page CSS ============================ */
+
+/* ==================================== Start Sat Pro Mobile Member Page CSS ============================ */
+.sat-pro-mobile-member-desktop .satProMobileMember .topArea {
+    background: linear-gradient(0deg, #4d585e -6.72%, #000000 133.82%);
+    padding: 14px 16px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .member-title-m {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .sat-m-para {
+    margin-top: 27px;
+    margin-bottom: 63px;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    border-radius: 4px;
-    background-color: #2384c1;
-    border: 1px solid #2384c1;
-    padding: 12px 20px;
-    margin-top: 24px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .max-302 {
+    max-width: 302px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .sat-m-subtitle {
     font-family: "Lato";
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 24px;
-    height: 40px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .sat-m-subpara {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #e3e3e3;
+    margin-bottom: 0px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .renews-satpro-card {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 16px;
+    border-radius: 15px;
+    background: #ffffff;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.16);
+    max-width: 277px;
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .renews-satpro-body p:first-of-type {
+    color: #5d6370;
+    font-family: "Lato";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: -0.12px;
+    margin-bottom: 6px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .renews-satpro-body p:last-of-type {
+    color: #000;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+}
+
+.sat-pro-mobile-member-desktop .satProMobileMember  .memb-para-title, 
+.sat-pro-mobile-member-desktop .satProMobileMember .sat-pro-member-sec .hed {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 4px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .sat-pro-member-sec .para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #475569;
+    font-family: "Lato";
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .head-memeber {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #1e293b;
+    margin-bottom: 12px;
+    font-family: "Lato";
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .sec-sub {
+    border-radius: 4px;
+    padding: 6px 10px;
+    border: 1px solid #dcdae2;
     text-decoration: none;
 }
-/* ==================================== End New Sell With Sat Page CSS ============================ */
+.sat-pro-mobile-member-desktop .satProMobileMember .drp-sat-memeber-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border: 1px solid #dcdae2;
+    text-decoration: none;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember #form_m_satpro {
+    padding-top: 57px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .pay-title-m {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .pay-title-mpara {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #3a3a3a;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember #form_m_satpro label {
+    color: #344054;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    margin-bottom: 4px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember #form_m_satpro input {
+    border-radius: 4px;
+    border: 0.557px solid #d0d5dd;
+    color: #353c4d;
+    font-family: "Lato";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    min-height: 32px;
+    letter-spacing: -0.12px;
+}
+.sat-pro-mobile-member-desktop .satProMobileMember .btn-make-paym {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    width: 100%;
+    max-width: 249px;
+    height: 40px;
+    border: 1px solid #2a9fe8;
+    border-radius: 4px;
+    background: #2a9fe8;
+}
+/* ==================================== End Sat Pro Mobile Member Page CSS ============================ */
  

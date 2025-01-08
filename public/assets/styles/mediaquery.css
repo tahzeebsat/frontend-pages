@@ -536,7 +536,12 @@
     .dash-item-transaction .pagination .pagination-new .li-pagination-new{
         margin: -1px;
     }
-   
+   .new-sell-with-sat-desktop .newSellWithSat .tab-pane .tabInner{
+    display: block !important;
+   }
+   .new-sell-with-sat-desktop .newSellWithSat .tab-pane .tabInner .rightImage{
+    margin: 32px;
+   }
 }
 
 @media (max-width:767px){
@@ -1151,6 +1156,19 @@
     }
     .list-sat-desktop .listSat .card-detail-sell .item-del-sell{
         padding: 10px 0px;
+    }
+    .sat-pro-member-reson-desktop .satProMemberReason .end-member-list-select span{
+        font-size: 16px;
+    }
+    .sat-pro-mobile-member-desktop .satProMobileMember .memb-para-title, 
+    .sat-pro-mobile-member-desktop .satProMobileMember .sat-pro-member-sec .hed{
+        font-size: 14px;
+    }
+    .sat-pro-mobile-member-desktop .satProMobileMember .head-memeber{
+        font-size: 16px;
+    }
+    .sat-pro-mobile-member-desktop .satProMobileMember .sat-pro-member-sec .para{
+        font-size: 14px;
     }
 }
 

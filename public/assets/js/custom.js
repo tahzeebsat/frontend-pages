@@ -1,3 +1,17 @@
+// ========================== Start Satpro Memeberend Reason Page Show More and Hide More Js ==========================
+
+function toggleVisibility(radioInput, targetId) {
+  const allExpDivs = document.querySelectorAll(".exp-div");
+  allExpDivs.forEach((div) => {
+    div.style.display = "none";
+  });
+  const targetElement = document.getElementById(targetId);
+  if (radioInput.checked) {
+    targetElement.style.display = "block";
+  }
+}
+// ========================== End Satpro Memeberend Reason Page Show More and Hide More Js ==========================
+
 // ========================== Start Country Page Show More and Hide More Js ==========================
 
 
