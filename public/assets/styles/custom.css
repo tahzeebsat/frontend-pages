@@ -13207,4 +13207,204 @@ background-color: transparent;
     background: #2a9fe8;
 }
 /* ==================================== End Sat Pro Mobile Member Page CSS ============================ */
+
+/* ==================================== Start Sat Membership Page CSS ============================ */
+.sat-membership-desktop .satMembership .member-title {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #000;
+    margin-bottom: 4px;
+}
+.sat-membership-desktop .satMembership .memb-para-title {
+    font-weight: 500;
+    color: #3a3a3a;
+    margin-bottom: 24px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    font-family: "Lato";
+}
+.sat-membership-desktop .satMembership .sat-pro-member-sec .hed {
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    font-family: "Lato";
+}
+.sat-membership-desktop .satMembership .sat-pro-member-sec .para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #475569;
+    font-family: "Lato";
+}
+.sat-membership-desktop .satMembership .head-memeber {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #1e293b;
+    margin-bottom: 12px;
+    font-family: "Lato";
+}
+.sat-membership-desktop .satMembership .sec-sub {
+    border-radius: 4px;
+    padding: 6px 10px;
+    border: 1px solid #dcdae2;
+    text-decoration: none;
+}
+.sat-membership-desktop .satMembership .drp-sat-memeber-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border: 1px solid #dcdae2;
+}
+.sat-membership-desktop .satMembership .rotate-360 {
+    transform: rotate(90deg);
+}
+.sat-membership-desktop .satMembership .drp-sat-memeber-end[aria-expanded="true"] .rotate-360 {
+    transform: rotate(270deg);
+}
+.sat-membership-desktop .satMembership #collapseSatmemberEnd {
+    border: 1px solid #dcdae2;
+    border-top: none;
+    padding: 4px 10px 24px;
+}
+.sat-membership-desktop .satMembership .end-member-list-select ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.sat-membership-desktop .satMembership .end-member-list-select span {
+    font-weight: 600;
+    color: #475569;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    letter-spacing: -0.012em;
+    font-family: "Lato";
+}
+.sat-membership-desktop .satMembership .exp-div {
+    padding: 0 10px;
+    margin-block: 12px;
+}
+.sat-membership-desktop .satMembership .exp-div .exp {
+    color: #344054;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Lato';
+    letter-spacing: -0.01em;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.sat-membership-desktop .satMembership input:checked[type=radio] {
+    --bs-form-check-bg-image: url('../images/staticPagesAssets/icon/tick-radio.webp') !important;
+}
+.sat-membership-desktop .satMembership .form-check-input:checked{
+    background-color: transparent;
+    border-color: transparent;
+}
+.sat-membership-desktop .satMembership .exp-end {
+    border: 1px solid #2a9fe8;
+    background-color: #2a9fe8;
+    border-radius: 4px;
+    width: 213px;
+    min-height: 42px;
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+}
+.sat-membership-desktop .satMembership .car-total-saving {
+    border-radius: 15px;
+    border: 0.727px solid #dcdae2;
+    background: #fff;
+    max-width: 356px;
+    margin-bottom: 39px;
+}
+.sat-membership-desktop .satMembership .sec-1 {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 21px 44.311px 54px 44px;
+    background: linear-gradient(0deg, #4d585e -6.72%, #000 133.82%);
+}
+.sat-membership-desktop .satMembership .sec-2 {
+    padding: 33px 21px;
+}
+.sat-membership-desktop .satMembership .pro-sat-t {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 32px;
+    letter-spacing: -0.384px;
+    font-family: 'Lato';
+    font-weight: 700;
+}
+.sat-membership-desktop .satMembership .pro-sat-p {
+    color: #e3e3e3;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: -0.14px;
+    margin-bottom: 18px;
+    font-family: 'Lato';
+}
+.sat-membership-desktop .satMembership .subs-charges, 
+.sat-membership-desktop .satMembership .total-charges-text {
+    position: absolute;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    display: flex;
+    width: 100%;
+}
+.sat-membership-desktop .satMembership .total-charges-text {
+    max-width: 317px;
+    padding: 10px 9px;
+    align-items: center;
+    gap: 8px;
+    left: 0;
+    right: 0;
+    bottom: -21px;
+    margin-inline: auto;
+    border-radius: 15px;
+    background: #fff;
+}
+.sat-membership-desktop .satMembership .member-points span:first-of-type, 
+.sat-membership-desktop .satMembership .plc-order {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+    font-family: 'Lato';
+}
+.sat-membership-desktop .satMembership .member-points span:last-of-type {
+    font-weight: 600;
+    color: #c8811a;
+}
+.sat-membership-desktop .satMembership .plc-order {
+    padding: 9px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    width: 146px;
+    font-style: normal;
+    letter-spacing: -0.16px;
+    border-radius: 4px;
+    border: 1px solid #2384c1;
+    background: #2384c1;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+/* ==================================== End Sat Membership Page CSS ============================ */
  

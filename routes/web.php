@@ -217,3 +217,6 @@ Route::get('/satpro-mobile-memberend', function () {
 Route::get('/satpro-mobile-member', function () {
     return view('static_pages/satpro-mobile-member');
 });
+Route::get('/satpro-membership', function () {
+    return view('static_pages/satpro-membership');
+});
