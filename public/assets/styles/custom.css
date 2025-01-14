@@ -13407,4 +13407,582 @@ background-color: transparent;
     line-height: 24px;
 }
 /* ==================================== End Sat Membership Page CSS ============================ */
+
+/* ==================================== Start Sat Pro Paid Page CSS ============================ */
+.sat-pro-paid-desktop .satProPaid .title-become {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: clamp(32px, 5vw, 60px);
+    line-height: clamp(28px, 5vw, 72px);
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 24px;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.sat-pro-paid-desktop .satProPaid .para-become {
+    font-size: clamp(16px, 2vw, 18px);
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #475467;
+    max-width: 480px;
+    margin-bottom: 48px;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.sat-pro-paid-desktop .satProPaid .satpoints-pro {
+    font-family: 'Lato';
+    font-size: clamp(16, 2vw, 18px);
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #c8811a;
+    border-radius: 6px;
+    background-color: #f6f6f8;
+    border: 1px solid #dcdae2;
+    padding: 12px;
+}
+.sat-pro-paid-desktop .satProPaid .btn-become {
+    font-size: 16px;
+    line-height: 10px;
+    max-width: 138px;
+    width: 100%;
+    border-radius: 4px;
+    padding: 18px 12px;
+    background: #2384c1;
+    color: #fff;
+    border: 1px solid #2384c1;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+
+.sat-pro-paid-desktop .satProPaid .heading-sat-pro {
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin-bottom: 8px;
+}
+.sat-pro-paid-desktop .satProPaid .prob-card {
+    display: inline-block;
+    padding: 20px 3px;
+    border-radius: 19px;
+    background: #f8fafc;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+}
+.sat-pro-paid-desktop .satProPaid .prob-title {
+    color: #334155;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    letter-spacing: -0.28px;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    font-family: 'Lato';
+    line-height: clamp(18px, 2vw, 24px);
+    font-style: normal;
+}
+.sat-pro-paid-desktop .satProPaid .prob-para {
+    color: #626262;
+    font-size: clamp(14px, 2vw, 16px);
+    font-weight: 500;
+    letter-spacing: -0.16px;
+    font-family: 'Lato';
+    line-height: clamp(18px, 2vw, 24px);
+    font-style: normal;
+}
+.sat-pro-paid-desktop .satProPaid .save-title-pro {
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: clamp(20, 2vw, 36px);
+    letter-spacing: -0.018em;
+    color: #101828;
+    margin-bottom: 8px;
+}
+.sat-pro-paid-desktop .satProPaid .save-title-pro span {
+    color: #c8811a;
+}
+
+.sat-pro-paid-desktop .satProPaid .para-title-pro {
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475467;
+    max-width: 480px;
+}
+.sat-pro-paid-desktop .satProPaid .save-btn-pro {
+    padding: 12px 20px;
+    border: 1px solid #2384c1;
+    border-radius: 4px;
+    background: #2384c1;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    width: 100%;
+    max-width: 138px;
+    font-family: 'Lato';
+}
+.sat-pro-paid-desktop .satProPaid .flexible-card {
+    padding: 72px 79px;
+    background-color: #f3f9ff;
+}
+.sat-pro-paid-desktop .satProPaid .flexible-title {
+    font-size: clamp(24px, 2vw, 36px);
+    font-weight: 700;
+    line-height: clamp(28px, 2vw, 42px);
+    letter-spacing: -0.018em;
+    color: #101828;
+    margin-top: 20px;
+    max-width: 547px;
+    font-family: "Lato";
+}
+.sat-pro-paid-desktop .satProPaid .flexible-para {
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 600;
+    line-height: clamp(26px, 2vw, 28px);
+    letter-spacing: -0.014em;
+    color: #475467;
+    max-width: 542px;
+    font-family: "Lato";
+}
+.sat-pro-paid-desktop .satProPaid .flexible-month, 
+.sat-pro-paid-desktop .satProPaid .flexible-price span {
+    font-size: clamp(14px, 2vw, 18px);
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #475467;
+    font-family: 'Lato';
+    font-weight: 500;
+    margin-left: 4px;
+}
+.sat-pro-paid-desktop .satProPaid .flexible-price {
+    font-size: clamp(32px, 2vw, 64px);
+    font-weight: 700;
+    line-height: clamp(32px, 2vw, 68px);
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: end;
+    font-family: 'Lato';
+}
+.sat-pro-paid-desktop .satProPaid .flexible-btn {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    border: 1px solid #2384c1;
+    border-radius: 4px;
+    background: #2384c1;
+    width: 100%;
+    max-width: 285px;
+    padding: 12px 18px;
+    font-family: 'Lato';
+}
+.sat-pro-paid-desktop .satProPaid .heading-sat-pro {
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin-bottom: 8px;
+}
+
+.sat-pro-paid-desktop .satProPaid .join-title{
+    text-align: center;
+    font-size: clamp(16px, 2vw, 20px);
+    font-style: normal;
+    line-height: clamp(24px, 2vw, 28px);
+    color: #101828;
+    font-weight: 600;
+    margin-top: 16px
+}
+.sat-pro-paid-desktop .satProPaid .join-para{
+    text-align: center;
+    font-size: clamp(16px, 2vw, 20px);
+    font-style: normal;
+    line-height: clamp(24px, 2vw, 28px);
+    color: #475467;
+    font-weight: 500;
+    letter-spacing: -0.28px;
+}
+
+.sat-pro-paid-desktop .satProPaid .accordian-title .heading{
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin: 25px 0px;
+}
+/* ==================================== End Sat Pro Paid Page CSS ============================ */
+
+/* ==================================== Start Sat Pro Payment Page CSS ============================ */
+.sat-pro-payment .satProPayment{
+    background: #f6f6f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sat-pro-payment .satProPayment .sat-pro-payment-card {
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 42px 24px;
+    max-width: 800px;
+}
+.sat-pro-payment .satProPayment .payment-card-title {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000;
+    margin-bottom: 6px;
+    font-family: 'Lato';
+}
+.sat-pro-payment .satProPayment .payment-card-titlep {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #3a3a3a;
+    font-family: 'Lato';
+}
+.sat-pro-payment .satProPayment .user-profile-title {
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.016em;
+    color: #353c4d;
+    margin-bottom: 0px;
+    word-break: break-all;
+}
+.sat-pro-payment .satProPayment .user-profile-email {
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    margin-bottom: 0px;
+}
+.sat-pro-payment .satProPayment .label-sat-pro {
+    font-size: 16px;
+    line-height: 24px;
+    color: #344054;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.sat-pro-payment .satProPayment .input-sat-pro {
+    min-height: 44px;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    font-family: 'Lato';
+    font-weight: 600;
+}
+.sat-pro-payment .satProPayment .satpro-payment-btn {
+    border-radius: 4px;
+    border: 1px solid #2384c1;
+    background: #2384c1;
+    width: 100%;
+    height: 48px;
+    max-width: 373px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+    font-style: normal;
+    font-family: 'Lato';
+}
+.sat-pro-payment .satProPayment .card-pro-badge {
+    max-width: 330px;
+    border-radius: 20px;
+    border: 1px solid #dcdae2;
+    background: #fff;
+}
+.sat-pro-payment .satProPayment .upper-pro-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 45.58px 30.915px 71.545px;
+    background: linear-gradient(0deg, #4d585e -6.72%, #000 133.82%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+}
+.sat-pro-payment .satProPayment .sat-pro-ben-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #fff;
+    font-style: normal;
+}
+.sat-pro-payment .satProPayment .subs-charges {
+    padding: 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 14.548px;
+    background: #fff;
+    max-width: 270px;
+    bottom: -25%;
+    position: absolute;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+    display: flex;
+    width: 100%;
+}
+.sat-pro-payment .satProPayment .subs-charges-text span:first-of-type {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #5d6370;
+}
+.sat-pro-payment .satProPayment .subs-charges-text span:last-of-type {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #000;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.016em;
+}
+.sat-pro-payment .satProPayment .lower-pro-badge ul{
+    padding: 0;
+}
+.sat-pro-payment .satProPayment .lower-pro-badge ul li{
+   list-style: none;
+   font-family: 'Lato';
+   display: flex;
+   gap: 12px;
+   align-items: center;
+   padding-bottom: 11px;
+   color: #0c1529;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 17.458px;
+   
+}
+.sat-pro-payment .satProPayment .lower-pro-badge {
+    padding-top: 54px;
+    padding-inline: 30px;
+    padding-bottom: 18px;
+}
+
+/* ==================================== End Sat Pro Payment Page CSS ============================ */
+
+/* ==================================== Start Loyalty Sat Pro Page CSS ============================ */
+.loyalty-sat-pro-desktop .loyalitySatPro .login-card-sat-pro {
+    padding: 33px 39px;
+    border-radius: 12px;
+    border: 1px solid #ffd03f;
+    background: #fffaec;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .login-sat-user {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .list-login-sat {
+    padding-left: 24px;
+    color: #3a3a3a;
+    font-size: 16px;
+    line-height: 24px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .heading-sat-pro {
+    font-family: "Sofia-Pro";
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #363636;
+    margin-bottom: 8px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .heading-sub-sat-pro {
+    color: #5d6370;
+    margin-top: 8px;
+    margin-bottom: 24px;
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: clamp(20px, 2vw, 28px);
+    letter-spacing: -0.014em;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .benfit-card span{
+    font-size: clamp(16px, 2vw, 20px);
+    font-weight: 700;
+    line-height: clamp(20px, 2vw, 28px);
+    letter-spacing: -0.014em;
+    font-family: 'Lato';
+    color: #2384c1;
+    margin-bottom: 8px;
+    display: block;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .benfit-card p {
+    font-size: clamp(16px, 2vw, 18px);
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #5d6370;
+    margin-bottom: 0;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .sign-up-free {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: #2384c1;
+    color: #fff;
+    border-radius: 8px;
+    padding-block: 12px;
+    align-items: center;
+    min-width: 285px;
+    border: 1px solid #2384c1;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .benfit-card-more {
+    position: relative;
+    border-radius: 18px;
+    border: 1px solid #dcdae2;
+    background: #fff;
+    padding: 32px 40px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .benfit-card-more span {
+    color: #131313;
+    font-weight: 700;
+    font-size: clamp(16px, 2vw, 20px);
+    font-style: normal;
+    letter-spacing: -0.28px;
+    font-family: 'Lato';
+}
+
+.loyalty-sat-pro-desktop .loyalitySatPro .benfit-card-more p {
+    font-style: normal;
+    line-height: clamp(20px, 2vw, 26px);
+    letter-spacing: -0.216px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .mas-lock {
+    top: -23px;
+    transform: translateX(-50%) !important;
+    left: 50%;
+    position: absolute;
+    align-items: center;
+    gap: 8px;
+    border-radius: 46px;
+    border: 1px solid #64748b;
+    padding: 6px;
+    background: #fff;
+    width: 100%;
+    max-width: 218px;
+    font-family: 'Lato';
+    justify-content: center;
+    display: flex;
+}
+
+.loyalty-sat-pro-desktop .loyalitySatPro .card-sat-levels {
+    border-radius: 25px;
+    border: 1px solid #cac8d4;
+    background: #fff;
+    padding: 24px;
+    height: 100%;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .title-level {
+    line-height: clamp(20px, 2vw, 28px);
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 18px;
+    border-bottom: 0.5px solid #b2aebf;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+    color: #2384c1;
+    font-size: clamp(16px, 2vw, 20px);
+    font-style: normal;
+    letter-spacing: -0.28px;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .list-levels {
+    margin-top: 37px;
+    padding-inline: 31px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .list-levels ul {
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .list-levels ul li {
+    padding-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8.43px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .card-all-service {
+    border-radius: 25px;
+    border: 1px solid #cac8d4;
+    background: #fff;
+    padding: 24px;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .card-all-service-title {
+    align-items: center;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    margin-bottom: 7px;
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+    color: #2384c1;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .card-all-service-para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #0c1529;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #b0b0b0;
+    font-family: 'Lato';
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .list-levels ul {
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+    font-size: clamp(14px, 2vw, 16px);
+    color: #131313;
+}
+.loyalty-sat-pro-desktop .loyalitySatPro .accordian-title .heading{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 32px !important;
+    color: #020408 !important
+}
+/* ==================================== End Loyalty Sat Pro Page CSS ============================ */
  

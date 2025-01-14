@@ -220,3 +220,12 @@ Route::get('/satpro-mobile-member', function () {
 Route::get('/satpro-membership', function () {
     return view('static_pages/satpro-membership');
 });
+Route::get('/satpro-paid', function () {
+    return view('static_pages/satpro-paid');
+});
+Route::get('/satpro-payment', function () {
+    return view('static_pages/satpro-payment');
+});
+Route::get('/loyalty-sat-pro', function () {
+    return view('static_pages/loyalty-sat-pro');
+});

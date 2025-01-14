@@ -1170,5 +1170,8 @@
     .sat-pro-mobile-member-desktop .satProMobileMember .sat-pro-member-sec .para{
         font-size: 14px;
     }
+    .sat-pro-payment .satProPayment{
+        height: unset;
+    }
 }
 
