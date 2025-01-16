@@ -229,3 +229,6 @@ Route::get('/satpro-payment', function () {
 Route::get('/loyalty-sat-pro', function () {
     return view('static_pages/loyalty-sat-pro');
 });
+Route::get('/sat-supporters', function () {
+    return view('static_pages/sat-supporters');
+});

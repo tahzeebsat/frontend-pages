@@ -13985,4 +13985,149 @@ background-color: transparent;
     color: #020408 !important
 }
 /* ==================================== End Loyalty Sat Pro Page CSS ============================ */
+
+/* ==================================== Start Sat Supporters Page CSS ============================ */
+.sat-supporters-desktop .satSupporters .support-section-1 .title{
+    font-family: 'Lato';
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    margin-bottom: 24px;
+}
+.sat-supporters-desktop .satSupporters .support-section-1 .para{
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #475467;
+    margin-bottom: 24px;
+}
+.sat-supporters-desktop .satSupporters .support-section-1 .btn-sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    border-radius: 4px;
+    background-color: #2384c1;
+    border: 1px solid #2384c1;
+    max-width: 285px;
+    width: 100%;
+    padding-block: 12px;
+    padding-inline: 10px;
+    text-decoration: none;
+}
+.sat-supporters-desktop .satSupporters .become-sat-support {
+    background-color: #f0f2f1;
+}
+.sat-supporters-desktop .satSupporters .become-sat-support .title {
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.sat-supporters-desktop .satSupporters .become-sat-support .support-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.sat-supporters-desktop .satSupporters .become-sat-support .support-card .sub-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #131313;
+    margin-bottom: 4px;
+}
+.sat-supporters-desktop .satSupporters .become-sat-support .support-card .sub-para {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #131313;
+    margin-bottom: 0px;
+}
+.sat-supporters-desktop .satSupporters .marketing-support .main-title {
+    margin-bottom: 24px;
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: #101828;
+}
+.sat-supporters-desktop .satSupporters .marketing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sat-supporters-desktop .satSupporters .marketing-card .title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #101828;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+.sat-supporters-desktop .satSupporters .marketing-card .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475467;
+    text-align: center;
+    margin-bottom: 0px;
+    max-width: 406px;
+}
+.sat-supporters-desktop .satSupporters .why-sat-supporter {
+    background-color: #f3f9ff;
+}
+.sat-supporters-desktop .satSupporters .why-sat-supporter .title {
+    font-family: 'Sofia-Pro';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    color: #101828;
+    margin-bottom: 10px;
+}
+.sat-supporters-desktop .satSupporters .why-sat-supporter .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #475467;
+    margin-bottom: 24px;
+}
+.sat-supporters-desktop .satSupporters .btn-sat-up {
+    border-radius: 4px;
+    background-color: #2384c1;
+    padding-block: 12px;
+    padding-inline: 18px;
+    width: 100%;
+    max-width: 234px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #ffffff;
+    text-decoration: none;
+}
+/* ==================================== End Sat Supporters Page CSS ============================ */
  

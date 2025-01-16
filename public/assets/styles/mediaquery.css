@@ -542,6 +542,69 @@
    .new-sell-with-sat-desktop .newSellWithSat .tab-pane .tabInner .rightImage{
     margin: 32px;
    }
+   .sat-supporters-desktop .satSupporters .support-section-1 .title{
+    font-size: 26px;
+    line-height:40px;
+    margin-bottom:0px;
+    }
+    .sat-supporters-desktop .satSupporters .support-section-1 .para{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 12px;
+    }
+    .sat-supporters-desktop .satSupporters .support-section-1 .btn-sign-up{
+    max-width: 195px;
+    padding-block: 8px;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .title{
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 22px;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .support-card{
+        display: block !important;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .support-card img{
+        max-width: 60px;
+        max-height: 60px;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .support-card .sub-title{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .support-card .sub-para{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .sat-supporters-desktop .satSupporters .marketing-support .main-title{
+        margin-bottom: 18px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .sat-supporters-desktop .satSupporters .marketing-card .title{
+        font-size: 17px;
+        text-align: center;
+    }
+    .sat-supporters-desktop .satSupporters .marketing-card .para{
+        font-size: 16px;
+        margin-bottom: 0px;
+        max-width: 406px;
+    }
+    .sat-supporters-desktop .satSupporters .why-sat-supporter .title{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    
+    .sat-supporters-desktop .satSupporters .why-sat-supporter .para{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .sat-supporters-desktop .satSupporters .btn-sat-up{
+        padding-block: 8px;
+        max-width: 213px;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
 @media (max-width:767px){
@@ -1172,6 +1235,9 @@
     }
     .sat-pro-payment .satProPayment{
         height: unset;
+    }
+    .sat-supporters-desktop .satSupporters .become-sat-support .support-card{
+        display: flex !important;
     }
 }
 
