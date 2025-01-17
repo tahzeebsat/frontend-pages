@@ -232,3 +232,6 @@ Route::get('/loyalty-sat-pro', function () {
 Route::get('/sat-supporters', function () {
     return view('static_pages/sat-supporters');
 });
+Route::get('/sat-supporters-dashboard-user', function () {
+    return view('static_pages/sat-supporters-dashboard-user');
+});
