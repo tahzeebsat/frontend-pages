@@ -777,7 +777,7 @@
                             <h2 class="accordion-header">
                               <button class="accordion-button collapsed text-white rounded-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                   <img src="{{asset('assets/images/mobile-explore-budget.webp')}}" alt="Google Play logo" class="app-logo img-fluid mx-3" loading="lazy">
-                                  Explore by Budged
+                                  explore by Budget
                               </button>
                             </h2>
                             <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordian">

@@ -495,6 +495,8 @@ input:focus {
 .hero-slider-form-area .form-slider{
     position: absolute;
     background-color: var(--white-color);
+    background-image: url('../images/sliderform-svg.webp');
+    background-repeat: no-repeat;
     top: 25px;
     left: 12px;
     width: 25%;
@@ -516,11 +518,17 @@ input:focus {
     box-shadow: none;
 }
 .hero-slider-form-area .form-slider .from-wrapper .btn-slider-form-search{
-    background-color:var(--custome-color);
+    background-color:#2a9fe8;
     width: 100%;
     color: var(--white-color);
     font-family: "Lato", sans-serif;
     font-size: var(--fs-18);
+    border-radius: 3px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
 }
 .hero-slider-form-area .form-slider .from-wrapper .advance-search p{
     font-size: var(--fs-12);

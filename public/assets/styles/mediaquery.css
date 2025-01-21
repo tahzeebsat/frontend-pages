@@ -855,6 +855,13 @@
         color: #1c6a9b;
         padding: 10px 0px 0px 0px;
     }
+    .early-budget-desktop .nav-tabs{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
     .early-budget-desktop .nav-tabs .nav-item a {
         padding: 2px 0px;
         margin-right: 15px !important;
