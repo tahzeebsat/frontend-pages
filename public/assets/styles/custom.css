@@ -2590,10 +2590,12 @@ footer .footer-copyright{
     font-weight: 700;
     line-height: 24.82px;
 } 
-.find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
-    width: 672px;
+.find-my-car-desktop .wrapper .find-car-left .modal-dialog{
+    max-width: 672px;
     position: relative;
-    right: 30%;
+}
+.find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content{
+    position: relative;
     height: 648px;
 }
 .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content .modal-header .modal-title{
@@ -2699,7 +2701,7 @@ footer .footer-copyright{
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form2 .catch-value p{
     color: #5D6370;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     font-family: "Lato", sans-serif;
@@ -2739,7 +2741,7 @@ footer .footer-copyright{
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form3 .catch-value p{
     color: #5D6370;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     font-family: "Lato", sans-serif;
@@ -2768,7 +2770,7 @@ footer .footer-copyright{
   }
   .find-my-car-desktop .wrapper .find-car-left .modal-dialog .modal-content #container #multi-step-form .next-step-form1 .catch-value p{
     color: #5D6370;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 25px;
     font-family: "Lato", sans-serif;
@@ -4066,8 +4068,13 @@ display: none;
     text-align: justify;
     color: #5d6370;
 }
-
-
+.advance-search-calculator .customer-review-desktop .container {
+    padding: 0;
+}
+.advance-search-calculator .similar-car-desktop .heading .title{
+    position: relative;
+    right: 10px;
+}
 
 .feature-car-resources-desktop .feature-car .wrapping .heading{
     font-family: "Sofia-Pro";
@@ -14138,4 +14145,143 @@ background-color: transparent;
     text-decoration: none;
 }
 /* ==================================== End Sat Supporters Page CSS ============================ */
+
+/* ==================================== Start Sat Supporter Marketing Page CSS ============================ */
+.satMarketingMaterialDesktop .main-content {
+    padding-block: 24px;
+    flex-grow: 1;
+    padding-left: 55px;
+    overflow-x: auto;
+}
+.satMarketingMaterialDesktop .main-content .market-material {
+    display: flex;
+    align-items: center;
+    column-gap: 8.6px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+.satMarketingMaterialDesktop .main-content .market-material a {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+    text-decoration: none;
+    margin-block: 4px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.satMarketingMaterialDesktop .main-content .market-material span {
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #2384c1;
+}
+/* ==================================== End Sat Supporter Marketing Page CSS ============================ */
+
+/* ==================================== Start Sat Supporter Tack Raferal Page CSS ============================ */
+.satTrackRaferalDesktop .main-content {
+    padding-block: 24px;
+    flex-grow: 1;
+    padding-left: 55px;
+    overflow-x: auto;
+}
+.satTrackRaferalDesktop .main-content .filter-supporters {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.satTrackRaferalDesktop .main-content .filter-supporters .filter-select {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    background-color: #ededf1;
+    padding: 2px 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 44px;
+    cursor: pointer;
+}
+.satTrackRaferalDesktop .main-content .filter-supporters .filtered-date {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    background-color: #2384c1;
+    color: #ffffff;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 44px;
+}
+.satTrackRaferalDesktop .main-content .filter-supporters .filter-date {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.satTrackRaferalDesktop .main-content .filter-supporters .filter-date span {
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #898989;
+    display: block;
+    cursor: pointer;
+}
+.satTrackRaferalDesktop .main-content .header-filter-data {
+    max-width: 100%;
+    margin-top: 18px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    min-width: 688px;
+    gap: 20px;
+}
+.satTrackRaferalDesktop .main-content .filtered-data .header-filter-data .heading-item-support {
+    flex: 1 0 calc(25% - 20px);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #7a7493;
+    padding: 10px;
+}
+.satTrackRaferalDesktop .main-content .filtered-data .data-cars {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #eaebf0;
+    margin-bottom: 12px;
+    min-width: 688px;
+}
+.satTrackRaferalDesktop .main-content .filtered-data .data-cars .data-cars-item {
+    flex: 1 0 calc(25% - 20px);
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    padding: 10px;
+}
+.satTrackRaferalDesktop .main-content .filtered-data .data-cars .data-cars-item img {
+    max-height: 102px;
+    object-fit: cover;
+}
+.satTrackRaferalDesktop .main-content .filtered-data .data-cars .clr-blue-60 {
+   color: #2384c1;
+}
+/* ==================================== End Sat Supporter Tack Raferal Page CSS ============================ */
  

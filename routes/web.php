@@ -235,3 +235,9 @@ Route::get('/sat-supporters', function () {
 Route::get('/sat-supporters-dashboard-user', function () {
     return view('static_pages/sat-supporters-dashboard-user');
 });
+Route::get('/sat-supporters-marketing-material', function () {
+    return view('static_pages/sat-supporters-marketing-material');
+});
+Route::get('/sat-supporters-track-raferal', function () {
+    return view('static_pages/sat-supporters-track-raferal');
+});
