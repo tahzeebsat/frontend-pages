@@ -199,7 +199,7 @@
                    <div class="utilizeCar">
                     <p class="m-0 title pt-5 pb-3">Steps to Utilize Our Car Carrier Service</p>
 
-                    <div class="inner row flex-lg-wrap justify-content-center mb-4">
+                    <div class="inner row flex-lg-wrap mb-4">
                         <div class="col-lg-4 col-md-6 col-sm-6 py-2">
                             <div class="inner border rounded-2 text-center p-4">
                                 <img src="{{asset('assets/images/staticPagesAssets/icon/Ship-icon.webp')}}" alt="Ship" class="img-fluid" loading="lazy">
