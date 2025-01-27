@@ -8466,6 +8466,18 @@ background-color: transparent;
     letter-spacing: -0.014em;
     color: #5d6370;
  }
+ .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner{
+    background-color: #FEF3EE;
+ }
+ .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left .heading{
+    font-size: 30px;
+    font-weight: 700;
+ }
+ .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left .subheading{
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+ }
  .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .list{
     font-family: "Lato";
     font-size: clamp(14px, 2vw, 20px);

@@ -1246,5 +1246,10 @@
     .sat-supporters-desktop .satSupporters .become-sat-support .support-card{
         display: flex !important;
     }
+    .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left .heading{
+        font-size: 20px;
+        text-align: center;
+    }
+    
 }
 

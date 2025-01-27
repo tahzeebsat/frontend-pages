@@ -15,7 +15,28 @@
                         about the vehicle's history, you can request an inspection certificate to confirm the status of your vehicle.
                     </p>
 
-                    <img src="{{asset('assets/images/staticPagesAssets/images/stolen-bannar2.webp')}}" alt="Banner" class="img-fluid py-5" loading="lazy">
+                    {{-- <img src="{{asset('assets/images/staticPagesAssets/images/stolen-bannar2.webp')}}" alt="Banner" class="img-fluid py-5" loading="lazy"> --}}
+                    <div class="stolenBannerSection my-4">
+                        <div class="mainBanner">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="left px-4">
+                                        <p class="heading">
+                                            5,762 cars have been stolen in Japan in 2023
+                                        </p>
+                                        <p class="subheading">
+                                            Car theft in Japan is driven by high demand for Japanese cars abroad and the involvement of criminal groups. Most thefts happen at night in areas with little supervision.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="right">
+                                    <img src="{{asset('assets/images/staticPagesAssets/images/stolencar.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <p class="m-0 heading pb-3">Steps to get a Non-Stolen Verification Certificate</p>
                     <div class="list">
@@ -63,8 +84,28 @@
                         about the vehicle's history, you can request an inspection certificate to confirm the status of your vehicle.
                     </p>
 
-                    <img src="{{asset('assets/images/staticPagesAssets/images/stolen-bannar2-mob.webp')}}" alt="Banner" class="img-fluid py-3" loading="lazy">
+                    {{-- <img src="{{asset('assets/images/staticPagesAssets/images/stolen-bannar2-mob.webp')}}" alt="Banner" class="img-fluid py-3" loading="lazy"> --}}
 
+                    <div class="stolenBannerSection my-4">
+                        <div class="mainBanner">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="left px-4">
+                                        <p class="heading pt-3">
+                                            5,762 cars have been stolen in Japan in 2023
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                   <div class="right">
+                                    <img src="{{asset('assets/images/staticPagesAssets/images/stolencar.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <p class="m-0 heading pb-3">Steps to get a Non-Stolen Verification Certificate</p>
                     <div class="list">
                         <ol>
