@@ -605,6 +605,25 @@
         font-size: 16px;
         line-height: 24px;
     }
+    .storage-policy-desktop .storagePolicy .storage--card{
+        padding: 15px;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage{
+        padding: 0px;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage .text{
+        font-size: 24px;
+        line-height: 26px;
+    }
+    .storage-policy-desktop .storagePolicy .storage-img{
+        max-width: 150px;
+        height: auto;
+        position: unset;
+        transform: unset;
+    }
+    .storage-policy-desktop .storagePolicy .storage--card .bg-over{
+        display: none !important;
+    }
 }
 
 @media (max-width:767px){
@@ -1250,6 +1269,12 @@
         font-size: 20px;
         text-align: center;
     }
-    
+    .cookies_policy_desktop .cookiesPolicy .inner .heading{
+        padding: 20px 0px 0px 0px;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage .text{
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 

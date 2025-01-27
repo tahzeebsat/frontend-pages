@@ -58,7 +58,7 @@
                             attention to each client and understanding their demands and preferences. We strive to satisfy
                             your demands and ensure a smooth and hassle-free procurement journey. Feel free to ask us any
                             question or send any inquiry at
-                            <a href="javascript:;" class="why-choose-sat-card-para-spn">http://satjapan.com/inquiry-form
+                            <a href="javascript:;" class="why-choose-sat-card-para-spn">http://satjapan.com/inquiry-form</a>
                         </p>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                                 attention to each client and understanding their demands and preferences. We strive to satisfy
                                 your demands and ensure a smooth and hassle-free procurement journey. Feel free to ask us any
                                 question or send any inquiry at
-                                <a href="javascript:;" class="why-choose-sat-card-para-spn">http://satjapan.com/inquiry-form
+                                <a href="javascript:;" class="why-choose-sat-card-para-spn">http://satjapan.com/inquiry-form</a>
                             </p>
                         </div>
                     </div>

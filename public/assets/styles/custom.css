@@ -8910,7 +8910,42 @@ background-color: transparent;
  /* ==================================== End Cookies Policy Page CSS ============================ */
  
  /* ==================================== Start Storage Policy Page CSS ============================ */
-.storage-policy-desktop .storagePolicy .inner .heading{
+ .storage-policy-desktop .storagePolicy .storage--card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+.storage-policy-desktop .storagePolicy .text-storage {
+    padding: 45px 0px 45px 35px;
+    max-width: 759px;
+}
+.storage-policy-desktop .storagePolicy .text-storage .text {
+    font-family: 'Lato';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47.51px;
+    letter-spacing: -0.016em;
+    color: #000000;
+}
+.storage-policy-desktop .storagePolicy .text-storage .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.storage-policy-desktop .storagePolicy .storage-img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ .storage-policy-desktop .storagePolicy .inner .heading{
     font-family: 'Sofia-Pro';
     font-size: clamp(18px, 2vw, 24px);
     font-weight: 600;
@@ -8989,7 +9024,7 @@ background-color: transparent;
     padding: 10px 12px 10px 12px
 }
 .storage-policy-desktop .storagePolicy .inner .vehicle-storage-min-col .new-vehicle-card-main .stgr-botm-img-hdr{
-    font-family: var(--font-family-Lato);
+    font-family: 'Lato';
     font-size: clamp(12px, 2vw, 16px);
     font-weight: 700;
     line-height: clamp(18px, 4vw, 24px);
