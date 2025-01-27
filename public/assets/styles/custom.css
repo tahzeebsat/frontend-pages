@@ -8277,7 +8277,6 @@ background-color: transparent;
 .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .left{
     padding: 20px 14px 20px 10px;
     border: 1px solid #eaebf0;
-    height: 58vh;
 }
 .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .title{
     font-family: 'Lato';
@@ -8302,7 +8301,6 @@ background-color: transparent;
 .carrier_service_policy_desktop .carrierService .innerDetails .deliveryOption .right{
     padding: 20px 14px 20px 10px;
     border: 1px solid #eaebf0;
-    height: 58vh;
 }
 
 .carrier_service_policy_desktop .carrierService .innerDetails .carrierService .title{

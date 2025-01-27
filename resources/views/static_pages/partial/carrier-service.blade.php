@@ -14,7 +14,7 @@
 
                     <p class="m-0 heading pt-4 pb-3">Delivery Options</p>
 
-                   <div class="deliveryOption d-flex justify-content-between align-items-center gap-3">
+                   <div class="row deliveryOption">
                     <div class="col-md-6">
                         <div class="left my-2">
                             <div class="topImg">
