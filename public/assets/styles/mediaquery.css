@@ -90,6 +90,13 @@
     .how-to-pay-desktop .howToPay .right{
         margin: 0px 50px;
     }
+    .storage-policy-desktop .storagePolicy .text-storage{
+        padding: 18px 0px 18px 35px;
+        max-width: 555px;
+    }
+    .storage-policy-desktop .storagePolicy .storage-img{
+        height: auto;
+    }
 }
 
 @media(max-width:1199px){
@@ -253,6 +260,20 @@
     }
     .cart-items-desktop .cartItems .search-parts-badge{
         top: 20px;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage{
+        padding: 18px 0px 18px 35px;
+        max-width: 555px;
+    }
+    .storage-policy-desktop .storagePolicy .storage-img{
+        max-width: 265px;
+        height: auto;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage .text{
+        font-size: 28px;
+    }
+    .storage-policy-desktop .storagePolicy .text-storage .para{
+        font-size: 18px;
     }
 }
 
@@ -1265,6 +1286,10 @@
     .sat-supporters-desktop .satSupporters .become-sat-support .support-card{
         display: flex !important;
     }
+    .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left{
+        position:relative;
+        width: 100%;
+    }
     .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left .heading{
         font-size: 20px;
         text-align: center;
@@ -1275,6 +1300,11 @@
     .storage-policy-desktop .storagePolicy .text-storage .text{
         font-size: 16px;
         line-height: 26px;
+    }
+    .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .btn-verified{
+        line-height: 16px;
+        padding: 10px;
+        margin-top: 16px;
     }
 }
 

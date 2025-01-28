@@ -8466,8 +8466,16 @@ background-color: transparent;
     letter-spacing: -0.014em;
     color: #5d6370;
  }
- .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner{
+ .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left{
     background-color: #FEF3EE;
+    position: absolute;
+    top: 10%;
+    width: 50%;
+    height: 90%;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
  }
  .non_stolen_vehicle_desktop .nonStolenVehicle .innerDetails .stolenBannerSection .mainBanner .left .heading{
     font-size: 30px;

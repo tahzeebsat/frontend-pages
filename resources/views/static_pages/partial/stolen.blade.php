@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="bannerImage">
-                    <img src="{{asset('assets/images/staticPagesAssets/images/Nonstolen.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
+                    <img src="{{asset('assets/images/staticPagesAssets/images/non-stolen-vehicle-check-service.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="innerDetails">
@@ -18,7 +18,7 @@
                     {{-- <img src="{{asset('assets/images/staticPagesAssets/images/stolen-bannar2.webp')}}" alt="Banner" class="img-fluid py-5" loading="lazy"> --}}
                     <div class="stolenBannerSection my-4">
                         <div class="mainBanner">
-                            <div class="row align-items-center">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-md-6">
                                     <div class="left px-4">
                                         <p class="heading">
@@ -55,9 +55,9 @@
 
         <div class="helpNeed mt-4">
             <div class="container">
-                <div class="row">
-                    <p class="m-0 head pt-4 pb-2">Need Help?</p>
-                    <p class="m-0 tail pb-5">In case of any questions, please feel free to reach out to us at <a href="javascript:;">info@satjapan.com</a></p>
+                <div class="row py-2">
+                    <p class="m-0 head pt-4 pb-3">Need Help?</p>
+                    <p class="m-0 tail pb-4">In case of any questions, please feel free to reach out to us at <a href="javascript:;">info@satjapan.com</a></p>
                 </div>
             </div>
         </div>
@@ -72,7 +72,7 @@
         <div class="container">
             <div class="row">
                 <div class="bannerImage">
-                    <img src="{{asset('assets/images/staticPagesAssets/images/Nonstolen.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
+                    <img src="{{asset('assets/images/staticPagesAssets/images/non-stolen-vehicle-check-service-mob.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
                 </div>
 
                 <div class="innerDetails">
@@ -88,7 +88,7 @@
 
                     <div class="stolenBannerSection my-4">
                         <div class="mainBanner">
-                            <div class="row align-items-center">
+                            <div class="row align-items-center position-relative">
                                 <div class="col-md-6">
                                     <div class="left px-4">
                                         <p class="heading pt-3">

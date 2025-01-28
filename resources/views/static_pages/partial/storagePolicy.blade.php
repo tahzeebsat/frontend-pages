@@ -6,7 +6,7 @@
             <img src="{{asset('assets/images/staticPagesAssets/images/storage-service.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
            </div> --}}
            <div class="col-12">
-            <div class="storage--card">
+            <div class="storage--card mt-4">
               <div class="text-storage">
                 <h2 class="text">Secure Storage Service For Your Vehicle's Safety</h2>
                 <p class="para d-lg-block d-md-block d-sm-none d-none">
@@ -164,7 +164,7 @@
               <img src="{{asset('assets/images/staticPagesAssets/images/storage-service.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
              </div> --}}
              <div class="col-12">
-              <div class="storage--card">
+              <div class="storage--card mt-4">
                 <div class="text-storage">
                   <h2 class="text">Secure Storage Service For Your Vehicle's Safety</h2>
                   <p class="para d-lg-block d-md-block d-sm-none d-none">

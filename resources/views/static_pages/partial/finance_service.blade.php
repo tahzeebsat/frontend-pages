@@ -81,7 +81,7 @@
 
                     <div class="ourFinanceService">
                         <p class="m-0 heading py-3">Why Choose Our Finance Service</p>
-                        <div class="row financ-emore-cookies flex-lg-wrap mb-5 pb-5">
+                        <div class="row financ-emore-cookies flex-lg-wrap mb-5 pb-1">
                             <div class="col-lg-3 col-md-6 col-sm-6 finance-services-card">
                                 <div class="card finance-services-card-work">
                                     <img src="{{asset('assets/images/staticPagesAssets/icon/finance-bitcoin.webp')}}" class="why-chose-finance align-self-center" alt="">
