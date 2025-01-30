@@ -1132,7 +1132,7 @@
                     <div class="wraps">
                         <div class="banner d-flex align-items-center">
                             <div class="bannerImage">
-                                <img src="{{asset('assets/images/app-bannar-pro.webp')}}" alt="Banner" class="img-fluid" loadiing="lazy">
+                              <img src="{{asset('assets/images/app-bannar-pro.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
                             </div>
                            <div class="bannerText p-2">
                             <p class="m-0 banner-text py-2">Get Exclusive Benefits with Our App</p>
