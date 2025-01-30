@@ -2319,6 +2319,53 @@ footer .footer-copyright{
 /* ===================================== End Recomended Car Css ===================================== */
 
 
+/* ===================================== Start Get Exclusive Benefits Css ===================================== */
+.get-exclusive-benefits{
+    position: relative;
+}
+.get-exclusive-benefits .bg-bannar-app {
+    position: relative;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #185982 0%, #2a9fe8 185.15%);
+    overflow-y: hidden;
+    display: flex;
+}
+.get-exclusive-benefits .bg-bannar-app .items-specs-app {
+    padding-block: 31px;
+    padding-right: 43px;
+    margin-left: auto;
+}
+.get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec {
+    max-width: 340px;
+}
+.get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-text {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+.get-exclusive-benefits .bg-bannar-app .items-specs-app  .bannar-text-pro-sec .bannar-para {
+    color: #fff;
+    font-family: "Lato";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.28px;
+    margin-bottom: 20px;
+}
+.get-exclusive-benefits .bg-bannar-app .items-specs-app  .bannar-text-pro-sec .button-promo-app {
+    display: flex;
+    gap: 16px;
+}
+/* ===================================== End Get Exclusive Benefits Css ===================================== */
+
+
 /* ===================================== Start Early Budget Css ===================================== */
 .early-budget-desktop .nav-tabs {
     border: none;

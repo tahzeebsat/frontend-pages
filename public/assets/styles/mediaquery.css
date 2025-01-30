@@ -97,6 +97,9 @@
     .storage-policy-desktop .storagePolicy .storage-img{
         height: auto;
     }
+    .get-exclusive-benefits .bg-bannar-app .app-ban-pro{
+        max-width: 530px;
+    }
 }
 
 @media(max-width:1199px){
@@ -274,6 +277,20 @@
     }
     .storage-policy-desktop .storagePolicy .text-storage .para{
         font-size: 18px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .app-ban-pro{
+        max-width: 400px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-text {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-para {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app {
+        padding-right: 22px;
     }
 }
 
@@ -644,6 +661,27 @@
     }
     .storage-policy-desktop .storagePolicy .storage--card .bg-over{
         display: none !important;
+    }
+    .get-exclusive-benefits .bg-bannar-app .app-ban-pro {
+        max-width: 260px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec {
+        max-width: 265px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-text {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-para {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .button-promo-app img {
+        max-width: 100px;
+        height: 30px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .qr-ban-pro {
+        max-width: 114px;
     }
 }
 
@@ -1305,6 +1343,40 @@
         line-height: 16px;
         padding: 10px;
         margin-top: 16px;
+    }
+    .get-exclusive-benefits .bg-bannar-app {
+        gap: 6px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .app-ban-pro {
+        max-width: 139px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec{
+        padding-right: 0px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-text {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.252px;
+        text-transform: capitalize;
+        margin-bottom: 6px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .bannar-para {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13px;
+        letter-spacing: -0.14px;
+        margin-bottom: 8px;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .button-promo-app{
+        gap: 4px;
+        display: flex;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .bannar-text-pro-sec .button-promo-app img{
+        max-width: 100%;
+    }
+    .get-exclusive-benefits .bg-bannar-app .items-specs-app .qr-ban-pro{
+        display: none;
     }
 }
 

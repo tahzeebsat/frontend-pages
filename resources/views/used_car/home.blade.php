@@ -14,6 +14,11 @@
 @component('used_car.partial.recomended_cars')
 @endcomponent
 
+{{-- <p>Okay</p> --}}
+
+@component('used_car.partial.get-exclusive-benefits')
+@endcomponent
+
 @component('used_car.partial.early_budget')
 @endcomponent
 
@@ -33,6 +38,9 @@
 @component('used_car.partial.best-seller_by_type')
 @endcomponent
 
+@component('used_car.partial.find_my_car')
+@endcomponent
+
 @component('used_car.partial.compare_car')
 @endcomponent
 
@@ -42,8 +50,7 @@
 @component('used_car.partial.web_promotion2')
 @endcomponent
 
-@component('used_car.partial.find_my_car')
-@endcomponent
+
 
 @component('used_car.partial.customer_review')
 @endcomponent
