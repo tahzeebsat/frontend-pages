@@ -210,7 +210,7 @@
                                     
                                     <li class="nav-item dropdown">
                                         <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            New Car
+                                            New Cars
                                         </a>
                                         </li>
                                     <li class="nav-item dropdown">

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-              <div class="bg-bannar-app">
+              <div class="bg-bannar-app mt-4 mt-sm-0 mt-md-0">
                 <img src="{{asset('assets/images/new-car-assets/app-bannar-pro.webp')}}" width="630" height="420" class="img-fluid app-ban-pro" alt="bannar app">
                 <div class="d-flex align-items-center items-specs-app">
                   <div class="bannar-text-pro-sec ms-auto">

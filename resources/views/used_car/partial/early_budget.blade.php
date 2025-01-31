@@ -1,4 +1,4 @@
-<section class="early-budget-desktop py-4">
+<section class="early-budget-desktop py-md-4 py-0">
     <div class="container">
         <div class="heading d-flex align-items-center justify-content-between pb-3">
             <p class="title">Explore by Budget</p>
