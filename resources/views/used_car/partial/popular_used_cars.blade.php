@@ -172,7 +172,7 @@
         </div>
 
         <div class="view-all-popular-cars text-center mt-3">
-            <a href="javascript:;" class="view-all m-0">View All Reviews<i class="fas fa-arrow-right ms-2"></i> </a>
+            <a href="javascript:;" class="view-all m-0"> Show All Makes<i class="fas fa-arrow-right ms-2"></i> </a>
         </div>
       </div>
       

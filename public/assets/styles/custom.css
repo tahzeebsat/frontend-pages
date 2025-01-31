@@ -424,7 +424,9 @@ input:focus {
     color: var(--rich-black);
     padding-left: 0;
 }
-
+.mega-menu-section .navbar .navbar-nav .nav-item:hover {
+    color: #2a9fe8;
+}
 .mega-menu-section .navbar .navbar-nav .nav-item .dropdown-menu h6 {
     font-family: "Lato", sans-serif;
     font-weight: 600;
@@ -1795,6 +1797,7 @@ footer .footer-copyright{
     font-family: "Sofia-Pro";
     font-size: var(--fs-24);
     font-weight: 600;
+    color: #020408;
 }
 
 .popular_used_car-desktop .box .top-brand{

@@ -130,7 +130,7 @@
                                 <ul class="navbar-nav">
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Find Your Car
+                                            Used Cars
                                         </a>
                                         <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
@@ -208,6 +208,11 @@
                                         </div>
                                     </li>
                                     
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            New Car
+                                        </a>
+                                        </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Local Pages
@@ -504,7 +509,7 @@
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            Reviews
+                                            Car Reviews
                                         </a>
                                         <div class="dropdown-menu mega-menu car-reviews p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
@@ -593,6 +598,31 @@
                                                         <span class="mx-2">Careers</span>
                                                     </a>
                                                 </div>  
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Loyalty Program
+                                        </a>
+                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                            <div class="row">
+                                                <div class="col-md-2 mx-2">
+                                                    <a class="dropdown-item" href="#" aria-label="How to Buy">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" xml:space="preserve" version="1.1" viewBox="0 0 32 32">
+                                                            <image width="32" height="32" xlink:href="data:image/webp;base64,UklGRpIBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSPgAAAABkFZrb95IgiAIhiAIgjAMNhDCoGHQMsgymGEgCIEgCIbw/LBiZz8ARMQEyP9Vzd30MX0F5bW3J/TVgYy4AM62ZAnhKqP/hrSFr06YTLak/5qyzkcWD7pNtOSQ5Q+pd29SHgyOmwat8NFujK7Vziljo8ytkOCoLnwOvHCiUJC77v4NP4WCDsY1kSIOUUhigxMz7t/wUwW+Vm8LRi70XeoLGxR0YttM7kEHCXxCZp1LyoN45mSvtOODuvtMg1bJQQyrySm3mrzXXmS7E+u8Vt50k9mvTrYZC/om85ZweqEekCar7QNwRSTQD5UH235RxqHytJq7qfxfAVZQOCB0AAAA8AMAnQEqIAAgAD5RJI9Fo6IhFAQAOAUEs4BWGUGMGuA2zN2qgO9IAAD++oj/P2SwEIEGTIKtdEsTOybHB/AXbSg2za0G4CcUq3BqsjLKQ1zNMDbmMmfoz3+8xMglSzNnJEb+V4KobMbBJKE+QbWasE7wAAA="/>
+                                                          </svg>                                                            
+                                                        <span class="mx-2">Explore Loyalty Program</span>
+                                                    </a>
+                                                    <a class="dropdown-item" href="#" aria-label="Inquiry Form">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" xml:space="preserve" version="1.1" viewBox="0 0 32 32">
+                                                            <image width="32" height="32" xlink:href="data:image/webp;base64,UklGRhADAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSFoBAAABkFVb2544R0Ic8DkoDiYScEAcFAeJA3DAKCjj4HPQOJjPAXHwnAs+6H+vI2IC+F8c5uZW356UmvkHSovRzL0lSSuvDE07HjpHEz93L9yM23WNWTssUT+HJ7PqHmp01+HL3XjrFY0nYNJ8mw8P7Dd17FyNF4BqVNtXgJNaH4pJK8CsGjVXgBodgUldgMnEaKJnYIxegJu6A5qxjmV8N6YAm2nAqg04Rm88XtQLcDUOsGkFzpp9Z9h0BWbjDoxXoBrpr9qARTOCdt41w5O4PkT30MwKLIlzp6gfwFkzQI33AUZ1OwL7ZnIEqm7AohmBm2q9VtUGFM0HMBorMDSNUXMvwDV6BKjqCJTviWo8ACV6Lw9TtBWAqW6qN4A1utCtxrXQj3k4q23XK1tiK71qPO3OGg88fTPGQ+ekMVFnXpzuxluHGo3xwsul6dQbLqr3hR89jDwvh2Ua+FsCVlA4IJABAACQCgCdASogACAAPk0ejUQioaGYDAYAKATEtgBOmUI6g8Y/E3kDN1zALqY/VbRt0gPMB+xW+AfzP+59YB6AH7R+lH7BH7Xftr7NAYj/ZluSkZ6GM/0EcU87IilJyBAA/voVr796i8a9vI9GxxLxpb+ijrPgyhphBoxFP/cN/wS5tw5bi0hf/KwdfNl4uXE76Ruu33PrvzuXW8O0tqPmbSAyf5JOn63q8wD9RZnBvkQzoNj9DC3CqEfDmCL1XlQunxO1NYLWBTd9lMZCKb2YES2GGeL78roXutD/ZzCYQoMTxFk42vjQAx70yeX4XzzZgEvKzynfgvURdSLR+Eg36XpVwVJxblqw9OqHAK0fqRrZvbEbw/1kv/v4/bsvQpqU/muY0HBVu12LOBSKf0yM3vUW/xmm/SA4qSCKGtD+/gvr2JEm2awgr3gVd5fRO5KJLC/XEO36xfDbRVpzFyCaMKxjSN2Bsr6MI85GVCJ/Vziw9NpAcaeCuY2jIZhdR1+1A6m1EqVZ9zd/xeqj+YhOgAAA"/>
+                                                          </svg>                                                            
+                                                        <span class="mx-2">Join SAT Pro</span>
+                                                    </a>
+                                                 
+                                                </div>
+
                                             </div>
                                         </div>
                                     </li>

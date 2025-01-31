@@ -55,7 +55,7 @@
                                             <span id="selectedMake">Make</span>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonMake" id="makeDropdown">
-                                            <div class="make-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                            <div class="make-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                                 <input type="text" class="form-control border-0 shadow-none bg-transparent" id="makeForm" placeholder="Search Make">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
@@ -79,7 +79,7 @@
                                             <span id="selectedType">Type</span>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonType" id="typeDropdown">
-                                            <div class="type-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                            <div class="type-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                                 <input type="text" class="form-control border-0 shadow-none bg-transparent" id="typeForm" placeholder="Search Type">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
@@ -100,7 +100,7 @@
                                             <span id="selectedMinYear">Min Year</span>
                                         </button>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="minyearDropdown">
-                                            <div class="min-year-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                            <div class="min-year-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                                 <input type="text" class="form-control border-0 shadow-none bg-transparent" id="minyearForm" placeholder="Search Min Year">
                                                 <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
@@ -125,7 +125,7 @@
                                         <span id="selectedModel">Model</span>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="modelDropdown">
-                                        <div class="model-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                        <div class="model-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                             <input type="text" class="form-control border-0 shadow-none bg-transparent" id="modelForm" placeholder="Search Model">
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
@@ -146,7 +146,7 @@
                                         <span id="selectedSteering">Steering</span>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="steeringDropdown">
-                                        <div class="steering-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                        <div class="steering-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                             <input type="text" class="form-control border-0 shadow-none bg-transparent" id="steeringForm" placeholder="Search steering">
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
@@ -165,7 +165,7 @@
                                         <span id="selectedMaxYear">Max Year</span>
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="maxyearDropdown">
-                                        <div class="max-year-search-field mx-2 px-0 py-0 d-flex justify-content-between align-items-center rounded-1">
+                                        <div class="max-year-search-field mx-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                             <input type="text" class="form-control border-0 shadow-none bg-transparent" id="maxyearForm" placeholder="Search Max Year">
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                 <path d="M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z" fill="#2F2B43" fill-opacity="0.7"></path>
