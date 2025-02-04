@@ -3434,6 +3434,65 @@ footer .footer-copyright{
     padding: 0px;
 }
 
+.advance-search-calculator .filter-search-page {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #01334e;
+    max-width: 370px;
+    border-radius: 47px;
+    padding: 4px;
+}
+
+.advance-search-calculator .filter-search-page span {
+    user-select: none;
+    padding: 8px 24px;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #08202e;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.advance-search-calculator .filter-search-page span.active {
+    background-color: #2384c1;
+    color: white;
+    border-radius: 59px;
+}
+.advance-search-calculator .car-search-dropdown button {
+    height: 48px;
+    border: 1px solid #5d6370;
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5d6370;
+    font-weight: 500;
+    font-family: 'Lato';
+    min-width: 196px;
+    text-align: left;
+}
+.advance-search-calculator .car-search-dropdown button::after {
+    float: right;
+    top: 8px;
+    position: relative;
+}
+.advance-search-calculator .btn[target="formslider"]:hover {
+    border: 1px solid #2f2b4333 !important;
+}
+.advance-search-calculator button#select-search-item {
+    border: 1px solid #5d6370 !important;
+}
+.advance-search-calculator .hov-menu-form li {
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 16px;
+    color: #5d6370;
+    padding: 14px 10px;
+}
 .advance-search-calculator .action-search .save-search{
     font-family: 'Lato';
     font-size: 14px;
@@ -3441,7 +3500,41 @@ footer .footer-copyright{
     color: #178a9c;
     cursor: pointer;
 }
+.advance-search-calculator .sat_pro_searchbannar {
+    margin-block: clamp(26px, 2vw, 32px);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #fffaec;
+    border: 1px solid #ffd03f;
+    border-radius: 6px;
+}
+.advance-search-calculator .sat_pro_searchbannar p {
+    margin-bottom: 0px;
+    color: #000000;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: clamp(18px, 2vw, 24px);
+    letter-spacing: -0.01em;
+}
+.advance-search-calculator .sat_pro_searchbannar .btn_sat_search_pro {
+    padding: 8px 20px;
+    border: 1px solid #ffd03f;
+    border-radius: 4px;
+    background: linear-gradient(180deg, #ffd03f 0.76%, #e28e05 97.27%, #df8800 105.66%);
+    color: #182230;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+}
 
+.advance-search-calculator .grid-view .sat_pro_searchbannar{
+    display: none;
+}
 .advance-search-calculator .action-search .save-search img{
     width: 20px;
     height: 20px;
@@ -4221,7 +4314,7 @@ display: none;
 .select2-container--default .select2-search--dropdown .select2-search__field{
     background-image: url('data:image/svg+xml,%3Csvg width%3D%2218%22 height%3D%2218%22 viewBox%3D%220 0 18 18%22 fill%3D%22none%22 xmlns%3D%22http://www.w3.org/2000/svg%22%3E %3Cpath d%3D%22M8.25 1.5C11.976 1.5 15 4.524 15 8.25C15 11.976 11.976 15 8.25 15C4.524 15 1.5 11.976 1.5 8.25C1.5 4.524 4.524 1.5 8.25 1.5ZM8.25 13.5C11.1503 13.5 13.5 11.1503 13.5 8.25C13.5 5.349 11.1503 3 8.25 3C5.349 3 3 5.349 3 8.25C3 11.1503 5.349 13.5 8.25 13.5ZM14.6138 13.5533L16.7355 15.6743L15.6743 16.7355L13.5533 14.6138L14.6138 13.5533Z%22 fill%3D%22%232F2B43%22 fill-opacity%3D%220.7%22%3E%3C/path%3E %3C/svg%3E');
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right 5px center;
     background-color: #f6f6f8;
     padding: 4px;
     border-radius: 4px;
@@ -4265,6 +4358,12 @@ display: none;
 
 
 /* ==================================== Start Search Detail Page Css ============================*/
+.search-details-desktop .similar-car-desktop{
+    margin-bottom: 0px !important;
+}
+.search-details-desktop .customer-review-desktop .container{
+    margin-top: 0px !important;
+}
 .search-details-desktop .searchDetails .startDetails .right-details .inner .top-location .loc-title{
     color: #858a94;
     font-size: 18px;

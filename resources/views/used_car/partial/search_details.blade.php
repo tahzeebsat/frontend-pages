@@ -557,6 +557,9 @@
 
             <div class="detailsArea">
                 <div class="inner">
+                    <div class="top py-2" style="color: #2384c1; font-size: 14px;">
+                        <p class="m-0 download"><img src="assets/images/fotorama/downloadbtn.webp" alt="Download" class="img-fluid" width="16" height="16" loading="lazy"><span class="m-2" style="position: relative; top: 3px;">Download all images</span></p>
+                    </div>
                     <div class="top py-2">
                         <div class="earn">
                             <p class="m-0">Earn 100 points</p>

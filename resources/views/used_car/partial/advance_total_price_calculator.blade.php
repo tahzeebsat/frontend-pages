@@ -472,9 +472,43 @@
             @endcomponent
 
             <div class="container p-0 mt-5">
+              <div class="col-12 ps-0 mb-3 d-flex justify-content-between">
+                
+                <div class="filter-search-page">
+                    <a href="javascript:;" class="text-decoration-none"><span class="active" id="buyNowLink">Buy Now</span></a>
+                    <a href="javascript:;" class="text-decoration-none"><span class="" id="auctionLink">Auction</span></a>
+                    <span class="" id="all_listing">All Listings</span>
+                    </div>
+                
+                
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <a href="javascript:;" class="text-decoration-none me-4 fw-500 fs-14 used-cars-searc-sort" onclick="return window.print()" style="color:#178A9C;">
+                        <i class="fa fa-print clr-black-40 me-1" style="color:#178A9C;"> </i>
+                         Print </a>
+                    
+                    <div class="dropdown car-search-dropdown">
+                                                <button target="formslider" class="btn car-search-dropdown dropdown-toggle w-100" type="button" id="select-search-item" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sort By:
+                             Price Low to High
+                        </button>
+                        <ul class="dropdown-menu hov-menu-form list-group-search-item w-100">
+                                                            <li value="price_low_to_high" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Price Low to High</li>
+                                                            <li value="price_high_to_low" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Price High to Low</li>
+                                                            <li value="mileage_low_to_high" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Mileage Low to High</li>
+                                                            <li value="mileage_high_to_low" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Mileage High to Low</li>
+                                                            <li value="year_new_to_old" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Year New to Old</li>
+                                                            <li value="year_old_to_new" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Year Old to New</li>
+                                                            <li value="discount_low_to_high" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Discount Low to High</li>
+                                                            <li value="discount_high_to_low" class="dropdown-item fw-500 fs-12 ff-Lato clr-black-50 cursor-pointer">Discount High to Low</li>
+                                                    </ul>
+                        <input type="hidden" id="car-search-input" class="car-search-sort" value="price_low_to_high">
+                    </div>
+                </div>
+            </div>
               <div class="mb-3 d-flex align-items-center justify-content-between">
                 <div class="heading">
-                  <p class="m-0">Used Toyota Cars for Sale</p>
+                  <p class="m-0">Used Cars for Sale</p>
                 </div>
                 <div class="action-search d-flex align-items-start">
                   <div class="save-search d-flex align-items-center">
@@ -493,7 +527,7 @@
                       <path d="M21 3C21.2652 3 21.5196 3.10536 21.7071 3.29289C21.8946 3.48043 22 3.73478 22 4V20C22 20.2652 21.8946 20.5196 21.7071 20.7071C21.5196 20.8946 21.2652 21 21 21H3C2.73478 21 2.48043 20.8946 2.29289 20.7071C2.10536 20.5196 2 20.2652 2 20V4C2 3.73478 2.10536 3.48043 2.29289 3.29289C2.48043 3.10536 2.73478 3 3 3H21ZM11 13H4V19H11V13ZM20 13H13V19H20V13ZM11 5H4V11H11V5ZM20 5H13V11H20V5Z"/>
                       </svg>
                     Grid View</button>
-                   <div class="sorted d-flex align-items-start">
+                   <div class="sorted d-flex align-items-start d-none">
                      <select class="form-select mt-2" aria-label="Select Items">
                        <option selected="">Sort by</option>
                        <option value="1">Price Low to High</option>
@@ -1336,6 +1370,14 @@
                             </div>
                           </div>
                       </div>
+
+                      <div class="sat_pro_searchbannar">
+                        <div class="d-flex align-items-center gap-2">
+                          <img src="{{asset('assets/images/staticPagesAssets/icon/satpro-logo-search.webp')}}" class="me-1" height="32" width="32" loading="lazy" alt="sat icon">
+                          <p>Become a SAT Pro and avail exclusive rewards and benefits on every order</p>
+                        </div>
+                        <a href="javascript:;" class="btn_sat_search_pro">Join SAT Pro</a>
+                    </div>
                       <hr class="my-5">
                   </div>
                   <div class="col item">
@@ -2188,10 +2230,10 @@
 
 
                   <div class="action-filter-buttons d-flex gap-3 my-5">
-                    <button class="btn btn-reset w-50">Reset</button>
+                    <button class="btn btn-reset w-50">Cancel</button>
                     <button class="btn btn-submit w-50">
                       <img src="{{asset('assets/images/icons/searchIcon.svg')}}" alt="Search Icon" loading="lazy">
-                      Search</button>
+                      Apply Filter</button>
                   </div>
                 </div>
             
@@ -2889,8 +2931,8 @@
           <p class="m-0 para">Are you looking for a reliable used Toyota   cars from Japan? Explore our selection of premium used vehicles imported directly from Japan. Each car is meticulously inspected and certified to ensure optimal performance and reliability on the road.</p>
         </div>
 
-        <div class="mobile-search-view-text text-center py-3">
-          <p class="m-0 view-all" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View All</p>
+        <div class="mobile-search-view-text text-center pt-3">
+          <p class="m-0 view-all" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View More</p>
           
           <div class="collapse" id="collapseExample">
             <div class="heading pb-3">

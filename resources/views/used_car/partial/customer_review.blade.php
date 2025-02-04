@@ -481,7 +481,7 @@
 
 {{-- ======================= Mobile View ====================--}}
 <section class="customer-review-mobile position-relative mobile-view">
-    <div class="container my-5">
+    <div class="container my-4">
         <div class="heading d-flex justify-content-between align-items-center">
             <p class="title m-0">Customer Reviews</p>
             <p class="view-all m-0">View All</p>
