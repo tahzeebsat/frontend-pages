@@ -5,17 +5,11 @@
             <div class="row">
                 <div class="col-md-3 col-sm-6 mb-4">
                     <div class="footer-logo">
-                        <img src="{{ asset('assets/images/footer-logo.webp') }}" alt="Footer Logo" title="Footer Logo" class="img-fluid" loading="lazy" width="140" height="50" >
+                        <img src="{{ asset('assets/images/footer-logo.webp') }}" alt="Footer Logo" title="Footer Logo" class="img-fluid" loading="lazy" width="182" height="60" >
                     </div>
-                    <div class="heading">
-                        <p class="pt-4">Rate Your Experience With Us</p>
-                    </div>
-                    <div class="send-feedback mb-4">
-                        <button>Send feedback</button>
-                    </div>
-                    <div class="app-reference mb-5">
+                    <div class="app-reference py-3 mt-4">
                         <div class="heading">
-                            <p>Download the SAT App</p>
+                            <p class="fw-bold">Download the SAT App</p>
                         </div>
                         <div class="refer-to-download">
                             <img src="{{asset('assets/images/apple-store.webp')}}" alt="Apple Store logo" class="app-logo img-fluid" loading="lazy">
@@ -23,6 +17,13 @@
                         </div>
                         
                     </div>
+                    <div class="heading">
+                        <p class="pt-3 fw-bold">Rate Your Experience With Us</p>
+                    </div>
+                    <div class="send-feedback mb-4">
+                        <button>Send feedback</button>
+                    </div>
+                  
                     <div class="contact mb-5">
                         <div class="heading">
                             <p>Contact Us</p>
