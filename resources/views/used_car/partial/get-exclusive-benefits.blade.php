@@ -1,4 +1,4 @@
-<section class="get-exclusive-benefits py-4 mt-sm-5 my-md-5">
+<section class="get-exclusive-benefits mt-sm-5 my-md-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

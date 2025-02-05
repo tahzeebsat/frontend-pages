@@ -1,7 +1,7 @@
-<section class="recomended-car-desktop position-relative my-0 my-md-5">
+<section class="recomended-car-desktop position-relative">
     <div class="container">
       <div class="heading d-flex justify-content-between align-items-center">
-        <p class="title m-0 py-4"> Recommended in Pakistan </p>
+        <p class="title m-0 pb-4"> Recommended in Pakistan </p>
          <p class="d-md-none view-detail"> View All </p>
       </div>
       <!-- Swiper Slider -->

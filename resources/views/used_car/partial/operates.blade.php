@@ -1,4 +1,4 @@
-<section class="where-we-operates-desktop desktop2-view my-5">
+<section class="where-we-operates-desktop desktop2-view my-4">
     <div class="container">
         <div class="row align-items-stretch">
             <div class="col-12">

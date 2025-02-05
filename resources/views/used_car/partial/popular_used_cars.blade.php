@@ -1,6 +1,6 @@
 <section class="popular_used_car-desktop position-relative desktop2-view">
-    <div class="container my-5">
-      <div class="heading pt-5 mb-5">
+    <div class="container">
+      <div class="heading mb-5">
         <p class="title m-0"> Popular Used Car Makes</p>
       </div>
   
