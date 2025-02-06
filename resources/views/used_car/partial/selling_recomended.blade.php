@@ -445,36 +445,36 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="addressArea">
-                                    <div class="timing d-flex align-items-center">
+                                <div class="addressArea mt-md-4 mt-0">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/time-line-country.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Office Hours:</p>
                                     </div>
                                     <p class="m-0 timeOperate">Monday to Saturday 8:30 to 5:30</p>
-                                    <div class="timing d-flex align-items-center">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/calendar-line-country.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Closed</p>
                                     </div>
                                     <p class="m-0 timeOperate">Sunday off</p>
-                                    <div class="timing d-flex align-items-center">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/map-pin-country-line.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Office Address:</p>
                                     </div>
                                     <p class="m-0 timeOperate">156-1 Hatakenaka Aza Izumimachi, Iwaki, Fukushima 971-8183, Japan</p>
 
-                                    <div class="timing d-flex align-items-center">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/link-unlink.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Location Link</p>
                                     </div>
                                     <a href="https://maps.app.goo.gl/spCEneojeLd7GTpb6?g_st=com.google.maps.preview.copy" class="m-0 linkMap">https://maps.app.goo.gl/spCEneojeLd7GTpb6?g_st=com.google.maps.preview.copy</a>
                                 
-                                    <div class="timing d-flex align-items-center">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/phone-line-country.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Phone:</p>
                                     </div>
                                     <p class="m-0 timeOperate">+81 709-008-7605</p>
 
-                                    <div class="timing d-flex align-items-center">
+                                    <div class="timing d-flex align-items-center m-0">
                                         <img src="{{asset('assets/images/icons/mail-check-line-country.webp')}}" alt="Clock" class="img-fluid" loading="lazy" width="24" height="24">
                                         <p class="m-0 px-2">Email:</p>
                                     </div>
@@ -593,7 +593,7 @@
                             Welcome to SAT Japan, your top destination for high-quality <strong>Used Cars for Sale in Pakistan.</strong> We take pride in offering an extensive selection of reliable, Whether you're looking for a compact car for city driving, a spacious family vehicle, or a powerful SUV, SAT Japan has the perfect car for you
                         </p>
                         <div class="view-text text-center py-3">
-                            <p class="m-0 view-all" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View All</p>
+                            <p class="m-0 view-all" id="toggleView" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">View More</p>
                             
                             <div class="collapse" id="collapseExample">
                               <div class="heading pb-3">
