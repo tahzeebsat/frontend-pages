@@ -667,13 +667,6 @@
                 </div>
 
                 <div class="footer-mobile-rates">
-                    <div class="heading">
-                        <p class="m-0 pb-3">Rate Your Experience With Us</p>
-                    </div>
-
-                    <div class="send-feedback pb-3">
-                        <button class="btn btn-sendfeedback border-0 shadow-none">Send feedback</button>
-                    </div>
 
                     <div class="heading pb-3">
                         <p class="m-0">Download the SAT App</p>
@@ -682,6 +675,15 @@
                         <img src="{{asset('assets/images/apple-store.webp')}}" alt="Apple Store logo" class="app-logo img-fluid" loading="lazy">
                         <img src="{{asset('assets/images/google-play.webp')}}" alt="Google Play logo" class="app-logo img-fluid mx-3" loading="lazy">
                     </div>
+                    <div class="heading">
+                        <p class="m-0 pb-3">Rate Your Experience With Us</p>
+                    </div>
+
+                    <div class="send-feedback pb-3">
+                        <button class="btn btn-sendfeedback border-0 shadow-none">Send feedback</button>
+                    </div>
+
+                   
                     <div class="heading pb-3">
                         <p class="m-0">Join Our Mailing List</p>
                     </div>
