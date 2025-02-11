@@ -1,3 +1,48 @@
+//========================== Start Mobile Search Filter ===================
+document&&document.addEventListener("DOMContentLoaded", function () {
+  // Attach the event listener to the search input fields
+  attachSearchListener("makeFilterSearchMobileSlider", ".makeFilterListMobileSearch .list-group-item");
+  attachSearchListener("makeTypeSearchMobileSlider", ".makeTypeListMobileSearch .list-group-item");
+  attachSearchListener("makeSteeringSearchMobileSlider", ".makeSteeringListMobileSearch .list-group-item");
+  attachSearchListener("makeYearSearchMobileSlider", ".makeYearListMobileSearch .list-group-item");
+});
+
+function attachSearchListener(inputId, itemSelector) {
+  var input = document.getElementById(inputId);
+  if (input) {
+    input&&input.addEventListener("input", function (event) {
+      searchItems(event, itemSelector);
+    });
+  }
+  
+  // Attach click listener to items within the list
+  var items = document.querySelectorAll(itemSelector);
+  items.forEach(function (item) {
+    item&&item.addEventListener("click", function () {
+      // When an item is clicked, put its text content into the search box
+      input.value = item.textContent.trim();
+      searchItems({ target: input }, itemSelector); // Re-run the search with the selected item
+    });
+  });
+}
+
+function searchItems(event, itemSelector) {
+  var input = event.target.value.toLowerCase();  // Get the input value and convert to lowercase
+  var items = document.querySelectorAll(itemSelector);
+
+  items.forEach(function (item) {
+    var text = item.textContent.toLowerCase().trim();
+    // Show or hide item based on the input
+    if (text.includes(input)) {  // Allow partial matches
+      item.style.display = "block";  // Show item
+    } else {
+      item.style.display = "none";   // Hide item
+    }
+  });
+}
+
+//========================== End Mobile Search Filter ===================
+
 // ========================== Start Satpro Memeberend Reason Page Show More and Hide More Js ==========================
 
 function toggleVisibility(radioInput, targetId) {
