@@ -1,3 +1,17 @@
+
+document.getElementById('countrySearch').addEventListener('input', function () {
+  const searchQuery = this.value.toLowerCase(); 
+  const countryItems = document.querySelectorAll('.country-item'); 
+
+  countryItems.forEach(item => {
+    const countryName = item.querySelector('span').textContent.toLowerCase(); 
+    if (countryName.includes(searchQuery)) {
+      item.style.display = 'block'; 
+    } else {
+      item.style.display = 'none';
+    }
+  });
+});
 //========================== Start Mobile Search Filter ===================
 document&&document.addEventListener("DOMContentLoaded", function () {
   // Attach the event listener to the search input fields

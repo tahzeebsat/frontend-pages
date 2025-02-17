@@ -91,6 +91,118 @@
 
 /* start header ship-to and currency select css  */
 
+/* ship_to_country_selection */
+#ship_to_country_selection .modal-dialog {
+    max-width: 720px;
+  }
+  #ship_to_country_selection .modal-dialog-scrollable {
+    height: calc(600px - var(--bs-modal-margin) * 2);
+  }
+  .country-listings {
+    max-height: 364px;
+    overflow-y: auto;
+  }
+  .save-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 16px;
+    position: absolute;
+    bottom: 0px;
+    width: calc(100% - 32px);
+    background-color: white;
+  }
+  .save-country-btn[disabled] {
+    background-color: grey;
+  }
+  .save-country-btn {
+    background-color: #2384c1;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding-block: 7.5px;
+    max-width: 248px;
+    width: 100%;
+    border: 1px solid #2384c1;
+    cursor: pointer;
+  }
+  .title-ship-to span:last-of-type {
+    padding: 0px;
+    background: transparent var(--bs-btn-close-bg) center / 0.8em auto no-repeat;
+    opacity: 1;
+  }
+  .title-ship-to .title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #0c1529;
+    margin-bottom: 0px;
+  }
+  .search_items_input {
+    border: 1px solid #aeb1b8;
+    padding: 8px 10px;
+    background-color: #f6f6f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3.21px;
+    margin-bottom: 14px;
+  }
+  .search_items_input input {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #2f2b43b2;
+    width: 100%;
+    border: 0;
+    background-color: transparent;
+  }
+  .search_items_input input:focus-visible {
+    outline: 0;
+  }
+  .country-listings {
+    /* margin-bottom: 73px; */
+  }
+  .country-listings label {
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 10px;
+  }
+  .country-listings .flag-item span {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #5d6370;
+  }
+  .country-listings .flag-item {
+    background-color: #f6f6f8;
+    padding: 7.4px 4.2px;
+    border: 1px solid #cac8d4;
+    width: 100%;
+    border-radius: 2.84px;
+    display: flex;
+    align-items: center;
+    gap: 4.18px;
+  }
+  label:has(input[type="radio"]:checked) .flag-item {
+    border-color: #2384c1;
+    background-color: #e7f6ff;
+  }
+
   .desktop-view .headerSearch .dropdown-menu {
     max-height: 200px;
     overflow-y: auto;
@@ -166,6 +278,13 @@
   .desktop-view .headerSearch .currency-dropdown .dropdown .dropdown-menu .dropdown-currency {
     max-height: 300px;
     overflow-y: auto;
+    font-weight: 500;
+    padding: 6px 10px;
+    color: #5d6370;
+    border-bottom: 1px solid #ced0d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .desktop-view .headerSearch .language #selectedLanguage{
     color: var(--deep-slate-gray);
@@ -285,6 +404,15 @@ input:focus {
     font-family: "Lato", sans-serif;
     font-weight: 600;
     font-size: var(--fs-14);
+    font-weight: 500;
+    padding: 0px;
+    padding: 6px 10px;
+    color: #5d6370;
+    border-bottom: 1px solid #ced0d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 .headerSearch .dropdown-item:focus, 

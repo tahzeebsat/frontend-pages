@@ -22,7 +22,7 @@
                     </div>
                     <div class="col-auto right-list">
                         <ul class="list-unstyled d-flex mb-0 align-items-center">
-                            <li class="ship-to-dropdown dropdown mx-3 d-flex align-items-center">
+                            <li class="ship-to-dropdown dropdown mx-3 d-flex align-items-center" data-bs-toggle="modal" data-bs-target="#ship_to_country_selection">
                                 <a class="text-decoration-none pt-1" href="#">Ship to</a>
                                 <div class="dropdown">
                                     <button class="btn btn-outline-none dropdown-toggle selected-flag" type="button" id="dropdownMenuButtonFlag" data-bs-toggle="dropdown" aria-expanded="false">
@@ -32,7 +32,7 @@
                                             <img src="https://flagcdn.com/pk.svg" alt="🇵🇰" style="width:24px; height:16px;" width="24" height="16" loading="lazy">
                                         </span>
                                     </button>
-                                    <ul class="ship-to dropdown-menu" aria-labelledby="dropdownMenuButtonFlag">
+                                    <ul class="ship-to dropdown-menu d-none" aria-labelledby="dropdownMenuButtonFlag">
                                         <li class="dropdown-search mx-2 d-flex align-items-center">
                                             <!-- Search input field with icon -->
                                             <input type="text" class="search-country-ship form-control px-1 rounded-1 shadow-none" id="dropdownSearch" placeholder="Search Country" aria-label="Search...">
@@ -63,7 +63,7 @@
                                     {{-- <button class="btn btn-select-currency dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> --}}
                                         <span id="selectedCurrency">USD</span>
                                     </button>
-                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonCurrency" id="currencyDropdown">
+                                    <ul class="dropdown-menu border-0" aria-labelledby="dropdownMenuButtonCurrency" id="currencyDropdown">
                                         <div class="currency-search-field m-2 px-0 py-0 pe-2 d-flex justify-content-between align-items-center rounded-1">
                                             <input type="text" class="form-control border-0 shadow-none bg-transparent" id="currencySearch" placeholder="Search currency" aria-label="Search currency">
                                             <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +86,7 @@
                                 <button class="btn btn-outline-none border-0 shadow-none d-flex align-items-center dropdown-toggle p-0" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                                     <span id="selectedLanguage">English</span>
                                 </button>
-                                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                <ul class="dropdown-menu border-0" aria-labelledby="languageDropdown">
                                     <li><a class="dropdown-item lang" href="#" data-lang="English">English</a></li>
                                     <li><a class="dropdown-item lang" href="#" data-lang="Arabic">Arabic</a></li>
                                     <li><a class="dropdown-item lang" href="#" data-lang="Spanish">Spanish</a></li>
@@ -706,7 +706,51 @@
     
 </section>
 
-
+<div class="modal fade" id="ship_to_country_selection" tabindex="-1" aria-labelledby="ship_to_country_selectionLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-body position-relative">
+          <div class="title-ship-to title-ship-to d-flex align-items-center justify-content-between">
+            <span></span>
+            <h2 class="title text-center py-3">Select Your Country</h2>
+            <span class="btn-close cursor-pointer" data-bs-dismiss="modal"></span>
+          </div>
+          <!-- search -->
+          <div class="search_items_input">
+            <input placeholder="Search Country" id="countrySearch">
+            <img src="/assets/images/header-images/search-icon.webp" loading="lazy" height="20" width="20" style="filter: invert(1) brightness(0.5);"/>
+          </div>
+          <!-- country listing -->
+          <div class="country-listings">
+            <label for="pak" class="country-item">
+              <div class="flag-item">
+                <img src="/assets/images/country-flags/PK.webp" loading="lazy" width="26" height="26" alt="sat flag">
+                <span>Pakistan</span>
+              </div>
+              <input type="radio" name="countries" id="pak" hidden>
+            </label>
+            <label for="America" class="country-item">
+              <div class="flag-item">
+                <img src="/assets/images/country-flags/US.webp" loading="lazy" width="26" height="26" alt="sat flag">
+                <span>America</span>
+              </div>
+              <input type="radio" name="countries" id="America" hidden>
+            </label>
+            <label for="Australia" class="country-item">
+              <div class="flag-item">
+                <img src="/assets/images/country-flags/AU.webp" loading="lazy" width="26" height="26" alt="sat flag">
+                <span>Australia</span>
+              </div>
+              <input type="radio" name="countries" id="Australia" hidden>
+            </label>
+          </div>
+           {{-- <div class="save-btn-div">
+            <button class="save-country-btn">Save</button>
+           </div> --}}
+        </div>
+      </div>
+    </div>
+  </div>
 
 {{-- ====================== Table view ==================--}}
 <section class="tablet-view" aria-labelledby="tablet-header">
