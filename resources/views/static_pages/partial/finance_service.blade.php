@@ -140,13 +140,13 @@
                 </div>
 
                 <div class="innerDetail">
-                    <p class="m-0 heading pt-4 pb-2">Detail</p>
+                    <p class="m-0 heading pt-2 pb-2">Detail</p>
                     <p class="m-0 para">We understand that buying a car is not a small investment, and hence, customers
                         should be offered convenient modes of payment. Our finance service offers payment flexibility to our
                         customers, where they can pay for their order with ease.
                     </p>
 
-                    <div class="payInstallment d-flex justify-content-between align-items-center my-5">
+                    <div class="payInstallment d-flex justify-content-between align-items-center my-3">
                         <div class="centeralized">
                             <div class="htb-heading">
                                 <h1 class="title ms-5 ps-3">Pay With Easy Installments</h1>
@@ -201,7 +201,7 @@
                         </div>
                     </div>
 
-                    <p class="m-0 heading pt-5 pb-3">Flexible Payment Plans</p>
+                    <p class="m-0 heading pt-3 pb-3">Flexible Payment Plans</p>
                     <p class="m-0 para">
                         We offer affordable payment plans, enabling you to make monthly installments for 24 months to clear your car. 
                         This helps you use your new car straight away while preventing the pressure of a large initial payment. When you decide to go 
@@ -213,8 +213,8 @@
                     </div>
 
                     <div class="ourFinanceService">
-                        <p class="m-0 heading py-3">Why Choose Our Finance Service</p>
-                        <div class="row financ-emore-cookies flex-lg-wrap mb-5 pb-5">
+                        <p class="m-0 heading pb-2">Why Choose Our Finance Service</p>
+                        <div class="row financ-emore-cookies flex-lg-wrap mb-3">
                             <div class="col-lg-3 col-md-6 col-sm-6 finance-services-card">
                                 <div class="card finance-services-card-work">
                                     <img src="{{asset('assets/images/staticPagesAssets/icon/finance-bitcoin.webp')}}" class="why-chose-finance align-self-center" alt="">

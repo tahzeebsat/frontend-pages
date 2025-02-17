@@ -281,7 +281,6 @@
                                         <button class="btn btn-select-min-year dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="offcanvas" aria-expanded="false" data-bs-target="#offcanvasYear" aria-controls="offcanvasYear">
                                             <span id="selectedMinYear">Min Year</span>
                                         </button>
-                                       
                                     </div>
                                 </div>
                         </div>
