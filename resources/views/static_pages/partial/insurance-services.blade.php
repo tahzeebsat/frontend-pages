@@ -15,8 +15,8 @@
                     get your payment back or get a new vehicle in the same range.</p>
                 </div>
 
-                <div class="services-cover pt-5">
-                    <p class="title pb-2">What Our Service Covers</p>
+                <div class="services-cover pt-md-5">
+                    <p class="title pb-md-2">What Our Service Covers</p>
                     <div class="row">
                         <div class="col-md-3 mb-3">
                             <div class="cover text-center">
@@ -62,8 +62,8 @@
                     </div>
                 </div>
 
-                <div class="marine-services-cover pt-5">
-                    <p class="title pb-2">Benefits of Our Marine Insurance Service</p>
+                <div class="marine-services-cover pt-md-5">
+                    <p class="title pb-md-2">Benefits of Our Marine Insurance Service</p>
                     <div class="row">
                         <div class="col-md-3 mb-3">
                             <div class="cover text-center">
@@ -89,8 +89,8 @@
                     </div>
                 </div>
 
-                <div class="utilize-marine-services-cover pt-5 my-4 pb-4">
-                    <p class="title pb-2">Steps to Utilize Our Marine Insurance Service</p>
+                <div class="utilize-marine-services-cover pt-md-5 my-4 pb-4">
+                    <p class="title pb-md-2">Steps to Utilize Our Marine Insurance Service</p>
                     <p class="para">Here is how exactly you can avail of this service and ensure your vehicle’s safety and protection against all risks during transit</p>
                     <div class="row">
                         <div class="col-md-6 mt-3">

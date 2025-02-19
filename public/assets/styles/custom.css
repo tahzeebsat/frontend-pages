@@ -397,7 +397,6 @@ input:focus {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     border: 1px solid #aaa;
     border-radius: 0px;
-
 }
 .headerSearch .dropdown-item{
     color: var(--Eigengrau) !important;
@@ -9900,7 +9899,7 @@ background-color: transparent;
     border-radius: 6px;
     padding: 32px 0 32px 0;
     justify-content: center;
-    margin: 0px 0 16px 0;
+    margin: 0px 0 0px 0;
 }
  .about_us_page_desktop .aboutUsPage .inner .mile-stone-cards {
     border: 1px solid #dcdae2;
@@ -10189,6 +10188,36 @@ background-color: transparent;
 /* ====================================  End Testimonial Page CSS ============================ */
 
 /* ====================================  Start Pre Export Insurance Page CSS ============================ */
+.pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding-block: 12px;
+    padding-inline: 35px 75px;
+}
+.pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar .preexport-section{
+    max-width: 692px;
+}
+.pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar .title {
+    font-family: 'Lato';
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 47.51px;
+    letter-spacing: -0.016em;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+    margin-bottom: 0px;
+}
 .pre-export-insurance-desktop .preExportInsurance .innerDetails .heading{
     font-family: 'Sofia-Pro';
     font-size: clamp(18px, 2vw, 24px);
@@ -10196,6 +10225,7 @@ background-color: transparent;
     line-height: 36px;
     color: #0c1529;
 }
+
 .pre-export-insurance-desktop .preExportInsurance .innerDetails .para{
     font-family: 'Lato';
     font-size: clamp(14px, 2vw, 20px);
@@ -10437,7 +10467,7 @@ background-color: transparent;
     align-items: center;
     gap: 14px;
     color: #0c1529;
-    font-family: Lato;
+    font-family: 'Lato';
     font-size: clamp(16px, 2vw, 20px);
     font-style: normal;
     font-weight: 700;
@@ -10446,6 +10476,54 @@ background-color: transparent;
     color: #0c1529;
     user-select: none;
     text-decoration: none;
+}
+
+.sat-auction-desktop .satAuction .bg-auction-sat {
+    background-color: #f0f2f1;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .sellwithsat-heading {
+    font-family: "Sofia-Pro";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.016em;
+    color: #020408;
+    margin-bottom: 24px;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .auction-para-note {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #5d6370;
+    margin-bottom: 0px;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .auctdiv {
+    flex: 1 0 430px;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .howtoauction-card {
+    display: flex;
+    gap: 12px;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .auct-title {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #131313;
+    margin-bottom: 4px;
+}
+.sat-auction-desktop .satAuction .bg-auction-sat .auct-para {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.012em;
+    color: #131313;
+    margin-bottom: 0px;
+    max-width: 258px;
 }
 .sat-auction-desktop .satAuction #download_image {
     position: relative;

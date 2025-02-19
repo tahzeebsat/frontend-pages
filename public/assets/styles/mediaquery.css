@@ -1258,17 +1258,32 @@
         width: 50%;
     }
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-cover-main{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
     }
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-card-cover{
-        width: 100%;
         margin-bottom: 10px;
+        flex: 0 0 auto !important;
+        width: 46%;
     }
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download{
-        display: block;
+        display: flex;
     }
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .copy{
-        border-radius: 8px 8px 0px 0px;
+        padding: 16px 22px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .download{
+        width: 100%;
+        padding:0px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .download span{
+        padding: 0px 7px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .voucher-download .download a{
+        position: relative;
+        right: 10px;
     }
     .grid-danshboard .dash-item-1{
         display: none;
@@ -1377,6 +1392,23 @@
     }
     .get-exclusive-benefits .bg-bannar-app .items-specs-app .qr-ban-pro{
         display: none;
+    }
+    .insurance-services-static-desktop .insuranceServices .innerDetails .title{
+        margin:0px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar .title{
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 4px;
+    }
+    .preexport-inspection-bannar img {
+        max-width: 150px;
+    }
+    .pre-export-insurance-desktop .preExportInsurance .preexport-inspection-bannar{
+        padding-block: 12px;
+        padding-inline: 15px;
+        width: 96%;
+        margin: 0px 2%;
     }
 }
 

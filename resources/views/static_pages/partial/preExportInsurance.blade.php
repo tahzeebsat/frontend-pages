@@ -2,8 +2,22 @@
     <div class="preExportInsurance">
         <div class="container">
             <div class="row">
+                <div class="preexport-inspection-bannar mt-3">
+                    <div class="flex-grow-1 preexport-section">
+                      <h2 class="title">Seal The Deal With Pre-Export Inspection</h2>
+                      <p class="para d-lg-block d-md-block d-none">
+                        Get a comprehensive verification report of your vehicle from our experts who 
+                        inspect the mechanical, electronic, and cosmetic condition of your car. This 
+                        ensures that you buy with peace of mind by knowing your car's true condition.
+                      </p>
+                    </div>
+                    <div>
+                      <img src="https://satjapan.com/assets/images/new-bannars/preexport-inspecton-bannar.webp" class="img-fluid" width="374" height="251" loading="lazy" alt="pre-export bannar">
+                    </div>
+                  </div>
+
                <div class="innerDetails">
-                <p class="m-0 heading pt-3">Detail</p>
+                <p class="m-0 heading pt-3">Overview</p>
                 <p class="m-0 para pt-2">Pre-export inspection aims to examine your car thoroughly before exporting it to make sure that you get your order in the most 
                 optimal condition. We inspect your car's mechanical, electronic, interior, and more, to make sure you get the quality assurance you deserve.
             </p>
@@ -17,15 +31,15 @@
                             <img src="{{asset('assets/images/staticPagesAssets/icon/copy-refund.webp')}}" height="24" width="24" alt="sat icon">
                         </div>
                         <div class="download">
-                            <span>Sample <span class="hide-onsmd">Inspection</span> Report</span>
-                            
+                            {{-- <span>Sample <span class="hide-onsmd">Inspection</span> Report</span> --}}
+                            <span>Sample Inspection Report</span>
                             <a href="javascript:;" target="_blank" class="d-flex"><i id="download_image"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <p class="m-0 heading pt-3">What Our Service Covers</p>
+            <p class="m-0 heading pt-md-3">What Our Service Covers</p>
             <p class="m-0 para pt-1">A thorough inspection of your vehicle includes</p>
 
             <div class="pre-export-cover-main">
@@ -61,7 +75,7 @@
                 </div>
             </div>
 
-            <p class="m-0 heading pt-3">Benefits of Our Pre-export Inspection</p>
+            <p class="m-0 heading pt-md-3">Benefits of Our Pre-export Inspection</p>
 
             <div class="row d-flex benefit-carrier-main my-3">
                 <div class="col-lg-3 col-md-3 col-sm-6 carrier-service-card-col mb-12 mb-3">
@@ -86,7 +100,7 @@
                 </div>
             </div>
 
-            <p class="m-0 heading py-3">Steps to Utilize Our Inspection Service</p>
+            <p class="m-0 heading py-md-3">Steps to Utilize Our Inspection Service</p>
             <p class="m-0 para pt-1 mb-3">Here is how exactly you can avail this service and ensure your vehicle’s safety and longevity.</p>
 
 

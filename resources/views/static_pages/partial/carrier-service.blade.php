@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="innerDetails">
-                    <p class="m-0 heading pt-4 pb-2">Detail</p>
+                    <p class="m-0 heading pt-4 pb-2">Overview</p>
                     <p class="m-0 para">At SAT, we are devoted to continuously offering efficient and trouble-free car delivery through our car carrier service. 
                     Whether you require special care for your vehicle or an economic solution for transportation, our company will offer you the most suitable option. 
                     Through our car carrier service, you are guaranteed that your automobile will be transported effectively and safely to your preferred destination.</p>
@@ -124,12 +124,12 @@
                 </div>
 
                 <div class="innerDetails">
-                    <p class="m-0 heading pt-4 pb-2">Detail</p>
+                    <p class="m-0 heading py-2">Overview</p>
                     <p class="m-0 para">At SAT, we are devoted to continuously offering efficient and trouble-free car delivery through our car carrier service. 
                     Whether you require special care for your vehicle or an economic solution for transportation, our company will offer you the most suitable option. 
                     Through our car carrier service, you are guaranteed that your automobile will be transported effectively and safely to your preferred destination.</p>
 
-                    <p class="m-0 heading pt-4 pb-3">Delivery Options</p>
+                    <p class="m-0 heading py-2">Delivery Options</p>
 
                    <div class="deliveryOption d-flex justify-content-between align-items-center gap-3">
                     <div class="col-md-6">
@@ -177,7 +177,7 @@
                    </div>
 
                    <div class="carrierService">
-                    <p class="m-0 title pt-5 pb-2">Benefits of Our Carrier Service</p>
+                    <p class="m-0 title py-2">Benefits of Our Carrier Service</p>
 
                     <div class="inner row d-flex">
                         <div class="col-lg-3 col-md-3 col-sm-6 py-2">
@@ -197,7 +197,7 @@
                    </div>
 
                    <div class="utilizeCar">
-                    <p class="m-0 title pt-5 pb-3">Steps to Utilize Our Car Carrier Service</p>
+                    <p class="m-0 title py-2">Steps to Utilize Our Car Carrier Service</p>
 
                     <div class="inner row flex-lg-wrap mb-4">
                         <div class="col-lg-4 col-md-6 col-sm-6 py-2">

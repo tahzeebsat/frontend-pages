@@ -42,7 +42,7 @@
                     <div class="list">
                         <ol>
                             <li class="my-4 pb-3">Start by clicking on the 'Begin Verification' button below.</li>
-                            <li class="my-4 pb-3">Fill in the details in the pop-up that comes and make a payment of 30,000 YEN. Alternatively, you can send an email to info@satjapan.com and our support team will reach out to you and guide you about the next steps.</li>
+                            <li class="my-4 pb-3">Fill in the details in the pop-up that comes and make a payment of 30,000 YEN. Alternatively, you can send an email to <a href="javascript:;" style="color: #229be7; text-decoration: none;"> info@satjapan.com </a> and our support team will reach out to you and guide you about the next steps.</li>
                             <li class="my-4 pb-3">After your details have been submitted, the verification through relevant agencies will take 5-8 working days.</li>
                             <li class="my-4 pb-3">Soon after, your verification will be dispatched to your local address through Japan's postal code.</li>
                         </ol>
@@ -110,7 +110,7 @@
                     <div class="list">
                         <ol>
                             <li class="my-2">Start by clicking on the 'Begin Verification' button below.</li>
-                            <li class="my-2">Fill in the details in the pop-up that comes and make a payment of 30,000 YEN. Alternatively, you can send an email to info@satjapan.com and our support team will reach out to you and guide you about the next steps.</li>
+                            <li class="my-2">Fill in the details in the pop-up that comes and make a payment of 30,000 YEN. Alternatively, you can send an email to <a href="javascript:;" style="color: #229be7; text-decoration: none;"> info@satjapan.com </a> and our support team will reach out to you and guide you about the next steps.</li>
                             <li class="my-2">After your details have been submitted, the verification through relevant agencies will take 5-8 working days.</li>
                             <li class="my-2">Soon after, your verification will be dispatched to your local address through Japan's postal code.</li>
                         </ol>
