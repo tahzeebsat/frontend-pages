@@ -8,6 +8,7 @@
     <link rel="canonical" href="https://front-pages.satjapan.info/" />
     <meta name="keywords" content="Japanese Used Cars,Used Cars For Sale,Japanese Vehicles,Japanese Used Car Exporter,Japanese Car Auction,Toyota,Nissan,Honda,Car Dealers Near Me,used car deals,Japanese cars for sale">
     <meta name="description" content="Japanese used car exporters SAT offers a wide collection of new and used top quality Japanese vehicles. Explore the finest Japanese used cars on our website.">
+    <meta name="robots" content="noindex, nofollow">
 
     {{-- include global style files --}}
     @yield('css_plugin')

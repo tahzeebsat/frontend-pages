@@ -25,13 +25,13 @@
               <div class="download-items my-3">
                 <a href="javascript:;" download="" target="_blank" class="download-text">
                     <img src="{{asset('assets/images/staticPagesAssets/icon/file-dowload.webp')}}" class="img-fluid" height="28" width="28" alt="sat icon" loading="lazy">
-                    <span>Auction Sheet Guide</span>
+                    <span class="reponsiveMob">Auction Sheet Guide</span>
                     <i id="download_image"></i>
                 </a>
-                <div class="divider-download"></div>
+                <div class="divider-download d-md-block d-none"></div>
                 <a href="javascript:;" download="" target="_blank" class="download-text">
                     <img src="{{asset('assets/images/staticPagesAssets/icon/map-auction.webp')}}" class="img-fluid" width="28" height="28" alt="sat icon" loading="lazy">
-                    <span>Auction House Map</span>
+                    <span class="reponsiveMob">Auction House Map</span>
                     <i id="download_image"></i>
                 </a>
             </div>
@@ -114,7 +114,7 @@
 
        
               <div class="container">
-                <p class="m-0 heading pt-4">Advance Deposits</p>
+                <p class="m-0 heading pt-md-4">Advance Deposits</p>
                 <p class="m-0 para py-2">
                     Each customer is required to make an advance deposit for their car after they have successfully won a bid. The deposit amount depends on the car price and is mentioned in the table below.
                 </p>
@@ -184,7 +184,7 @@
 
         <div class="container">
           <div class="row">
-            <p class="m-0 heading pt-4">What We Offer</p>
+            <p class="m-0 heading pt-md-4">What We Offer</p>
         <p class="m-0 para py-2 mb-3">
             From transparent inspections to smooth export procedures and assistance with customs 
             clearance, SAT’s Auction Service has got it all covered.
@@ -226,7 +226,7 @@
 
         <div class="container">
           <div class="row">
-            <p class="m-0 heading pt-4">Auction FAQs</p>
+            <p class="m-0 heading pt-md-4">Auction FAQs</p>
           </div>
         </div>
 
@@ -257,6 +257,5 @@
                   </div>
             </div>
            </div>
-        
 </div>
 </section>
