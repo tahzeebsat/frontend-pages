@@ -42,7 +42,7 @@
             <p class="m-0 heading pt-md-3">What Our Service Covers</p>
             <p class="m-0 para pt-1">A thorough inspection of your vehicle includes</p>
 
-            <div class="pre-export-cover-main">
+            <div class="pre-export-cover-main m-0 my-md-3">
                 <div class="card pre-card-cover">
                     <div class="automobile-insurance-img-main d-flex justify-content-center ">
                         <img src="{{asset('assets/images/staticPagesAssets/icon/engine-mechanical.webp')}}" class="pre-export-img img-fluid" alt="mobile" loading="lazy">
@@ -75,9 +75,9 @@
                 </div>
             </div>
 
-            <p class="m-0 heading pt-md-3">Benefits of Our Pre-export Inspection</p>
+            <p class="m-0 heading pt-md-3 pb-2">Benefits of Our Pre-export Inspection</p>
 
-            <div class="row d-flex benefit-carrier-main my-3">
+            <div class="row d-flex benefit-carrier-main my-md-3 my-0">
                 <div class="col-lg-3 col-md-3 col-sm-6 carrier-service-card-col mb-12 mb-3">
                     <div class="pre-export-ins-card">
                         <h4 class="pre-export-crd-hdr">Consumer Protection</h4>

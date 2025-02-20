@@ -7,7 +7,7 @@
             </div>
             <div class="inner">
                 <div class="heading">
-                    <p class="m-0 pt-4 pb-2">Detail</p>
+                    <p class="m-0 pt-md-4 pb-2 pt-2">Detail</p>
                 </div>
                 <div class="para">
                     <p class="m-0">Marine Insurance Service aims to assure your car’s security while exporting it to make sure that you get your vehicle in the most optimal 

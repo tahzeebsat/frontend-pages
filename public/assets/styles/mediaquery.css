@@ -1410,5 +1410,8 @@
         width: 96%;
         margin: 0px 2%;
     }
+    .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-ins-card{
+        height:45px;
+    }
 }
 
