@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <p class="m-0 heading pt-3">Updates on Cookie Policy</p>
+                <p class="m-0 heading pt-3">Contact Us</p>
                 <p class="m-0 para pt-2 pb-5">In case of any query or concern, don't hesitate to contact us at  <a href="javascript:;" class="contact-para-cok-spn">info@satjapan.com</a>  or <a href="javascript:;" class="contact-para-cok-spn">sales@satjapan.com</a>
                 </p>
 
@@ -153,7 +153,7 @@
                 <p class="m-0 heading">Types of Cookies We Use</p>
                 <p class="m-0 para pt-2">Cookies help us distinguish you from other users on our website and provide a browsing experience based on your preferences. Here are some of the cookies we use to improve the performance of our website.</p>
                 
-                <div class="row py-3 d-flex align-items-stretch">
+                <div class="row py-md-3 d-flex align-items-stretch">
                     <div class="col-md-6 mb-3">
                         <div class="left border rounded-1 px-3 h-100">
                             <div class="top d-flex gap-4 align-items-center py-2">
@@ -181,7 +181,7 @@
                 </div>
 
 
-                <div class="row py-3 d-flex align-items-stretch">
+                <div class="row py-md-3 d-flex align-items-stretch">
                     <div class="col-md-6 mb-3">
                         <div class="left border rounded-1 px-3 h-100">
                             <div class="top d-flex gap-4 align-items-center py-2">
@@ -211,7 +211,7 @@
                 </div>
 
 
-                <p class="m-0 heading pt-4 pb-2">More on Cookies</p>
+                <p class="m-0 heading pt-1 pb-2">More on Cookies</p>
                 <div class="row py-3 d-flex align-items-stretch">
                     <div class="col-md-6 mb-3">
                         <div class="left-cookies border rounded-1 px-3 h-100">
@@ -231,7 +231,7 @@
                     </div>
                 </div>
 
-                <p class="m-0 heading pt-3">Updates on Cookie Policy</p>
+                <p class="m-0 heading pt-3">Contact Us</p>
                 <p class="m-0 para pt-2 pb-5">In case of any query or concern, don't hesitate to contact us at  <a href="javascript:;" class="contact-para-cok-spn">info@satjapan.com</a>  or <a href="javascript:;" class="contact-para-cok-spn">sales@satjapan.com</a>
                 </p>
 

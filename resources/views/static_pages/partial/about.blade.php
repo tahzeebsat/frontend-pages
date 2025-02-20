@@ -16,6 +16,11 @@
                     distinct viewpoint, has enabled us to create a global client base.
                 </p>
 
+                <div class="about-us-body-img">
+                    <img class="about-us-body-mob-img d-lg-none" src="{{asset('assets/images/staticPagesAssets/images/about-us-body-mob-img.webp')}}" alt="" width="296" height="91">
+                    <img class="about-us-body-img d-none d-lg-block" src="{{asset('assets/images/staticPagesAssets/images/about-us-body-img.webp')}}" alt="" width="1226" height="331">
+                </div>
+
                 <p class="m-0 title py-4 mb-3">Our Mission, Vision, and Values</p>
                 <img src="{{asset('assets/images/staticPagesAssets/icon/about-us-mission.webp')}}" alt="Mission" class="img-fluid" loading="lazy">
                 <p class="m-0 heading py-3">Mission</p>

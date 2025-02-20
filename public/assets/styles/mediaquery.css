@@ -1413,5 +1413,37 @@
     .pre-export-insurance-desktop .preExportInsurance .innerDetails .pre-export-ins-card{
         height:45px;
     }
+    .sat-auction-desktop .satAuction .download-items{
+        display: block;
+        box-shadow: none;
+    }
+    .sat-auction-desktop .satAuction .download-text{
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+        justify-content: space-between;
+        margin: 0px 0px 10px 0px;
+        height: 50px;
+        padding: 0px 13px;
+    }
+    .sat-auction-desktop .satAuction .download-text .reponsiveMob{
+        position: relative;
+        right: 13%;    
+    }
+    .sat-auction-desktop .satAuction .bg-auction-sat .sellwithsat-heading,
+    .sat-auction-desktop .satAuction .bg-auction-sat .auct-title{
+        font-size: 16px;
+    }
+    .sat-auction-desktop .satAuction .bg-auction-sat .auction-para-note,
+    .sat-auction-desktop .satAuction .bg-auction-sat .auct-para{
+        font-size: 14px;
+    }
+    .sat-auction-desktop .satAuction .bg-auction-sat .howtoauction-card img{
+        max-width: 70px;
+        max-height: 70px;
+    }
+    .sat-auction-desktop .satAuction .autoParts_faqs .wraps .nav-pills .nav-link{
+        font-size: 14px;
+    }
 }
 
