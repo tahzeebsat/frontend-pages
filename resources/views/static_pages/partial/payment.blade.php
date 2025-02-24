@@ -95,7 +95,7 @@
         </ul>
        </div>
 
-       <div class="right py-4">
+       <div class="right">
         <p class="m-0 title">How to Pay</p>
         <p class="m-0 para py-3">You can send us payments through the following payment methods.</p>
     

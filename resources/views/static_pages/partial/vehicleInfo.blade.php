@@ -38,7 +38,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                                        Make</label>
+                                        Make <span style="color: red">*</span></label>
                                     <select class="form-select comman-input-field form-sect-inq" aria-label="Default Select example">
                                         <option selected="">Select Make</option>
                                         <option value="1" class="form-sect-inq-open">Select</option>
@@ -51,7 +51,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                                        Model</label>
+                                        Model <span style="color: red">*</span></label>
                                     <select class="form-select comman-input-field form-sect-inq" aria-label="Default select example">
                                         <option selected="">Select Model</option>
                                         <option value="1" class="form-sect-inq-open">Select</option>
@@ -103,7 +103,7 @@
                             <div class="col-md-6 col-sm-6">
                                 <div class="mb-3">
                                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                                        Email</label>
+                                        Email <span style="color: red">*</span></label>
                                     <input type="Email" class="form-control comman-input-field rounded-0" id="exampleFormControlInput1" placeholder="Email">
                                 </div>
                             </div>
@@ -188,7 +188,7 @@
                                 <div class="">
                                     <div class="d-flex justify-content-between align-items-md-center">
                                         <label for="exampleFormControlTextarea1" class="form-label form-label-inq">Your
-                                            Question:</label>
+                                            Question: <span style="color: red">*</span></label>
                                     </div>
                                     <textarea class="form-control form-texarea-inq" id="exampleFormControlTextarea1" rows="3" placeholder="Type Your Question"></textarea>
                                 </div>
@@ -224,14 +224,14 @@
         </ul>
        </div>
 
-       <div class="right py-4">
+       <div class="right">
        
         <div class="row">
-            <p class="inquiry-hdr pb-3">Vehicle Information</p>
+            <p class="inquiry-hdr">Vehicle Information</p>
             <div class="col-md-6 col-sm-6">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                        Make</label>
+                        Make <span style="color: red">*</span></label>
                     <select class="form-select comman-input-field form-sect-inq" aria-label="Default Select example">
                         <option selected="">Select Make</option>
                         <option value="1" class="form-sect-inq-open">Select</option>
@@ -243,7 +243,7 @@
             <div class="col-md-6 col-sm-6">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                        Model</label>
+                        Model <span style="color: red">*</span></label>
                     <select class="form-select comman-input-field form-sect-inq" aria-label="Default select example">
                         <option selected="">Select Model</option>
                         <option value="1" class="form-sect-inq-open">Select</option>
@@ -291,7 +291,7 @@
             <div class="col-md-6 col-sm-6">
                 <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label form-label-inq">
-                        Email</label>
+                        Email <span style="color: red">*</span></label>
                     <input type="Email" class="form-control comman-input-field rounded-0" id="exampleFormControlInput1" placeholder="Email">
                 </div>
             </div>
@@ -371,7 +371,7 @@
                 <div class="">
                     <div class="d-flex justify-content-between align-items-md-center">
                         <label for="exampleFormControlTextarea1" class="form-label form-label-inq">Your
-                            Question:</label>
+                            Question: <span style="color: red">*</span></label>
                     </div>
                     <textarea class="form-control form-texarea-inq" id="exampleFormControlTextarea1" rows="3" placeholder="Type Your Question"></textarea>
                 </div>

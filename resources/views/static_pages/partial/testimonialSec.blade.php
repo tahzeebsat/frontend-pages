@@ -5,22 +5,22 @@
                 <div class="bannerSearch">
                     <div class="search-filters-testimonials d-flex gap-2 mb-3">
                         <select class="selection-search form-select select2-hidden-accessible" id="country" data-select2-id="select2-data-country" tabindex="-1" aria-hidden="true">
-                            <option value="toyo" data-select2-id="select2-data-2-zqdk">Search by Country</option>
+                            <option value="toyo" data-select2-id="select2-data-2-zqdk">Country</option>
                             <option value="mazda" data-select2-id="select2-data-13-kw56">Country</option>
                         </select> 
                         
                         <select class="selection-search form-select select2-hidden-accessible" id="make" data-select2-id="select2-data-make" tabindex="-1" aria-hidden="true">
-                            <option value="toyo" data-select2-id="select2-data-4-rk1w">Search by Make</option>
+                            <option value="toyo" data-select2-id="select2-data-4-rk1w">Select Make</option>
                             <option value="mazda" data-select2-id="select2-data-15-bv49">Mazda</option>
                         </select>
                         
                         <select class="selection-search form-select select2-hidden-accessible" id="model" data-select2-id="select2-data-model" tabindex="-1" aria-hidden="true">
-                            <option value="toyo" data-select2-id="select2-data-6-060r">Search by Model</option>
+                            <option value="toyo" data-select2-id="select2-data-6-060r">Select Model</option>
                             <option value="mazda" data-select2-id="select2-data-17-40vp">Model</option>
                         </select>
                         
                         <select class="selection-search form-select select2-hidden-accessible" id="select2s" data-select2-id="select2-data-select2s" tabindex="-1" aria-hidden="true">
-                            <option value="toyo" data-select2-id="select2-data-8-mfdl">Search by stars</option>
+                            <option value="toyo" data-select2-id="select2-data-8-mfdl">Select stars</option>
                             <option value="mazda" data-select2-id="select2-data-19-wqin">Mazda</option>
                         </select>
                         
@@ -31,7 +31,7 @@
 
                 <div class="reviewSec d-flex justify-content-between p-0 my-4">
                     <p class="m-0 heading">Customer Reviews</p>
-                    <div class="sortBy d-flex align-items-center">
+                    <div class="sortBy d-flex align-items-center d-none">
                         <p class="m-0 title">Sort by:</p>
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Select</option>

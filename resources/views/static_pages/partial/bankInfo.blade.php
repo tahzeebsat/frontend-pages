@@ -632,15 +632,15 @@
         </ul>
        </div>
 
-       <div class="right py-4">
+       <div class="right">
        
             <div class="bank-info-top-comp-main">
-              <h2 class="bank-info-top-hdr py-3">Bank Information (USD)</h2>
+              <h2 class="bank-info-top-hdr py-2">Bank Information (USD)</h2>
               <div class="bank-info-top-comp d-flex justify-content-center">
                 <img src="{{asset('assets/images/staticPagesAssets/icon/how-to-pyi-icon1.webp')}}" alt="" class="img-fluid bankIcon" loading="lazy">
               </div>
             </div>
-            <div class="row mt-4 mb-4">
+            <div class="row mt-4">
               <div class="col-md-6 mb-3">
                 <div class="row">
                   <div class="col-md-6">
@@ -753,12 +753,12 @@
     <div class="right">
        
         <div class="bank-info-top-comp-main">
-          <h2 class="bank-info-top-hdr py-3">Bank Information (EUR)</h2>
+          <h2 class="bank-info-top-hdr py-2">Bank Information (EUR)</h2>
           <div class="bank-info-top-comp d-flex justify-content-center">
             <img src="{{asset('assets/images/staticPagesAssets/icon/how-to-pyi-icon1.webp')}}" alt="" class="img-fluid bankIcon" loading="lazy">
           </div>
         </div>
-        <div class="row mt-4 mb-4">
+        <div class="row mt-4">
           <div class="col-md-6 mb-3">
             <div class="row">
               <div class="col-md-6">
@@ -868,15 +868,15 @@
         </div>
 </div>
 
-<div class="right py-4">
+<div class="right">
        
     <div class="bank-info-top-comp-main">
-      <h2 class="bank-info-top-hdr py-3">Bank Information (JPY)</h2>
+      <h2 class="bank-info-top-hdr py-2">Bank Information (JPY)</h2>
       <div class="bank-info-top-comp d-flex justify-content-center">
         <img src="{{asset('assets/images/staticPagesAssets/icon/how-to-pyi-icon1.webp')}}" alt="" class="img-fluid bankIcon" loading="lazy">
       </div>
     </div>
-    <div class="row mt-4 mb-4">
+    <div class="row mt-4">
       <div class="col-md-6 mb-3">
         <div class="row">
           <div class="col-md-6">
@@ -989,12 +989,12 @@
 <div class="right">
        
     <div class="bank-info-top-comp-main">
-      <h2 class="bank-info-top-hdr py-3">Bank Information (AUD)</h2>
+      <h2 class="bank-info-top-hdr py-2">Bank Information (AUD)</h2>
       <div class="bank-info-top-comp d-flex justify-content-center">
         <img src="{{asset('assets/images/staticPagesAssets/icon/how-to-pyi-icon1.webp')}}" alt="" class="img-fluid bankIcon" loading="lazy">
       </div>
     </div>
-    <div class="row mt-4 mb-4">
+    <div class="row mt-4">
       <div class="col-md-6 mb-3">
         <div class="row">
           <div class="col-md-6">
@@ -1104,15 +1104,15 @@
     </div>
 </div>
 
-<div class="right py-4">
+<div class="right">
        
     <div class="bank-info-top-comp-main">
-      <h2 class="bank-info-top-hdr py-3">Bank Information (GBP)</h2>
+      <h2 class="bank-info-top-hdr py-2">Bank Information (GBP)</h2>
       <div class="bank-info-top-comp d-flex justify-content-center">
         <img src="{{asset('assets/images/staticPagesAssets/icon/how-to-pyi-icon1.webp')}}" alt="" class="img-fluid bankIcon" loading="lazy">
       </div>
     </div>
-    <div class="row mt-4 mb-4">
+    <div class="row mt-4">
       <div class="col-md-6 mb-3">
         <div class="row">
           <div class="col-md-6">

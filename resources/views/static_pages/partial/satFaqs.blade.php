@@ -8,7 +8,7 @@
 
                <div class="container p-0">
                 <!-- Nav Tabs -->
-            <div class="tabList pt-5 pb-4">
+            <div class="tabList pt-md-5 pb-4 pt-4">
                 <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                       <a class="nav-link active" id="generalTab" data-bs-toggle="tab" href="#general" role="tab" aria-controls="general" aria-selected="true">General</a>
@@ -73,22 +73,22 @@
                     <p class="m-0 heading">Still Have Any Question?</p>
                     <form action="javascript:;" class="question-form">
                         <div class="row">
-                            <div class="mb-3 mt-4">
-                                <label class="py-2">Your Question</label>
+                            <div class="mb-md-3 mt-md-4">
+                                <label class="py-2">Your Question <span class="text-danger">*</span></label>
                                 <textarea class="form-control form-texarea-inq" id="exampleFormControlTextarea1" rows="3" placeholder="Type Your Question"></textarea>
                               </div>
 
                               <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="py-2">Name</label>
+                                <div class="mb-md-3 ">
+                                    <label class="py-2">Name <span class="text-danger">*</span></label>
                                     <input type="text" class="form-control" placeholder="Name">
                                   </div>
 
                                   
                               </div>
                               <div class="col-md-6">
-                                <div class="mb-3">
-                                    <label class="py-2">Email</label>
+                                <div class="mb-3 ">
+                                    <label class="py-2">Email <span class="text-danger">*</span></label>
                                     <input type="email" class="form-control" placeholder="Email">
                                   </div>
                               </div>

@@ -2,9 +2,18 @@
     <div class="howToBuy">
         <div class="container">
             <div class="row">
-                <div class="bannerImage">
+                {{-- <div class="bannerImage">
                     <img src="{{asset('assets/images/staticPagesAssets/images/how-to-buy-bannernd.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
-                </div>
+                </div> --}}
+                <div class="col-12">
+                    <div class="certified-owner-card">
+                      <div class="text-certified">
+                        <h2 class="text">Become A Certified Car Owner Now!</h2>
+                        <p class="para d-lg-block d-md-block d-sm-none d-none">Simplify your car-buying journey by following our step-by-step guide to own your dream ride. Explore the steps below and start your journey today.</p>
+                      </div>
+                      <img src="https://satjapan.com/assets/images/new-bannars/certified-car-owner.webp" width="414" height="235" loading="lazy" class="img-fluid certified-img object-fit-contain" alt="sat bannar">
+                    </div>
+                  </div>
 
                 <div class="grd-ts my-5">
                     <div class="centeralized">
@@ -14,9 +23,12 @@
                         </div>
                     </div>
                     <div class="sat-video-frame">
-                        <iframe class="brd-8x" width="502" height="272" src="https://www.youtube.com/embed/38vGOQlTIE8?si=CftmKfprm9qc7oRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                        {{-- <iframe class="brd-8x" width="502" height="272" src="https://www.youtube.com/embed/38vGOQlTIE8?si=CftmKfprm9qc7oRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> --}}
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/T_RWR68iLDg?si=8Wmf8rHc0rmWdmJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
+
+                
 
 
                 <div class="grd-4-eqs">
@@ -68,14 +80,25 @@
 <div class="howToBuyMobile">
     <div class="container">
         <div class="row">
-            <div class="bannerImage">
+            {{-- <div class="bannerImage">
                 <img src="{{asset('assets/images/staticPagesAssets/images/how-to-buy-bannernd.webp')}}" alt="Banner" class="img-fluid" loading="lazy">
-            </div>
+            </div> --}}
+
+            <div class="col-12">
+                <div class="certified-owner-card mb-3">
+                  <div class="text-certified">
+                    <h2 class="text">Become A Certified Car Owner Now!</h2>
+                    <p class="para d-lg-block d-md-block d-sm-none d-none">Simplify your car-buying journey by following our step-by-step guide to own your dream ride. Explore the steps below and start your journey today.</p>
+                  </div>
+                  <img src="https://satjapan.com/assets/images/new-bannars/certified-car-owner.webp" width="414" height="235" loading="lazy" class="img-fluid certified-img object-fit-contain" alt="sat bannar">
+                </div>
+              </div>
 
             <div class="howToBuyCarInner py-3">
                 <p class="m-0 title">How to Buy a Car with SAT</p>
                 <p class="m-0 para pb-3">Go through this step-by-step guide to purchase your dream car</p>
-                <iframe class="brd-8x" width="100%" height="200" src="https://www.youtube.com/embed/38vGOQlTIE8?si=CftmKfprm9qc7oRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+                {{-- <iframe class="brd-8x" width="100%" height="200" src="https://www.youtube.com/embed/38vGOQlTIE8?si=CftmKfprm9qc7oRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe> --}}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/T_RWR68iLDg?si=8Wmf8rHc0rmWdmJO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
 
             <div class="container py-5">

@@ -26,8 +26,6 @@
                         Completion and submission of custom documentation are critical. Accurate declaration in regard to the nature of goods, deliberate use, 
                         and end-user detail is ensured with applicable export control regulations.
                     </p>
-
-                    
                 </div>
             </div>
 
