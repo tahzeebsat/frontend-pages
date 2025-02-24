@@ -4453,7 +4453,7 @@ display: none;
     font-weight: 500;
 }
 .select2-container--default .select2-selection--single .select2-selection__rendered{
-    color: #5D6370;
+    color: #5D6370 !important;
     font-size: 12px;
     font-family: 'Lato';
     font-weight: 500;

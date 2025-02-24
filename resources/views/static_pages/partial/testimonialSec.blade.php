@@ -186,7 +186,7 @@
                         <div class="col-md-6 w-50">
                           <div class="country d-flex justify-contnet-between align-items-center w-100 p-2"
                           type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">
-                            <p class="m-0 w-100">5 Stars</p>
+                            <p class="m-0 w-100">Stars</p>
                             <i class="fa fa-chevron-down"></i>
                           </div>
                         </div>
@@ -197,6 +197,11 @@
                         <img src="assets/images/header-images/mobile-search-icon.webp" class="me-1 mb-1" alt="">
                         Search
                       </button>
+                    </div>
+
+                    <div class="col-12 px-5s mt-2">
+                      <p class="text-end mx-2 resetSearch mb-0" 
+                      style="color: #2a9fe8; font-size: 14px; font-weight: 500;">Reset Search</p>
                     </div>
 
                     
@@ -393,7 +398,7 @@
               </div>
               <div class="offcanvas-body p-0 px-3">
                 <div class="search">
-                    <input type="text" class="input-search" placeholder="Search By Country" id="makeFilterSearch">
+                    <input type="text" class="input-search" placeholder="Country" id="makeFilterSearch">
                     <img  class="img_search" src="{{asset('assets/images/header-images/mobile-search-icon.webp')}}" alt="" loading="lazy">
                 </div>
                 <div class="list py-3">
