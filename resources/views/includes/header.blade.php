@@ -820,7 +820,7 @@
                                           </div>
                                       </li>
                                        <li class="nav-item dropdown">
-                                          <a class="nav-link dropdown-toggle ms-0 ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          <a class="nav-link dropdown-toggle ms-2 ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               New Cars
                                           </a>
                                           <div class="mega-menu-cust">

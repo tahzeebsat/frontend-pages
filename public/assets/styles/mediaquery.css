@@ -100,6 +100,26 @@
     .get-exclusive-benefits .bg-bannar-app .app-ban-pro{
         max-width: 530px;
     }
+        .award-bannar-wrapper .award-trophy {
+        top: 46.78px;
+        left: 56.05%;
+        max-width: 80px;
+        height: auto;
+    }
+    .award-bannar-wrapper .award-bannar-text .title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .award-bannar-wrapper {
+        padding: 57px 50px 30px 50px;
+    }
+      .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+        max-width: 455px;
+    }
+        .award-trophy-car {
+        max-width: 305px;
+        height: auto;
+    }
 }
 
 @media(max-width:1199px){
