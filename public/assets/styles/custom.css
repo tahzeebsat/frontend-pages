@@ -706,8 +706,8 @@ input:focus {
     no-repeat;
   position: relative;
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 15px;
+  height: 15px;
   margin-right: 0 !important;
 }
 .active-icon .car_rev,
