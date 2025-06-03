@@ -826,7 +826,7 @@
                                           <div class="mega-menu-cust">
                                             <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                                 <div class="row">
-                                                    <div class="col-md-2 mx-4 used-cars-dp">
+                                                    <div class="col-md-2 mx-4 me-5 used-cars-dp">
                                                         <h6>Explore By Make</h6>
                                                         <a class="dropdown-item" href="#">Toyota</a>
                                                         <a class="dropdown-item" href="#">Nissan</a>
@@ -840,7 +840,7 @@
                                                         <a class="dropdown-item" href="#">Daihatsu</a>
                                                         <a class="dropdown-item" href="#">Lexus</a>
                                                     </div>
-                                                    <div class="col-md-2 mx-4 used-cars-dp">
+                                                    <div class="col-md-2 mx-4 me-5 ps-5 used-cars-dp">
                                                         <h6>Explore By Type</h6>
                                                         <a class="dropdown-item" href="#">SUV</a>
                                                         <a class="dropdown-item" href="#">Sedan</a>
@@ -854,7 +854,7 @@
                                                         <a class="dropdown-item" href="#">Mini Van</a>
                                                         <a class="dropdown-item" href="#">Tractor</a>
                                                     </div>
-                                                    <div class="col-md-2 mx-4">
+                                                    <div class="col-md-2 mx-4 ms-5 ps-5">
                                                         <h6>Explor By Price</h6>
                                                         <a class="dropdown-item" href="#">Less than $1000</a>
                                                         <a class="dropdown-item" href="#">Between $1000 - $2000</a>
