@@ -112,12 +112,112 @@
     .navbar .searchBar{
         width: 190px !important;
     }
-    .headerSearch .search-form .input-group{
+    /* .headerSearch .search-form .input-group{
         width:100%;
     }
     .headerSearch .search-form .input-group{
         margin: 0;
-    }
+    } */
+     .form-mobile-search-main .dropdown-menu {
+  padding: 0;
+  width: 100%;
+  border-radius: 4px;
+  min-width: 0;
+}
+
+.form-mobile-search-main .dropdown-item {
+  color: #2f2b43;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.12px;
+  padding: 10px 8px;
+}
+
+.form-mobile-search-main {
+  background-color: #ededf1;
+  color: #555;
+  display: flex;
+  padding: 2px;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  position: relative;
+}
+
+.form-mobile-search-main input[type="text"] {
+  width: 100%;
+  height: 38px;
+  border: none;
+  background: #ededf1;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border-radius: 0;
+}
+
+.form-mobile-search-main input[type="search"] {
+  width: 100%;
+  height: 38px;
+  border: 1px solid transparent;
+  background: #ededf1;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border-radius: inherit;
+}
+
+.form-mobile-search-main input[type="text"]::placeholder {
+  font-family: var(--font-family-Lato);
+  font-size: var(--font-size-12s);
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #2f2b434d !important;
+}
+
+.form-mobile-search-main input[type="search"]::placeholder {
+  font-family: var(--font-family-Lato);
+  font-size: var(--font-size-12s);
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.01em;
+  color: #2f2b434d !important;
+}
+
+.form-mobile-search-main button[type="button"] {
+  text-indent: -999px;
+  overflow: hidden;
+  width: 45px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M12.5233%2011.4628L15.7355%2014.6743L14.6743%2015.7355L11.4628%2012.5233C10.2678%2013.4812%208.7815%2014.0022%207.25%2014C3.524%2014%200.5%2010.976%200.5%207.25C0.5%203.524%203.524%200.5%207.25%200.5C10.976%200.5%2014%203.524%2014%207.25C14.0022%208.7815%2013.4812%2010.2678%2012.5233%2011.4628ZM11.0188%2010.9063C11.9706%209.92741%2012.5022%208.61532%2012.5%207.25C12.5%204.349%2010.1503%202%207.25%202C4.349%202%202%204.349%202%207.25C2%2010.1503%204.349%2012.5%207.25%2012.5C8.61532%2012.5022%209.92741%2011.9706%2010.9063%2011.0188L11.0188%2010.9063Z%22%20fill%3D%22%23353C4D%22%2F%3E%3C%2Fsvg%3E")
+    center no-repeat;
+  cursor: pointer;
+}
+
+.form-mobile-search-main .dropdown-toggle {
+  background: 0 0;
+  height: 100%;
+  font-family: Lato;
+  color: #2f2b43;
+  border: none;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.12px;
+  padding: 8px 10px;
+  border-right: 1px solid #dcdae2;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
     .mega-menu-section .navbar .navbar-nav .nav-item .nav-link{
         margin: 0;
     }

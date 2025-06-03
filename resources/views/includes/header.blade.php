@@ -1468,13 +1468,28 @@
                             <img src="{{asset('assets/images/header-images/header-logo.webp')}}" alt="Company Logo" class="img-fluid" loading="lazy" width="140" height="46"> </a>
 					</div>
 					<div class="col search-form">
-						<form class="d-flex position-relative" role="search" aria-label="Search form">
+						{{-- <form class="d-flex position-relative" role="search" aria-label="Search form">
 							<div class="input-group">
 								<input type="text" id="searchInput" class="searchBar form-control shadow-none px-4" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">
 								<button class="input-group-text" type="submit" aria-label="Submit search"> <img src="/assets/images/header-images/search-icon.webp" alt="Search icon" class="img-fluid" loading="lazy" width="20" height="20"> </button>
 							</div>
 							<div id="suggestions" class="dropdown-menu mt-5 border-0 rounded-0 bg-white"></div>
-						</form>
+						</form> --}}
+                        <div class="form-mobile-search-main">
+            <div class="dropdown">
+              <button class="dropdown-toggle" id="search_selection_text" data-bs-toggle="dropdown" aria-expanded="false">
+                New Cars
+              </button>
+              <ul class="dropdown-menu search-selection" style="">
+                <li class="dropdown-item" data-value="New Cars">New Cars</li>
+                <li class="dropdown-item" data-value="Used Cars">Used Cars</li>
+                <li class="dropdown-item" data-value="Auto Parts">Auto Parts</li>
+                <input type="text" class="sr-only" id="search_selection_field" value="">
+              </ul>
+            </div>
+            <input type="text" id="new-search-input" autocomplete="off" placeholder="Search Your Dream Car">
+            <button type="button">Search</button>
+          </div>
 					</div>
 					<div class="col-auto right-list">
 						<ul class="list-unstyled d-flex mb-0">
@@ -2491,7 +2506,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col search-form px-2">
-                        <form class="d-flex position-relative" role="search" aria-label="Search form">
+                        {{-- <form class="d-flex position-relative" role="search" aria-label="Search form">
                             <div class="input-group">
                                 <input type="text" id="searchInput" class="searchBar form-control shadow-none px-4 border-0" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">
                                 <button class="input-group-text border-0" type="submit" aria-label="Submit search">
@@ -2499,7 +2514,23 @@
                                 </button>
                             </div>
                             <div id="suggestions" class="dropdown-menu mt-5 border-0 rounded-0 bg-white"></div>
-                        </form>
+                        </form> --}}
+
+                        <div class="form-mobile-search-main">
+            <div class="dropdown">
+              <button class="dropdown-toggle" id="search_selection_text" data-bs-toggle="dropdown" aria-expanded="false">
+                New Cars
+              </button>
+              <ul class="dropdown-menu search-selection" style="">
+                <li class="dropdown-item" data-value="New Cars">New Cars</li>
+                <li class="dropdown-item" data-value="Used Cars">Used Cars</li>
+                <li class="dropdown-item" data-value="Auto Parts">Auto Parts</li>
+                <input type="text" class="sr-only" id="search_selection_field" value="">
+              </ul>
+            </div>
+            <input type="text" id="new-search-input" autocomplete="off" placeholder="Search Your Dream Car">
+            <button type="button">Search</button>
+          </div>
                     </div>
                 </div>
             </div>

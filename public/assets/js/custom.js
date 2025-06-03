@@ -319,7 +319,7 @@ const searchInput = document.getElementById('searchInput');
             "Kia Optima"
         ];
 
-        searchInput.addEventListener('input', function() {
+        searchInput&&searchInput.addEventListener('input', function() {
             const query = this.value.toLowerCase();
             suggestionsContainer.innerHTML = ''; // Clear previous suggestions
 

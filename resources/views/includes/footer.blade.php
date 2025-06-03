@@ -61,9 +61,12 @@
                             <a href="https://twitter.com/" class="me-3 mb-3" aria-label="Twitter">
                                 <img src="{{asset('assets/images/twitter.webp')}}" alt="Twitter" class="img-fluid" loading="lazy">
                             </a>
-                            <a href="https://youtube.com/" class="mb-3" aria-label="YouTube">
+                            <a href="https://youtube.com/" class="me-3 mb-3" aria-label="YouTube">
                                 <img src="{{asset('assets/images/youtube.webp')}}" alt="YouTube" class="img-fluid" loading="lazy">
                             </a>
+                            <a href="https://tiktok.com/" class="mb-3 text-decoration-none" aria-label="YouTube">
+                                    <img src="{{ asset('assets/images/sat-tiktok.webp') }}" alt="TikTok" class="img-fluid" loading="lazy">
+                                </a>
                         </div>
                         
                         
@@ -384,9 +387,12 @@
                             <a href="https://twitter.com/" class="me-3 mb-3" aria-label="Twitter">
                                 <img src="{{asset('assets/images/twitter.webp')}}" alt="Twitter" class="img-fluid" loading="lazy" width="26" height="26">
                             </a>
-                            <a href="https://youtube.com/" class="mb-3" aria-label="YouTube">
+                            <a href="https://youtube.com/" class="me-3 mb-3" aria-label="YouTube">
                                 <img src="{{asset('assets/images/youtube.webp')}}" alt="YouTube" class="img-fluid" loading="lazy" width="26" height="26">
                             </a>
+                            <a href="https://tiktok.com/" class="mb-3 text-decoration-none" aria-label="YouTube">
+                                    <img src="{{ asset('assets/images/sat-tiktok.webp') }}" alt="TikTok" class="img-fluid" loading="lazy" width="26" height="26">
+                                </a>
                         </div>
                         
                         
@@ -626,7 +632,7 @@
                                 <a href="https://twitter.com/" class="me-2 mb-3 text-decoration-none" aria-label="Twitter">
                                     <img src="{{ asset('assets/images/twitter.webp') }}" alt="Twitter" class="img-fluid" loading="lazy">
                                 </a>
-                                <a href="https://youtube.com/" class="mb-3 text-decoration-none" aria-label="YouTube">
+                                <a href="https://youtube.com/" class="me-2 mb-3 text-decoration-none" aria-label="YouTube">
                                     <img src="{{ asset('assets/images/youtube.webp') }}" alt="YouTube" class="img-fluid" loading="lazy">
                                 </a>
                                 <a href="https://tiktok.com/" class="mb-3 text-decoration-none" aria-label="YouTube">

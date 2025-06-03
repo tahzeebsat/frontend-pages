@@ -595,6 +595,7 @@ input:focus {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
     top: 48px;
+    display: block;
 }
 
 .mega-menu-section .navbar .dropdown:hover .dropdown-menu .used-cars-dp {
