@@ -241,3 +241,12 @@ Route::get('/sat-supporters-marketing-material', function () {
 Route::get('/sat-supporters-track-raferal', function () {
     return view('static_pages/sat-supporters-track-raferal');
 });
+Route::get('/saftey_with_sat', function () {
+    return view('static_pages/saftey_with_sat');
+});
+Route::get('/terms-condition', function () {
+    return view('static_pages/terms-condition');
+});
+Route::get('/how-to-choose', function () {
+    return view('static_pages/how-to-choose');
+});

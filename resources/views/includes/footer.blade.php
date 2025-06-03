@@ -629,6 +629,9 @@
                                 <a href="https://youtube.com/" class="mb-3 text-decoration-none" aria-label="YouTube">
                                     <img src="{{ asset('assets/images/youtube.webp') }}" alt="YouTube" class="img-fluid" loading="lazy">
                                 </a>
+                                <a href="https://tiktok.com/" class="mb-3 text-decoration-none" aria-label="YouTube">
+                                    <img src="{{ asset('assets/images/sat-tiktok.webp') }}" alt="TikTok" class="img-fluid" loading="lazy">
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -9,8 +9,8 @@
                         </a>
                     </div>
 
-                    <div class="col search-form">
-                        <form class="d-flex position-relative" role="search" aria-label="Search form">
+                    <div class="col search-form mx-5">
+                        {{-- <form class="d-flex position-relative" role="search" aria-label="Search form">
                             <div class="input-group">
                                 <input type="text" id="searchInput" class="searchBar form-control shadow-none px-4" placeholder="Search Your Dream Car" aria-label="Search Your Dream Car" autocomplete="off">
                                 <button class="input-group-text" type="submit" aria-label="Submit search">
@@ -18,7 +18,26 @@
                                 </button>
                             </div>
                             <div id="suggestions" class="dropdown-menu mt-5 border-0 rounded-0 bg-white"></div>
-                        </form>
+                        </form> --}}
+                        <div class="form-search-main">
+                                <div class="select-search">
+                                    <div class="dropdown satSelectBlock" id="selection_type">
+                                        <button class="btn btn-secondary dropdown-toggle satSelectBtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <span class="button-text">   Used Cars</span>
+                                        </button>
+                                        <ul class="dropdown-menu satSelectList" style="">
+                                            <li class="dropdown-item" data-text="Used Cars" data-value="Used Cars">Used Cars</li>
+                                            <li class="dropdown-item" data-text="New Cars" data-value="New Cars">New Cars</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                    <input type="text" id="new-search-input" autocomplete="off" class="car_search_input" placeholder="Search Your Dream Car">
+                                    <button type="submit" class="btn_search_car search_car_button" id="btn_search_car">
+                                    <img src="https://development.satjapan.info/assets/images/index/icon/searchicon-svg.svg" height="20" width="20" loading="eager">
+                                    </button>
+                                <div class="ajax-search-suggestions" style="display: block;">
+                            </div>
+                        </div>
                     </div>
                     <div class="col-auto right-list">
                         <ul class="list-unstyled d-flex mb-0 align-items-center">

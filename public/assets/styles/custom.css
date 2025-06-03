@@ -362,16 +362,16 @@ input:focus {
 .headerSearch{
     position:relative;
 }
-.headerSearch .search-form{
+/* .headerSearch .search-form{
     position:relative;
 }
 .headerSearch .search-form{
     margin: 0% 7%;
 }
 .headerSearch .search-form .input-group{
-    /* width: 400px; */
+    width: 400px;
     height: 46px;
-    /* margin: 0% 13%; */
+    margin: 0% 13%;
 }
 .headerSearch .search-form .input-group .searchBar{
     background-color: var(--light-lavender);
@@ -382,6 +382,93 @@ input:focus {
 .headerSearch .search-form .input-group .input-group-text{
    background-color: var(--black-color);
    border: 2px;
+} */
+
+/* form main */
+.form-search-main {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #dfdfdf;
+  border-radius: 12px;
+  max-width: 539px;
+  position: relative;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.02) inset,
+    0px 4px 4px 0px rgba(0, 0, 0, 0.02) inset;
+}
+
+.form-search-main .select-search {
+  /* min-width: 112px; */
+  display: flex;
+  align-items: center;
+}
+
+.form-search-main #selection_type button {
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #353c4d;
+  border: 0px;
+  border-right: 1px solid #dfdfdf;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  padding: 13px 16px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: white;
+  min-width: 112px;
+}
+
+.form-search-main #selection_type .dropdown-menu {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 20px;
+  color: #353c4d;
+  cursor: pointer;
+  min-width: 0;
+  width: 100%;
+}
+
+.form-search-main #selection_type .dropdown-menu .dropdown-item {
+  font-weight: 600;
+}
+.form-search-main #selection_type .dropdown-menu .dropdown-item:hover {
+  background-color: #f7f8fb;
+  color: #000000;
+}
+
+.form-search-main .car_search_input:focus-visible {
+  outline: none;
+}
+
+.form-search-main .car_search_input::placeholder {
+  color: #2f2b434d;
+}
+
+.form-search-main:focus-within {
+  border-color: #2a9fe8;
+}
+
+.form-search-main .car_search_input {
+  width: 100%;
+  border: 0px;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 12px;
+  color: #000;
+}
+
+.form-search-main .btn_search_car {
+  border: 1px solid #0c1529;
+  background-color: #0c1529;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 12px 16px;
 }
 .headerSearch .text-decoration-none{
    color: var(--deep-slate-gray);
@@ -2518,7 +2605,7 @@ footer .footer-copyright{
 
 .early-budget-desktop .nav-tabs .nav-link:focus, 
 .early-budget-desktop .nav-tabs .nav-link:hover{
-    border: none;
+    border: none !important;
     isolation: unset;
 }
 .early-budget-desktop .nav-tabs .nav-item.show .nav-link, 
@@ -14357,4 +14444,218 @@ background-color: transparent;
    color: #2384c1;
 }
 /* ==================================== End Sat Supporter Tack Raferal Page CSS ============================ */
+
+
+/* ==================================== Start Saftey With Sat Page CSS ============================ */
+.safety-common-hdr {
+    font-family: 'Sofia-Pro';
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.018em;
+    text-align: left;
+    color: #0C1529;
+    margin: 15px 0px;
+}
+.safety-common-sub-hdr {
+    font-family: 'Sofia-Pro';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.018em;
+    text-align: left;
+    color: #0C1529;
+}
+.safety-common-paragraph {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #5D6370;
+}
+.safety-with-sat-mian .dash-itemd-3 .nav-tabs .nav-link.active {
+    border: 1px solid #d0d5dd;
+    background-color: #2384C1 !important;
+    color: white !important;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.rating-sction {
+    padding-block: 24px;
+}
+.rating-sction .padig-clas-12-24 {
+    padding: 12px 24px 12px 24px;
+}
+.rating-sction .rating-icon {
+    max-width: 50px;
+    max-height: 50px;
+    margin-bottom: 20px;
+}
+.rating-sction .offer-hdr {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: center;
+    color: #0C1529;
+    margin-bottom: 10px;
+}
+.rating-sction .offer-para {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #68727D;
+}
+.rating-sction .br-inline {
+    border-inline: 1px solid #CED0D4;
+}
+.rating-sction .safety-common-para-spn {
+    color: #2384C1;
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+}
+/* ==================================== End Saftey With Sat Page CSS ============================ */
+
+/* ==================================== Start Terms and Condition Page CSS ============================ */
+.termsCondition-dekstop .term-main-hdr {
+    font-family: 'Lato';
+    font-size: 24px;
+    color: #0C1529;
+    font-weight: 700;
+}
+.termsCondition-dekstop .term-hdr {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    color: #0c1529;
+}
+.termsCondition-dekstop .term-praph {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2.5vw, 18px);
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #5d6370;
+    margin-bottom: 2rem;
+}
+
+.termsCondition-dekstop .term-ftr-span {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    color: #0C1529;
+}
+/* ==================================== End Terms and Condition Page CSS ============================ */
+
+/* ==================================== Start How to Choose Page CSS ============================ */
+#how_to_buy_bannar .how-to-chose-mob-new-banner {
+    margin: 16px 0 16px 0;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.how-to-chose-comman-hdr {
+    color: #0c1529;
+    font-family: 'Sofia-Pro';
+    font-size: clamp(18px, 4vw, 24px);
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.018em;
+    text-align: left;
+}
+.how-to-chose-comman-para {
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #5d6370;
+}
+.how-to-choose-main .how-to-chose-detail-hdr {
+    color: #0c1529;
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    margin-bottom: 22px;
+}
+.how-to-choose-main .how-to-chose-detail-para {
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #5d6370;
+}
+.how-to-choose-main .how-to-use-detail-img {
+    width: 100%;
+    height: auto;
+    max-height: 275px;
+}
+.used-car-category .img-category-tab-main {
+    width: 100%;
+    max-width: 410px;
+    max-height: 250px;
+    height: 100%;
+}
+
+.choose-used-car-category-hdr {
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #0c1529;
+}
+.choose-used-car-category-para {
+    font-family: 'Lato';
+    font-size: clamp(16px, 3vw, 20px);
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #5d6370;
+}
+.determine-purpose-purchase .purchase-purpose-div {
+    height: 48px;
+    align-content: center;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 1px 2px 0px #1018280a;
+    border: 1px solid #eaebf0;
+    padding: 10px;
+}
+.determine-purpose-purchase .purchase-purpose-para {
+    font-family: 'Lato';
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    text-align: left;
+    color: #0c1529;
+    margin-bottom: 0;
+}
+/* ==================================== Start How to Choose Page CSS ============================ */
  
