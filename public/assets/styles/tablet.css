@@ -640,7 +640,7 @@
 /* ===================================== End By Decision Css ===================================== */
 
 /* ===================================== Start Get More App Section CSS ===================================== */
-.get_more_app_tablet .getMoreApp .inner{
+/* .get_more_app_tablet .getMoreApp .inner{
     padding: 8px 64px 0;
     border-radius: 20px;
     background: #f7fbfb !important;
@@ -672,6 +672,69 @@
     letter-spacing: -0.14px;
     margin-bottom: 0;
     margin-top: 10px;
+} */
+  .get_more_app_tablet .application-wrapper {
+    padding: 19px 64px 0;
+    border-radius: 20px;
+    background: #014e78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 84px;
+    color: white;
+}
+.get_more_app_tablet     .main-image-app {
+    max-width: 235px;
+    height: auto;
+}
+.get_more_app_tablet .application-wrapper .application-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 348px;
+}
+.get_more_app_tablet .application-wrapper .application-text .title {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+.get_more_app_tablet .application-wrapper .application-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.16px;
+    margin-bottom: 16px;
+}
+.get_more_app_tablet .application-wrapper .application-text .img-app-app {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+.get_more_app_tablet .application-wrapper .scan-app-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.get_more_app_tablet .application-wrapper .scan-app-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    text-align: center;
 }
 /* ===================================== End Get More App Section CSS ===================================== */
 

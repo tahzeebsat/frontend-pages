@@ -427,14 +427,17 @@ input:focus {
   cursor: pointer;
   min-width: 0;
   width: 100%;
+  border-radius: 7px;
+  border: 1px solid #0000002d;
 }
 
 .form-search-main #selection_type .dropdown-menu .dropdown-item {
   font-weight: 600;
+  border: none;
 }
 .form-search-main #selection_type .dropdown-menu .dropdown-item:hover {
-  background-color: #f7f8fb;
-  color: #000000;
+  background-color: #f7f8fb !important;
+  color: #000000 !important;
 }
 
 .form-search-main .car_search_input:focus-visible {
@@ -1134,7 +1137,7 @@ input:focus {
 }
 .mega-menu-section .navbar .navbar-nav .nav-item .nav-link {
   font-family: "Lato", sans-serif;
-  margin: 0px 10px;
+  margin: 0px 14px;
   font-weight: 600;
   font-size: var(--fs-14);
   color: var(--rich-black);
@@ -3253,6 +3256,109 @@ footer .footer-copyright{
     right: var(--swiper-navigation-sides-offset, 22px)
 }
 /* ===================================== End Early Budget Css ===================================== */
+
+/* ===================================== Start Web Promotion Car Css ===================================== */
+.promotion-web-1 .bannar-newcars {
+    position: relative;
+    top: 0px;
+}
+.promotion-web-1 .bannar-wrapper {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 277px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promotion-web-1 .bannar-wrapper-img2 {
+    background-image: url(/assets/images/bannar-newcar2.webp);
+    padding: 36px 24.42px 15px 50px;
+}
+.promotion-web-1 .bannar-text-newcars {
+    max-width: 538px;
+}
+.promotion-web-1 .bannar-text-newcars .title {
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.51px;
+    letter-spacing: -0.016em;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.promotion-web-1 .bannar-text-newcars .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.web-promotion2-desktop .award-bannar-wrapper {
+    background-image: url(/assets/images/awar-home-bannar.webp);
+    padding: 57px 97px 30px 71px;
+    max-width: 100%;
+    max-height: 320px;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+    max-width: 601px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .title {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .para {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .award-bannar-redirection {
+    text-decoration: none;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #fff;
+    display: inline-block;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #014e78;
+    padding: 12px 24px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-trophy {
+    position: absolute;
+    top: 25.78px;
+    left: 52.05%;
+}
+/* ===================================== End Web Promotion Car Css ===================================== */
+
 
 /* ===================================== Start Find My Car Css ===================================== */
 .find-my-car-desktop{
@@ -6722,7 +6828,7 @@ display: none;
 /* ==================================== End New Car Search Detail Page Css ============================*/
 
 /* ==================================== Start Get More App Section CSS ============================*/
-.get_more_app_desktop .getMoreApp .inner{
+/* .get_more_app_desktop .getMoreApp .inner{
     padding: 8px 64px 0;
     border-radius: 20px;
     background: #f7fbfb;
@@ -6754,6 +6860,65 @@ display: none;
     letter-spacing: -0.14px;
     margin-bottom: 0;
     margin-top: 10px;
+} */
+ .get_more_app_desktop .application-wrapper {
+    padding: 19px 64px 0;
+    border-radius: 20px;
+    background: #014e78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 84px;
+    color: white;
+}
+.get_more_app_desktop .application-wrapper .application-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 348px;
+}
+.get_more_app_desktop .application-wrapper .application-text .title {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+.get_more_app_desktop .application-wrapper .application-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin-bottom: 32px;
+}
+.get_more_app_desktop .application-wrapper .application-text .img-app-app {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+.get_more_app_desktop .application-wrapper .scan-app-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.get_more_app_desktop .application-wrapper .scan-app-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    text-align: center;
 }
 /* ==================================== End Get More App Section CSS ============================*/
 

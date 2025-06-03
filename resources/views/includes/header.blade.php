@@ -819,12 +819,60 @@
                                             </div>
                                           </div>
                                       </li>
-                                      <li class="nav-item dropdown">
-                                          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                       <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle ms-0 ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               New Cars
                                           </a>
-                                         
+                                          <div class="mega-menu-cust">
+                                            <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                                <div class="row">
+                                                    <div class="col-md-2 mx-4 used-cars-dp">
+                                                        <h6>Explore By Make</h6>
+                                                        <a class="dropdown-item" href="#">Toyota</a>
+                                                        <a class="dropdown-item" href="#">Nissan</a>
+                                                        <a class="dropdown-item" href="#">VolksWagen</a>
+                                                        <a class="dropdown-item" href="#">Mitsubishi</a>
+                                                        <a class="dropdown-item" href="#">Honda</a>
+                                                        <a class="dropdown-item" href="#">Subaru</a>
+                                                        <a class="dropdown-item" href="#">Mazda</a>
+                                                        <a class="dropdown-item" href="#">Suzuki</a>
+                                                        <a class="dropdown-item" href="#">Isuzu</a>
+                                                        <a class="dropdown-item" href="#">Daihatsu</a>
+                                                        <a class="dropdown-item" href="#">Lexus</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-4 used-cars-dp">
+                                                        <h6>Explore By Type</h6>
+                                                        <a class="dropdown-item" href="#">SUV</a>
+                                                        <a class="dropdown-item" href="#">Sedan</a>
+                                                        <a class="dropdown-item" href="#">Hatchback</a>
+                                                        <a class="dropdown-item" href="#">Wagon</a>
+                                                        <a class="dropdown-item" href="#">Coupe</a>
+                                                        <a class="dropdown-item" href="#">Pickup</a>
+                                                        <a class="dropdown-item" href="#">Convirtable</a>
+                                                        <a class="dropdown-item" href="#">Bus</a>
+                                                        <a class="dropdown-item" href="#">Van</a>
+                                                        <a class="dropdown-item" href="#">Mini Van</a>
+                                                        <a class="dropdown-item" href="#">Tractor</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-4">
+                                                        <h6>Explor By Price</h6>
+                                                        <a class="dropdown-item" href="#">Less than $1000</a>
+                                                        <a class="dropdown-item" href="#">Between $1000 - $2000</a>
+                                                        <a class="dropdown-item" href="#">Between $2000 - $3000</a>
+                                                        <a class="dropdown-item" href="#">Between $3000 - $4000</a>
+                                                        <a class="dropdown-item" href="#">Between $4000 - $5000</a>
+                                                        <a class="dropdown-item" href="#">Above $5000</a>
+                                                        <h6 class="mt-3">Other Categories</h6>
+                                                        <a class="dropdown-item" href="#">Right Hand Drive</a>
+                                                        <a class="dropdown-item" href="#">Diesel</a>
+                                                        <a class="dropdown-item" href="#">Gasoline/Petrol</a>
+                                                        <a class="dropdown-item" href="#">Electric</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
                                       </li>
+                                      
                                       <li class="nav-item dropdown">
                                           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               Local Pages
