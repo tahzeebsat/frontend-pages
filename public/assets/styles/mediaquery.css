@@ -1706,5 +1706,33 @@
         height: 104px;
         object-fit: contain;
     }
+    .car-service-desktop .heading .title {
+        font-size: 16px;
+        font-family: 'Sofia-Pro';
+        padding-bottom: 10px;
+    }
+    .car-service-desktop .heading .view-detail {
+        font-size: 14px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        color: #1c6a9b;
+    }
+    .car-service-desktop .swiper-button-next, .car-service-desktop .swiper-button-prev{
+        display: none;
+    }
+    .car-service-desktop .car-service-card {
+        margin: 0px 10px;
+    }
+    .car-service-desktop .swiper-slide.swiper-slide{
+        width: 250px !important;
+        height: 250px;
+    }
+    .car-service-desktop .car-service-card .service-body .title{
+        font-size: 12px;
+    }
+    .car-service-desktop .car-service-card .service-body .para{
+        font-size: 10px;
+    }
 }
 

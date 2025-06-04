@@ -955,8 +955,8 @@ var swiper = new Swiper('.sellByTypeSwiperMobile', {
 
 // ================== Start Car Service Swipper ==================
 var swiper = new Swiper('.carServiceSwiper', {
-  slidesPerView: 1, // Default for mobile
-  spaceBetween: 1, // Space between slides for mobile
+  slidesPerView: 2, // Default for mobile
+  spaceBetween: 10, // Space between slides for mobile
   freeMode: true,
     navigation: {
       nextEl: '.swiper-button-next',

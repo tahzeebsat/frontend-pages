@@ -1,4 +1,4 @@
-<section class="car-service-desktop position-relative py-4">
+<section class="car-service-desktop position-relative py-md-4">
     <div class="container">
       <div class="heading d-flex justify-content-between align-items-center">
         <p class="title m-0 pb-4"> Car Services </p>
