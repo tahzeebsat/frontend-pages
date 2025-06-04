@@ -975,8 +975,8 @@ var swiper = new Swiper('.carServiceSwiper', {
       },
       // For tablets (above 640px, up to 1024px)
       1024: {
-        slidesPerView: 3, // Show 3 slides per view on desktop
-        spaceBetween: 0, // Larger space between slides
+        slidesPerView:3, // Show 3 slides per view on desktop
+        spaceBetween: 10, // Larger space between slides
         freeMode: false, // Disable free mode on larger screens
       },
     },
