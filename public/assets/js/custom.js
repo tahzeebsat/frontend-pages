@@ -953,8 +953,38 @@ var swiper = new Swiper('.sellByTypeSwiperMobile', {
 });
 // ================== End Sell By Type Swipper ==================
 
-
-
+// ================== Start Car Service Swipper ==================
+var swiper = new Swiper('.carServiceSwiper', {
+  slidesPerView: 3, // Default for mobile
+  spaceBetween: 1, // Space between slides for mobile
+  freeMode: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    breakpoints: {
+      // For mobile (below 640px)
+      640: {
+        slidesPerView: 2, // Single slide per view on mobile
+        spaceBetween: 5, // Small space between slides
+        freeMode: true, // Enable free mode for mobile
+      },
+      // For tablets (above 640px, up to 1024px)
+      1024: {
+        slidesPerView: 3, // Show 3 slides per view on desktop
+        spaceBetween: 0, // Larger space between slides
+        freeMode: false, // Disable free mode on larger screens
+      },
+    },
+    loop: true, // Enable looping
+    autoplay: false,
+    touchEventsTarget: "container", // Ensure touch events are properly handled
+  });
+// ================== End Car Service Swipper ==================
 
 
 // ================== Start Latest Additiona New Car Swipper ==================
@@ -1223,6 +1253,7 @@ var swiper = new Swiper('.popularBrandSwiper', {
   autoplay: false,
   touchEventsTarget: "container", // Ensure touch events are properly handled
 });
+
 
 
 // ================= Mobile View Slider ====================

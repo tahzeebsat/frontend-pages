@@ -2,12 +2,12 @@
     <div class="container">
       <div class="row align-items-stretch">
         <div class="col-12">
-          <h2 class="title mb-4 pb-3" id="best-seller-type-title">
+          <h2 class="title pb-3" id="best-seller-type-title">
             Best Seller By Type
           </h2>
         </div>
 
-        <div class="col-12 col-md-3 mb-4">
+        {{-- <div class="col-12 col-md-3 mb-4">
           <div class="product-card">
             <p class="heading">SUV</p>
             <ul>
@@ -74,7 +74,197 @@
                     <li><a href="javascript:;" class="product-card-list text-decoration-none">Daihatsu Hijet Truck</a></li>
                 </ul>
               </div>
-        </div>
+        </div> --}}
+        <div class="accordion accordion-flush" id="best_seller_by_type">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+                  Explore used cars by SUV
+                </button>
+              </h2>
+              <div id="collapseone" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type" style="">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Land Cruiser Prado</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Harrier</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Rav4</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Crown</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota land cruiser</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda CRV</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Subaru Forester</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi Outlander</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mazda Cx-3</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mazda CX-5</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Explore used cars by SEDAN
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type" style="">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Prius</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Premio</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota corolla axio</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Allion</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota mark x</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Camry</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Audi A3</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda Accord</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda Insight</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Subaru WRX</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Explore used cars by VAN
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type">
+                <div class="accordion-body">
+                  <div class="row flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Hiace Van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Probox</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Prius Alpha</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Estima</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Alphard</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan AD van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan Caravan Van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan stepwgn</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Daihatsu Hijet</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Suzuki Every</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
+                  Explore used cars by Truck
+                </button>
+              </h2>
+              <div id="collapseFourth" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota dyna truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Toyoace</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi canter</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi Fuso canter</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi minicab</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Hino Dutro</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Hino Ranger</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Isuzu ELF Truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Suzuki Carry Truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Daihatsu Hijet truck</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   
         <div class="col-12 buy-more text-center mt-3">
             <a href="javascript:;" class="details"><span>View More</span><i class="fas fa-arrow-right ms-2"></i></a>
@@ -94,7 +284,7 @@
           </h2>
         </div>
 
-        <div class="col-12 col-md-3 mb-4">
+        {{-- <div class="col-12 col-md-3 mb-4">
           <div class="product-card">
             <p class="heading">SUV</p>
             <ul>
@@ -161,7 +351,198 @@
                     <li><a href="javascript:;" class="product-card-list text-decoration-none">Daihatsu Hijet Truck</a></li>
                 </ul>
               </div>
-        </div>
+        </div> --}}
+
+          <div class="accordion accordion-flush" id="best_seller_by_type">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+                  Explore used cars by SUV
+                </button>
+              </h2>
+              <div id="collapseone" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type" style="">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Land Cruiser Prado</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Harrier</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Rav4</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Crown</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota land cruiser</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda CRV</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Subaru Forester</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi Outlander</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mazda Cx-3</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mazda CX-5</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Explore used cars by SEDAN
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type" style="">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Prius</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Premio</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota corolla axio</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Allion</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota mark x</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Camry</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Audi A3</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda Accord</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Honda Insight</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Subaru WRX</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Explore used cars by VAN
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type">
+                <div class="accordion-body">
+                  <div class="row flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Hiace Van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Probox</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Prius Alpha</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Estima</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Alphard</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan AD van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan Caravan Van</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Nissan stepwgn</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Daihatsu Hijet</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Suzuki Every</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourth" aria-expanded="false" aria-controls="collapseFourth">
+                  Explore used cars by Truck
+                </button>
+              </h2>
+              <div id="collapseFourth" class="accordion-collapse collapse" data-bs-parent="#best_seller_by_type">
+                <div class="accordion-body">
+                  <div class="row g-4 flex-wrap">
+                    <div class="col-12">
+                      <div class="d-flex align-items-center type">
+                        <div class="types-block">
+                          <span class="types-seller">Toyota dyna truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Toyota Toyoace</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi canter</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi Fuso canter</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Mitsubishi minicab</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Hino Dutro</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Hino Ranger</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Isuzu ELF Truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Suzuki Carry Truck</span>
+                        </div>
+                        <div class="types-block">
+                          <span class="types-seller">Daihatsu Hijet truck</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
   
         <div class="col-12 buy-more text-center mt-3">
             <a href="javascript:;" class="details"><span>View More</span><i class="fas fa-arrow-right ms-2"></i></a>

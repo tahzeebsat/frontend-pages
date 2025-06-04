@@ -35,6 +35,9 @@
 @component('used_car.partial.popular_used_cars')
 @endcomponent
 
+@component('used_car.partial.car_services')
+@endcomponent
+
 @component('used_car.partial.best-seller_by_type')
 @endcomponent
 
