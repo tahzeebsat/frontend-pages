@@ -1734,5 +1734,8 @@
     .car-service-desktop .car-service-card .service-body .para{
         font-size: 10px;
     }
+    .car-service-desktop .car-service-card img{
+        height: 100px;
+    }
 }
 
