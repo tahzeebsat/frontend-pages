@@ -2602,6 +2602,13 @@ footer .footer-copyright{
     font-size: var(--fs-20);
     font-weight: 600;
 }
+.popular_used_car-desktop .box .bottom-brand .items{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .popular_used_car-desktop .box .bottom-brand .items img{
     width: 60px;
     height: 60px;
@@ -2679,7 +2686,10 @@ footer .footer-copyright{
 /* .car-service-desktop .carServiceSwiper .swiper-slide{
     width: 436.667px !important;
 } */
-
+/* .max-w-1110{
+     max-width: 1110px;
+    margin-inline: auto;
+} */
 .car-service-desktop .swiper-button-next, 
 .car-service-desktop .swiper-button-prev {
     color: #333;
@@ -2734,7 +2744,9 @@ footer .footer-copyright{
     padding: 16px 25px;
     border-radius: 20px;
     background: #ecf5ff;
-    max-width: 358px;
+    /* max-width: 311px;
+    height: 235px; */
+    width: 100%;
     cursor: pointer;
     text-align: center;
     margin: 0px 10px;
