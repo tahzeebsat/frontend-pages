@@ -978,6 +978,7 @@ var swiper = new Swiper('.carServiceSwiper', {
         slidesPerView:3, // Show 3 slides per view on desktop
         spaceBetween: 20, // Larger space between slides
         freeMode: false, // Disable free mode on larger screens
+        slidesPerGroup: 2,
       },
     },
     loop: true, // Enable looping

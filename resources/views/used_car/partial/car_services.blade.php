@@ -171,6 +171,24 @@
                 </a>
                                   
                 </div>
+
+                <div class="swiper-slide">
+                     <a class="car-service-card text-decoration-none">
+                  <img
+                    src="{{asset('assets/images/service-car9.webp')}}"
+                    height="160"
+                    width="308"
+                    class="img-fluid"
+                    loading="lazy"
+                    alt="car service"
+                  />
+                  <div class="service-body">
+                    <h3 class="title">Non Stolen Vehicle Check</h3>
+                    <p class="para">Verify car theft before purchase</p>
+                  </div>
+                </a>
+                                  
+                </div>
           
                
                 
