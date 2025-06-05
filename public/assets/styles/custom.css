@@ -427,14 +427,17 @@ input:focus {
   cursor: pointer;
   min-width: 0;
   width: 100%;
+  border-radius: 7px;
+  border: 1px solid #0000002d;
 }
 
 .form-search-main #selection_type .dropdown-menu .dropdown-item {
   font-weight: 600;
+  border: none;
 }
 .form-search-main #selection_type .dropdown-menu .dropdown-item:hover {
-  background-color: #f7f8fb;
-  color: #000000;
+  background-color: #f7f8fb !important;
+  color: #000000 !important;
 }
 
 .form-search-main .car_search_input:focus-visible {
@@ -571,7 +574,7 @@ input:focus {
     white-space: nowrap;
 } */
 
-.mega-menu-section {
+/* .mega-menu-section {
     position: relative;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -648,11 +651,505 @@ input:focus {
     font-size: 18px;
     color: var(--rich-black);
     white-space: nowrap;
+} */
+
+
+
+#navbarNav .mega-menu,
+.blogs-link-list {
+  width: max-content;
+  background-color: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
 }
-
-
-
-
+#navbarNav .mega-menu,
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu {
+  font-family: Lato-Regular;
+  line-height: 32px;
+  box-shadow: rgb(99 99 99 / 0.2) 0 2px 8px 0;
+}
+#navbarNav .mega-menu,
+.blogs-link-list,
+.mega-menu-section {
+  box-shadow: rgb(99 99 99 / 0.2) 0 2px 8px 0;
+}
+.dropdown-item img,
+.selected-flag img {
+  width: 24px;
+  height: 16px;
+}
+.blogs-links span,
+.desktop-view .headerSearch .language #selectedLanguage,
+.headerSearch .dropdown-item,
+.headerSearch .search-form .input-group .searchBar,
+.headerSearch .text-decoration-none {
+  font-family: Lato-semibold;
+  font-size: var(--fs-14);
+}
+#navbarNav .mega-menu {
+  position: absolute;
+  left: 0;
+  padding-top: 18px;
+  z-index: 10000;
+  font-size: var(--fs-16);
+  border-radius: 15px;
+  top: 47px;
+}
+#navbarNav .nav-item:hover .mega-menu,
+.blogs-links:hover .blogs-link-list {
+  opacity: 1;
+  visibility: visible;
+}
+.image_se {
+  background: url(/assets/images/icons-navbar.webp) 0 0/29px
+    no-repeat;
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 0 !important;
+}
+.active-icon .car_rev,
+.mega-menu-section .dropdown-item:hover .car_rev {
+  background-position: -14.5px 0;
+}
+.dropdown-item .car_rev {
+  background-position: 0.5px 0;
+}
+.active-icon .car_blog,
+.mega-menu-section .dropdown-item:hover .car_blog {
+  background-position: -14.5px -29px;
+}
+.dropdown-item .car_blog {
+  background-position: 0.5px -29px;
+}
+.active-icon .car_compare,
+.mega-menu-section .dropdown-item:hover .car_compare {
+  background-position: -14.5px -14px;
+}
+.dropdown-item .car_compare {
+  background-position: 0.5px -14px;
+}
+.active-icon .car_shiping,
+.mega-menu-section .dropdown-item:hover .car_shiping {
+  background-position: -14.5px -173px;
+}
+.dropdown-item .car_shiping {
+  background-position: 0.5px -173px;
+}
+.active-icon .car_insurance,
+.mega-menu-section .dropdown-item:hover .car_insurance {
+  background-position: -14.5px -188px;
+}
+.dropdown-item .car_insurance {
+  background-position: 0.5px -188px;
+}
+.active-icon .car_storage,
+.mega-menu-section .dropdown-item:hover .car_storage {
+  background-position: -14.5px -202px;
+}
+.dropdown-item .car_storage {
+  background-position: 0.5px -202px;
+}
+.active-icon .car_finance,
+.mega-menu-section .dropdown-item:hover .car_finance {
+  background-position: -14.5px -217px;
+}
+.dropdown-item .car_finance {
+  background-position: 0.5px -217px;
+}
+.active-icon .car_carrier,
+.mega-menu-section .dropdown-item:hover .car_carrier {
+  background-position: -14.5px -231px;
+}
+.dropdown-item .car_carrier {
+  background-position: 0.5px -231px;
+}
+.active-icon .car_clearance,
+.mega-menu-section .dropdown-item:hover .car_clearance {
+  background-position: -14.5px -246px;
+}
+.dropdown-item .car_clearance {
+  background-position: 0.5px -246px;
+}
+.active-icon .car_auction,
+.mega-menu-section .dropdown-item:hover .car_auction {
+  background-position: -14.5px -262px;
+}
+.dropdown-item .car_auction {
+  background-position: 0.5px -262px;
+}
+.active-icon .car_security,
+.mega-menu-section .dropdown-item:hover .car_security {
+  background-position: -14.5px -420px;
+}
+.dropdown-item .car_security {
+  background-position: 0.5px -420px;
+}
+.active-icon .car_expins,
+.mega-menu-section .dropdown-item:hover .car_expins {
+  background-position: -14.5px -274px;
+}
+.dropdown-item .car_expins {
+  background-position: 0.5px -274px;
+}
+.active-icon .car_marine,
+.mega-menu-section .dropdown-item:hover .car_marine {
+  background-position: -14.5px -290px;
+}
+.dropdown-item .car_marine {
+  background-position: 0.5px -290px;
+}
+.active-icon .car_about,
+.active-icon .car_vehicleinfo,
+.mega-menu-section .dropdown-item:hover .car_about,
+.mega-menu-section .dropdown-item:hover .car_vehicleinfo {
+  background-position: -14.5px -72px;
+}
+.dropdown-item .car_about,
+.dropdown-item .car_vehicleinfo {
+  background-position: 0.5px -72px;
+}
+.active-icon .car_companyprof,
+.mega-menu-section .dropdown-item:hover .car_companyprof {
+  background-position: -14.5px -333px;
+}
+.dropdown-item .car_companyprof {
+  background-position: 0.5px -333px;
+}
+.active-icon .car_whychoose,
+.mega-menu-section .dropdown-item:hover .car_whychoose {
+  background-position: -14.5px -348px;
+}
+.dropdown-item .car_whychoose {
+  background-position: 0.5px -348px;
+}
+.active-icon .car_privacypolicy,
+.mega-menu-section .dropdown-item:hover .car_privacypolicy {
+  background-position: -14.5px -361px;
+}
+.dropdown-item .car_privacypolicy {
+  background-position: 0.5px -361px;
+}
+.active-icon .car_termscond,
+.mega-menu-section .dropdown-item:hover .car_termscond {
+  background-position: -14.5px -376px;
+}
+.dropdown-item .car_termscond {
+  background-position: 0.5px -376px;
+}
+.active-icon .car_careers,
+.mega-menu-section .dropdown-item:hover .car_careers {
+  background-position: -14.5px -391px;
+}
+.dropdown-item .car_careers {
+  background-position: 0.5px -391px;
+}
+.active-icon .car_howtobuy,
+.mega-menu-section .dropdown-item:hover .car_howtobuy {
+  background-position: -14.5px -43px;
+}
+.dropdown-item .car_howtobuy {
+  background-position: 0.5px -43px;
+}
+.active-icon .car_inquiry,
+.mega-menu-section .dropdown-item:hover .car_inquiry {
+  background-position: -14.5px -58px;
+}
+.dropdown-item .car_inquiry {
+  background-position: 0.5px -58px;
+}
+.active-icon .car_howtopay,
+.mega-menu-section .dropdown-item:hover .car_howtopay {
+  background-position: -14.5px -87px;
+}
+.dropdown-item .car_howtopay {
+  background-position: 0.5px -87px;
+}
+.active-icon .car_bankinfo,
+.mega-menu-section .dropdown-item:hover .car_bankinfo {
+  background-position: -14.5px -100px;
+}
+.dropdown-item .car_bankinfo {
+  background-position: 0.5px -100px;
+}
+.active-icon .car_swap,
+.mega-menu-section .dropdown-item:hover .car_swap {
+  background-position: -14.5px -115px;
+}
+.dropdown-item .car_swap {
+  background-position: 0.5px -115px;
+}
+.active-icon .car_faq,
+.mega-menu-section .dropdown-item:hover .car_faq {
+  background-position: -14.5px -130px;
+}
+.dropdown-item .car_faq {
+  background-position: 0.5px -130px;
+}
+.active-icon .car_buysafely,
+.mega-menu-section .dropdown-item:hover .car_buysafely {
+  background-position: -14.5px -159px;
+}
+.dropdown-item .car_buysafely {
+  background-position: 0.5px -159px;
+}
+#navbarNav .mega-menu .dropdown-item,
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item {
+  padding: 0;
+  font-size: var(--fs-14);
+  color: var(--para-color);
+}
+input::placeholder {
+  color: var(--muted-grey);
+  opacity: 1;
+}
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+}
+.dropdown-item {
+  cursor: pointer;
+}
+#suggestions {
+  position: absolute;
+  color: var(--black-color);
+  z-index: 999;
+  top: 0;
+  left: 107px;
+  width: 44%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+}
+.desktop-view .headerSearch .dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+.desktop-view .headerSearch .ship-to-dropdown {
+  position: relative;
+  left: 15px;
+}
+.desktop-view .headerSearch .ship-to.show {
+  transform: translate(-40px, 40px) !important;
+  border: 1px solid #aaa6;
+  width: 210px;
+}
+.desktop-view .headerSearch .ship-to .dropdown-item {
+  font-family: Lato-semibold;
+  font-size: var(--fs-14);
+  line-height: 22.64px;
+  padding: 6px 12px;
+}
+.desktop-view .headerSearch .dropdown-menu .dropdown-search {
+  background-color: var(--light-grey);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 0 4px;
+}
+.desktop-view
+  .headerSearch
+  .dropdown-menu
+  .dropdown-search
+  .search-country-ship {
+  border: none;
+  background-color: var(--light-grey);
+  max-height: 34px;
+  padding: 9px 10px;
+  font-size: var(--fs-12);
+  font-family: Lato-Regular;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  border-color: transparent !important;
+}
+.dropdown-item img {
+  margin-right: 10px;
+}
+.selected-flag {
+  font-size: 0;
+}
+.desktop-view .headerSearch .currency-dropdown .dropdown-menu.show {
+  width: 200px;
+}
+.desktop-view .headerSearch .currency-dropdown #selectedCurrency {
+  color: var(--deep-slate-gray);
+  font-family: Lato-semibold;
+  font-size: var(--fs-14);
+  line-height: 20px;
+  font-weight: 600;
+}
+.desktop-view
+  .headerSearch
+  .currency-dropdown
+  .dropdown
+  .dropdown-menu
+  .currency-search-field {
+  max-height: 34px;
+  font-family: Lato-Regular;
+  background-color: var(--light-grey);
+  border: 1px solid var(--border-color);
+}
+.headerSearch .dropdown-item.active,
+.headerSearch .dropdown-item:focus,
+.headerSearch .dropdown-item:hover,
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover {
+  color: var(--custome-color) !important;
+  background-color: transparent !important;
+}
+.desktop-view
+  .headerSearch
+  .currency-dropdown
+  .dropdown
+  .dropdown-menu
+  .currency-search-field
+  input {
+  font-size: var(--fs-12);
+}
+.desktop-view
+  .headerSearch
+  .currency-dropdown
+  .dropdown
+  .dropdown-menu
+  .dropdown-currency {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.desktop-view .headerSearch .language #selectedLanguage {
+  color: var(--deep-slate-gray);
+  line-height: 20px;
+  font-weight: 600;
+  position: relative;
+  top: 1px;
+}
+.desktop-view .headerSearch .language .dropdown-toggle::after {
+  position: relative;
+  left: 3px;
+}
+.blogs-links,
+.headerSearch,
+.headerSearch .search-form,
+.mega-menu-section,
+.tablet-view .headerSearch {
+  position: relative;
+}
+.headerSearch .search-form .input-group {
+  width: 400px;
+  height: 46px;
+  margin: 0 13%;
+}
+.headerSearch .search-form .input-group .searchBar {
+  background-color: var(--light-lavender);
+  color: #2f2b43;
+}
+.headerSearch .search-form .input-group .input-group-text {
+  background-color: var(--black-color);
+  border: 2px;
+}
+.headerSearch .text-decoration-none {
+  color: var(--deep-slate-gray);
+  line-height: 20px;
+  font-weight: 600;
+  position: relative;
+  bottom: 1px;
+}
+.headerSearch .dropdown-menu.show {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 0.15);
+  border: 1px solid #aaa;
+  border-radius: 0;
+}
+.headerSearch .dropdown-item {
+  color: var(--Eigengrau) !important;
+  font-weight: 600;
+}
+.blogs-links span {
+  margin: 0 10px;
+  font-weight: 600;
+  color: var(----rich-black);
+  cursor: pointer;
+}
+.blogs-links span::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid #fff0;
+  border-bottom: 0;
+  border-left: 0.3em solid #fff0;
+}
+.blogs-link-list {
+  position: absolute;
+  left: 10px;
+  list-style-type: none;
+  z-index: 2;
+  min-width: 140px;
+  margin-bottom: 0;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: var(--fs-14);
+  color: var(--para-color);
+}
+.blogs-link-list li a {
+  text-decoration: none;
+  color: inherit;
+}
+.blogs-link-list li {
+  padding-block: 5px;
+  padding-inline: 10px;
+  cursor: pointer;
+}
+.mega-menu-section .navbar .dropdown-menu {
+  display: none;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+.mega-menu-section .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  left: 16px;
+  font-size: var(--fs-16);
+  border-radius: 15px;
+}
+.mega-menu-section .navbar .dropdown:hover .mega-menu .used-cars-dp {
+  line-height: 33.2px;
+}
+.mega-menu-section .navbar .dropdown:hover .mega-menu .car-services-mm {
+  width: 28px;
+  height: 16px;
+}
+.mega-menu-section .navbar .mega-menu {
+  padding: 20px;
+  width: max-content;
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover svg path {
+  fill: var(--custome-color);
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .dropdown-item:hover span {
+  color: var(--custome-color);
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Lato", sans-serif;
+  margin: 0px 14px;
+  font-weight: 600;
+  font-size: var(--fs-14);
+  color: var(--rich-black);
+  padding-left: 0;
+}
+.mega-menu-section .navbar .navbar-nav .nav-item .mega-menu h6 {
+  font-family: Lato-semibold;
+  font-weight: 600;
+  font-size: 18px;
+  color: var(----rich-black);
+  white-space: nowrap;
+}
 
 
 
@@ -1280,7 +1777,7 @@ input:focus {
     font-size: var(--fs-24);
     font-weight: 600;
 }
-.best-seller-by-type-desktop .product-card .heading{
+/* .best-seller-by-type-desktop .product-card .heading{
     color: #000000;
     font-family: "Lato", sans-serif;
     font-size: var(--font-size-16);
@@ -1315,8 +1812,63 @@ input:focus {
  }
  .best-seller-by-type-desktop .buy-more .details span:hover{
     color: var(--custome-color);
-  }
-
+  } */
+ .best-seller-by-type-desktop .accordion-item {
+    margin-bottom: 24px;
+    border-bottom: 1px solid rgba(208, 213, 221, 0.55) !important;
+}
+ .best-seller-by-type-desktop .accordion-button {
+    color: rgb(2, 4, 8);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.216px;
+    padding: 14px 16px;
+}
+.best-seller-by-type-desktop .accordion-button:focus {
+    box-shadow: none;
+}
+.best-seller-by-type-desktop .accordion-button::after {
+    width: 16px;
+    height: 14px;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%235D6370'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    background-size: 16px;
+}
+.best-seller-by-type-desktop .accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+    color: #020408;
+}
+.best-seller-by-type-desktop .accordion-body .type {
+    column-gap: 76px;
+    row-gap: 24px;
+    flex-wrap: wrap;
+}
+.best-seller-by-type-desktop .accordion-body .types-block {
+    flex: 0 0 186px;
+}
+.best-seller-by-type-desktop .accordion-body .types-seller {
+    color: #1c6a9b;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+}
+.best-seller-by-type-desktop .buy-more .details{
+    font-family: "Lato", sans-serif;
+   font-size: 16px;
+   font-weight: 600;
+   color: #5d6370;
+   cursor: pointer;
+   text-decoration: none;
+ }
+ .best-seller-by-type-desktop .buy-more .details span:hover{
+    color: var(--custome-color);
+ }
 /* ================= End Best Seller By Type Css ======== */
 
 /* ================= Start By Decision Desktop Css ======== */
@@ -2050,6 +2602,13 @@ footer .footer-copyright{
     font-size: var(--fs-20);
     font-weight: 600;
 }
+.popular_used_car-desktop .box .bottom-brand .items{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .popular_used_car-desktop .box .bottom-brand .items img{
     width: 60px;
     height: 60px;
@@ -2112,6 +2671,103 @@ footer .footer-copyright{
 }
 
 /* ===================================== End Popular Car Css ===================================== */
+
+/* ===================================== Start Car Service Css ===================================== */
+.car-service-desktop .heading .title {
+    font-family: "Sofia-Pro";
+    font-size: var(--fs-24);
+    font-weight: 600;
+    color: #020408;
+}
+
+.car-service-desktop .swiper-button-next, 
+.car-service-desktop .swiper-button-prev {
+    color: #333;
+    background-color: #ffffffa9;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px !important;
+    height: 40px !important;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: 1px solid #aeb1b8;
+    box-shadow: 0px 0px 6.08px 0px #2f2b434d;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.car-service-desktop .carServiceSwiper:hover .swiper-button-next, 
+.car-service-desktop .carServiceSwiper:hover .swiper-button-prev {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease, visibility 0s linear 0s;
+}
+.car-service-desktop .swiper-button-prev:after {
+    content: '\f053' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.car-service-desktop .swiper-button-next:after {
+    content: '\f054' !important;
+    font-size: 14px !important;
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free' !important;
+    filter: grayscale(1);
+}
+.car-service-desktop .swiper-button-next:hover, 
+.car-service-desktop .swiper-button-prev:hover {
+    background-color: var(--custome-color);
+    color: white;
+}
+
+ .car-service-desktop .car-service-card {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 25px;
+    border-radius: 20px;
+    background: #ecf5ff;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+.car-service-desktop .car-service-card img {
+  max-height: 155px;
+  object-fit: contain;
+}
+.car-service-desktop .car-service-card .service-body {
+  margin-top: 12px;
+}
+
+.car-service-desktop .car-service-card .service-body .title {
+  color: #0c1529;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: -0.216px;
+  margin-bottom: 0px;
+}
+.car-service-desktop .car-service-card .service-body .para {
+  color: #0c1529;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  margin-bottom: 0px;
+  margin-top: 6px;
+}
+
+/* ===================================== End Car Service Css ===================================== */
 
 /* ===================================== Start Top Selling Car Css ===================================== */
 .top-selling-car-desktop .swiper{
@@ -2759,6 +3415,109 @@ footer .footer-copyright{
     right: var(--swiper-navigation-sides-offset, 22px)
 }
 /* ===================================== End Early Budget Css ===================================== */
+
+/* ===================================== Start Web Promotion Car Css ===================================== */
+.promotion-web-1 .bannar-newcars {
+    position: relative;
+    top: 0px;
+}
+.promotion-web-1 .bannar-wrapper {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    max-height: 277px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.promotion-web-1 .bannar-wrapper-img2 {
+    background-image: url(/assets/images/bannar-newcar2.webp);
+    padding: 36px 24.42px 15px 50px;
+}
+.promotion-web-1 .bannar-text-newcars {
+    max-width: 538px;
+}
+.promotion-web-1 .bannar-text-newcars .title {
+    font-family: 'Lato';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.51px;
+    letter-spacing: -0.016em;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.promotion-web-1 .bannar-text-newcars .para {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.014em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+.web-promotion2-desktop .award-bannar-wrapper {
+    background-image: url(/assets/images/awar-home-bannar.webp);
+    padding: 57px 97px 30px 71px;
+    max-width: 100%;
+    max-height: 320px;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+    max-width: 601px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .title {
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    margin-bottom: 6px;
+    color: #ffffff;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .para {
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .award-bannar-redirection {
+    text-decoration: none;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    background: #fff;
+    display: inline-block;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #014e78;
+    padding: 12px 24px;
+}
+.web-promotion2-desktop .award-bannar-wrapper .award-trophy {
+    position: absolute;
+    top: 25.78px;
+    left: 52.05%;
+}
+/* ===================================== End Web Promotion Car Css ===================================== */
+
 
 /* ===================================== Start Find My Car Css ===================================== */
 .find-my-car-desktop{
@@ -6228,7 +6987,7 @@ display: none;
 /* ==================================== End New Car Search Detail Page Css ============================*/
 
 /* ==================================== Start Get More App Section CSS ============================*/
-.get_more_app_desktop .getMoreApp .inner{
+/* .get_more_app_desktop .getMoreApp .inner{
     padding: 8px 64px 0;
     border-radius: 20px;
     background: #f7fbfb;
@@ -6260,6 +7019,65 @@ display: none;
     letter-spacing: -0.14px;
     margin-bottom: 0;
     margin-top: 10px;
+} */
+ .get_more_app_desktop .application-wrapper {
+    padding: 19px 64px 0;
+    border-radius: 20px;
+    background: #014e78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 84px;
+    color: white;
+}
+.get_more_app_desktop .application-wrapper .application-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 348px;
+}
+.get_more_app_desktop .application-wrapper .application-text .title {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.54px;
+    margin-bottom: 12px;
+}
+.get_more_app_desktop .application-wrapper .application-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin-bottom: 32px;
+}
+.get_more_app_desktop .application-wrapper .application-text .img-app-app {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 16px;
+}
+.get_more_app_desktop .application-wrapper .scan-app-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+.get_more_app_desktop .application-wrapper .scan-app-text .para {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.14px;
+    text-align: center;
 }
 /* ==================================== End Get More App Section CSS ============================*/
 

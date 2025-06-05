@@ -136,7 +136,7 @@
        
         {{--============================= mega menu navigation =============================--}}
 
-        <div class="mega-menu-section m-0 border-top">
+        {{-- <div class="mega-menu-section m-0 border-top">
             <div class="container">
                 <div class="row">
                     <nav class="navbar navbar-expand-lg navbar-light">
@@ -649,7 +649,9 @@
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             Help
                                         </a>
-                                        <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+
+                                       <div class="wrap-bar">
+                                         <div class="dropdown-menu mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
                                             <div class="row">
                                                 <div class="col-md-2 mx-2">
                                                     <a class="dropdown-item" href="#" aria-label="How to Buy">
@@ -711,6 +713,8 @@
 
                                             </div>
                                         </div>
+                                       </div>
+
                                     </li>
                                 </ul>
 
@@ -720,7 +724,584 @@
                     </nav>
                 </div>
             </div>
-        </div>
+        </div> --}}
+
+
+        <div class="mega-menu-section m-0 border-top">
+              <div class="container">
+                  <div class="row">
+                      <nav class="navbar navbar-expand-lg navbar-light">
+                          <div class="container-fluid">
+                              
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+                              <div class="collapse navbar-collapse" id="navbarNav">
+                                  <ul class="navbar-nav">
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle ms-0 ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Used Cars
+                                          </a>
+                                          <div class="mega-menu-cust">
+                                            <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                                <div class="row">
+                                                    <div class="col-md-2 mx-2">
+                                                        <h6>Explore Stock</h6>
+                                                        <a class="dropdown-item" href="#">Find Used Cars for Sale</a>
+                                                        <a class="dropdown-item" href="#">Luxury Vehicles</a>
+                                                        <a class="dropdown-item" href="#">Low Mileage Cars</a>
+                                                        <a class="dropdown-item" href="#">Fresh Stock</a>
+                                                        <h6 class="mt-3">Explore By Price</h6>
+                                                        <a class="dropdown-item" href="#">Less than $1000</a>
+                                                        <a class="dropdown-item" href="#">Between $1000 - $2000</a>
+                                                        <a class="dropdown-item" href="#">Between $2000 - $3000</a>
+                                                        <a class="dropdown-item" href="#">Between $3000 - $4000</a>
+                                                        <a class="dropdown-item" href="#">Between $4000 - $5000</a>
+                                                        <a class="dropdown-item" href="#">Above $5000</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-4 used-cars-dp">
+                                                        <h6>Explore By Make</h6>
+                                                        <a class="dropdown-item" href="#">Toyota</a>
+                                                        <a class="dropdown-item" href="#">Nissan</a>
+                                                        <a class="dropdown-item" href="#">VolksWagen</a>
+                                                        <a class="dropdown-item" href="#">Mitsubishi</a>
+                                                        <a class="dropdown-item" href="#">Honda</a>
+                                                        <a class="dropdown-item" href="#">Subaru</a>
+                                                        <a class="dropdown-item" href="#">Mazda</a>
+                                                        <a class="dropdown-item" href="#">Suzuki</a>
+                                                        <a class="dropdown-item" href="#">Isuzu</a>
+                                                        <a class="dropdown-item" href="#">Daihatsu</a>
+                                                        <a class="dropdown-item" href="#">Lexus</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-3 used-cars-dp">
+                                                        <h6>Explore By Type</h6>
+                                                        <a class="dropdown-item" href="#">SUV</a>
+                                                        <a class="dropdown-item" href="#">Sedan</a>
+                                                        <a class="dropdown-item" href="#">Hatchback</a>
+                                                        <a class="dropdown-item" href="#">Wagon</a>
+                                                        <a class="dropdown-item" href="#">Coupe</a>
+                                                        <a class="dropdown-item" href="#">Pickup</a>
+                                                        <a class="dropdown-item" href="#">Convirtable</a>
+                                                        <a class="dropdown-item" href="#">Bus</a>
+                                                        <a class="dropdown-item" href="#">Van</a>
+                                                        <a class="dropdown-item" href="#">Mini Van</a>
+                                                        <a class="dropdown-item" href="#">Tractor</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-3">
+                                                        <h6>Explor By Year</h6>
+                                                        <a class="dropdown-item" href="#">2004 and 2005</a>
+                                                        <a class="dropdown-item" href="#">2005 and 2010</a>
+                                                        <a class="dropdown-item" href="#">2010 and 2015</a>
+                                                        <a class="dropdown-item" href="#">2015 and 2020</a>
+                                                        <a class="dropdown-item" href="#">2020 and 2024</a>
+                                                        <h6 class="mt-3">Explore By Discount</h6>
+                                                        <a class="dropdown-item" href="#">60% Off or More</a>
+                                                        <a class="dropdown-item" href="#">50% Off or More</a>
+                                                        <a class="dropdown-item" href="#">40% Off or More</a>
+                                                        <a class="dropdown-item" href="#">30% Off or More</a>
+                                                        <a class="dropdown-item" href="#">1% - 30% Off</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-3">
+                                                        <h6>Inventory Location</h6>
+                                                        <a class="dropdown-item" href="#">Japan</a>
+                                                        <a class="dropdown-item" href="#">Tanzania</a>
+                                                        <a class="dropdown-item" href="#">Dominican Republic</a>
+                                                        <a class="dropdown-item" href="#">Kenya</a>
+                                                        <a class="dropdown-item" href="#">Chile</a>
+                                                        <h6 class="mt-3">Other Categories</h6>
+                                                        <a class="dropdown-item" href="#">Right Hand Drive</a>
+                                                        <a class="dropdown-item" href="#">Diesel</a>
+                                                        <a class="dropdown-item" href="#">Gasoline/Petrol</a>
+                                                        <a class="dropdown-item" href="#">Electric</a>
+                                                        <a class="dropdown-item" href="#">Hybrid</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                      </li>
+                                       <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle ms-2 ps-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              New Cars
+                                          </a>
+                                          <div class="mega-menu-cust">
+                                            <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                                <div class="row">
+                                                    <div class="col-md-2 mx-4 me-5 used-cars-dp">
+                                                        <h6>Explore By Make</h6>
+                                                        <a class="dropdown-item" href="#">Toyota</a>
+                                                        <a class="dropdown-item" href="#">Nissan</a>
+                                                        <a class="dropdown-item" href="#">VolksWagen</a>
+                                                        <a class="dropdown-item" href="#">Mitsubishi</a>
+                                                        <a class="dropdown-item" href="#">Honda</a>
+                                                        <a class="dropdown-item" href="#">Subaru</a>
+                                                        <a class="dropdown-item" href="#">Mazda</a>
+                                                        <a class="dropdown-item" href="#">Suzuki</a>
+                                                        <a class="dropdown-item" href="#">Isuzu</a>
+                                                        <a class="dropdown-item" href="#">Daihatsu</a>
+                                                        <a class="dropdown-item" href="#">Lexus</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-4 me-5 ps-5 used-cars-dp">
+                                                        <h6>Explore By Type</h6>
+                                                        <a class="dropdown-item" href="#">SUV</a>
+                                                        <a class="dropdown-item" href="#">Sedan</a>
+                                                        <a class="dropdown-item" href="#">Hatchback</a>
+                                                        <a class="dropdown-item" href="#">Wagon</a>
+                                                        <a class="dropdown-item" href="#">Coupe</a>
+                                                        <a class="dropdown-item" href="#">Pickup</a>
+                                                        <a class="dropdown-item" href="#">Convirtable</a>
+                                                        <a class="dropdown-item" href="#">Bus</a>
+                                                        <a class="dropdown-item" href="#">Van</a>
+                                                        <a class="dropdown-item" href="#">Mini Van</a>
+                                                        <a class="dropdown-item" href="#">Tractor</a>
+                                                    </div>
+                                                    <div class="col-md-2 mx-4 ms-5 ps-5">
+                                                        <h6>Explor By Price</h6>
+                                                        <a class="dropdown-item" href="#">Less than $1000</a>
+                                                        <a class="dropdown-item" href="#">Between $1000 - $2000</a>
+                                                        <a class="dropdown-item" href="#">Between $2000 - $3000</a>
+                                                        <a class="dropdown-item" href="#">Between $3000 - $4000</a>
+                                                        <a class="dropdown-item" href="#">Between $4000 - $5000</a>
+                                                        <a class="dropdown-item" href="#">Above $5000</a>
+                                                        <h6 class="mt-3">Other Categories</h6>
+                                                        <a class="dropdown-item" href="#">Right Hand Drive</a>
+                                                        <a class="dropdown-item" href="#">Diesel</a>
+                                                        <a class="dropdown-item" href="#">Gasoline/Petrol</a>
+                                                        <a class="dropdown-item" href="#">Electric</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                          </div>
+                                      </li>
+                                      
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Local Pages
+                                          </a>
+                                          <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                              <div class="row">
+                                                  <div class="col-md-2 mx-2">
+                                                      
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/PK.webp')}}" alt="Pakistan Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Pakistan</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/AZ.webp')}}" alt="Azerbaijan Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Azerbaijan</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/CA.webp')}}" alt="Canada Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Canada</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/FJ.webp')}}" alt="Fiji Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Fiji</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/IE.webp')}}" alt="Ireland Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Ireland</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/MW.webp')}}" alt="Malawi Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Malawi</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/NZ.webp')}}" alt="New Zealand Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">New Zealand</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/RU.webp')}}" alt="Russia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Russia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/ZA.webp')}}" alt="South Africa Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">South Africa</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/UG.webp')}}" alt="Uganda Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Uganda</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="col-md-2 mx-3">
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/AG.webp')}}" alt="Antigua Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Antigua</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/BS.webp')}}" alt="Bahamas Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Bahamas</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/CL.webp')}}" alt="Chile Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Chile</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/GE.webp')}}" alt="Georgia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Georgia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/JM.webp')}}" alt="Jamaica Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Jamaica</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/FM.webp')}}" alt="Micronesia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Micronesia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/NG.webp')}}" alt="Nigeria Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Nigeria</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/RW.webp')}}" alt="Rwanda Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Rwanda</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/SD.webp')}}" alt="South Sudan Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">South Sudan</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/UA.webp')}}" alt="Ukraine" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Ukraine</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="col-md-2 mx-3">
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/AI.webp')}}" alt="Anguilla Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Anguilla</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/BD.webp')}}" alt="Bangladesh Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Bangladesh</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/CR.webp')}}" alt="Costa Rica Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Costa Rica</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/GH.webp')}}" alt="Ghana Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Ghana</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/KE.webp')}}" alt="Kenya Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Kenya</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/MN.webp')}}" alt="Mongolia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Mongolia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/PD.webp')}}" alt="Papua New Guinea Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Papua New Guinea</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/WS.webp')}}" alt="Samoa Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Samoa</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/LK.webp')}}" alt="Sri Lanka Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Sri Lanka</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/US.webp')}}" alt="USA Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">USA</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="col-md-2 mx-3">
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/Am.webp')}}" alt="Armenia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Armenia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/BW.webp')}}" alt="Botswana Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Botswana</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/CY.webp')}}" alt="Cyprus Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Cyprus</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/GT.webp')}}" alt="Guatemala Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Guatemala</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/KG.webp')}}" alt="Kyrgyzstan Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Kyrgyzstan</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/MZ.webp')}}" alt="Mozambique Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Mozambique</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/PY.webp')}}" alt="Paraguay Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Paraguay</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/SB.webp')}}" alt="Solomon Islands Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Solomon Islands</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/TZ.webp')}}" alt="Tanzania Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Tanzania</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/ZM.webp')}}" alt="Zambia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Zambia</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="col-md-2 mx-3">
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/AU.webp')}}" alt="Australia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Australia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/BI.webp')}}" alt="Burundi Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Burundi</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/DO.webp')}}" alt="Dominican Republic Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Dominican Republic</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/GY.webp')}}" alt="Guyana Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Guyana</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/LS.webp')}}" alt="Lesotho Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Lesotho</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/NA.webp')}}" alt="Namibia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Namibia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/CD.webp')}}" alt="DR Congo Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">DR Congo</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/SO.webp')}}" alt="Somalia Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Somalia</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/TO.webp')}}" alt="Tonga Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Tonga</span>
+                                                      </a>
+                                                      <a class="dropdown-item" href="#">
+                                                          <img src="{{asset('assets/images/country-flags/ZW.webp')}}" alt="Zimbabwe Flag" class="img-fluid" loading="lazy" width="32" height="21.3">
+                                                          <span class="mx-2">Zimbabwe</span>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Car Services
+                                          </a>
+                                          <div class="mega-menu p-2 py-3 border-0" aria-labelledby="navbarDropdown">
+                                              <div class="row">
+                                                  <div class="col-md-2 mx-2 flex-grow-1">
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Shipping Schedule">
+                                                        <i class="image_se car_shiping"></i>
+                                                          <span class="mx-2">Shipping Schedule</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Insurance Service">
+                                                        <i class="image_se car_insurance"></i>
+                                                          <span class="mx-2">Insurance Service</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Storage Service">
+                                                        <i class="image_se car_storage"></i>                                                         
+                                                          <span class="mx-2">Storage Service</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Finance Service">
+                                                        <i class="image_se car_finance"></i>                                                            
+                                                          <span class="mx-2">Finance Service</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Car Carrier Service">
+                                                        <i class="image_se car_carrier"></i>                                                           
+                                                          <span class="mx-2">Car Carrier Service</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Custom Clearance">
+                                                        <i class="image_se car_clearance"></i>                                                            
+                                                          <span class="mx-2">Custom Clearance</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Auction Service">
+                                                        <i class="image_se car_auction"></i>
+                                                          <span class="mx-2">Auction Service</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Security Export"> 
+                                                        <i class="image_se car_security"></i>
+                                                          <span class="mx-2">Security Export</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Pre Export Inspection"> 
+                                                        <i class="image_se car_expins"></i>
+                                                          <span class="mx-2">Pre Export Inspection</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Marine Insurance Service">
+                                                        <i class="image_se car_marine"></i>
+                                                              <span class="mx-2">Marine Insurance Service</span>
+                                                          </a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Reviews
+                                          </a>
+                                          <div class="mega-menu car-reviews p-2 py-3  border-0" aria-labelledby="navbarDropdown">
+                                              <div class="row">
+                                                  <div class="col-md-2 mx-2 flex-grow-1">
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Car Reviews">
+                                                        <i class="image_se car_rev"></i>
+                                                          <span class="mx-2">Car Reviews</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Car Comparisons">
+                                                        <i class="image_se car_compare"></i>
+                                                          <span class="mx-2">Car Comparisons</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Car Blogs">
+                                                        <i class="image_se car_blog"></i>
+                                                          <span class="mx-2">Car Blogs</span>
+                                                      </a>
+                                                      
+                                                    
+                                                  </div>
+                                                  
+
+                                              </div>
+                                          </div>
+                                      </li>
+                                      <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Company Overview
+                                          </a>
+                                          <div class="mega-menu car-reviews p-2 py-3  border-0" aria-labelledby="navbarDropdown">
+                                              <div class="row">
+                                                  <div class="col-md-2 mx-2 flex-grow-1">
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="About SAT">
+                                                        <i class="image_se car_about"></i>
+                                                          <span class="mx-2">About SAT</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Company Profile">
+                                                        <i class="image_se car_companyprof"></i>
+                                                          <span class="mx-2">Company Profile</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Why Choose SAT">
+                                                        <i class="image_se car_whychoose"></i>
+                                                          <span class="mx-2">Why Choose SAT</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Privacy Policy">
+                                                        <i class="image_se car_privacypolicy"></i>
+                                                          <span class="mx-2">Privacy Policy</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Terms and Conditions">
+                                                        <i class="image_se car_termscond"></i>
+                                                          <span class="mx-2">Terms and Conditions</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Careers">
+                                                        <i class="image_se car_careers"></i>
+                                                          <span class="mx-2">Careers</span>
+                                                      </a>
+                                                  </div>  
+                                              </div>
+                                          </div>
+                                      </li>
+                                      
+                                      <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Loyalty Program
+                                        </a>
+                                        <div class="mega-menu p-2 py-3  border-0" aria-labelledby="navbarDropdown">
+                                            <div class="row">
+                                                <div class="col-md-2 mx-2">
+                                                    <a class="dropdown-item" href="#" aria-label="Car Talks">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" xml:space="preserve" version="1.1" viewBox="0 0 32 32">
+                                                            <image width="32" height="32" xlink:href="data:image/webp;base64,UklGRpIBAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSPgAAAABkFZrb95IgiAIhiAIgjAMNhDCoGHQMsgymGEgCIEgCIbw/LBiZz8ARMQEyP9Vzd30MX0F5bW3J/TVgYy4AM62ZAnhKqP/hrSFr06YTLak/5qyzkcWD7pNtOSQ5Q+pd29SHgyOmwat8NFujK7Vziljo8ytkOCoLnwOvHCiUJC77v4NP4WCDsY1kSIOUUhigxMz7t/wUwW+Vm8LRi70XeoLGxR0YttM7kEHCXxCZp1LyoN45mSvtOODuvtMg1bJQQyrySm3mrzXXmS7E+u8Vt50k9mvTrYZC/om85ZweqEekCar7QNwRSTQD5UH235RxqHytJq7qfxfAVZQOCB0AAAA8AMAnQEqIAAgAD5RJI9Fo6IhFAQAOAUEs4BWGUGMGuA2zN2qgO9IAAD++oj/P2SwEIEGTIKtdEsTOybHB/AXbSg2za0G4CcUq3BqsjLKQ1zNMDbmMmfoz3+8xMglSzNnJEb+V4KobMbBJKE+QbWasE7wAAA="></image>
+                                                          </svg>
+                                                        <span class="mx-2">Explore Loyalty Program</span>
+                                                    </a>
+                                                    <a class="dropdown-item" href="#" aria-label="Car News">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" xml:space="preserve" version="1.1" viewBox="0 0 32 32">
+                                                            <image width="32" height="32" xlink:href="data:image/webp;base64,UklGRhADAABXRUJQVlA4WAoAAAAQAAAAHwAAHwAAQUxQSFoBAAABkFVb2544R0Ic8DkoDiYScEAcFAeJA3DAKCjj4HPQOJjPAXHwnAs+6H+vI2IC+F8c5uZW356UmvkHSovRzL0lSSuvDE07HjpHEz93L9yM23WNWTssUT+HJ7PqHmp01+HL3XjrFY0nYNJ8mw8P7Dd17FyNF4BqVNtXgJNaH4pJK8CsGjVXgBodgUldgMnEaKJnYIxegJu6A5qxjmV8N6YAm2nAqg04Rm88XtQLcDUOsGkFzpp9Z9h0BWbjDoxXoBrpr9qARTOCdt41w5O4PkT30MwKLIlzp6gfwFkzQI33AUZ1OwL7ZnIEqm7AohmBm2q9VtUGFM0HMBorMDSNUXMvwDV6BKjqCJTviWo8ACV6Lw9TtBWAqW6qN4A1utCtxrXQj3k4q23XK1tiK71qPO3OGg88fTPGQ+ekMVFnXpzuxluHGo3xwsul6dQbLqr3hR89jDwvh2Ua+FsCVlA4IJABAACQCgCdASogACAAPk0ejUQioaGYDAYAKATEtgBOmUI6g8Y/E3kDN1zALqY/VbRt0gPMB+xW+AfzP+59YB6AH7R+lH7BH7Xftr7NAYj/ZluSkZ6GM/0EcU87IilJyBAA/voVr796i8a9vI9GxxLxpb+ijrPgyhphBoxFP/cN/wS5tw5bi0hf/KwdfNl4uXE76Ruu33PrvzuXW8O0tqPmbSAyf5JOn63q8wD9RZnBvkQzoNj9DC3CqEfDmCL1XlQunxO1NYLWBTd9lMZCKb2YES2GGeL78roXutD/ZzCYQoMTxFk42vjQAx70yeX4XzzZgEvKzynfgvURdSLR+Eg36XpVwVJxblqw9OqHAK0fqRrZvbEbw/1kv/v4/bsvQpqU/muY0HBVu12LOBSKf0yM3vUW/xmm/SA4qSCKGtD+/gvr2JEm2awgr3gVd5fRO5KJLC/XEO36xfDbRVpzFyCaMKxjSN2Bsr6MI85GVCJ/Vziw9NpAcaeCuY2jIZhdR1+1A6m1EqVZ9zd/xeqj+YhOgAAA"></image>
+                                                          </svg>
+                                                        <span class="mx-2">Join SAT Pro</span>
+                                                    </a>
+                                                    <a class="dropdown-item" href="#" aria-label="Car News">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18">
+              <path d="M12.585 2.25205C10.9888 2.03202 9.36289 2.21615 7.85628 2.78755C6.81142 3.18485 5.69799 3.37038 4.58075 3.33325C4.4372 3.32871 4.297 3.32042 4.16075 3.30932C3.37087 3.24096 2.58925 3.51227 2.01159 4.05529C1.40738 4.61321 1.06339 5.39792 1.06252 6.22031V10.8636C1.05727 12.307 2.11235 13.5354 3.53999 13.7481C3.87285 13.7941 4.20789 13.8225 4.54373 13.8333C4.64796 13.8367 4.7522 13.8384 4.85646 13.8384C6.02247 13.8383 7.17876 13.6262 8.26895 13.2126C9.31411 12.8166 10.4272 12.631 11.5443 12.6666C11.6878 12.6711 11.828 12.6794 11.9643 12.6905C12.754 12.7572 13.5349 12.4863 14.1136 11.9449C14.7178 11.3869 15.0618 10.6021 15.0625 9.77961V5.13651C15.0677 3.69315 14.0126 2.46476 12.585 2.25205ZM13.8958 9.77955C13.8955 10.276 13.6877 10.7497 13.3227 11.0862C12.9822 11.4039 12.524 11.564 12.0598 11.5275C11.9042 11.5146 11.7448 11.5055 11.5814 11.5001C10.311 11.4595 9.0451 11.6705 7.85647 12.1208C6.81109 12.5161 5.69804 12.7017 4.58094 12.6668C4.2862 12.6573 3.9922 12.6323 3.70012 12.5919C2.84855 12.461 2.22214 11.7249 2.22919 10.8633V6.22031C2.22955 5.72388 2.43731 5.25018 2.80226 4.91363C3.10747 4.62729 3.51003 4.46757 3.92849 4.46675C3.97405 4.46675 4.0196 4.46875 4.06524 4.47258C4.2208 4.4854 4.38024 4.49454 4.54356 4.49995C5.81406 4.54173 7.08024 4.33075 8.26854 3.87927C9.31384 3.48328 10.4271 3.29776 11.5443 3.33328C11.839 3.34271 12.133 3.36773 12.4251 3.40817C13.2765 3.53915 13.9028 4.27513 13.8958 5.13654V9.77955Z"></path>
+              <path d="M12.585 2.25205C10.9888 2.03202 9.36289 2.21615 7.85628 2.78755C6.81142 3.18485 5.69799 3.37038 4.58075 3.33325C4.4372 3.32871 4.297 3.32042 4.16075 3.30932C3.37087 3.24096 2.58925 3.51227 2.01159 4.05529C1.40738 4.61321 1.06339 5.39792 1.06252 6.22031V10.8636C1.05727 12.307 2.11235 13.5354 3.53999 13.7481C3.87285 13.7941 4.20789 13.8225 4.54373 13.8333C4.64796 13.8367 4.7522 13.8384 4.85646 13.8384C6.02247 13.8383 7.17876 13.6262 8.26895 13.2126C9.31411 12.8166 10.4272 12.631 11.5443 12.6666C11.6878 12.6711 11.828 12.6794 11.9643 12.6905C12.754 12.7572 13.5349 12.4863 14.1136 11.9449C14.7178 11.3869 15.0618 10.6021 15.0625 9.77961V5.13651C15.0677 3.69315 14.0126 2.46476 12.585 2.25205ZM13.8958 9.77955C13.8955 10.276 13.6877 10.7497 13.3227 11.0862C12.9822 11.4039 12.524 11.564 12.0598 11.5275C11.9042 11.5146 11.7448 11.5055 11.5814 11.5001C10.311 11.4595 9.0451 11.6705 7.85647 12.1208C6.81109 12.5161 5.69804 12.7017 4.58094 12.6668C4.2862 12.6573 3.9922 12.6323 3.70012 12.5919C2.84855 12.461 2.22214 11.7249 2.22919 10.8633V6.22031C2.22955 5.72388 2.43731 5.25018 2.80226 4.91363C3.10747 4.62729 3.51003 4.46757 3.92849 4.46675C3.97405 4.46675 4.0196 4.46875 4.06524 4.47258C4.2208 4.4854 4.38024 4.49454 4.54356 4.49995C5.81406 4.54173 7.08024 4.33075 8.26854 3.87927C9.31384 3.48328 10.4271 3.29776 11.5443 3.33328C11.839 3.34271 12.133 3.36773 12.4251 3.40817C13.2765 3.53915 13.9028 4.27513 13.8958 5.13654V9.77955Z" fill="#2384C1" fill-opacity="0.2"></path>
+              <path d="M8.06281 6.24973H9.22949C9.55165 6.24973 9.81281 5.98857 9.81281 5.6664C9.81281 5.34424 9.55165 5.08308 9.22949 5.08308H8.64616C8.64616 4.76092 8.385 4.49976 8.06284 4.49976C7.74067 4.49976 7.47951 4.76092 7.47951 5.08308V5.1906C6.57001 5.51046 6.09198 6.50706 6.41185 7.41657C6.65813 8.11692 7.32046 8.58488 8.06284 8.58311C8.385 8.58311 8.64616 8.84427 8.64616 9.16643C8.64616 9.4886 8.385 9.74976 8.06284 9.74976H6.89616C6.574 9.74976 6.31284 10.0109 6.31284 10.3331C6.31284 10.6552 6.574 10.9164 6.89616 10.9164H7.47949C7.47949 11.2386 7.74065 11.4997 8.06281 11.4997C8.38497 11.4997 8.64614 11.2386 8.64614 10.9164V10.8089C9.55564 10.489 10.0337 9.49242 9.7138 8.58292C9.46751 7.88256 8.80519 7.4146 8.06281 7.41638C7.74065 7.41638 7.47949 7.15522 7.47949 6.83305C7.47949 6.51089 7.74065 6.24973 8.06281 6.24973Z"></path>
+              <path d="M8.06281 6.24973H9.22949C9.55165 6.24973 9.81281 5.98857 9.81281 5.6664C9.81281 5.34424 9.55165 5.08308 9.22949 5.08308H8.64616C8.64616 4.76092 8.385 4.49976 8.06284 4.49976C7.74067 4.49976 7.47951 4.76092 7.47951 5.08308V5.1906C6.57001 5.51046 6.09198 6.50706 6.41185 7.41657C6.65813 8.11692 7.32046 8.58488 8.06284 8.58311C8.385 8.58311 8.64616 8.84427 8.64616 9.16643C8.64616 9.4886 8.385 9.74976 8.06284 9.74976H6.89616C6.574 9.74976 6.31284 10.0109 6.31284 10.3331C6.31284 10.6552 6.574 10.9164 6.89616 10.9164H7.47949C7.47949 11.2386 7.74065 11.4997 8.06281 11.4997C8.38497 11.4997 8.64614 11.2386 8.64614 10.9164V10.8089C9.55564 10.489 10.0337 9.49242 9.7138 8.58292C9.46751 7.88256 8.80519 7.4146 8.06281 7.41638C7.74065 7.41638 7.47949 7.15522 7.47949 6.83305C7.47949 6.51089 7.74065 6.24973 8.06281 6.24973Z" fill="#2384C1" fill-opacity="0.2"></path>
+              <path d="M4.5625 5.08325C3.59645 5.08432 2.81357 5.8672 2.8125 6.83325C2.8125 7.15542 3.07366 7.41658 3.39582 7.41658C3.71799 7.41658 3.97915 7.15542 3.97915 6.83325C3.97945 6.5112 4.24045 6.2502 4.56247 6.24993C4.88464 6.24993 5.1458 5.98877 5.1458 5.6666C5.14582 5.34441 4.88466 5.08325 4.5625 5.08325Z"></path>
+              <path d="M4.5625 5.08325C3.59645 5.08432 2.81357 5.8672 2.8125 6.83325C2.8125 7.15542 3.07366 7.41658 3.39582 7.41658C3.71799 7.41658 3.97915 7.15542 3.97915 6.83325C3.97945 6.5112 4.24045 6.2502 4.56247 6.24993C4.88464 6.24993 5.1458 5.98877 5.1458 5.6666C5.14582 5.34441 4.88466 5.08325 4.5625 5.08325Z" fill="#2384C1" fill-opacity="0.2"></path>
+              <path d="M11.5618 3.9165C11.2397 3.9165 10.9785 4.17766 10.9785 4.49983C10.9785 4.82199 11.2397 5.08315 11.5618 5.08315C11.8839 5.08345 12.1449 5.34445 12.1452 5.66648C12.1452 5.98864 12.4063 6.2498 12.7285 6.2498C13.0507 6.2498 13.3118 5.98864 13.3118 5.66648C13.3108 4.70045 12.5279 3.91757 11.5618 3.9165Z"></path>
+              <path d="M11.5618 3.9165C11.2397 3.9165 10.9785 4.17766 10.9785 4.49983C10.9785 4.82199 11.2397 5.08315 11.5618 5.08315C11.8839 5.08345 12.1449 5.34445 12.1452 5.66648C12.1452 5.98864 12.4063 6.2498 12.7285 6.2498C13.0507 6.2498 13.3118 5.98864 13.3118 5.66648C13.3108 4.70045 12.5279 3.91757 11.5618 3.9165Z" fill="#2384C1" fill-opacity="0.2"></path>
+              <path d="M4.56247 10.9164C4.24042 10.9161 3.97942 10.6551 3.97915 10.3331C3.97915 10.0109 3.71799 9.74976 3.39582 9.74976C3.07366 9.74976 2.8125 10.0109 2.8125 10.3331C2.81357 11.2991 3.59645 12.082 4.5625 12.0831C4.88466 12.0831 5.14582 11.8219 5.14582 11.4998C5.1458 11.1776 4.88464 10.9164 4.56247 10.9164Z"></path>
+              <path d="M4.56247 10.9164C4.24042 10.9161 3.97942 10.6551 3.97915 10.3331C3.97915 10.0109 3.71799 9.74976 3.39582 9.74976C3.07366 9.74976 2.8125 10.0109 2.8125 10.3331C2.81357 11.2991 3.59645 12.082 4.5625 12.0831C4.88466 12.0831 5.14582 11.8219 5.14582 11.4998C5.1458 11.1776 4.88464 10.9164 4.56247 10.9164Z" fill="#2384C1" fill-opacity="0.2"></path>
+              <path d="M12.7285 8.58325C12.4063 8.58325 12.1452 8.84441 12.1452 9.16658C12.1449 9.48863 11.8839 9.74963 11.5618 9.7499C11.2397 9.7499 10.9785 10.0111 10.9785 10.3332C10.9785 10.6554 11.2397 10.9165 11.5618 10.9165C12.5279 10.9155 13.3108 10.1326 13.3118 9.16655C13.3118 8.84441 13.0507 8.58325 12.7285 8.58325Z"></path>
+              <path d="M12.7285 8.58325C12.4063 8.58325 12.1452 8.84441 12.1452 9.16658C12.1449 9.48863 11.8839 9.74963 11.5618 9.7499C11.2397 9.7499 10.9785 10.0111 10.9785 10.3332C10.9785 10.6554 11.2397 10.9165 11.5618 10.9165C12.5279 10.9155 13.3108 10.1326 13.3118 9.16655C13.3118 8.84441 13.0507 8.58325 12.7285 8.58325Z" fill="#2384C1" fill-opacity="0.2"></path>
+      </svg>
+                                                        <span class="mx-2">SAT Balance</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              Help
+                                          </a>
+                                          <div class="mega-menu p-2 py-3  border-0" aria-labelledby="navbarDropdown">
+                                              <div class="row">
+                                                  <div class="col-md-2 mx-2 flex-grow-1">
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="How to Buy">
+                                                        <i class="image_se car_howtobuy"></i>
+                                                          <span class="mx-2">How to Buy</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Inquiry Form">
+                                                        <i class="image_se car_inquiry"></i>
+                                                          <span class="mx-2">Inquiry Form</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Vehicle Information Request">
+                                                        <i class="image_se car_vehicleinfo"></i>
+                                                          <span class="mx-2">Vehicle Information Request</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="How to Pay">
+                                                        <i class="image_se car_howtopay"></i>
+                                                          <span class="mx-2">How to Pay</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Bank Information">
+                                                        <i class="image_se car_bankinfo"> </i>
+                                                          <span class="mx-2">Bank Information</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Track Your Order">
+                                                        <i class="image_se car_swap"></i>
+                                                          <span class="mx-2">Track Your Order</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label=" FAQ's ">
+                                                        <i class="image_se car_faq"></i>
+                                                          <span class="mx-2"> FAQ's </span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="How to Pick the Right Used Car">
+                                                        <i class="image_se car_rev"></i>
+                                                          <span class="mx-2">How to Pick the Right Used Car</span>
+                                                      </a>
+                                                      <a class="dropdown-item d-flex align-items-center" href="#" aria-label="Buying Vehicles Safely Guide">
+                                                        <i class="image_se car_buysafely"></i>
+                                                          <span class="mx-2">Buying Vehicles Safely Guide</span>
+                                                      </a>
+                                                  </div>
+
+                                              </div>
+                                          </div>
+                                      </li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </nav>
+                  </div>
+              </div>
+          </div>
     </header>
     
 </section>

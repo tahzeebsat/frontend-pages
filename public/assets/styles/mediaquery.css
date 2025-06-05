@@ -100,6 +100,26 @@
     .get-exclusive-benefits .bg-bannar-app .app-ban-pro{
         max-width: 530px;
     }
+        .award-bannar-wrapper .award-trophy {
+        top: 46.78px;
+        left: 56.05%;
+        max-width: 80px;
+        height: auto;
+    }
+    .award-bannar-wrapper .award-bannar-text .title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+    .award-bannar-wrapper {
+        padding: 57px 50px 30px 50px;
+    }
+      .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+        max-width: 455px;
+    }
+        .award-trophy-car {
+        max-width: 305px;
+        height: auto;
+    }
 }
 
 @media(max-width:1199px){
@@ -391,6 +411,46 @@
     }
     .get-exclusive-benefits .bg-bannar-app .items-specs-app {
         padding-right: 22px;
+    }
+    .promotion-web-1 .bannar-text-newcars .title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .promotion-web-1 .bannar-text-newcars .para {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .promotion-web-1 .imgbannar-car2 {
+        max-width: 403px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper {
+        padding: 57px 50px 30px 50px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+        max-width: 455px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .para {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .award-bannar-redirection {
+        padding: 12px 24px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-trophy {
+        top: 46.78px;
+        left: 52%;
+        max-width: 55px;
+        height: auto;
+    }
+    .web-promotion2-desktop .award-trophy-car {
+        max-width: 305px;
+        height: auto;
     }
 }
 
@@ -782,6 +842,39 @@
     }
     .get-exclusive-benefits .bg-bannar-app .items-specs-app .qr-ban-pro {
         max-width: 114px;
+    }
+        .web-promotion2-desktop .award-bannar-wrapper {
+        padding: 57px 50px 30px 50px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text {
+        max-width: 240px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .para {
+        font-size: 14px;
+        margin-bottom: 14px;
+        line-height: 24px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-bannar-text .award-bannar-redirection {
+        padding: 9px 12px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .web-promotion2-desktop .award-bannar-wrapper .award-trophy {
+        top: 46.78px;
+        left: 48%;
+        max-width: 55px;
+        height: auto;
+    }
+    .web-promotion2-desktop .award-trophy-car {
+        max-width: 237px;
+        height: auto;
+    }
+    .get_more_app_tablet .application-wrapper{
+        padding: 19px 28px 0;
     }
 }
 
@@ -1545,6 +1638,104 @@
     .sat-auction-desktop .satAuction .autoParts_faqs .wraps .nav-pills .nav-link{
         font-size: 14px;
     }
-   
+    .promotion-web-1 .bannar-text-newcars .title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .promotion-web-1 .bannar-text-newcars .para {
+        display: none;
+    }
+    .promotion-web-1 .imgbannar-car2 {
+        max-width: 208px;
+        padding: 36px 24.42px 15px 13px;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper {
+    background-image: url(/assets/images/awar-home-bannar.webp);
+    padding: 25px;
+    max-width: 100%;
+    max-height: 320px;
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper .award-bannar-text {
+        max-width: 117px;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper .award-bannar-text .title {
+        font-size: 16px;
+        margin-bottom: 12px;
+        font-family: 'Lato';
+        font-weight: 700;
+        color: #fff;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper .award-bannar-text .para {
+        display: none;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper .award-bannar-text .award-bannar-redirection {
+        padding: 9px 12px;
+        font-size: 12px;
+        line-height: 10px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+        border-radius: 4px;
+        background: #fff;
+        display: inline-block;
+        font-family: Lato;
+        font-weight: 700;
+        color: #014e78;
+    }
+    .web-promotion2-mobile .award-bannar-wrapper .award-trophy {
+        left: 50%;
+        max-width: 37px;
+        top: 5px;
+        height: 52px;
+        position: absolute;
+    }
+    .web-promotion2-mobile .award-trophy-car {
+        max-width: 116px;
+        height: 104px;
+        object-fit: contain;
+    }
+    .car-service-desktop .heading .title {
+        font-size: 16px;
+        font-family: 'Sofia-Pro';
+        padding-bottom: 10px;
+    }
+    .car-service-desktop .heading .view-detail {
+        font-size: 14px;
+        align-self: center;
+        font-weight: 700;
+        line-height: 16px;
+        color: #1c6a9b;
+    }
+    .car-service-desktop .swiper-button-next, .car-service-desktop .swiper-button-prev{
+        display: none;
+    }
+    .car-service-desktop .car-service-card {
+        margin: 0px 10px;
+    }
+    .car-service-desktop .swiper-slide.swiper-slide{
+        width: 250px !important;
+        height: 250px;
+    }
+    .car-service-desktop .car-service-card .service-body .title{
+        font-size: 12px;
+    }
+    .car-service-desktop .car-service-card .service-body .para{
+        font-size: 10px;
+    }
+    .car-service-desktop .car-service-card img{
+        height: 100px;
+    }
 }
 
